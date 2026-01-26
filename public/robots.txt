@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+# Optimize for high-quality crawlers
+User-agent: Mediapartners-Google
+Allow: /
+
+Sitemap: https://youremailbox.com/sitemap.xml

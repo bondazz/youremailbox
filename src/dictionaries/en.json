@@ -1,0 +1,653 @@
+{
+  "title": "Free Temporary Email - Fast & Unlimited Disposable Mail | YourEmailBox",
+  "meta_description": "Get a free temporary email address instantly. Protect your privacy with our disposable mail service. Perfect for avoiding spam, verifying accounts, and anonymous browsing. No logs, 100% private. Best free temporary email tool.",
+  "hero": {
+    "title": "Free Temporary Email",
+    "subtitle": "Temp mail protects your privacy and keeps your inbox spam-free"
+  },
+  "hero_subtitle": "Protect your primary inbox. Get a high-speed free temporary email for any signup and stay anonymous.",
+  "buttons": {
+    "copy": "Copy",
+    "random": "Random",
+    "change": "Change",
+    "delete": "Delete",
+    "refresh": "Refresh"
+  },
+  "tooltips": {
+    "copy": "Copy email to clipboard",
+    "random": "Generate a new random email",
+    "change": "Set a custom email address",
+    "delete": "Delete current email and mailbox"
+  },
+  "inbox": {
+    "title": "Inbox",
+    "messages": "Messages",
+    "waiting": "Waiting for incoming emails...",
+    "checking": "Checking inbox...",
+    "interval_text": "Updates every 20 seconds to save your data.",
+    "refresh_status_updated": "Updated",
+    "return_to_inbox": "RETURN TO INBOX",
+    "from_label": "FROM:",
+    "video_instruction": "Video instruction",
+    "soon": "SOON"
+  },
+  "seo_content": {
+    "h1": "What is disposable temporary email?",
+    "intro_p": "Safeguarding your personal inbox from <b>unsolicited spam</b> and <b>malicious software</b> is effortless with a <a href=\"https://en.wikipedia.org/wiki/Disposable_email_address\" target=\"_blank\" style=\"color: #FFFFFF; font-weight: bold; text-decoration: underline;\">Disposable temporary email</a>. Our <b>free service</b> provides <b>total anonymity</b> for users visiting <b>blogs</b>, <b>forums</b>, or <b>public Wi-Fi spots</b>. Whether you call it <b>fake mail</b>, <b>10 minute mail</b>, <b>tempmail</b>, or <b>trash mail</b>, this <b>throwaway email</b> prevents <b>advertising mailings</b> from reaching you. Simply use it to <b>download files</b> or join <b>social networks</b> without risk; any address that stays inactive is automatically purged to ensure your <b>digital privacy</b>.",
+    "h2_long_form": "Disposable email addresses",
+    "long_content_sections": [
+      {
+        "title": "The Evolution of Digital Identity and Disposable Mail",
+        "text": "Every day, our digital lives expand. We sign up for apps, we join discussion groups, and we download useful documents. Almost all these actions require an email address. This has made our primary inboxes a constant target for advertisers and data brokers. But what if you could have the benefit of signing up without the long-term baggage of spam? That is where a free temporary email becomes your most valuable digital tool. It allows you to create a short-lived identity that serves its purpose and then vanishes, leaving no trail for trackers to follow. It is a proactive solution for the modern, privacy-conscious internet user."
+      },
+      {
+        "title": "Why People Use Multiple Names for This Service",
+        "text": "The terms used for temporary email often reflect how the user views the service. A 'Disposable Email Address' (DEA) highlight its throwaway nature, much like any one-time utility. 'Throwaway email' is a common term for simple tasks. 'Burner email' is preferred by those focusing on high-level privacy and security, implying a tool used for a 'mission' and then destroyed. 'Fake email' is used when someone wants to get past a gate without revealing who they are. 'Anonymous email' focuses on the complete disconnect between the address and the person. Regardless of the name, the core function remains: to provide a secure, temporary, and private space for your digital interactions."
+      },
+      {
+        "title": "Protecting Your Primary Inbox from Spam Overload",
+        "text": "Most websites today require registration to access full features. Unfortunately, many of these sites eventually share your data. This is how a single signup can lead to years of unwanted emails. By using a free temporary email, you can complete your registration, receive your link or code, and move on. Your primary inbox remains clean, organized, and dedicated only to the messages you actually want. This simple habit can reduce your total incoming spam by up to 90%, allowing you to focus on what truly matters."
+      },
+      {
+        "title": "Staying Anonymous and Secure in a Gated Internet",
+        "text": "Whenever you provide your personal email, you risk your data being linked. Temporary email addresses allow you to browse and interact without leaving a fingerprint. This is especially useful for one-time contacts on marketplaces, joining niche forums, or accessing content behind paywalls. It creates a safe 'buffer zone' that protects your identity. In an age where digital footprints are permanent, have a 'ghost' account for casual browsing is a smart security strategy."
+      },
+      {
+        "title": "Specialized Use Cases: Developers and QA Testing",
+        "text": "In the world of software development, testing is everything. Engineers and QA specialists need a fast way to verify email flows. Free temporary email services provide an unlimited supply of unique test accounts instantly. You can test your signup processes, password recovery systems, and transactional messages without any manual overhead. Our high-speed delivery ensures that your testing cycles are not delayed, making YourEmailBox a favorite tool for technical professionals globally."
+      },
+      {
+        "title": "Bypassing Lead Funnels and Marketing Traps",
+        "text": "E-commerce and SaaS platforms use 'Lead Magnets'—like eBooks or free tools—to capture your email and enter you into an aggressive marketing sequence. A throwaway email lets you access these valuable resources without the commitment. You get the value you were looking for, and the subsequent marketing emails go to a mailbox that has already been purged. It is the only fair way to interact with a web that is increasingly trying to capture your every move."
+      },
+      {
+        "title": "Criteria for Choosing a Reliable Provider",
+        "text": "When search for a temp mail provider, speed and privacy are the most important factors. You need a site that loads instantly and provides an inbox immediately. You also need a service that handles messages in real-time, as many verification links expire quickly. Privacy is the foundation: YourEmailBox does not log your IP, uses secure HTTPS encryption, and stores all messages in RAM for instant and total destruction once the session ends. Reliability and simplicity are what make us a leader in the field."
+      },
+      {
+        "title": "How to Use Temporary Mail Effortlessly",
+        "text": "Using YourEmailBox is as simple as visiting the site. An address is generated for you the moment the page loads. You can copy this address, paste it into the required field on any website, and watch for incoming messages right on our home page. There is no password to remember, no username to create, and no setup. Once you are finished, you can click delete or just close the browser. It is designed to be the fastest way to get a private email address."
+      },
+      {
+        "title": "Practical Examples of Digital Survival",
+        "text": "Think about the last time you joined a public Wi-Fi network at an airport or used a file-hosting service. You were probably asked for an email. Use a burner! If you are reaching out to a stranger on an ad service, use a temp email. If you want to see a price list or a demo without being called by a sales team, use a throwaway address. These are all real-world scenarios where a free temporary email keeps you safe and your inbox silent."
+      },
+      {
+        "title": "The Strategic Advantage of Compartmentalization",
+        "text": "Data brokers thrive on linking your activities across different sites using your email address as a common identifier. By using a fresh free temporary email for every new site, you break this link. You are effectively 'siloing' your digital presence. This makes it impossible for trackers to understand your complete browsing history or interest profile. This is more than just avoiding junk; it is a tactical approach to maintaining your digital sovereignty."
+      },
+      {
+        "title": "Environmental Impact: Storage and Energy",
+        "text": "billions of unwanted emails are stored indefinitely in cloud data centers, consuming massive amounts of energy for cooling and power. By using a free temporary email for junk, you prevent this data from being permanently stored. Our RAM-only storage means messages are purged electrically, requiring no long-term energy for storage. It is a small but meaningful way to reduce the environmental footprint of your digital life."
+      },
+      {
+        "title": "Conclusion: Your Privacy, Your Choice",
+        "text": "The internet should be a place where you can explore without fear. A free temporary email is a tool that restores that freedom. Whether you are avoiding spam, protecting your identity, or testing an application, YourEmailBox is here to provide the fastest and most secure solution. Don't let your primary address become a public identifier. Use a burner email instead, and experience the web exactly how it was meant to be: fast, free, and private."
+      }
+    ],
+    "h2_faq": "Frequently asked questions",
+    "faq_list": [
+      {
+        "q": "What is a temporary / disposable / anonymous mail?",
+        "a": "It is a short-lived inbox that allows you to receive emails without revealing your real identity. It is designed to be used once or for a short period and then discarded."
+      },
+      {
+        "q": "Why do you need a temporary email address?",
+        "a": "To protect your real inbox from spam, avoid being tracked by advertisers, and keep your personal data safe when signing up for services you don't use regularly."
+      },
+      {
+        "q": "Do you read messages?",
+        "a": "No. Our system is automated and we have a strict privacy policy. We do not monitor or store your messages beyond the temporary session."
+      },
+      {
+        "q": "How long does temp mail last?",
+        "a": "On YourEmailBox, your address lasts as long as you keep your browser session active. This gives you plenty of time to receive and use your verification codes."
+      },
+      {
+        "q": "What is the difference of disposable mail from the usual email?",
+        "a": "Disposable mail is temporary, anonymous, and requires no registration. Usual email is permanent, often tied to your identity, and can be a target for long-term spam."
+      },
+      {
+        "q": "How to send email?",
+        "a": "Currently, our service is focused on receiving emails for verification and security purposes. This ensures our domains maintain a high reputation and fast delivery."
+      },
+      {
+        "q": "How to delete a temporary email?",
+        "a": "You can click the 'Delete' button on our homepage to instantly wipe your current address and all messages associated with it."
+      },
+      {
+        "q": "Do you have browser extension?",
+        "a": "We are currently developing extensions for major browsers to make it even easier to generate temporary emails on the go. Stay tuned!"
+      },
+      {
+        "q": "I found mistake/bug. How can I report it?",
+        "a": "We value your feedback. Please contact our support team through the contact form or our official social media channels to report any issues."
+      },
+      {
+        "q": "Can I check the received emails?",
+        "a": "Yes! All incoming messages appear in real-time in the inbox on our homepage. You can click on any message to view its full content."
+      },
+      {
+        "q": "Is temp mail safe?",
+        "a": "Absolutely. It is a security tool designed to protect you. By not using your real email, you eliminate the risk of that data being leaked in a breach."
+      }
+    ]
+  },
+  "navigation": {
+    "home": "Home",
+    "blog": "Blog",
+    "security": "Security",
+    "protocol": "Protocol",
+    "about": "About Us",
+    "contacts": "Contacts",
+    "tools": "Free Tools",
+    "privacy": "Privacy Policy"
+  },
+  "blog": {
+    "title": "Security Insights Blog",
+    "subtitle": "Expert tips on digital privacy and security updates.",
+    "view_all": "VIEW ALL POSTS",
+    "search_placeholder": "Search articles...",
+    "read_time": "min read",
+    "related_title": "Related articles",
+    "toc_title": "TABLE OF CONTENTS",
+    "newsletter": {
+      "title": "Stay in the loop",
+      "subtitle": "Get the latest privacy protocols delivered directly to your inbox.",
+      "placeholder": "your@email.com",
+      "button": "Subscribe"
+    }
+  },
+  "apps_extensions": {
+    "title": "Apps and extensions",
+    "subtitle": "Enjoy fast and convenient access to generate temporary emails from anywhere with our apps and extensions"
+  },
+  "common": {
+    "from": "From",
+    "date": "Date",
+    "deleted": "Deleted",
+    "settings": "LOCALE SETTINGS",
+    "menu": "Menu",
+    "modal": {
+      "subtitle": "Create your unique temporary address",
+      "custom_alias": "Custom Alias",
+      "placeholder": "e.g. user-777",
+      "preview_label": "PREVIEW ADDRESS:",
+      "button_update": "Update Address Now"
+    },
+    "premium": {
+      "elite_plan": "ELITE PLAN",
+      "view_plans": "View Plans"
+    }
+  },
+  "footer": {
+    "brand_tagline": "Premium temporary email for a cleaner, safer digital life.",
+    "featured_on": "RECOGNIZED BY",
+    "startup_found": "Global Privacy Award 2026 nominee",
+    "categories": {
+      "features": {
+        "title": "CAPABILITIES",
+        "links": [
+          {
+            "label": "API Access",
+            "href": "/api-docs"
+          },
+          {
+            "label": "Custom Domains",
+            "href": "#"
+          },
+          {
+            "label": "10 Minute Mail",
+            "href": "/"
+          },
+          {
+            "label": "Premium",
+            "href": "/premium"
+          }
+        ]
+      },
+      "links": {
+        "title": "RESOURCES",
+        "links": [
+          {
+            "label": "Blog",
+            "href": "/blog"
+          },
+          {
+            "label": "Source Code",
+            "href": "#",
+            "icon": "github"
+          },
+          {
+            "label": "Security Protocol",
+            "href": "#"
+          },
+          {
+            "label": "Developer Guide",
+            "href": "#"
+          }
+        ]
+      },
+      "free_tools": {
+        "title": "FREE TOOLS",
+        "links": [
+          {
+            "label": "Password Generator",
+            "href": "/tools/password-generator"
+          },
+          {
+            "label": "Data Breach Checker",
+            "href": "/tools/data-breach-checker"
+          },
+          {
+            "label": "Email Validator",
+            "href": "/tools/email-validator"
+          },
+          {
+            "label": "Spam Checker",
+            "href": "/tools/spam-checker"
+          },
+          {
+            "label": "Free Email Aliases",
+            "href": "#",
+            "external": true
+          },
+          {
+            "label": "Gmail Aliases Extension",
+            "href": "#",
+            "external": true
+          }
+        ]
+      },
+      "company": {
+        "title": "COMPANY",
+        "links": [
+          {
+            "label": "About Us",
+            "href": "/about-us"
+          },
+          {
+            "label": "Contacts",
+            "href": "/contacts"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "/privacy-policy"
+          },
+          {
+            "label": "Terms of Service",
+            "href": "/terms-of-service"
+          }
+        ]
+      }
+    }
+  },
+  "cookie_consent": {
+    "title": "Privacy Protocol",
+    "message": "We use cookies to optimize the security protocol and deliver insights. By continuing, you agree to our privacy standards.",
+    "accept": "Accept",
+    "details": "Details"
+  },
+  "privacy_policy": {
+    "title": "Privacy Policy",
+    "last_updated": "Last updated: May 6, 2020",
+    "seo_intro": "youremailbox.com is committed to protecting your privacy. We will only use the information that we collect lawfully in accordance with the General Data Protection Regulation (GDPR) (Regulation (EU) 2016/679).",
+    "sections": [
+      {
+        "title": "Your details",
+        "content": "Information about your person and users with whom you communicate, IP-address, e-mail address are protected and completely confidential. youremailbox.com does not store your IP-address. This means you are reliably protected from all unauthorised actions that may endanger your information and compromise your privacy. All emails and data temporarily stored on our service are permanently deleted after 16 hours. You can delete your temporary Email address at any time using the appropriate button 'delete' on the home page."
+      },
+      {
+        "title": "What information do we collect?",
+        "content": "No personal data is collected. Like most standard website servers we use log files. This includes internet protocol (IP) addresses, browser type, internet service provider (ISP), referring/exit pages, platform type, date/time stamp, and number of clicks to analyze trends, administer the site, track user's movement in the aggregate, and gather broad demographic information for aggregate use. IP addresses, etc. are not linked to personally identifiable information."
+      },
+      {
+        "title": "Do we use cookies?",
+        "content": "Yes (Cookies are small files that a site or its service provider transfers to your computers hard drive through your Web browser (if you allow) that enables the websites or service providers systems to recognize your browser and capture and remember certain information. We use cookies to keep track of advertisements and remember certain information. Third party vendors, including Google, use cookies to serve ads based on a user's prior visits to your website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to your users based on their visit to your sites and/or other sites on the Internet. Users may opt out of personalized advertising by visiting Ads Settings. (Alternatively, you can direct users to opt out of a third-party vendor's use of cookies for personalized advertising by visiting <a href=\"https://youradchoices.com\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">youradchoices.com</a>.)"
+      },
+      {
+        "title": "Google AdSense & Ad Networks",
+        "content": "If you have not opted out of third-party ad serving, the cookies of other third-party vendors or ad networks may also be used to serve ads on your site, which should also be disclosed in your privacy policy in the following manner: Notify your site visitors of the third-party vendors and ad networks serving ads on your site. Provide links to the appropriate vendor and ad network websites. Inform your users that they may visit those websites to opt out of the use of cookies for personalized advertising. Alternatively, you can direct users to opt out of some third-party vendors’ uses of cookies for personalized advertising by visiting <a href=\"https://youradchoices.com\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">youradchoices.com</a>. Because publisher sites and laws across countries vary, we're unable to suggest specific privacy policy language. However, you may wish to review resources such as the Network Advertising Initiative for guidance on drafting a privacy policy. For additional details regarding cookie consent notices, please refer to <a href=\"https://www.cookiechoices.org\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">cookiechoices.org</a>."
+      },
+      {
+        "title": "Do we disclose any information to outside parties?",
+        "content": "We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information. This does not include trusted third parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe release is appropriate to comply with the law, enforce our site policies, or protect ours or others rights, property, or safety. However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses."
+      },
+      {
+        "title": "Third party links",
+        "content": "Occasionally, at our discretion, we may include or offer third party products or services on our website. These third party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites. <br/><br/> <a href=\"https://policies.google.com/privacy\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">Google Analytics Privacy Policy</a>"
+      },
+      {
+        "title": "Third Party Ad Companies",
+        "content": "We allow third-party companies to serve ads and/or collect certain anonymous information when you visit our web site. These companies may use non-personally identifiable information (e.g., click stream information, browser type, time and date, subject of advertisements clicked or scrolled over) during your visits to this and other Web sites in order to provide advertisements about goods and services likely to be of greater interest to you. These companies typically use a cookie or third party web beacon to collect this information. To learn more about this behavioral advertising practice or to opt-out of this type of advertising, you can visit <a href=\"https://www.networkadvertising.org\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">www.networkadvertising.org</a>. <br/><br/> <a href=\"https://policies.google.com/privacy\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">Google AdSense Privacy & Terms</a>"
+      },
+      {
+        "title": "Online Privacy Policy Only",
+        "content": "This online privacy policy applies only to information collected through our website and not to information collected offline."
+      },
+      {
+        "title": "Your Consent",
+        "content": "By using our site, you consent to our websites privacy policy."
+      },
+      {
+        "title": "Changes to our Privacy Policy",
+        "content": "If we decide to change our privacy policy, we will post those changes on this page."
+      }
+    ]
+  },
+  "terms_of_service": {
+    "title": "Terms of Service",
+    "last_updated": "Last updated: January 24, 2026",
+    "seo_intro": "Welcome to the official terms for using the YourEmailBox <a href=\"/en\" style=\"color: #fff; font-weight: bold; text-decoration: underline;\">free temporary email</a> platform. By accessing our nodes, you agree to the following security protocols.",
+    "sections": [
+      {
+        "title": "Acceptable Use Policy",
+        "content": "YourEmailBox is provided for legitimate privacy protection. Our <b>disposable mail</b> service must not be used for illegal activities, including but not limited to: fraud, distributing malware, harassment, or systematic spamming of third-party services. We reserve the right to block access or invalidate domains if abuse is detected to protect the integrity of our protocol."
+      },
+      {
+        "title": "Service Warranty and Availability",
+        "content": "Our <b>temp mail</b> service is provided on an 'as-is' and 'as-available' basis. While we strive for 100% uptime and high-speed delivery, we do not guarantee that the service will be error-free or uninterrupted. We do not guarantee the availability of specific temporary domain names or the long-term storage of incoming messages."
+      },
+      {
+        "title": "Limitation of Liability",
+        "content": "YourEmailBox and its operators shall not be liable for any damages arising from the use or inability to use our <b>free temporary email</b>. This includes data loss, security breaches on third-party sites where our addresses were used, or any indirect consequences of using a transient digital identity."
+      },
+      {
+        "title": "Indemnification Protocol",
+        "content": "You agree to indemnify and hold YourEmailBox, its agents, and its partners harmless from any claims, demands, or legal fees arising from your breach of these terms or your misuse of our <b>anonymous email</b> infrastructure."
+      },
+      {
+        "title": "Modifications to the Service",
+        "content": "As a dynamic privacy platform, we continuously update our domains and backend systems. We reserve the right to modify, suspend, or terminate any aspect of the service at any time without prior notice. Continued use of YourEmailBox constitutes acceptance of any changes to these terms."
+      }
+    ]
+  },
+  "about_us": {
+    "title": "About YourEmailBox",
+    "seo_intro": "Driving the global standard for <b>digital privacy</b> and <b>anonymous communication</b>. Learn about our mission and the team behind the most secure temporary email protocol.",
+    "sections": [
+      {
+        "title": "Our Mission",
+        "text": "YourEmailBox was founded with a single goal: to return control of digital identity to the user. In an era where email addresses have become a permanent tracking identifier, we provide a way to disconnect and browse freely. Our infrastructure is built on the pillars of speed, transparency, and total anonymity."
+      },
+      {
+        "title": "Technical Excellence",
+        "text": "We operate a low-latency, RAM-only server fleet that ensures your temporary messages never touch a hard drive. This 'privacy-by-design' approach means that data we don't have cannot be breached, stolen, or requested. We use advanced encryption and proprietary mail routing to deliver your verification codes in seconds."
+      },
+      {
+        "title": "Global Commitment",
+        "text": "Serving millions of users worldwide, we are committed to keeping the internet open and safe. From developers testing products to privacy enthusiasts avoiding trackers, we provide the tools needed to maintain high-level digital hygiene in a complex world."
+      }
+    ]
+  },
+  "contact_us": {
+    "title": "Contact Us",
+    "seo_intro": "Have questions or technical inquiries? Our security team is ready to assist you. Reach out for support, partnerships, or security reports.",
+    "form": {
+      "name": "Full Name",
+      "email": "Business Email",
+      "subject": "Inquiry Subject",
+      "message": "Message Details",
+      "submit": "Send Message"
+    },
+    "info": {
+      "email": "support@youremailbox.com",
+      "abuse": "abuse@youremailbox.com",
+      "location": "Global / Remote Protocol"
+    }
+  },
+  "tools": {
+    "password_generator": {
+      "title": "Free Password Generator",
+      "subtitle": "Create military-grade, cryptographically secure passwords instantly. No data ever leaves your device.",
+      "label": "Password Generator",
+      "generated_password": "GENERATED PASSWORD",
+      "strength": "STRENGTH",
+      "copy": "COPY",
+      "copied": "COPIED!",
+      "customization": "CUSTOMIZATION",
+      "length": "Password Length",
+      "uppercase": "Uppercase (A-Z)",
+      "lowercase": "Lowercase (a-z)",
+      "numbers": "Numbers (0-9)",
+      "symbols": "Symbols (!@#$)",
+      "why_title": "Why Use a Strong Password Generator?",
+      "why_feature1_title": "Cryptographically Secure",
+      "why_feature1_desc": "Uses window.crypto.getRandomValues() for true randomness that's impossible to predict or replicate.",
+      "why_feature2_title": "100% Client-Side",
+      "why_feature2_desc": "All generation happens in your browser. No data is ever sent to our servers or stored anywhere.",
+      "why_feature3_title": "Fully Customizable",
+      "why_feature3_desc": "Control length, character types, and complexity to match any password requirement.",
+      "how_title": "How to Use This Password Generator",
+      "how_step1": "Adjust the length slider to set your desired password length (8-64 characters)",
+      "how_step2": "Select character types - toggle uppercase, lowercase, numbers, and symbols",
+      "how_step3": "Click \"Copy\" to save the password to your clipboard",
+      "how_step4": "Use \"Refresh\" to generate a new password with the same settings",
+      "what_makes_title": "What Makes a Password Strong?",
+      "what_makes_p1": "In today's digital landscape, weak passwords are the #1 security vulnerability. Hackers use sophisticated algorithms that can crack simple passwords in milliseconds. A truly secure password must have:",
+      "what_makes_li1": "Length: At least 12-16 characters (longer is exponentially better)",
+      "what_makes_li2": "Complexity: Mix of uppercase, lowercase, numbers, and symbols",
+      "what_makes_li3": "Randomness: No dictionary words, personal info, or patterns",
+      "what_makes_li4": "Uniqueness: Different password for every account",
+      "how_it_works_title": "How Our Generator Works",
+      "how_it_works_p1": "Our password generator uses the Web Crypto API, which provides cryptographically strong random values. This is the same technology used by:",
+      "how_it_works_li1": "Banking applications for secure transactions",
+      "how_it_works_li2": "Password managers like 1Password and LastPass",
+      "how_it_works_li3": "Government and military security systems",
+      "pro_tip_title": "Pro Tip: Use a Password Manager",
+      "pro_tip_p": "While our generator creates secure passwords, remembering dozens of complex passwords is impossible. We recommend using a password manager like Bitwarden, 1Password, or LastPass.",
+      "faq_title": "Frequently Asked Questions",
+      "faq_q1": "Is this password generator really secure?",
+      "faq_a1": "Yes! We use the Web Crypto API's cryptographically secure random number generator. All password generation happens locally in your browser - nothing is sent to our servers.",
+      "faq_q2": "What's the ideal password length?",
+      "faq_a2": "We recommend at least 16 characters for maximum security. Each additional character exponentially increases the time needed to crack your password.",
+      "faq_q3": "Should I use symbols in my passwords?",
+      "faq_a3": "Absolutely! Including symbols dramatically increases password complexity and makes brute-force attacks nearly impossible.",
+      "faq_q4": "How often should I change my passwords?",
+      "faq_a4": "Change passwords immediately if you suspect a breach. Otherwise, focus on using unique, strong passwords for each account rather than frequent changes.",
+      "faq_q5": "Can I trust this tool with sensitive accounts?",
+      "faq_a5": "Yes. Since all generation is client-side and we don't store or transmit any data, this tool is safe for generating passwords for banking, email, and other critical accounts."
+    },
+    "email_validator": {
+      "title": "Email Validator",
+      "subtitle": "Professional verification for your mailing lists. Check deliverability, server status, and disposable risk.",
+      "label": "Email Validator",
+      "placeholder": "Enter email address to validate...",
+      "button": "VERIFY EMAIL",
+      "verifying": "VERIFYING...",
+      "scanning_status": "EXECUTING SMTP HANDSHAKE & MX LOOKUP...",
+      "deliverable": "Deliverable",
+      "undeliverable": "Risky / Undeliverable",
+      "new_test": "NEW TEST",
+      "syntax_check": "Syntax / Format",
+      "mx_check": "MX Records",
+      "smtp_check": "SMTP Server",
+      "disposable_check": "Not Disposable",
+      "what_is_title": "What is Email Validation?",
+      "feature1_title": "Multi-Layer Verification",
+      "feature1_desc": "We perform syntax checks, MX record lookups, and SMTP handshakes to ensure deliverability.",
+      "feature2_title": "Real-Time Validation",
+      "feature2_desc": "Get instant results by connecting directly to mail servers without sending actual emails.",
+      "feature3_title": "Disposable Detection",
+      "feature3_desc": "Identify temporary email addresses that could harm your sender reputation.",
+      "how_to_title": "How to Use This Validator",
+      "how_step1": "Enter the email address you want to validate in the input field",
+      "how_step2": "Click \"Verify Email\" to start the validation process",
+      "how_step3": "Review the results - we'll show syntax, MX, SMTP, and disposable status",
+      "how_step4": "Take action - remove invalid emails from your mailing list",
+      "why_validate_title": "Why Validate Email Addresses?",
+      "why_validate_p1": "Email validation is crucial for maintaining a healthy sender reputation and ensuring your messages reach real people. Here's why it matters:",
+      "why_li1": "Reduce Bounce Rates: Invalid emails bounce, which damages your sender score",
+      "why_li2": "Improve Deliverability: Clean lists mean better inbox placement rates",
+      "why_li3": "Save Money: Don't pay to send emails to addresses that don't exist",
+      "why_li4": "Protect Your Domain: High bounce rates can get you blacklisted",
+      "understanding_checks_title": "Understanding Validation Checks",
+      "check1_title": "Syntax / Format Check",
+      "check1_desc": "Verifies the email follows RFC 5322 standards (e.g., has @ symbol, valid domain structure)",
+      "check2_title": "MX Records Lookup",
+      "check2_desc": "Confirms the domain has mail exchange servers configured to receive emails",
+      "check3_title": "SMTP Server Verification",
+      "check3_desc": "Connects to the mail server to verify the mailbox exists without sending an email",
+      "check4_title": "Disposable Email Detection",
+      "check4_desc": "Identifies temporary email services that could indicate low-quality signups",
+      "pro_tip_title": "Best Practice for Email Marketers",
+      "pro_tip_p": "Validate emails at the point of signup using real-time verification. For existing lists, perform regular validation audits every 3-6 months.",
+      "faq_title": "Frequently Asked Questions",
+      "faq_q1": "How accurate is email validation?",
+      "faq_a1": "Our validator performs real SMTP checks and MX lookups, providing 95%+ accuracy. However, some mail servers may block validation attempts or use catch-all configurations.",
+      "faq_q2": "Will the recipient know I validated their email?",
+      "faq_a2": "No. We perform SMTP handshakes without sending actual emails. The validation process is completely invisible to the recipient.",
+      "faq_q3": "What's the difference between syntax and SMTP checks?",
+      "faq_a3": "Syntax checks verify the email format is correct. SMTP checks actually connect to the mail server to confirm the mailbox exists and can receive mail.",
+      "faq_q4": "Can I validate bulk email lists?",
+      "faq_a4": "This tool is designed for single email validation. For bulk validation of large lists, consider using our API or dedicated bulk validation services.",
+      "faq_q5": "Why would a valid-looking email fail validation?",
+      "faq_a5": "Common reasons include: the domain doesn't have MX records configured, the mailbox doesn't exist, the server is temporarily down, or it's a disposable email service.",
+      "faq_q6": "What should I do with invalid emails?",
+      "faq_a6": "Remove them from your mailing list immediately. Continuing to send to invalid addresses will harm your sender reputation and could get you blacklisted."
+    },
+    "spam_checker": {
+      "title": "Spam Checker",
+      "subtitle": "Identify spam triggers before they hit the inbox. Analyze content for keywords, formatting, and risky patterns.",
+      "label": "Spam Checker",
+      "content_label": "EMAIL CONTENT",
+      "placeholder": "Paste your email subject line or body content here to analyze for spam triggers...",
+      "characters": "CHARACTERS",
+      "words": "WORDS",
+      "button": "ANALYZE SPAM SCORE",
+      "analyzing": "ANALYZING...",
+      "score_label": "SPAM SCORE",
+      "verdict_high": "HIGH RISK",
+      "verdict_moderate": "MODERATE RISK",
+      "verdict_low": "LOW RISK",
+      "msg_high": "Likely to be flagged as spam",
+      "msg_moderate": "May trigger spam filters",
+      "msg_low": "Good deliverability expected",
+      "detailed_analysis": "DETAILED ANALYSIS",
+      "keywords_detected": "Spam Keywords Detected",
+      "none_found": "NONE FOUND ✓",
+      "uppercase_usage": "Uppercase Usage",
+      "uppercase_note_high": "Excessive caps may trigger filters",
+      "uppercase_note_ok": "Within acceptable range",
+      "excl_marks": "Exclamation Marks",
+      "excl_note_high": "Too many may appear spammy",
+      "excl_note_ok": "Acceptable count",
+      "overall_risk": "Overall Deliverability Risk",
+      "risk_high": "HIGH",
+      "risk_moderate": "MODERATE",
+      "risk_low": "LOW",
+      "new_analysis": "NEW ANALYSIS",
+      "why_title": "Understanding Spam Filters",
+      "feature1_title": "Keyword Analysis",
+      "feature1_desc": "We scan for common spam trigger words that email filters flag, including promotional and urgency language.",
+      "feature2_title": "Formatting Checks",
+      "feature2_desc": "Excessive capitalization, punctuation, and formatting issues are analyzed for spam indicators.",
+      "feature3_title": "Instant Feedback",
+      "feature3_desc": "Get immediate results with actionable recommendations to improve your email deliverability.",
+      "how_to_title": "How to Use This Tool",
+      "how_step1": "Copy your email content - subject line, body, or both",
+      "how_step2": "Paste it into the text area above",
+      "how_step3": "Click \"Analyze Spam Score\" to run the check",
+      "how_step4": "Review the results and remove any flagged spam triggers",
+      "how_step5": "Re-test until you achieve a low spam score",
+      "common_triggers_title": "Common Spam Triggers to Avoid",
+      "trigger1_title": "Promotional Language",
+      "trigger2_title": "Financial Terms",
+      "trigger3_title": "Urgency Tactics",
+      "trigger4_title": "Excessive Formatting",
+      "best_practices_title": "Best Practices for Email Deliverability",
+      "practice_li1": "Use a recognizable sender name - Recipients should know who you are",
+      "practice_li2": "Write clear subject lines - Avoid clickbait and misleading titles",
+      "practice_li3": "Balance text and images - Too many images can trigger filters",
+      "practice_li4": "Include an unsubscribe link - Required by law and improves trust",
+      "practice_li5": "Authenticate your domain - Set up SPF, DKIM, and DMARC records",
+      "pro_tip_title": "Pro Tip for Marketers",
+      "pro_tip_p": "Even if your content passes spam filters, engagement metrics matter. Low open rates and high unsubscribe rates signal to providers that your content isn't valuable.",
+      "faq_title": "Frequently Asked Questions",
+      "faq_q1": "How accurate is this spam checker?",
+      "faq_a1": "Our tool analyzes common spam triggers. While it provides a good indication, actual spam filtering varies by provider and uses factors like sender reputation.",
+      "faq_q2": "What's a good spam score?",
+      "faq_a2": "Aim for a score below 30. Scores between 30-60 indicate moderate risk, while scores above 60 are likely to be filtered as spam.",
+      "faq_q3": "Can I check HTML emails?",
+      "faq_a3": "This tool analyzes text content. For HTML emails, paste the text version or use specialized tools for HTML parsing.",
+      "faq_q4": "Why do legitimate emails sometimes get flagged?",
+      "faq_a4": "Spam filters are cautious. Even legitimate emails can trigger filters if they use promotional language or poor formatting.",
+      "faq_q5": "How can I improve my sender reputation?",
+      "faq_a5": "Maintain clean lists, send consistently, avoid spam complaints, and authenticate your domain.",
+      "faq_q6": "Does this tool send my content anywhere?",
+      "faq_a6": "No. All analysis happens locally in your browser. We never store or transmit your email content."
+    },
+    "breach_checker": {
+      "title": "Data Breach Checker",
+      "subtitle": "Is your identity for sale? Scan the world's most comprehensive breach databases to see if your email was exposed.",
+      "label": "Data Breach Checker",
+      "placeholder": "Enter your email address to scan...",
+      "button": "SCAN NOW",
+      "scanning": "SCANNING...",
+      "scanning_title": "Scanning Global Databases",
+      "scanning_desc": "Cross-referencing your email with 500+ security breach databases...",
+      "exposure_detected": "Exposure Detected!",
+      "exposure_warn": "Warning: This email address appeared in known data breaches. Your private information may be accessible.",
+      "breach_details": "VIEW BREACH DETAILS",
+      "reset_scan": "RESET SCAN",
+      "clean_status": "Clean Status",
+      "clean_msg": "Good news! No records of this email address were found in our monitored breach databases.",
+      "new_scan": "RUN NEW SCAN",
+      "why_title": "Why Check for Data Breaches?",
+      "feature1_title": "500+ Breach Databases",
+      "feature1_desc": "We monitor and index data from thousands of verified security breaches globally.",
+      "feature2_title": "Privacy-First Scanning",
+      "feature2_desc": "Your email is hashed before transmission. We never store your searches.",
+      "feature3_title": "Real-Time Monitoring",
+      "feature3_desc": "Our database is continuously updated with newly discovered breaches.",
+      "what_is_title": "What is a Data Breach?",
+      "what_is_p": "A data breach occurs when cybercriminals gain unauthorized access to a database. This can include email addresses, passwords, personal details, and financial info.",
+      "how_to_title": "How to Use This Tool",
+      "how_step1": "Enter your email address in the search box above",
+      "how_step2": "Click \"Scan Now\" to initiate the search",
+      "how_step3": "Review the results - we'll show if your email appears in known breaches",
+      "how_step4": "Take action - change passwords immediately if a breach is detected",
+      "what_to_do_title": "What to Do If Your Email Was Breached",
+      "what_to_do_p": "Don't panic - act quickly by changing passwords, enabling 2FA, and monitoring your account activity.",
+      "action1_title": "Change Passwords",
+      "action1_desc": "Immediately update passwords for all accounts using that email",
+      "action2_title": "Enable 2FA",
+      "action2_desc": "Add two-factor authentication to critical accounts",
+      "action3_title": "Monitor Activity",
+      "action3_desc": "Watch for suspicious login attempts or transactions",
+      "action4_title": "Use Unique Passwords",
+      "action4_desc": "Never reuse passwords across multiple sites",
+      "pro_tip_title": "Important Security Tip",
+      "pro_tip_p": "If you use the same password across multiple sites and one gets breached, hackers will try that password elsewhere (credential stuffing).",
+      "faq_title": "Frequently Asked Questions",
+      "faq_q1": "How does the breach checker work?",
+      "faq_a1": "We securely hash your email and check it against our indexed breach records.",
+      "faq_q2": "Is my email safe when I use this tool?",
+      "faq_a2": "Yes. Your email is hashed and we never store your address or search history.",
+      "faq_q3": "What should I do if my email was found in a breach?",
+      "faq_a3": "Change passwords immediately, enable 2FA, and use a password manager.",
+      "faq_q4": "How often is your breach database updated?",
+      "faq_a4": "We continuously monitor and update our database as soon as new breaches are discovered.",
+      "faq_q5": "Can I check multiple email addresses?",
+      "faq_a5": "Yes! Simply run a new scan for each address. There's no limit.",
+      "faq_q6": "What if I get a 'safe' result but still feel concerned?",
+      "faq_a6": "A 'safe' result is good, but always use strong passwords and 2FA anyway."
+    },
+    "tools_index": {
+      "title": "Free Email Security Tools",
+      "subtitle": "Professional privacy and security utilities to protect your digital identity. No sign-ups, no fees—just instant, powerful tools.",
+      "why_title": "Why Choose Our Security Tools?",
+      "benefit1_title": "100% Privacy-First",
+      "benefit1_desc": "All tools run client-side in your browser. We never store, transmit, or access your data.",
+      "benefit2_title": "Instant Results",
+      "benefit2_desc": "Get immediate feedback without waiting. Our tools are optimized for speed and accuracy.",
+      "benefit3_title": "Enterprise-Grade Security",
+      "benefit3_desc": "Built with the same cryptographic standards used by banks and security professionals.",
+      "complementary_title": "Complementary Privacy Apps",
+      "launch_tool": "LAUNCH TOOL",
+      "premium_cta_title": "Need More Advanced Features?",
+      "premium_cta_desc": "Upgrade to premium for unlimited email aliases, advanced breach monitoring, and priority support.",
+      "premium_cta_button": "EXPLORE PREMIUM"
+    }
+  }
+}

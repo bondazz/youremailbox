@@ -1,0 +1,103 @@
+import { getDictionary } from '@/get-dictionary';
+import { Metadata } from 'next';
+import ToolsClient from './ToolsClient';
+
+type Params = Promise<{ lang: string }>;
+
+export const dynamic = 'force-static';
+
+export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+    const { lang } = await params;
+    const baseUrl = 'https://youremailbox.com';
+    const currentUrl = `${baseUrl}/${lang}/tools`;
+
+    return {
+        title: 'Free Email Security Tools - Password Generator, Breach Checker & More | YourEmailBox',
+        description: 'Free online email security tools. Generate secure passwords, check data breaches, validate emails, and analyze spam. Professional privacy utilities with no sign-up required.',
+        keywords: 'email tools, password generator, breach checker, email validator, spam checker, security tools, privacy tools',
+        alternates: {
+            canonical: currentUrl,
+            languages: {
+                'en': `${baseUrl}/en/tools`,
+                'tr': `${baseUrl}/tr/tools`,
+                'ru': `${baseUrl}/ru/tools`,
+                'ar': `${baseUrl}/ar/tools`,
+                'fr': `${baseUrl}/fr/tools`,
+                'de': `${baseUrl}/de/tools`,
+                'es': `${baseUrl}/es/tools`,
+                'it': `${baseUrl}/it/tools`,
+                'x-default': `${baseUrl}/en/tools`,
+            },
+        },
+        openGraph: {
+            title: 'Free Email Tools | Privacy & Security Utilities',
+            description: 'Professional email security tools: Password Generator, Data Breach Checker, Email Validator, and Spam Checker. All free, no sign-up required.',
+            url: currentUrl,
+            siteName: 'YourEmailBox',
+            images: [{ url: '/open-graph.png', width: 1200, height: 630 }],
+            type: 'website',
+            locale: lang,
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: 'Free Email Security Tools - YourEmailBox',
+            description: 'Professional privacy and security tools for email protection',
+            images: ['/open-graph.png'],
+        },
+        robots: {
+            index: true,
+            follow: true,
+            googleBot: {
+                index: true,
+                follow: true,
+                'max-video-preview': -1,
+                'max-image-preview': 'large',
+                'max-snippet': -1,
+            },
+        },
+    };
+}
+
+export default async function ToolsPage({ params }: { params: Params }) {
+    const { lang } = await params;
+    const dictionary = await getDictionary(lang);
+
+    const structuredData = {
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        name: 'Free Email Security Tools',
+        description: 'Collection of free email security and privacy tools',
+        url: `https://youremailbox.com/${lang}/tools`,
+        publisher: {
+            '@type': 'Organization',
+            name: 'YourEmailBox',
+        },
+        breadcrumb: {
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+                {
+                    '@type': 'ListItem',
+                    position: 1,
+                    name: 'Home',
+                    item: `https://youremailbox.com/${lang}`,
+                },
+                {
+                    '@type': 'ListItem',
+                    position: 2,
+                    name: 'Tools',
+                    item: `https://youremailbox.com/${lang}/tools`,
+                },
+            ],
+        },
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+            />
+            <ToolsClient dictionary={dictionary} lang={lang} />
+        </>
+    );
+}

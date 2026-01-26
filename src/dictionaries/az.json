@@ -1,0 +1,423 @@
+{
+    "title": "YourEmailBox - Premium Müvəqqəti Email Xidməti",
+    "meta_description": "Həqiqi poçt qutunuzu təmiz saxlamaq üçün birdəfəlik müvəqqəti email xidməti. Anında təsadüfi və ya xüsusi bir email ünvanı alın. Pulsuz, təhlükəsiz və özəl.",
+    "hero": {
+        "title": "Pulsuz Müvəqqəti Email",
+        "subtitle": "Müvəqqəti email gizliliyinizi qoruyur və gələn qutunuzu spamdan uzaq saxlayır"
+    },
+    "hero_subtitle": "Əsas gələn qutunuzu qoruyun. İstənilən qeydiyyat üçün yüksək sürətli pulsuz müvəqqəti email alın və anonim qalın.",
+    "buttons": {
+        "copy": "Kopyala",
+        "random": "Təsadüfi",
+        "change": "Dəyişdir",
+        "delete": "Sil",
+        "refresh": "Yenilə"
+    },
+    "tooltips": {
+        "copy": "Emaili mübadilə buferinə kopyala",
+        "random": "Yeni təsadüfi email yarat",
+        "change": "Xüsusi bir email ünvanı təyin et",
+        "delete": "Cari emaili və poçt qutusunu sil"
+    },
+    "inbox": {
+        "title": "Gələn Qutusu",
+        "messages": "Mesajlar",
+        "waiting": "Gələn emaillər gözlənilir...",
+        "checking": "Gələn qutusu yoxlanılır...",
+        "interval_text": "Məlumatlarınızı qorumaq üçün hər 20 saniyədən bir yenilənir.",
+        "refresh_status_updated": "Yeniləndi",
+        "return_to_inbox": "GƏLƏN QUTUSUNA QAYIT",
+        "from_label": "KİMDƏN:",
+        "video_instruction": "Video təlimat",
+        "soon": "TEZLİKLƏ"
+    },
+    "navigation": {
+        "home": "Ana Səhifə",
+        "blog": "Bloq",
+        "security": "Təhlükəsizlik",
+        "protocol": "Protokol",
+        "about": "Haqqımızda",
+        "contacts": "Əlaqə",
+        "tools": "Pulsuz Alətlər",
+        "privacy": "Məxfilik Siyasəti"
+    },
+    "blog": {
+        "title": "Təhlükəsizlik Bloqu",
+        "subtitle": "Rəqəmsal məxfilik və təhlükəsizlik yenilikləri haqqında ekspert məsləhətləri.",
+        "view_all": "BÜTÜN YAZILARI GÖR",
+        "search_placeholder": "Məqalə axtar...",
+        "read_time": "dəq oxuma",
+        "related_title": "Oxşar məqalələr",
+        "toc_title": "MƏZMUN",
+        "newsletter": {
+            "title": "Xəbərdar qalın",
+            "subtitle": "Ən son məxfilik protokollarını birbaşa gələn qutunuza alın.",
+            "placeholder": "sizin@email.com",
+            "button": "Abunə ol"
+        }
+    },
+    "common": {
+        "from": "Kimdən",
+        "date": "Tarix",
+        "deleted": "Silindi",
+        "settings": "DİL PARAMENTRLƏRİ",
+        "menu": "Menyu",
+        "modal": {
+            "subtitle": "Unikal müvəqqəti ünvanınızı yaradın",
+            "custom_alias": "Xüsusi Alyas",
+            "placeholder": "məs. istifadeci-777",
+            "preview_label": "ÜNVAN ÖNİZLƏMƏSİ:",
+            "button_update": "Ünvanı İndi Yenilə"
+        },
+        "premium": {
+            "elite_plan": "ELİTE PLANI",
+            "view_plans": "Planları Gör"
+        }
+    },
+    "footer": {
+        "brand_tagline": "Təmiz və təhlükəsiz rəqəmsal həyat üçün premium müvəqqəti email.",
+        "featured_on": "TƏRƏFİNDƏN TANINIR",
+        "startup_found": "Global Privacy Award 2026 namizədi",
+        "categories": {
+            "features": {
+                "title": "İMKANLAR",
+                "links": [
+                    {
+                        "label": "API Girişi",
+                        "href": "/api-docs"
+                    },
+                    {
+                        "label": "Xüsusi Domenlər",
+                        "href": "#"
+                    },
+                    {
+                        "label": "10 Dəqiqəlik Email",
+                        "href": "/"
+                    },
+                    {
+                        "label": "Premium",
+                        "href": "/premium"
+                    }
+                ]
+            },
+            "links": {
+                "title": "RESURSLAR",
+                "links": [
+                    {
+                        "label": "Bloq",
+                        "href": "/blog"
+                    },
+                    {
+                        "label": "Mənbə Kodu",
+                        "href": "#",
+                        "icon": "github"
+                    },
+                    {
+                        "label": "Təhlükəsizlik Protokolu",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Tərtibatçı Bələdçisi",
+                        "href": "#"
+                    }
+                ]
+            },
+            "free_tools": {
+                "title": "PULSUZ ALƏTLƏR",
+                "links": [
+                    {
+                        "label": "Şifrə Generatoru",
+                        "href": "/tools/password-generator"
+                    },
+                    {
+                        "label": "Məlumat Sızması Yoxlayıcısı",
+                        "href": "/tools/data-breach-checker"
+                    },
+                    {
+                        "label": "Email Doğrulayıcı",
+                        "href": "/tools/email-validator"
+                    },
+                    {
+                        "label": "Spam Yoxlayıcı",
+                        "href": "/tools/spam-checker"
+                    }
+                ]
+            },
+            "company": {
+                "title": "ŞİRKƏT",
+                "links": [
+                    {
+                        "label": "Haqqımızda",
+                        "href": "/about-us"
+                    },
+                    {
+                        "label": "Əlaqə",
+                        "href": "/contacts"
+                    },
+                    {
+                        "label": "Məxfilik Siyasəti",
+                        "href": "/privacy-policy"
+                    },
+                    {
+                        "label": "İstifadə Şərtləri",
+                        "href": "/terms-of-service"
+                    }
+                ]
+            }
+        }
+    },
+    "tools": {
+        "password_generator": {
+            "title": "Pulsuz Şifrə Generatoru",
+            "subtitle": "Hərbi səviyyəli, kriptoqrafik cəhətdən təhlükəsiz şifrələri dərhal yaradın. Heç bir məlumat cihazınızdan kənara çıxmır.",
+            "label": "Şifrə Generatoru",
+            "generated_password": "YARADILMIŞ ŞİFRƏ",
+            "strength": "GÜCÜ",
+            "copy": "KOPYALA",
+            "copied": "KOPYALANDI!",
+            "customization": "ÖZƏLLƏŞDİRMƏ",
+            "length": "Şifrə Uzunluğu",
+            "uppercase": "Böyük hərflər (A-Z)",
+            "lowercase": "Kiçik hərflər (a-z)",
+            "numbers": "Rəqəmlər (0-9)",
+            "symbols": "Simvollar (!@#$)",
+            "why_title": "Niyə Güclü Şifrə Generatorundan İstifadə Etməli?",
+            "why_feature1_title": "Kriptoqrafik Təhlükəsiz",
+            "why_feature1_desc": "Proqnozlaşdırılması və ya təkrarlanması qeyri-mümkün olan həqiqi təsadüfilik üçün window.crypto.getRandomValues() istifadə edir.",
+            "why_feature2_title": "100% Müştəri Tərəfli",
+            "why_feature2_desc": "Bütün yaradılma prosesi brauzerinizdə baş verir. Heç bir məlumat serverlərimizə göndərilmir və ya saxlanılmır.",
+            "why_feature3_title": "Tam Özəlləşdirilə Bilən",
+            "why_feature3_desc": "İstənilən şifrə tələbinə uyğun gəlmək üçün uzunluğu, simvol növlərini və mürəkkəbliyi idarə edin.",
+            "how_title": "Bu Şifrə Generatorundan Necə İstifadə Etməli",
+            "how_step1": "İstədiyiniz şifrə uzunluğunu təyin etmək üçün sürüşdürmə düyməsini tənzimləyin (8-64 simvol)",
+            "how_step2": "Simvol növlərini seçin - böyük hərflər, kiçik hərflər, rəqəmlər və simvollar",
+            "how_step3": "Şifrəni mübadilə buferinə saxlamaq üçün \"KOPYALA\" düyməsini basın",
+            "how_step4": "Eyni parametrlərlə yeni şifrə yaratmaq üçün \"Yenilə\" düyməsindən istifadə edin",
+            "what_makes_title": "Şifrəni Nə Güclü Edir?",
+            "what_makes_p1": "Bugünkü rəqəmsal mühitdə zəif şifrələr #1 təhlükəsizlik boşluğudur. Hakerlər sadə şifrələri millisaniyələr ərzində qıra bilən mürəkkəb alqoritmlərdən istifadə edirlər. Həqiqətən təhlükəsiz şifrə bunlara malik olmalıdır:",
+            "what_makes_li1": "Uzunluq: Ən azı 12-16 simvol (nə qədər uzundur, o qədər yaxşıdır)",
+            "what_makes_li2": "Mürəkkəblik: Böyük, kiçik hərflər, rəqəmlər və simvolların qarışığı",
+            "what_makes_li3": "Təsadüfilik: Lüğət sözləri, şəxsi məlumatlar və ya naxışlar olmamalıdır",
+            "what_makes_li4": "Unikallıq: Hər bir hesab üçün fərqli şifrə",
+            "how_it_works_title": "Generatorumuz Necə İşləyir",
+            "how_it_works_p1": "Şifrə generatorumuz kriptoqrafik cəhətdən güclü təsadüfi dəyərlər təmin edən Web Crypto API-dan istifadə edir. Bu, aşağıdakılar tərəfindən istifadə olunan eyni texnologiyadır:",
+            "how_it_works_li1": "Təhlükəsiz tranzaksiyalar üçün bank tətbiqləri",
+            "how_it_works_li2": "1Password və LastPass kimi şifrə menecerləri",
+            "how_it_works_li3": "Hökumət və hərbi təhlükəsizlik sistemləri",
+            "pro_tip_title": "Pro Məsləhət: Şifrə Menecerindən İstifadə Edin",
+            "pro_tip_p": "Generatorumuz təhlükəsiz şifrələr yaratsa da, onlarla mürəkkəb şifrəni yadda saxlamaq mümkün deyil. Bitwarden və ya 1Password kimi bir şifrə menecerindən istifadə etməyi tövsiyə edirik.",
+            "faq_title": "Tez-tez Verilən Suallar",
+            "faq_q1": "Bu şifrə generatoru həqiqətən təhlükəsizdirmi?",
+            "faq_a1": "Bəli! Biz Web Crypto API-nın kriptoqrafik cəhətdən təhlükəsiz təsadüfi ədədlər generatorundan istifadə edirik. Bütün şifrə yaradılması yerli olaraq brauzerinizdə baş verir.",
+            "faq_q2": "İdeal şifrə uzunluğu nə qədərdir?",
+            "faq_a2": "Maksimum təhlükəsizlik üçün ən azı 16 simvol tövsiyə edirik. Hər əlavə simvol şifrənizin qırılması üçün lazım olan vaxtı eksponent olaraq artırır.",
+            "faq_q3": "Şifrələrimdə simvollardan istifadə etməliyəmmi?",
+            "faq_a3": "Mütləq! Simvolların daxil edilməsi şifrə mürəkkəbliyini kəskin şəkildə artırır və brute-force hücumlarını demək olar ki, qeyri-mümkün edir.",
+            "faq_q4": "Şifrələrimi nə qədər tez-tez dəyişməliyəm?",
+            "faq_a4": "Səhv bir sızmadan şübhələnirsinizsə, şifrələri dərhal dəyişin. Əks halda, tez-tez dəyişmək əvəzinə hər hesab üçün unikal, güclü şifrələrdən istifadə etməyə fokuslanın.",
+            "faq_q5": "Həssas hesablar üçün bu alətə etibar edə bilərəmmi?",
+            "faq_a5": "Bəli. Bütün yaradılma prosesi brauzer tərəfində olduğu və heç bir məlumat ötürmədiyimiz üçün bu alət bank və email hesabları üçün təhlükəsizdir."
+        },
+        "email_validator": {
+            "title": "Email Doğrulayıcı",
+            "subtitle": "Məktub siyahılarınız üçün peşəkar doğrulama. Çatdırılma qabiliyyətini, server statusunu və birdəfəlik riskini yoxlayın.",
+            "label": "Email Doğrulayıcı",
+            "placeholder": "Doğrulamaq üçün e-poçt ünvanını daxil edin...",
+            "button": "EMAİLİ YOVALA",
+            "verifying": "YOXLANILIR...",
+            "scanning_status": "SMTP ƏLAQƏSİ VƏ MX YOXLAMASI İCRA OLUNUR...",
+            "deliverable": "Çatdırıla bilən",
+            "undeliverable": "Riskli / Çatdırıla bilməyən",
+            "new_test": "YENİ TEST",
+            "syntax_check": "Sintaksis / Format",
+            "mx_check": "MX Yazıları",
+            "smtp_check": "SMTP Serveri",
+            "disposable_check": "Birdəfəlik Deyil",
+            "what_is_title": "Email Doğrulama Nədir?",
+            "feature1_title": "Çoxtəbəqəli Doğrulama",
+            "feature1_desc": "Çatdırılma qabiliyyətini təmin etmək üçün sintaksis yoxlamaları, MX qeydiyyatı axtarışları və SMTP əlaqələri icra edirik.",
+            "feature2_title": "Real Zamanlı Doğrulama",
+            "feature2_desc": "Həqiqi emaillər göndərmədən birbaşa poçt serverlərinə qoşularaq anında nəticələr alın.",
+            "feature3_title": "Birdəfəlik Email Aşkarı",
+            "feature3_desc": "Göndərici reputasiyanıza zərər verə biləcək müvəqqəti email ünvanlarını müəyyən edin.",
+            "how_to_title": "Bu Doğrulayıcıdan Necə İstifadə Etməli",
+            "how_step1": "Daxiletmə sahəsinə doğrulamaq istədiyiniz e-poçt ünvanını daxil edin",
+            "how_step2": "Doğrulama prosesini başlatmaq üçün \"EMAİLİ YOVALA\" düyməsini basın",
+            "how_step3": "Nəticələri nəzərdən keçirin - sintaksis, MX, SMTP və birdəfəlik statusu göstərəcəyik",
+            "how_step4": "Hərəkətə keçin - etibarsız emailləri məktub siyahınızdan çıxarın",
+            "why_validate_title": "Niyə Email Ünvanlarını Doğrulamalı?",
+            "why_validate_p1": "Email doğrulaması sağlam göndərici reputasiyasını qorumaq və mesajlarınızın həqiqi insanlara çatmasını təmin etmək üçün vacibdir.",
+            "why_li1": "Bounce Oranlarını Azaldın: Etibarsız emaillər geri qayıdır və bu, göndərici xalınıza zərər verir",
+            "why_li2": "Çatdırılmanı Yaxşılaşdırın: Təmiz siyahılar daha yaxşı gələn qutusu nisbəti deməkdir",
+            "why_li3": "Pula Qənaət Edin: Mövcud olmayan ünvanlara email göndərmək üçün pul ödeməyin",
+            "why_li4": "Domeninizi Qoruyun: Yüksək bounce oranları sizi qara siyahıya sala bilər",
+            "understanding_checks_title": "Doğrulama Yoxlamalarını Başa Düşmək",
+            "check1_title": "Sintaksis / Format Yoxlaması",
+            "check1_desc": "E-poçtun RFC 5322 standartlarına uyğun olduğunu yoxlayır (məsələn, @ simvolu, etibarlı domen strukturu)",
+            "check2_title": "MX Qeydləri Axtarışı",
+            "check2_desc": "Domendə emailləri qəbul etmək üçün konfiqurasiya edilmiş poçt mübadilə serverlərinin olduğunu tədiqləyir",
+            "check3_title": "SMTP Server Doğrulaması",
+            "check3_desc": "Email göndərmədən poçt qutusunun mövcudluğunu yoxlamaq üçün poçt serverinə qoşulur",
+            "check4_title": "Birdəfəlik Email Aşkarı",
+            "check4_desc": "Aşağı keyfiyyətli qeydiyyatları göstərə bilən müvəqqəti email xidmətlərini müəyyən edir",
+            "pro_tip_title": "Email Marketoloqları üçün Ən Yaxşı Təcrübə",
+            "pro_tip_p": "Real zamanlı doğrulamadan istifadə edərək qeydiyyat nöqtəsində emailləri doğrulayın. Mövcud siyahılar üçün hər 3-6 aydan bir audit aparın.",
+            "faq_title": "Tez-tez Verilən Suallar",
+            "faq_q1": "Email doğrulaması nə dərəcədə dəqiqdir?",
+            "faq_a1": "Doğrulayıcımız 95%+ dəqiqlik təmin edən həqiqi SMTP yoxlamaları və MX axtarışlarını yerinə yetirir.",
+            "faq_q2": "Alıcı onun emailini doğruladığımı biləcəkmi?",
+            "faq_a2": "Xeyr. Biz həqiqi emaillər göndərmədən SMTP əlaqələri qururuq. Proses alıcı üçün tamamilə görünməzdir.",
+            "faq_q3": "Sintaksis və SMTP yoxlamaları arasındakı fərq nədir?",
+            "faq_a3": "Sintaksis yoxlamaları formatın düzgünlüyünü, SMTP yoxlamaları isə poçt qutusunun mövcudluğunu təsdiqləyir.",
+            "faq_q4": "Toplu email siyahılarını doğrulaya bilərəmmi?",
+            "faq_a4": "Bu alət tək email doğrulaması üçün nəzərdə tutulub. Toplu yoxlamalar üçün API xidmətimizdən istifadə edin.",
+            "faq_q5": "Niyə etibarlı görünən email doğrulamadan keçməyə bilər?",
+            "faq_a5": "Səbəblər: domendə MX qeydləri yoxdur, poçt qutusu mövcud deyil və ya server müvəqqəti bağlıdır.",
+            "faq_q6": "Etibarsız emaillərlə nə etməliyəm?",
+            "faq_a6": "Onları dərhal siyahınızdan çıxarın. Etibarsız ünvanlara göndərməyə davam etmək reputasiyanıza zərər verəcək."
+        },
+        "spam_checker": {
+            "title": "Spam Yoxlayıcı",
+            "subtitle": "Spam tətikləyicilərini gələn qutusuna çatmamış aşkar edin. Məzmunu açar sözlər, formatlama və riskli nümunələr üçün analiz edin.",
+            "label": "Spam Yoxlayıcı",
+            "content_label": "EMAİL MƏZMUNU",
+            "placeholder": "Spam tətikləyicilərini analiz etmək üçün e-poçtun mövzusunu və ya mətnini bura yapışdırın...",
+            "characters": "SİMVOL",
+            "words": "SÖZ",
+            "button": "SPAM XALINI ANALİZ ET",
+            "analyzing": "ANALİZ OLUNUR...",
+            "score_label": "SPAM XALI",
+            "verdict_high": "YÜKSƏK RİSK",
+            "verdict_moderate": "ORTA RİSK",
+            "verdict_low": "AŞAĞI RİSK",
+            "msg_high": "Böyük ehtimalla spam kimi qeyd olunacaq",
+            "msg_moderate": "Spam filtrlərini tətikləyə bilər",
+            "msg_low": "Yaxşı çatdırılma ehtimalı yüksəkdir",
+            "detailed_analysis": "ƏTRAFLI ANALİZ",
+            "keywords_detected": "Aşkar Edilmiş Spam Açar Sözləri",
+            "none_found": "TAPILMADI ✓",
+            "uppercase_usage": "Böyük Hərf İstifadəsi",
+            "uppercase_note_high": "Həddindən artıq böyük hərf filtrləri tətikləyə bilər",
+            "uppercase_note_ok": "Qəbul edilən diapazon daxilindədir",
+            "excl_marks": "Nida İşarələri",
+            "excl_note_high": "Həddindən artıq istifadə spam kimi görünə bilər",
+            "excl_note_ok": "Qəbul edilən saydadır",
+            "overall_risk": "Ümumi Çatdırılma Riski",
+            "risk_high": "YÜKSƏK",
+            "risk_moderate": "ORTA",
+            "risk_low": "AŞAĞI",
+            "new_analysis": "YENİ ANALİZ",
+            "why_title": "Spam Filtrlərini Başa Düşmək",
+            "feature1_title": "Açar Söz Analizi",
+            "feature1_desc": "Email filtrlərinin qeyd etdiyi ümumi spam tətikləyici sözləri skan edirik.",
+            "feature2_title": "Formatlama Yoxlamaları",
+            "feature2_desc": "Həddindən artıq böyük hərf, durğu işarələri və formatlama problemləri analiz edilir.",
+            "feature3_title": "Anında Rəy",
+            "feature3_desc": "Email çatdırılma qabiliyyətinizi yaxşılaşdırmaq üçün hərəkətə keçilə bilən tövsiyələr alın.",
+            "how_to_title": "Bu Alətdən Necə İstifadə Etməli",
+            "how_step1": "Email məzmununuzu - mövzu sətirini, mətni və ya hər ikisini kopyalayın",
+            "how_step2": "Yuxarıdakı mətn sahəsinə yapışdırın",
+            "how_step3": "Yoxlama üçün \"SPAM XALINI ANALİZ ET\" düyməsini basın",
+            "how_step4": "Nəticələri nəzərdən keçirin və qeyd olunan spam tətikləyiciləri çıxarın",
+            "how_step5": "Aşağı spam xalına nail olana qədər yenidən test edin",
+            "common_triggers_title": "Qaçmalı Olduğunuz Ümumi Spam Tətikləyiciləri",
+            "trigger1_title": "Reklam Dili",
+            "trigger2_title": "Maliyyə Terminləri",
+            "trigger3_title": "Təcililik Taktikaları",
+            "trigger4_title": "Həddindən Artıq Formatlama",
+            "best_practices_title": "Email Çatdırılması üçün Ən Yaxşı Təcrübələr",
+            "practice_li1": "Tanınan göndərici adından istifadə edin",
+            "practice_li2": "Aydın mövzu sətirləri yazın - clickbait-dən qaçın",
+            "practice_li3": "Mətn və şəkilləri balanslaşdırın",
+            "practice_li4": "Abunəlikdən çıxmaq linki daxil edin",
+            "practice_li5": "Domeninizi autentifikasiya edin (SPF/DKIM/DMARC)",
+            "pro_tip_title": "Marketoloqlar üçün Pro Məsləhət",
+            "pro_tip_p": "Məzmununuz spam filtrlərindən keçsə belə, nişanlılıq metrikaları vacibdir. Aşağı açılma faizi providerlərə məzmununuzun dəyərli olmadığını göstərir.",
+            "faq_title": "Tez-tez Verilən Suallar",
+            "faq_q1": "Bu spam yoxlayıcı nə dərəcədə dəqiqdir?",
+            "faq_a1": "Alətimiz ümumi tətikləyiciləri analiz edir. Lakin real filtrləmə həm də göndərici reputasiyasından asılıdır.",
+            "faq_q2": "Yaxşı spam xalı nə qədərdir?",
+            "faq_a2": "30-dan aşağı xal hədəfləyin. 30-60 arası orta risk, 60-dan yuxarı isə spam ehtimalı yüksəkdir.",
+            "faq_q3": "HTML emailləri yoxlaya bilərəmmi?",
+            "faq_a3": "Bu alət mətn məzmununu analiz edir. HTML üçün mətn versiyasını yapışdırın.",
+            "faq_q4": "Niyə etibarlı emaillər bəzən qeyd olunur?",
+            "faq_a4": "Spam filtrləri ehtiyatlıdır. Hətta qanuni emaillər reklam dili və ya zəif formatlama ucbatından filtrə düşə bilər.",
+            "faq_q5": "Göndərici reputasiyamı necə yaxşılaşdıra bilərəm?",
+            "faq_a5": "Təmiz siyahılar saxlayın, mütəmadi göndərin və spam şikayətlərindən qaçın.",
+            "faq_q6": "Bu alət mənim məzmunumu harasa göndərirmi?",
+            "faq_a6": "Xeyr. Bütün analiz brauzerinizdə yerli olaraq baş verir. Biz məzmununuzu saxlamırıq."
+        },
+        "breach_checker": {
+            "title": "Məlumat Sızması Yoxlayıcısı",
+            "subtitle": "Şəxsiyyətiniz satışdadır? E-poçtunuzun ifşa olunub-olunmadığını görmək üçün dünyanın ən əhatəli sızma verilənlər bazalarını skan edin.",
+            "label": "Məlumat Sızması Yoxlayıcısı",
+            "placeholder": "Skan etmək üçün e-poçt ünvanınızı daxil edin...",
+            "button": "İNDİ SKAN ET",
+            "scanning": "SKAN OLUNUR...",
+            "scanning_title": "Qlobal Verilən Bazaları Skan Edilir",
+            "scanning_desc": "E-poçtunuz 500-dən çox təhlükəsizlik sızması bazası ilə müqayisə edilir...",
+            "exposure_detected": "İfşa Aşkar Edildi!",
+            "exposure_warn": "Xəbərdarlıq: Bu e-poçt ünvanı məlum məlumat sızmalarında göründü. Şəxsi məlumatlarınız əlçatan ola bilər.",
+            "breach_details": "SIZMA TƏFƏRRÜATLARINI GÖR",
+            "reset_scan": "SKANI SIFIRLA",
+            "clean_status": "Təmiz Status",
+            "clean_msg": "Yaxşı xəbər! İzlənilən sızma bazalarımızda bu e-poçt ünvanına aid heç bir qeyd tapılmadı.",
+            "new_scan": "YENİ SKAN BAŞLAT",
+            "why_title": "Niyə Məlumat Sızmalarını Yoxlamalı?",
+            "feature1_title": "500+ Sızma Bazası",
+            "feature1_desc": "Dünya miqyasında minlərlə doğrulanmış sızma məlumatlarını izləyirik və indeksləşdiririk.",
+            "feature2_title": "Məxfilik Yönümlü Skan",
+            "feature2_desc": "E-poçtunuz ötürülməzdən əvvəl hash-lənir. Axtarışlarınızı heç vaxt saxlamırıq.",
+            "feature3_title": "Real Zamanlı Monitorinq",
+            "feature3_desc": "Verilənlər bazamız yeni kəşf edilmiş sızmalarla mütəmadi olaraq yenilənir.",
+            "what_is_title": "Məlumat Sızması Nədir?",
+            "what_is_p": "Məlumat sızması kiber-cinayətkarların bir şirkətin bazasına sanksiyasız giriş əldə etməsi və həssas məlumatları oğurlamasıdır.",
+            "how_to_title": "Bu Alətdən Necə İstifadə Etməli",
+            "how_step1": "Yuxarıdakı axtarış qutusuna email ünvanınızı daxil edin",
+            "how_step2": "Axtarışı başlatmaq üçün \"İndİ Skan Et\" düyməsini basın",
+            "how_step3": "Nəticələri nəzərdən keçirin - emailin məlum sızmalarda olub-olmadığını göstərəcəyik",
+            "how_step4": "Hərəkətə keçin - sızma aşkar edilərsə, dərhal şifrələri dəyişin",
+            "what_to_do_title": "Emailiniz Sızmaya Məruz Qalıbsa Nə Etməli",
+            "what_to_do_p": "Təşvişə düşməyin - şifrələri dəyişərək, 2FA-nı aktivləşdirərək və fəaliyyətinizi izləyərək cəld hərəkət edin.",
+            "action1_title": "Şifrələri Dəyişin",
+            "action1_desc": "Həmin email ilə istifadə olunan bütün hesabların şifrələrini dərhal yeniləyin",
+            "action2_title": "2FA-nı Aktivləşdirin",
+            "action2_desc": "Kritik hesablarınıza iki-faktorlu autentifikasiya əlavə edin",
+            "action3_title": "Fəaliyyəti İzləyin",
+            "action3_desc": "Şübhəli giriş cəhdlərini və ya tranzaksiyaları nəzarətdə saxlayın",
+            "action4_title": "Unikal Şifrələr İstifadə Edin",
+            "action4_desc": "Şifrələri heç vaxt müxtəlif saytlarda eyni şəkildə istifadə etməyin",
+            "pro_tip_title": "Vacib Təhlükəsizlik Məsləhəti",
+            "pro_tip_p": "Əgər eyni şifrəni bir neçə yerdə istifadə edirsinizsə və biri sızarsa, hakerlər həmin şifrəni digər məşhur servislərdə sınayacaqlar (credential stuffing).",
+            "faq_title": "Tez-tez Verilən Suallar",
+            "faq_q1": "Sızma yoxlayıcısı necə işləyir?",
+            "faq_a1": "Emailinizi təhlükəsiz şəkildə hash-ləyirik və indeksləşdirilmiş sızma qeydlərimizlə müqayisə edirik.",
+            "faq_q2": "Bu aləti istifadə edərkən emailim təhlükəsizdirmi?",
+            "faq_a2": "Bəli. Emailiniz hash-lənir və biz axtarış tarixçənizi və ya ünvanınızı saxlamırıq.",
+            "faq_q3": "Emailim sızmada tapılarsa nə etməliyəm?",
+            "faq_a3": "Dərhal şifrəni dəyişin, 2FA-nı aktiv edin və şifrə menecerindən istifadə edin.",
+            "faq_q4": "Sızma bazanız nə qədər tez-tez yenilənir?",
+            "faq_a4": "Yeni sızmalar aşkar edildikdə bazamızı mütəmadi olaraq yeniləyirik.",
+            "faq_q5": "Birdən çox email ünvanını yoxlaya bilərəmmi?",
+            "faq_a5": "Bəli! Hər ünvan üçün yeni skan başlada bilərsiniz. Limit yoxdur.",
+            "faq_q6": "Nəticə 'təmiz' çıxsa belə yenə də narahatam, nə edim?",
+            "faq_a6": "'Təmiz' nəticə yaxşıdır, lakin həmişə güclü şifrələr və 2FA istifadə etmək ən yaxşı təcrübədir."
+        },
+        "tools_index": {
+            "title": "Pulsuz Email Təhlükəsizlik Alətləri",
+            "subtitle": "Rəqəmsal şəxsiyyətinizi qorumaq üçün peşəkar məxfilik və təhlükəsizlik utilitləri. Qeydiyyat yoxdur, ödəniş yoxdur — sadəcə anında, güclü alətlər.",
+            "why_title": "Niyə Bizim Təhlükəsizlik Alətlərimizi Seçməli?",
+            "benefit1_title": "100% Məxfilik Yönümlü",
+            "benefit1_desc": "Bütün alətlər brauzerinizdə işləyir. Biz məlumatlarınızı heç vaxt saxlamırıq, ötürmürük və ya onlara daxil olmuruq.",
+            "benefit2_title": "Anında Nəticələr",
+            "benefit2_desc": "Gözləmədən dərhal rəy alın. Alətlərimiz sürət və dəqiqlik üçün optimallaşdırılıb.",
+            "benefit3_title": "Müəssisə Səviyyəli Təhlükəsizlik",
+            "benefit3_desc": "Banklar və təhlükəsizlik peşəkarları tərəfindən istifadə olunan eyni kriptoqrafik standartlarla qurulub.",
+            "complementary_title": "Tamamlayıcı Məxfilik Tətbiqləri",
+            "launch_tool": "ALƏTİ BAŞLAT",
+            "premium_cta_title": "Daha Mürəkkəb İmkanlara Ehtiyacınız Var?",
+            "premium_cta_desc": "Limitsiz email alyasları, qabaqcıl sızma monitorinqi və prioritet dəstək üçün premium-a keçin.",
+            "premium_cta_button": "PREMIUMU KƏŞF ET"
+        }
+    }
+}
