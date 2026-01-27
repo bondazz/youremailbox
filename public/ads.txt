@@ -1,3 +1,3 @@
 # YourEmailBox AdSense Configuration
 # Authorized Digital Sellers
-google.com, pub-2757499834056766, DIRECT, f08c47fec0942fa0
+google.com, pub-6208596025721357, DIRECT, f08c47fec0942fa0
