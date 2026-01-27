@@ -17,6 +17,12 @@ function getBlogPosts(lang: string): string[] {
     }
 }
 
+export async function generateStaticParams() {
+    const languages = ['en', 'tr', 'ru', 'ar', 'fr', 'de', 'es', 'zh', 'it', 'uk', 'fa', 'hi', 'hu', 'az'];
+    return languages.map(lang => ({ lang }));
+}
+
+
 export async function GET(
     request: Request,
     { params }: { params: Promise<{ lang: string }> }
