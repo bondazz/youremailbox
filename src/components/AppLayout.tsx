@@ -167,7 +167,7 @@ export default function AppLayout({ children, dictionary, lang }: LayoutProps) {
                     </div>
 
                     <div style={{ gridColumn: 'span 2' }}>
-                        <h4 className="footer-title">{dictionary.footer?.categories?.features?.title}</h4>
+                        <h3 className="footer-title">{dictionary.footer?.categories?.features?.title}</h3>
                         <ul className="footer-ul">
                             {dictionary.footer?.categories?.features?.links?.map((link: any, i: number) => (
                                 <li key={i}><FooterLink href={link.href.startsWith('/') ? `/${lang}${link.href}` : link.href}>{link.label}</FooterLink></li>
@@ -176,7 +176,7 @@ export default function AppLayout({ children, dictionary, lang }: LayoutProps) {
                     </div>
 
                     <div style={{ gridColumn: 'span 2' }}>
-                        <h4 className="footer-title">{dictionary.footer?.categories?.links?.title}</h4>
+                        <h3 className="footer-title">{dictionary.footer?.categories?.links?.title}</h3>
                         <ul className="footer-ul">
                             {dictionary.footer?.categories?.links?.links?.map((link: any, i: number) => (
                                 <li key={i}><FooterLink href={link.href.startsWith('/') ? `/${lang}${link.href}` : link.href}>{link.label}</FooterLink></li>
@@ -185,7 +185,7 @@ export default function AppLayout({ children, dictionary, lang }: LayoutProps) {
                     </div>
 
                     <div style={{ gridColumn: 'span 3' }}>
-                        <h4 className="footer-title">{dictionary.footer?.categories?.free_tools?.title}</h4>
+                        <h3 className="footer-title">{dictionary.footer?.categories?.free_tools?.title}</h3>
                         <ul className="footer-ul">
                             {dictionary.footer?.categories?.free_tools?.links?.map((link: any, i: number) => (
                                 <li key={i}><FooterLink href={link.href.startsWith('/') ? `/${lang}${link.href}` : link.href}>{link.label}</FooterLink></li>
@@ -194,7 +194,7 @@ export default function AppLayout({ children, dictionary, lang }: LayoutProps) {
                     </div>
 
                     <div style={{ gridColumn: 'span 2' }}>
-                        <h4 className="footer-title">{dictionary.footer?.categories?.company?.title}</h4>
+                        <h3 className="footer-title">{dictionary.footer?.categories?.company?.title}</h3>
                         <ul className="footer-ul">
                             {dictionary.footer?.categories?.company?.links?.map((link: any, i: number) => (
                                 <li key={i}><FooterLink href={`/${lang}${link.href}`}>{link.label}</FooterLink></li>
