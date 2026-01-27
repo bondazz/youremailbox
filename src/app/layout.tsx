@@ -40,15 +40,17 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: { lang: string };
+  params: Promise<{ lang?: string }>;
 }) {
+  const { lang } = await params;
+
   return (
-    <html lang={params.lang || 'en'} className={`${inter.variable} ${outfit.variable}`}>
+    <html lang={lang || 'en'} className={`${inter.variable} ${outfit.variable}`}>
       <head>
         <link rel="icon" href="/logo.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />

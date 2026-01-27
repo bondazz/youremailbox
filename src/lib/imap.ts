@@ -57,7 +57,7 @@ export async function fetchEmails(alias: string): Promise<EmailMessage[]> {
 
           f.on('message', (msg, seqno) => {
             msg.on('body', (stream) => {
-              simpleParser(stream, (err, parsed) => {
+              simpleParser(stream as any, (err, parsed) => {
                 processed++;
                 if (!err) {
                   messages.push({
