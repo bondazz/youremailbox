@@ -70,25 +70,49 @@ export default async function ToolsPage({ params }: { params: Params }) {
         url: `https://youremailbox.com/${lang}/tools`,
         publisher: {
             '@type': 'Organization',
-            name: 'YourEmailBox',
+            'name': 'YourEmailBox',
+            'logo': {
+                '@type': 'ImageObject',
+                'url': 'https://youremailbox.com/logo.png'
+            }
         },
         breadcrumb: {
             '@type': 'BreadcrumbList',
             itemListElement: [
-                {
-                    '@type': 'ListItem',
-                    position: 1,
-                    name: 'Home',
-                    item: `https://youremailbox.com/${lang}`,
-                },
-                {
-                    '@type': 'ListItem',
-                    position: 2,
-                    name: 'Tools',
-                    item: `https://youremailbox.com/${lang}/tools`,
-                },
-            ],
+                { '@type': 'ListItem', 'position': 1, 'name': dictionary.navigation?.home || 'Home', 'item': `https://youremailbox.com/${lang}` },
+                { '@type': 'ListItem', 'position': 2, 'name': dictionary.navigation?.tools || 'Tools', 'item': `https://youremailbox.com/${lang}/tools` }
+            ]
         },
+        hasPart: [
+            {
+                '@type': 'SoftwareApplication',
+                'name': 'Spam Checker',
+                'applicationCategory': 'UtilitiesApplication',
+                'url': `https://youremailbox.com/${lang}/tools/spam-checker`,
+                'description': 'Analyze emails for spam indicators.'
+            },
+            {
+                '@type': 'SoftwareApplication',
+                'name': 'Password Generator',
+                'applicationCategory': 'UtilitiesApplication',
+                'url': `https://youremailbox.com/${lang}/tools/password-generator`,
+                'description': 'Generate strong, secure passwords.'
+            },
+            {
+                '@type': 'SoftwareApplication',
+                'name': 'Email Validator',
+                'applicationCategory': 'UtilitiesApplication',
+                'url': `https://youremailbox.com/${lang}/tools/email-validator`,
+                'description': 'Verify if an email address exists and is valid.'
+            },
+            {
+                '@type': 'SoftwareApplication',
+                'name': 'Data Breach Checker',
+                'applicationCategory': 'SecurityApplication',
+                'url': `https://youremailbox.com/${lang}/tools/data-breach-checker`,
+                'description': 'Check if your email has been compromised in a data breach.'
+            }
+        ]
     };
 
     return (

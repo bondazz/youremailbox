@@ -16,5 +16,33 @@ export default async function ContactPage({ params }: { params: Params }) {
     const { lang } = await params;
     const dictionary = await getDictionary(lang);
 
-    return <ContactClient dictionary={dictionary} lang={lang} />;
+    const schema = {
+        '@context': 'https://schema.org',
+        '@type': 'ContactPage',
+        'name': 'Contact YourEmailBox',
+        'description': 'Get support or report security issues.',
+        'url': `https://youremailbox.com/${lang}/contacts`,
+        'mainEntity': {
+            '@type': 'Organization',
+            'name': 'YourEmailBox',
+            'email': 'support@youremailbox.com',
+            'contactPoint': {
+                '@type': 'ContactPoint',
+                'telephone': '+1-555-012-3456',
+                'contactType': 'customer service',
+                'areaServed': 'US',
+                'availableLanguage': ['en', 'ru', 'tr']
+            }
+        }
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+            />
+            <ContactClient dictionary={dictionary} lang={lang} />
+        </>
+    );
 }

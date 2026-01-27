@@ -16,5 +16,35 @@ export default async function AboutUsPage({ params }: { params: Params }) {
     const { lang } = await params;
     const dictionary = await getDictionary(lang);
 
-    return <AboutUsClient dictionary={dictionary} lang={lang} />;
+    const schema = {
+        '@context': 'https://schema.org',
+        '@type': 'AboutPage',
+        'name': 'About YourEmailBox',
+        'description': 'Mission and values of YourEmailBox.',
+        'url': `https://youremailbox.com/${lang}/about-us`,
+        'mainEntity': {
+            '@type': 'Organization',
+            'name': 'YourEmailBox',
+            'url': 'https://youremailbox.com',
+            'logo': 'https://youremailbox.com/logo.png',
+            'foundingDate': '2023',
+            'founders': [
+                {
+                    '@type': 'Person',
+                    'name': 'YourEmailBox Team'
+                }
+            ],
+            'description': 'Leading provider of secure, disposable temporary email services.'
+        }
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+            />
+            <AboutUsClient dictionary={dictionary} lang={lang} />
+        </>
+    );
 }

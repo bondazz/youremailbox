@@ -58,7 +58,7 @@ export default async function Page({ params }: { params: Params }) {
 
     const structuredData = {
         '@context': 'https://schema.org',
-        '@type': 'WebApplication',
+        '@type': 'SoftwareApplication',
         name: 'Data Breach Checker',
         applicationCategory: 'SecurityApplication',
         operatingSystem: 'Any',
@@ -69,9 +69,13 @@ export default async function Page({ params }: { params: Params }) {
         },
         description: 'Free tool to check if your email address has been exposed in known data breaches',
         url: `https://youremailbox.com/${lang}/tools/data-breach-checker`,
-        author: {
+        publisher: {
             '@type': 'Organization',
             name: 'YourEmailBox',
+            logo: {
+                '@type': 'ImageObject',
+                url: 'https://youremailbox.com/logo.png'
+            }
         },
         breadcrumb: {
             '@type': 'BreadcrumbList',

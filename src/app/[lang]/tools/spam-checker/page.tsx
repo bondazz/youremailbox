@@ -58,9 +58,9 @@ export default async function Page({ params }: { params: Params }) {
 
     const structuredData = {
         '@context': 'https://schema.org',
-        '@type': 'WebApplication',
+        '@type': 'SoftwareApplication',
         name: 'Spam Checker',
-        applicationCategory: 'UtilityApplication',
+        applicationCategory: 'UtilitiesApplication',
         operatingSystem: 'Any',
         offers: {
             '@type': 'Offer',
@@ -69,9 +69,13 @@ export default async function Page({ params }: { params: Params }) {
         },
         description: 'Free spam checker tool to analyze email content for spam triggers and improve deliverability',
         url: `https://youremailbox.com/${lang}/tools/spam-checker`,
-        author: {
+        publisher: {
             '@type': 'Organization',
             name: 'YourEmailBox',
+            logo: {
+                '@type': 'ImageObject',
+                url: 'https://youremailbox.com/logo.png'
+            }
         },
         breadcrumb: {
             '@type': 'BreadcrumbList',

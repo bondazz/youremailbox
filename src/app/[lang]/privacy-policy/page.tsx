@@ -66,6 +66,13 @@ export default async function PrivacyPolicyPage({ params }: { params: Params }) 
                 '@type': 'ImageObject',
                 'url': 'https://youremailbox.com/logo.png'
             }
+        },
+        'breadcrumb': {
+            '@type': 'BreadcrumbList',
+            'itemListElement': [
+                { '@type': 'ListItem', 'position': 1, 'name': dictionary.navigation?.home || 'Home', 'item': `https://youremailbox.com/${lang}` },
+                { '@type': 'ListItem', 'position': 2, 'name': content.title, 'item': `https://youremailbox.com/${lang}/privacy-policy` }
+            ]
         }
     };
 

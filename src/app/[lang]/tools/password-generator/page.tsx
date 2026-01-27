@@ -59,9 +59,9 @@ export default async function Page({ params }: { params: Params }) {
     // Structured Data for SEO
     const structuredData = {
         '@context': 'https://schema.org',
-        '@type': 'WebApplication',
+        '@type': 'SoftwareApplication',
         name: 'Password Generator',
-        applicationCategory: 'SecurityApplication',
+        applicationCategory: 'UtilitiesApplication',
         operatingSystem: 'Any',
         offers: {
             '@type': 'Offer',
@@ -70,9 +70,13 @@ export default async function Page({ params }: { params: Params }) {
         },
         description: 'Free online password generator tool that creates cryptographically secure passwords',
         url: `https://youremailbox.com/${lang}/tools/password-generator`,
-        author: {
+        publisher: {
             '@type': 'Organization',
             name: 'YourEmailBox',
+            logo: {
+                '@type': 'ImageObject',
+                url: 'https://youremailbox.com/logo.png'
+            }
         },
         breadcrumb: {
             '@type': 'BreadcrumbList',

@@ -87,10 +87,20 @@ export default async function BlogPostPage({ params }: { params: Params }) {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         'headline': post.title,
-        'description': post.description,
+        'name': post.title,
+        'description': post.description || post.seoDescription,
         'image': post.image,
-        'author': { '@type': 'Person', 'name': post.author },
-        'datePublished': post.date,
+        'author': { '@type': 'Person', 'name': post.author || 'YourEmailBox Team' },
+        'publisher': {
+            '@type': 'Organization',
+            'name': 'YourEmailBox',
+            'logo': {
+                '@type': 'ImageObject',
+                'url': 'https://youremailbox.com/logo.png'
+            }
+        },
+        'datePublished': post.date ? new Date(post.date).toISOString() : undefined,
+        'dateModified': post.date ? new Date(post.date).toISOString() : undefined,
         'mainEntityOfPage': { '@type': 'WebPage', '@id': postUrl }
     };
 

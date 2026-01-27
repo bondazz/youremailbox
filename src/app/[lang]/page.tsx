@@ -128,31 +128,78 @@ export default async function Page({ params }: { params: Params }) {
     const dictionary = await getDictionary(lang);
     const posts = lang === 'ru' ? blogRu : blogEn;
 
-    const jsonLd = {
-        '@context': 'https://schema.org',
-        '@type': 'WebApplication',
-        'name': 'YourEmailBox - Free Temporary Email Service',
-        'url': `https://youremailbox.com/${lang}`,
-        'description': dictionary.meta_description,
-        'applicationCategory': 'CommunicationApplication',
-        'operatingSystem': 'Any',
-        'keywords': 'free temporary email, disposable mail, anonymous email, temp mail',
-        'author': {
-            '@type': 'Organization',
-            'name': 'YourEmailBox Security Team',
-            'url': 'https://youremailbox.com'
-        },
-        'offers': {
-            '@type': 'Offer',
-            'price': '0',
-            'priceCurrency': 'USD'
-        },
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '12500'
+    const faqSchema = dictionary.seo_content?.faq_list?.map((faq: any) => ({
+        '@type': 'Question',
+        'name': faq.question,
+        'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': faq.answer
         }
-    };
+    })) || [];
+
+    const jsonLd = [
+        {
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            'name': 'YourEmailBox',
+            'url': 'https://youremailbox.com',
+            'logo': 'https://youremailbox.com/logo.png',
+            'sameAs': [
+                'https://twitter.com/youremailbox',
+                'https://github.com/youremailbox'
+            ],
+            'contactPoint': {
+                '@type': 'ContactPoint',
+                'telephone': '+1-555-012-3456',
+                'contactType': 'customer service',
+                'areaServed': 'US',
+                'availableLanguage': ['en', 'ru', 'tr', 'az']
+            }
+        },
+        {
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            'name': 'YourEmailBox',
+            'url': 'https://youremailbox.com',
+            'potentialAction': {
+                '@type': 'SearchAction',
+                'target': 'https://youremailbox.com/search?q={search_term_string}',
+                'query-input': 'required name=search_term_string'
+            }
+        },
+        {
+            '@context': 'https://schema.org',
+            '@type': 'SoftwareApplication',
+            'name': 'YourEmailBox',
+            'applicationCategory': 'CommunicationApplication',
+            'operatingSystem': 'Any',
+            'description': dictionary.meta_description,
+            'offers': {
+                '@type': 'Offer',
+                'price': '0',
+                'priceCurrency': 'USD'
+            },
+            'aggregateRating': {
+                '@type': 'AggregateRating',
+                'ratingValue': '4.9',
+                'ratingCount': '12500'
+            }
+        },
+        {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            'mainEntity': faqSchema
+        },
+        {
+            '@context': 'https://schema.org',
+            '@type': 'VideoObject',
+            'name': 'How to use YourEmailBox',
+            'description': 'Learn how to protect your privacy with instant temporary email addresses.',
+            'thumbnailUrl': 'https://youremailbox.com/og-image-global.png',
+            'uploadDate': '2024-01-01T08:00:00+08:00',
+            'contentUrl': 'https://www.w3schools.com/html/mov_bbb.mp4'
+        }
+    ];
 
     return (
         <>

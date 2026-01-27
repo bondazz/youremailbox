@@ -78,13 +78,23 @@ export default async function BlogPage({ params }: { params: Params }) {
         '@type': 'Blog',
         'name': 'YourEmailBox Security Blog',
         'url': `${baseUrl}/${lang}/blog`,
-        'description': 'Latest updates, security tips, and news about temporary email services.',
+        'description': dictionary.blog?.subtitle || 'Latest updates, security tips, and news about temporary email services.',
+        'publisher': {
+            '@type': 'Organization',
+            'name': 'YourEmailBox',
+            'logo': {
+                '@type': 'ImageObject',
+                'url': 'https://youremailbox.com/logo.png'
+            }
+        },
         'blogPost': posts.map((post: any) => ({
             '@type': 'BlogPosting',
             'headline': post.title,
             'image': post.image,
             'url': `${baseUrl}/${lang}/blog/${post.slug}`,
-            'author': { '@type': 'Person', 'name': post.author }
+            'description': post.description || post.seoDescription,
+            'datePublished': post.date ? new Date(post.date).toISOString() : undefined,
+            'author': { '@type': 'Person', 'name': post.author || 'YourEmailBox Team' }
         }))
     };
 

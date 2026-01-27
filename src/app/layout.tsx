@@ -32,6 +32,21 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "YourEmailBox - Premium Temporary Email & Private Digital Identity",
   description: "Secure, anonymous, and disposable temporary email service. Protect your privacy with enterprise-grade infrastructure. No registration required.",
+  metadataBase: new URL('https://youremailbox.com'),
+  openGraph: {
+    images: [
+      {
+        url: '/og-image-global.png',
+        width: 1200,
+        height: 630,
+        alt: 'YourEmailBox - Premium Temporary Email Service',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-image-global.png'],
+  },
   robots: {
     index: true,
     follow: true,
