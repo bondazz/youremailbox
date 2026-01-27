@@ -122,6 +122,7 @@ export default function MainApp({ dictionary, lang, posts = [] }: Props) {
                             </code>
                             <button
                                 onClick={copyToClipboard}
+                                aria-label={dictionary.buttons?.copy || "Copy email address"}
                                 style={{
                                     background: 'none',
                                     border: 'none',
@@ -162,6 +163,7 @@ export default function MainApp({ dictionary, lang, posts = [] }: Props) {
                                     <button
                                         onClick={handleInboxRefresh}
                                         disabled={loading}
+                                        aria-label={dictionary.inbox?.refresh || "Refresh inbox"}
                                         style={{
                                             minWidth: isRefreshing ? '110px' : '40px',
                                             height: '40px',
@@ -223,7 +225,7 @@ export default function MainApp({ dictionary, lang, posts = [] }: Props) {
                                                 style={{
                                                     fontWeight: 800,
                                                     fontSize: '0.85rem',
-                                                    color: 'rgba(255,255,255,0.9)',
+                                                    color: 'rgba(255,255,255,0.7)',
                                                     letterSpacing: '2px',
                                                     marginTop: '20px',
                                                     fontFamily: 'var(--font-outfit)'
@@ -283,7 +285,11 @@ export default function MainApp({ dictionary, lang, posts = [] }: Props) {
                             </div>
                         ) : (
                             <motion.div initial={{ opacity: 0, scale: 0.99 }} animate={{ opacity: 1, scale: 1 }} className="glass" style={{ padding: '32px', borderRadius: '32px' }}>
-                                <button onClick={() => setSelectedEmail(null)} style={{ color: 'var(--accent-primary)', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '24px', fontWeight: 800, fontSize: '0.9rem', cursor: 'pointer', background: 'none', border: 'none' }}>
+                                <button
+                                    onClick={() => setSelectedEmail(null)}
+                                    aria-label="Back to inbox"
+                                    style={{ color: 'var(--accent-primary)', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '24px', fontWeight: 800, fontSize: '0.9rem', cursor: 'pointer', background: 'none', border: 'none' }}
+                                >
                                     <ArrowLeft size={16} /> {dictionary.inbox?.return_to_inbox || 'RETURN TO INBOX'}
                                 </button>
                                 <div style={{ marginBottom: '28px' }}>
@@ -348,8 +354,9 @@ export default function MainApp({ dictionary, lang, posts = [] }: Props) {
                             }}
                         >
                             <video
-                                src="https://assets.mixkit.co/videos/preview/mixkit-abstract-flowing-purple-and-blue-gradient-background-20894-large.mp4"
+                                src="https://www.w3schools.com/html/mov_bbb.mp4"
                                 autoPlay loop muted playsInline
+                                aria-label="Instructional video on how to use temporary email"
                                 style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.6 }}
                             />
                             <div style={{ position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: 'rgba(0,0,0,0.2)' }}>
@@ -405,7 +412,7 @@ export default function MainApp({ dictionary, lang, posts = [] }: Props) {
                                 }}>
                                     <img src={app.img} alt={app.name} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                                 </div>
-                                <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'rgba(255,255,255,0.2)' }}>{app.name}</span>
+                                <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'rgba(255,255,255,0.8)' }}>{app.name}</span>
 
                                 <div className="coming-soon-badge" style={{
                                     position: 'absolute',
@@ -416,9 +423,9 @@ export default function MainApp({ dictionary, lang, posts = [] }: Props) {
                                     borderRadius: '8px',
                                     fontSize: '0.6rem',
                                     fontWeight: 900,
-                                    color: 'rgba(255,255,255,0.3)',
+                                    color: 'rgba(255,255,255,0.7)',
                                     letterSpacing: '0.5px',
-                                    border: '1px solid rgba(255,255,255,0.05)'
+                                    border: '1px solid rgba(255,255,255,0.1)'
                                 }}>
                                     {dictionary.inbox?.soon || 'SOON'}
                                 </div>
@@ -581,9 +588,9 @@ export default function MainApp({ dictionary, lang, posts = [] }: Props) {
                                         <Edit2 size={24} color="var(--accent-primary)" />
                                     </div>
                                     <div>
-                                        <h3 style={{ fontSize: '1.6rem', fontWeight: 900, color: '#fff', letterSpacing: '-0.5px', margin: 0 }}>
+                                        <h2 style={{ fontSize: '1.6rem', fontWeight: 900, color: '#fff', letterSpacing: '-0.5px', margin: 0 }}>
                                             {dictionary.buttons?.change || 'Change Email'}
-                                        </h3>
+                                        </h2>
                                         <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', fontWeight: 500, margin: '4px 0 0 0' }}>{dictionary.common?.modal?.subtitle || 'Create your unique temporary address'}</p>
                                     </div>
                                 </div>
@@ -609,6 +616,7 @@ export default function MainApp({ dictionary, lang, posts = [] }: Props) {
                                                 <button
                                                     onClick={(e: any) => { e?.preventDefault(); setCustomPrefix(Math.random().toString(36).substring(2, 10)); }}
                                                     className="random-btn-inner"
+                                                    aria-label="Generate random alias"
                                                 >
                                                     <Dices size={18} />
                                                 </button>

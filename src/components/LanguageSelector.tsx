@@ -49,6 +49,7 @@ export default function LanguageSelector({ currentLang, dictionary }: { currentL
         <div style={{ position: 'relative', zIndex: 4000, overflow: 'visible' }} ref={containerRef}>
             <button
                 onClick={() => setIsOpen(!isOpen)}
+                aria-label={dictionary?.common?.select_language || "Select Language"}
                 style={{
                     display: 'flex',
                     alignItems: 'center',

@@ -86,6 +86,7 @@ export default function AppLayout({ children, dictionary, lang }: LayoutProps) {
                 <button
                     className="hamburger-btn"
                     onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                    aria-label={isMobileMenuOpen ? "Close Menu" : "Open Menu"}
                 >
                     <span className={`hamburger-line ${isMobileMenuOpen ? 'open' : ''}`}></span>
                     <span className={`hamburger-line ${isMobileMenuOpen ? 'open' : ''}`}></span>
@@ -112,7 +113,11 @@ export default function AppLayout({ children, dictionary, lang }: LayoutProps) {
                         >
                             <div style={{ padding: '20px 24px', borderBottom: '1px solid var(--glass-border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                                 <div className="logo-font" style={{ fontSize: '1.3rem', color: '#fff' }}>{dictionary.common?.menu || 'Menu'}</div>
-                                <button onClick={() => setIsMobileMenuOpen(false)} style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid var(--glass-border)', borderRadius: '10px', width: '36px', height: '36px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'rgba(255,255,255,0.7)', cursor: 'pointer' }}>
+                                <button
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                    aria-label="Close mobile menu"
+                                    style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid var(--glass-border)', borderRadius: '10px', width: '36px', height: '36px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'rgba(255,255,255,0.7)', cursor: 'pointer' }}
+                                >
                                     <X size={20} />
                                 </button>
                             </div>
@@ -141,11 +146,11 @@ export default function AppLayout({ children, dictionary, lang }: LayoutProps) {
                         <div>
                             <div className="logo-font" style={{ fontSize: '1.8rem', color: '#fff' }}>YourEmailBox</div>
                             <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', marginTop: '8px' }}>{dictionary.footer?.brand_tagline}</p>
-                            <p style={{ color: 'rgba(255,255,255,0.2)', fontSize: '0.85rem', marginTop: '4px' }}>© 2026 youremailbox.com</p>
+                            <p style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.85rem', marginTop: '4px' }}>© 2026 youremailbox.com</p>
                         </div>
                         <div style={{
-                            background: 'rgba(255,255,255,0.02)',
-                            border: '1px solid rgba(255,255,255,0.05)',
+                            background: 'rgba(255,255,255,0.05)',
+                            border: '1px solid rgba(255,255,255,0.1)',
                             borderRadius: '12px',
                             padding: '12px 16px',
                             display: 'flex',
@@ -155,7 +160,7 @@ export default function AppLayout({ children, dictionary, lang }: LayoutProps) {
                         }}>
                             <Zap size={20} color="#ff9c07" fill="#ff9c07" />
                             <div>
-                                <div style={{ fontSize: '0.65rem', fontWeight: 900, color: 'rgba(255,255,255,0.4)', letterSpacing: '1px' }}>{dictionary.footer?.featured_on}</div>
+                                <div style={{ fontSize: '0.65rem', fontWeight: 900, color: 'rgba(255,255,255,0.6)', letterSpacing: '1px' }}>{dictionary.footer?.featured_on}</div>
                                 <div style={{ fontSize: '0.9rem', fontWeight: 900, color: '#fff' }}>{dictionary.footer?.startup_found}</div>
                             </div>
                         </div>
@@ -245,7 +250,7 @@ function HeaderLink({ label, href, active = false }: { label: string, href: stri
 function FooterLink({ children, href = "#" }: { children: React.ReactNode, href?: string }) {
     return (
         <Link href={href} style={{ textDecoration: 'none' }}>
-            <div style={{ color: 'rgba(255,255,255,0.5)', transition: '0.15s', fontSize: '0.85rem', fontWeight: 600, cursor: 'pointer' }}>
+            <div style={{ color: 'rgba(255,255,255,0.6)', transition: '0.15s', fontSize: '0.85rem', fontWeight: 600, cursor: 'pointer' }}>
                 {children}
             </div>
         </Link>
