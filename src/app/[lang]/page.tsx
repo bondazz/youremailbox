@@ -130,10 +130,10 @@ export default async function Page({ params }: { params: Params }) {
 
     const faqSchema = dictionary.seo_content?.faq_list?.map((faq: any) => ({
         '@type': 'Question',
-        'name': faq.question,
+        'name': faq.q,
         'acceptedAnswer': {
             '@type': 'Answer',
-            'text': faq.answer
+            'text': faq.a
         }
     })) || [];
 
