@@ -457,6 +457,7 @@ export default function MainApp({ dictionary, lang, posts = [] }: Props) {
                                 title={post.title}
                                 description={post.description}
                                 author={post.author}
+                                authorImage={post.authorImage}
                                 date={post.date}
                                 dictionary={dictionary}
                             />

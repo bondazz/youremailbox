@@ -78,8 +78,12 @@ export function BlogPostContent({ lang, post, allPosts, dictionary }: BlogPostCo
                 <h1 style={{ fontSize: '2.8rem', fontWeight: 900, color: '#fff', lineHeight: 1.15, marginBottom: '24px', letterSpacing: '-1.2px' }}>{post.title}</h1>
 
                 <div style={{ display: 'flex', alignItems: 'center', gap: '14px', padding: '16px 0', borderTop: '1px solid rgba(255,255,255,0.05)', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
-                    <div style={{ width: '44px', height: '44px', borderRadius: '50%', overflow: 'hidden', border: '1px solid var(--accent-primary)' }}>
-                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=100" alt={post.author} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                    <div style={{ width: '44px', height: '44px', borderRadius: '50%', overflow: 'hidden', border: '1px solid var(--accent-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--accent-primary)', color: '#fff', fontWeight: 900, fontSize: '0.9rem' }}>
+                        {post.authorImage ? (
+                            <img src={post.authorImage} alt={post.author} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                        ) : (
+                            post.author?.split(' ').map((n: string) => n[0]).join('').toUpperCase().slice(0, 2) || 'A'
+                        )}
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'column' }}>
                         <span style={{ color: '#fff', fontWeight: 700, fontSize: '0.95rem' }}>{post.author}</span>

@@ -1,8 +1,8 @@
 import { getDictionary } from '@/get-dictionary';
 import MainApp from '@/components/MainApp';
 import { Metadata, Viewport } from 'next';
-import blogEn from '@/lib/data/blog_en.json';
-import blogRu from '@/lib/data/blog_ru.json';
+import fs from 'fs';
+import path from 'path';
 
 type Params = Promise<{ lang: string }>;
 
@@ -128,7 +128,18 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 export default async function Page({ params }: { params: Params }) {
     const { lang } = await params;
     const dictionary = await getDictionary(lang);
-    const posts = lang === 'ru' ? blogRu : blogEn;
+
+    // Dynamic post loading for all languages
+    let posts = [];
+    try {
+        const postsFilePath = path.join(process.cwd(), `src/lib/data/blog_${lang}.json`);
+        const fallbackPath = path.join(process.cwd(), 'src/lib/data/blog_en.json');
+        const filePath = fs.existsSync(postsFilePath) ? postsFilePath : fallbackPath;
+        const fileContent = fs.readFileSync(filePath, 'utf8');
+        posts = JSON.parse(fileContent);
+    } catch (e) {
+        posts = [];
+    }
 
     const faqSchema = dictionary.seo_content?.faq_list?.map((faq: any) => ({
         '@type': 'Question',

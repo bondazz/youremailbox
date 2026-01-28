@@ -9,7 +9,8 @@
         "seoDescription": "Learn how to use temporary email protocols to protect your identity and eliminate spam in 2026. Expert privacy tips inside.",
         "canonicalUrl": "",
         "robots": "index, follow",
-        "author": "Anton Troynin",
+        "author": "Sarah Johnson",
+        "authorImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=100",
         "date": "Jan 12, 2026",
         "content": "<h1>Ultimate Privacy Guide</h1><p>Spam is evolved. You need <b>disposable email</b> to stay safe...</p>"
     },
@@ -23,7 +24,8 @@
         "seoDescription": "Discover our new flexible API rate limits designed for developers and high-scale applications. Learn how to scale your security integration.",
         "canonicalUrl": "",
         "robots": "index, follow",
-        "author": "Anton Troynin",
+        "author": "Michael Chen",
+        "authorImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100",
         "date": "Dec 21, 2025",
         "content": "<h2>Scaling with YourEmailBox</h2><p>Our infrastructure now supports <b>10x more requests</b> per minute...</p>"
     },
@@ -37,7 +39,8 @@
         "seoDescription": "Exploring the shift in digital privacy. Learn why high-net-worth security starts with protecting your primary email address.",
         "canonicalUrl": "",
         "robots": "index, follow",
-        "author": "Anton Troynin",
+        "author": "Elena Rodriguez",
+        "authorImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=100",
         "date": "Nov 15, 2025",
         "content": "<h3>Data is the New Oil</h3><p>But oil spills. Protect your <i>primary inbox</i> with temp mail...</p>"
     }
