@@ -1,0 +1,762 @@
+{
+    "title": "Ingyenes ideiglenes e-mail - Gyors és korlátlan eldobható e-mail | YourEmailBox",
+    "meta_description": "Szerezzen ingyenes ideiglenes e-mail címet azonnal. Védje magánéletét eldobható e-mail szolgáltatásunkkal. Tökéletes a spam elkerülésére és regisztrációk hitelesítésére. Nincs naplózás, 100% privát. A legjobb ingyenes ideiglenes e-mail eszköz.",
+    "home": {
+        "seo": {
+            "title": "Ingyenes ideiglenes e-mail - Gyors és korlátlan eldobható e-mail | YourEmailBox",
+            "description": "Szerezzen azonnal ingyenes ideiglenes e-mail címet. Védje adatait eldobható e-mail szolgáltatásunkkal. Tökéletes a spam elkerülésére, fiókok hitelesítésére és anonim böngészéshez.",
+            "keywords": "ingyenes ideiglenes e-mail, eldobható e-mail, temp mail, egyszer használatos e-mail, ál e-mail, anonim e-mail, ideiglenes postaláda, 10 perces e-mail",
+            "og_title": "Ingyenes ideiglenes e-mail - Korlátlan eldobható e-mail | YourEmailBox",
+            "og_description": "Szerezzen ideiglenes e-mail címet másodpercek alatt. Védje identitását, kerülje el a spamet, és tartsa tisztán postaládáját.",
+            "twitter_title": "Ingyenes ideiglenes e-mail - YourEmailBox",
+            "twitter_description": "Védje identitását nagy sebességű eldobható e-mailekkel."
+        }
+    },
+    "hero": {
+        "title": "Ingyenes ideiglenes e-mail",
+        "subtitle": "A temp mail védi a magánéletét és spammentesen tartja postaládáját"
+    },
+    "hero_subtitle": "Védje elsődleges postaládáját. Szerezzen nagy sebességű, ingyenes ideiglenes e-mailt bármilyen regisztrációhoz, és maradjon anonim.",
+    "buttons": {
+        "copy": "Másolás",
+        "random": "Véletlenszerű",
+        "change": "Módosítás",
+        "delete": "Törlés",
+        "refresh": "Frissítés"
+    },
+    "tooltips": {
+        "copy": "E-mail cím másolása a vágólapra",
+        "random": "Új véletlenszerű e-mail generálása",
+        "change": "Egyéni e-mail cím beállítása",
+        "delete": "Aktuális e-mail és postaláda törlése"
+    },
+    "inbox": {
+        "title": "Beérkező levelek",
+        "messages": "Üzenetek",
+        "waiting": "Várakozás a bejövő e-mailekre...",
+        "checking": "Postaláda ellenőrzése...",
+        "interval_text": "20 másodpercenként frissül az adatforgalom kímélése érdekében.",
+        "refresh_status_updated": "Frissítve",
+        "return_to_inbox": "VISSZA A POSTALÁDÁHOZ",
+        "from_label": "FELADÓ:",
+        "video_instruction": "Videós útmutató",
+        "soon": "HAMAROSAN"
+    },
+    "seo_content": {
+        "h1": "Mi az az eldobható ideiglenes e-mail?",
+        "intro_p": "Személyes postaládájának védelme a <b>kéretlen spamektől</b> és <b>rosszindulatú szoftverektől</b> gyerekjáték egy <a href=\"https://hu.wikipedia.org/wiki/E-mail\" target=\"_blank\" style=\"color: #FFFFFF; font-weight: bold; text-decoration: underline;\">eldobható ideiglenes e-mail</a> segítségével. <b>Ingyenes szolgáltatásunk</b> <b>teljes anonimitást</b> biztosít <b>blogok</b>, <b>fórumok</b> vagy <b>nyilvános Wi-Fi pontok</b> használatakor. Akár <b>ál e-mailnek</b>, <b>10 perces e-mailnek</b>, <b>tempmailnek</b> vagy <b>szemét e-mailnek</b> hívja, ez az <b>eldobható cím</b> megakadályozza, hogy a <b>reklámlevelek</b> elérjék Önt. Használja bátran <b>fájlok letöltéséhez</b> vagy <b>közösségi hálózatokhoz</b> való csatlakozáshoz kockázat nélkül; az inaktív címek automatikusan törlődnek a <b>digitális adatvédelem</b> érdekében.",
+        "h2_long_form": "Eldobható e-mail címek",
+        "long_content_sections": [
+            {
+                "title": "A digitális identitás evolúciója és az eldobható e-mail",
+                "text": "Digitális életünk napról napra bővül. Alkalmazásokra regisztrálunk, vitacsoportokhoz csatlakozunk és hasznos dokumentumokat töltünk le. Szinte minden ilyen művelethez e-mail cím szükséges. Ez az elsődleges postaládánkat a hirdetők és adatbrókerek állandó célpontjává tette. De mi lenne, ha regisztrálhatna a spam hosszú távú terhei nélkül? Itt válik az ingyenes ideiglenes e-mail a legértékesebb digitális eszközévé. Lehetővé teszi egy rövid életű identitás létrehozását, amely elvégzi a feladatát, majd nyomtalanul eltűnik a nyomkövetők elől. Ez egy proaktív megoldás a modern, adatvédelemre törekvő internetfelhasználók számára."
+            },
+            {
+                "title": "Miért használnak az emberek több nevet erre a szolgáltatásra?",
+                "text": "Az ideiglenes e-mailekre használt kifejezések gyakran tükrözik a felhasználó célját. Az 'eldobható e-mail cím' az egyszer használatos jellegét hangsúlyozza. Az 'ál e-mail' kifejezést egyszerű feladatokhoz használják. A 'burner email' kifejezést azok kedvelik, akik a magas szintű biztonságra törekszenek, utalva egy eszközre, amelyet a küldetés után megsemmisítenek. Az 'anonim e-mail' a cím és a személy közötti teljes kapcsolat megszakítására összpontosít. A névtol függetlenül a funkció ugyanaz: biztonságos, ideiglenes és privát helyet biztosítani a digitális interakciókhoz."
+            },
+            {
+                "title": "Elsődleges postaláda védelme a spam túlterheléstől",
+                "text": "A legtöbb webhely ma már regisztrációt igényel a teljes funkció eléréséhez. Sajnos sok ilyen oldal végül megosztja az adatait. Így egyetlen regisztráció évekig tartó kéretlen e-mailekhez vezethet. Az ingyenes ideiglenes e-mail használatával elvégezheti a regisztrációt, megkaphatja a kódot, és továbbléphet. Elsődleges postaládája tiszta, rendezett és csak a fontos üzeneteknek marad fenntartva. Ez az egyszerű szokás akár 90%-kal csökkentheti a beérkező spameket, lehetővé téve, hogy arra összpontosítson, ami valóban számít."
+            },
+            {
+                "title": "Anonimitás és biztonság megőrzése a zárt interneten",
+                "text": "Amikor megadja személyes e-mail címét, fennáll a kockázata, hogy adatai összekapcsolódnak. Az ideiglenes e-mail címek lehetővé teszik a böngészést digitális ujjlenyomat hátrahagyása nélkül. Ez különösen hasznos piactereken való egyszeri kapcsolatfelvételkor, fórumokhoz való csatlakozáskor vagy fizetős tartalmak elérésekor. Biztonságos 'pufferzónát' hoz létre, amely védi identitását. Egy olyan korban, ahol a digitális lábnyomok állandóak, egy 'szellem' fiók birtoklása az alkalmi böngészéshez okos biztonsági stratégia."
+            },
+            {
+                "title": "Speciális felhasználási esetek: Fejlesztők és QA tesztelés",
+                "text": "A szoftverfejlesztés világában a tesztelés kulcsfontosságú. A mérnököknek és QA szakembereknek gyors módszerre van szükségük az e-mail folyamatok ellenőrzéséhez. Az ingyenes ideiglenes e-mail szolgáltatások azonnal korlátlan számú egyedi tesztfiókot biztosítanak. Ellenőrizheti a regisztrációs folyamatokat, jelszó-helyreállító rendszereket és tranzakciós üzeneteket manuális többletmunka nélkül. Nagy sebességű kézbesítésünk biztosítja, hogy a tesztelési ciklusok ne szenvedjenek késedelmet, így a YourEmailBox világszerte a technikai szakemberek kedvenc eszközévé vált."
+            },
+            {
+                "title": "Marketing csapdák és értékesítési tölcsérek kikerülése",
+                "text": "Az e-kereskedelmi és SaaS platformok 'Lead Magneteket' használnak – például e-könyveket –, hogy megszerezzék az e-mail címét egy agresszív marketing sorozathoz. Az eldobható e-mail lehetővé teszi, hogy hozzáférjen ezekhez az erőforrásokhoz elköteleződés nélkül. Megkapja a keresett értéket, a következo marketing levelek pedig egy már törölt postaládába érkeznek. Ez az egyetlen tisztességes módja az interakciónak egy olyan webbel, amely egyre inkább próbálja rögzíteni minden mozdulatát."
+            },
+            {
+                "title": "Megbízható szolgáltató választásának szempontjai",
+                "text": "Az ideiglenes e-mail szolgáltató keresésekor a sebesség és az adatvédelem a legfontosabb tényezők. Olyan oldalra van szüksége, amely azonnal betöltődik és azonnal postaládát biztosít. Olyan szolgáltatás is kell, amely valós időben kezeli az üzeneteket, mivel sok ellenőrző link gyorsan lejár. Az adatvédelem az alap: a YourEmailBox nem naplózza az IP-címét, biztonságos HTTPS titkosítást használ, és minden üzenetet RAM-ban tárol az azonnali és teljes megsemmisítés érdekében a munkamenet végén."
+            },
+            {
+                "title": "Hogyan használjuk az ideiglenes e-mailt erőfeszítés nélkül",
+                "text": "A YourEmailBox használata olyan egyszerű, mint az oldal felkeresése. Egy cím generálódik Önnek abban a pillanatban, ahogy az oldal betöltődik. Kimásolhatja ezt a címet, beillesztheti a kért mezőbe bármely webhelyen, és valós időben figyelheti a beérkező üzeneteket a kezdőlapunkon. Nincs megjegyzendő jelszó, nincs létrehozandó felhasználónév és nincs beállítás. Miután végzett, rákattinthat a törlésre, vagy egyszerűen bezárhatja a böngészőt. Úgy tervezték, hogy a leggyorsabb módja legyen a privát e-mail cím megszerzésének."
+            },
+            {
+                "title": "Gyakorlati példák a digitális túléléshez",
+                "text": "Gondoljon arra, amikor legutóbb nyilvános Wi-Fi-re csatlakozott egy repülőtéren, vagy fájlmegosztó szolgáltatást használt. Valószínűleg e-mail címet kértek. Használjon eldobható címet! Ha ismeretlennel veszi fel a kapcsolatot egy hirdetési oldalon, használjon temp mailt. Ha árlistát vagy demót szeretne látni anélkül, hogy az értékesítési csapat felhívná, használjon eldobható címet. Ezek mind valós forgatókönyvek, ahol az ingyenes ideiglenes e-mail biztonságban tartja Önt és postaládáját csendben hagyja."
+            },
+            {
+                "title": "A szegmentálás stratégiai előnye",
+                "text": "Az adatbrókerek abból élnek, hogy összekapcsolják tevékenységeit különböző oldalakon, az e-mail címét használva közös azonosítóként. Ha minden új oldalhoz friss ingyenes ideiglenes e-mailt használ, megszakítja ezt a láncot. Hatékonyan elkülöníti digitális jelenlétét. Ez lehetetlenné teszi a nyomkövetők számára, hogy megértsék a teljes böngészési előzményeit vagy érdeklődési profilját. Ez több, mint a szemétlevél elkerülése; ez egy taktikai megközelítés a digitális szuverenitás fenntartásához."
+            },
+            {
+                "title": "Környezeti hatás: Tárolás és energia",
+                "text": "Milliárdnyi kéretlen e-mailt tárolnak határozatlan ideig felhő alapú adatközpontokban, ami hatalmas energiát fogyaszt a hűtéshez és az áramellátáshoz. Ha ideiglenes e-mailt használ a szemét levelekhez, megakadályozza az adatok tartós tárolását. A RAM-alapú tárolásunk azt jelenti, hogy az üzenetek elektromosan törlődnek, nem igényelnek hosszú távú energiát a tároláshoz. Ez egy kicsi, de jelentős módja a digitális élet környezeti lábnyomának csökkentésének."
+            },
+            {
+                "title": "Összegzés: Az Ön magánélete, az Ön döntése",
+                "text": "Az internetnek olyan helynek kell lennie, ahol félelem nélkül böngészhet. Az ingyenes ideiglenes e-mail egy eszköz, amely visszaadja ezt a szabadságot. Akár a spam elkerüléséről, akár identitása védelméről vagy alkalmazás teszteléséről van szó, a YourEmailBox itt van, hogy a leggyorsabb és legbiztonságosabb megoldást nyújtsa. Ne hagyja, hogy elsődleges címe nyilvános azonosítóvá váljon. Használjon helyette eldobható e-mailt, és tapasztalja meg a webet úgy, ahogy azt eredetileg szánták: gyorsan, szabadon és privát módon."
+            }
+        ],
+        "h2_faq": "Gyakran ismételt kérdések",
+        "faq_list": [
+            {
+                "q": "Mi az az ideiglenes / eldobható / anonim e-mail?",
+                "a": "Ez egy rövid életű postaláda, amely lehetővé teszi e-mailek fogadását valódi identitásának felfedése nélkül. Úgy tervezték, hogy egyszer vagy rövid ideig használják, majd eldobják."
+            },
+            {
+                "q": "Miért van szüksége ideiglenes e-mail címre?",
+                "a": "Hogy megvédje valódi postaládáját a spamektől, elkerülje a hirdetők általi nyomon követést, és biztonságban tartsa adatait a ritkán használt szolgáltatásoknál."
+            },
+            {
+                "q": "Elolvassák az üzeneteket?",
+                "a": "Nem. Rendszerünk automatizált, és szigorú adatvédelmi szabályzatunk van. Nem figyeljük és nem tároljuk üzeneteit az ideiglenes munkameneten túl."
+            },
+            {
+                "q": "Meddig él egy ideiglenes e-mail cím?",
+                "a": "A YourEmailBoxnál a címe addig él, amíg a böngésző munkamenete aktív marad. Ez bőven elég időt biztosít az ellenőrző kódok fogadására."
+            },
+            {
+                "q": "Mi a különbség az eldobható és a szokásos e-mail között?",
+                "a": "Az eldobható e-mail ideiglenes, anonim és nem igényel regisztrációt. A szokásos e-mail állandó, gyakran identitáshoz kötött, és spam célpontja lehet."
+            },
+            {
+                "q": "Hogyan lehet e-mailt küldeni?",
+                "a": "Jelenleg szolgáltatásunk az e-mailek fogadására összpontosít hitelesítési és biztonsági célokból. Ez biztosítja domainjeink jó hírnevét és a gyors kézbesítést."
+            },
+            {
+                "q": "Hogyan lehet törölni egy ideiglenes e-mailt?",
+                "a": "Kattintson a 'Törlés' gombra a kezdőlapunkon, hogy azonnal törölje az aktuális címet és a hozzá tartozó összes üzenetet."
+            },
+            {
+                "q": "Van böngészőbővítményük?",
+                "a": "Jelenleg fejlesztünk bővítményeket a főbb böngészőkhöz, hogy még egyszerűbb legyen ideiglenes e-mailek generálása útközben. Maradjon velünk!"
+            },
+            {
+                "q": "Hibát találtam. Hogyan jelenthetem be?",
+                "a": "Nagyra értékeljük visszajelzését. Kérjük, vegye fel a kapcsolatot ügyfélszolgálatunkkal a kapcsolatfelvételi űrlapon vagy közösségi média csatornáinkon keresztül."
+            },
+            {
+                "q": "Ellenőrizhetem a fogadott e-maileket?",
+                "a": "Igen! Minden bejövő üzenet valós időben megjelenik a kezdőlapunk postaládájában. Bármely üzenetre rákattinthat a teljes tartalom megtekintéséhez."
+            },
+            {
+                "q": "Biztonságos az ideiglenes e-mail?",
+                "a": "Abszolút. Ez egy biztonsági eszköz, amelyet az Ön védelmére terveztek. A valódi e-mail elkerülésével kizárja az adatvédelmi incidensek kockázatát."
+            }
+        ]
+    },
+    "navigation": {
+        "home": "Kezdőlap",
+        "blog": "Blog",
+        "security": "Biztonság",
+        "protocol": "Protokoll",
+        "about": "Rólunk",
+        "contacts": "Kapcsolat",
+        "tools": "Ingyenes eszközök",
+        "privacy": "Adatvédelmi irányelvek"
+    },
+    "blog": {
+        "title": "Biztonsági Insight Blog",
+        "subtitle": "Szakértői tippek a digitális adatvédelemről és biztonsági frissítések.",
+        "view_all": "ÖSSZES BEJEGYZÉS MEGTEKINTÉSE",
+        "search_placeholder": "Cikkek keresése...",
+        "read_time": "perc olvasási idő",
+        "related_title": "Kapcsolódó cikkek",
+        "toc_title": "TARTALOMJEGYZÉK",
+        "newsletter": {
+            "title": "Maradjon képben",
+            "subtitle": "Kapja meg a legújabb adatvédelmi protokollokat közvetlenül a postaládájába.",
+            "placeholder": "on@e-mail.cime",
+            "button": "Feliratkozás"
+        },
+        "seo": {
+            "title": "Biztonsági Insight Blog | YourEmailBox Biztonsági Protokoll",
+            "description": "Maradjon a kiberfenyegetések előtt. Olvassa el a legújabb frissítéseket, biztonsági protokollokat és tippeket az eldobható e-mail szolgáltatásokról.",
+            "keywords": "biztonsági blog, adatvédelmi tippek, kiberbiztonság, e-mail biztonság, temp mail hírek",
+            "og_title": "Biztonsági Insight Blog | YourEmailBox",
+            "og_description": "Maradjon a kiberfenyegetések előtt. Olvassa el a legújabb frissítéseket, biztonsági protokollokat és tippeket.",
+            "twitter_title": "Biztonsági Insight Blog - YourEmailBox",
+            "twitter_description": "Olvassa el a legújabb frissítéseket és adatvédelmi tippeket."
+        }
+    },
+    "apps_extensions": {
+        "title": "Alkalmazások és bővítmények",
+        "subtitle": "Élvezze a gyors és kényelmes hozzáférést az ideiglenes e-mailekhez bárhonnan alkalmazásainkkal és bővítményeinkkel"
+    },
+    "common": {
+        "from": "Feladó",
+        "date": "Dátum",
+        "deleted": "Törölve",
+        "settings": "REGIONÁLIS BEÁLLÍTÁSOK",
+        "menu": "Menü",
+        "modal": {
+            "subtitle": "Hozza létre egyedi ideiglenes címét",
+            "custom_alias": "Egyéni alias",
+            "placeholder": "pl. felhasznalo-777",
+            "preview_label": "CÍM ELŐNÉZETE:",
+            "button_update": "Cím frissítése most"
+        },
+        "premium": {
+            "elite_plan": "ELITE CSOMAG",
+            "view_plans": "Csomagok megtekintése"
+        }
+    },
+    "footer": {
+        "brand_tagline": "Prémium ideiglenes e-mail a tisztább, biztonságosabb digitális életért.",
+        "featured_on": "ELISMERÉSEK",
+        "startup_found": "Global Privacy Award 2026 jelölt",
+        "categories": {
+            "features": {
+                "title": "FUNKCIÓK",
+                "links": [
+                    {
+                        "label": "API elérés",
+                        "href": "/api-docs"
+                    },
+                    {
+                        "label": "Egyéni domainek",
+                        "href": "#"
+                    },
+                    {
+                        "label": "10 perces e-mail",
+                        "href": "/"
+                    },
+                    {
+                        "label": "Prémium",
+                        "href": "/premium"
+                    }
+                ]
+            },
+            "links": {
+                "title": "ERŐFORRÁSOK",
+                "links": [
+                    {
+                        "label": "Blog",
+                        "href": "/blog"
+                    },
+                    {
+                        "label": "Forráskód",
+                        "href": "#",
+                        "icon": "github"
+                    },
+                    {
+                        "label": "Biztonsági protokoll",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Fejlesztői útmutató",
+                        "href": "#"
+                    }
+                ]
+            },
+            "free_tools": {
+                "title": "INGYENES ESZKÖZÖK",
+                "links": [
+                    {
+                        "label": "Jelszó generátor",
+                        "href": "/tools/password-generator"
+                    },
+                    {
+                        "label": "Adatszivárgás ellenőrző",
+                        "href": "/tools/data-breach-checker"
+                    },
+                    {
+                        "label": "E-mail validáló",
+                        "href": "/tools/email-validator"
+                    },
+                    {
+                        "label": "Spam ellenőrző",
+                        "href": "/tools/spam-checker"
+                    },
+                    {
+                        "label": "Ingyenes e-mail aliasok",
+                        "href": "#",
+                        "external": true
+                    },
+                    {
+                        "label": "Gmail Aliases bővítmény",
+                        "href": "#",
+                        "external": true
+                    }
+                ]
+            },
+            "company": {
+                "title": "CÉGÜNK",
+                "links": [
+                    {
+                        "label": "Rólunk",
+                        "href": "/about-us"
+                    },
+                    {
+                        "label": "Kapcsolat",
+                        "href": "/contacts"
+                    },
+                    {
+                        "label": "Adatvédelmi irányelvek",
+                        "href": "/privacy-policy"
+                    },
+                    {
+                        "label": "Felhasználási feltételek",
+                        "href": "/terms-of-service"
+                    }
+                ]
+            }
+        }
+    },
+    "cookie_consent": {
+        "title": "Adatvédelmi protokoll",
+        "message": "Sütiket használunk a biztonsági protokoll optimalizálására. A folytatással elfogadja adatvédelmi szabványainkat.",
+        "accept": "Elfogadom",
+        "details": "Részletek"
+    },
+    "privacy_policy": {
+        "title": "Adatvédelmi irányelvek",
+        "last_updated": "Utoljára frissítve: 2020. május 6.",
+        "seo_intro": "A youremailbox.com elkötelezett az Ön adatainak védelme iránt. Az összegyűjtött adatokat jogszerűen, a GDPR előírásaival összhangban használjuk fel.",
+        "sections": [
+            {
+                "title": "Az Ön adatai",
+                "content": "Az Önre és a partnereire vonatkozó információk, IP-címek és e-mail címek védettek és bizalmasak. A youremailbox.com nem tárolja az IP-címét. Minden ideiglenesen tárolt e-mail és adat 16 óra elteltével véglegesen törlődik. Bármikor törölheti ideiglenes e-mail címét a kezdőlapon található 'törlés' gombbal."
+            },
+            {
+                "title": "Milyen információkat gyűjtünk?",
+                "content": "Személyes adatokat nem gyűjtünk. Mint a legtöbb szerver, mi is naplófájlokat használunk. Ez tartalmazza az IP-címet, böngésző típusát, internetszolgáltatót (ISP), hivatkozó oldalakat, dátumot és kattintások számát a trendek elemzéséhez. Ezek az adatok nem kapcsolódnak személyazonosításra alkalmas információkhoz."
+            },
+            {
+                "title": "Használunk sütiket?",
+                "content": "Igen. A sütik segítenek a hirdetések nyomon követésében és bizonyos információk megjegyzésében. Külső hirdetők, mint a Google, sütiket használnak a korábbi látogatások alapján történő hirdetésmegjelenítéshez. A Google hirdetési sütijei lehetővé teszik a hirdetések megjelenítését a webhelylátogatások alapján. A felhasználók leiratkozhatnak a személyre szabott hirdetésekről a Hirdetésbeállításokban."
+            },
+            {
+                "title": "Google AdSense és hirdetési hálózatok",
+                "content": "Ha nem iratkozott le, más külső hirdetők sütijei is használhatók hirdetések megjelenítésére. Tájékoztatjuk látogatóinkat a külső hirdetőkről. A felhasználók felkereshetik ezen webhelyeket a sütik használatának kikapcsolásához. További részletekért látogasson el a cookiechoices.org oldalra."
+            },
+            {
+                "title": "Kiadjuk az információkat harmadik félnek?",
+                "content": "Nem adjuk el és nem adjuk át az Ön személyazonosításra alkalmas adatait külső feleknek. Ez nem vonatkozik a megbízható partnereinkre, akik segítenek a weboldal működtetésében, amíg ők beleegyeznek az adatok bizalmas kezelésébe. Kiadhatjuk az adatokat, ha ez jogilag kötelező, vagy az oldalunk szabályzatának betartatásához szükséges."
+            },
+            {
+                "title": "Harmadik fél linkjei",
+                "content": "Esetenként harmadik fél termékeit vagy szolgáltatásait kínálhatjuk oldalunkon. Ezeknek a feleknek különálló adatvédelmi irányelveik vannak. Nem vállalunk felelősséget ezen oldalak tartalmáért vagy tevékenységéért. <br/><br/> <a href=\"https://policies.google.com/privacy\" target=\"_blank\">Google Analytics irányelvek</a>"
+            },
+            {
+                "title": "Harmadik fél hirdetési cégei",
+                "content": "Engedélyezzük külső cégeknek hirdetések megjelenítését és névtelen információk gyűjtését a látogatáskor. Ezek a cégek nem személyes adatokat használnak fel érdekes hirdetések megjelenítéséhez. További információért látogasson el a <a href=\"https://www.networkadvertising.org\" target=\"_blank\">www.networkadvertising.org</a> oldalra. <br/><br/> <a href=\"https://policies.google.com/privacy\" target=\"_blank\">Google AdSense feltételek</a>"
+            },
+            {
+                "title": "Csak online adatvédelmi irányelvek",
+                "content": "Ez az adatvédelmi irányelv csak a weboldalunkon keresztül gyűjtött információkra vonatkozik, az offline gyűjtött adatokra nem."
+            },
+            {
+                "title": "Az Ön beleegyezése",
+                "content": "Weboldalunk használatával Ön elfogadja adatvédelmi irányelveinket."
+            },
+            {
+                "title": "Változások az irányelvekben",
+                "content": "Ha módosítjuk adatvédelmi irányelveinket, a változtatásokat ezen az oldalon tesszük közzé."
+            }
+        ],
+        "seo": {
+            "title": "Adatvédelmi irányelvek | YourEmailBox Biztonsági Protokoll",
+            "description": "Elkötelezettségünk az adatai védelme iránt. Ismerje meg RAM-alapú tárolásunkat és a GDPR megfelelőségünket.",
+            "keywords": "adatvédelmi irányelvek, gdpr, adatvédelem, e-mail biztonság",
+            "og_title": "Adatvédelmi irányelvek - YourEmailBox",
+            "og_description": "Tudja meg, hogyan védjük digitális identitását és adatait.",
+            "twitter_title": "Adatvédelmi irányelvek - YourEmailBox",
+            "twitter_description": "Elkötelezettségünk az Ön digitális adatvédelme iránt."
+        }
+    },
+    "terms_of_service": {
+        "title": "Felhasználási feltételek",
+        "last_updated": "Utoljára frissítve: 2026. január 24.",
+        "seo_intro": "Üdvözöljük a YourEmailBox <a href=\"/hu\" style=\"color: #fff; font-weight: bold; text-decoration: underline;\">ingyenes ideiglenes e-mail</a> platform felhasználási feltételeiben. A szolgáltatás használatával elfogadja a biztonsági protokollokat.",
+        "sections": [
+            {
+                "title": "Elfogadható használat",
+                "content": "A YourEmailBox a jogos magánélet védelme érdekében jött létre. <b>Eldobható e-mail</b> szolgáltatásunk nem használható illegális tevékenységekre, beleértve a csalást, kártékony szoftverek terjesztését vagy spammelést. Fenntartjuk a jogot a hozzáférés blokkolására visszaélés esetén."
+            },
+            {
+                "title": "Garancia és elérhetőség",
+                "content": "<b>Temp mail</b> szolgáltatásunkat 'úgy, ahogy van' biztosítjuk. Bár törekszünk a 100%-os rendelkezésre állásra, nem garantáljuk a zavartalan működést vagy az üzenetek hosszú távú tárolását."
+            },
+            {
+                "title": "Felelősség korlátozása",
+                "content": "A YourEmailBox nem vállal felelősséget az <b>ingyenes ideiglenes e-mail</b> használatából eredő károkért, adatvesztésért vagy külső oldalakon bekövetkező biztonsági incidensekért."
+            },
+            {
+                "title": "Kártalanítási protokoll",
+                "content": "Ön beleegyezik, hogy kártalanítja a YourEmailBoxot minden olyan jogi igény esetén, amely a feltételek megsértéséből vagy az <b>anonim e-mail</b> infrastruktúra visszaélésszerű használatából ered."
+            },
+            {
+                "title": "Módosítások a szolgáltatásban",
+                "content": "Dinamikus platformként folyamatosan frissítjük rendszereinket. Fenntartjuk a jogot a szolgáltatás bármely részének módosítására vagy megszüntetésére előzetes értesítés nélkül."
+            }
+        ],
+        "seo": {
+            "title": "Felhasználási feltételek | YourEmailBox Biztonsági Protokoll",
+            "description": "Szabályok és irányelvek a YourEmailBox ideiglenes e-mail szolgáltatás használatához.",
+            "keywords": "felhasználási feltételek, felhasználói szerződés, használati szabályzat",
+            "og_title": "Felhasználási feltételek - YourEmailBox",
+            "og_description": "Irányelvek a speciális adatvédelmi infrastruktúránk használatához.",
+            "twitter_title": "Felhasználási feltételek - YourEmailBox",
+            "twitter_description": "Felhasználói szerződés és használati szabályzat."
+        }
+    },
+    "about_us": {
+        "title": "A YourEmailBoxról",
+        "seo_intro": "A <b>digitális adatvédelem</b> és az <b>anonim kommunikáció</b> globális szabványának megteremtése. Ismerje meg küldetésünket és a biztonságos e-mail protokoll mögött álló csapatot.",
+        "sections": [
+            {
+                "title": "Küldetésünk",
+                "text": "A YourEmailBox egyetlen céllal jött létre: visszaadni a digitális identitás feletti kontrollt a felhasználónak. Olyan korban, ahol az e-mail cím állandó azonosítóvá vált, mi lehetőséget adunk a szabad böngészésre. Infrastruktúránk a sebességre, átláthatóságra és teljes anonimitásra épül."
+            },
+            {
+                "title": "Technikai kiválóság",
+                "text": "Alacsony késleltetésű, RAM-alapú szerverparkot üzemeltetünk, amely garantálja, hogy üzenetei soha ne érintsék a merevlemezt. Ez a 'privacy-by-design' megközelítés azt jelenti, hogy az adatokat, amikkel nem rendelkezünk, nem lehet ellopni vagy kikérni."
+            },
+            {
+                "title": "Globális elkötelezettség",
+                "text": "Világszerte felhasználók millióit szolgáljuk ki, elkötelezettek vagyunk az internet nyitottsága és biztonsága mellett. A fejlesztőktől az adatvédelem híveiig biztosítjuk az eszközöket a digitális higiénia fenntartásához a komplex világban."
+            }
+        ],
+        "seo": {
+            "title": "Rólunk | YourEmailBox Biztonsági Protokoll",
+            "description": "Ismerje meg a YourEmailBox küldetését és technikai szabványait, a világ vezető ideiglenes e-mail szolgáltatóját.",
+            "keywords": "rólunk, küldetés, technikai szabványok, cégtörténet",
+            "og_title": "Rólunk - YourEmailBox",
+            "og_description": "A globális adatvédelmi szabvány mögött álló küldetés és csapat.",
+            "twitter_title": "Rólunk - YourEmailBox",
+            "twitter_description": "A digitális adatvédelem globális szabványának képviselete."
+        }
+    },
+    "contact_us": {
+        "title": "Kapcsolatfelvétel",
+        "seo_intro": "Kérdése van vagy technikai segítségre van szüksége? Biztonsági csapatunk készséggel áll rendelkezésére. Keressen minket támogatás, partnerség vagy biztonsági jelentések ügyében.",
+        "form": {
+            "name": "Teljes név",
+            "email": "Üzleti e-mail",
+            "subject": "Üzenet tárgya",
+            "message": "Üzenet részletei",
+            "submit": "Üzenet küldése"
+        },
+        "info": {
+            "title": "Elérhetőségek",
+            "support_label": "ÁLTALÁNOS TÁMOGATÁS",
+            "abuse_label": "VISSZAÉLÉS JELENTÉSE",
+            "social_label": "KÖZÖSSÉGI CSATORNÁK",
+            "email": "support@youremailbox.com",
+            "abuse": "abuse@youremailbox.com",
+            "location": "Globális / Távoli protokoll"
+        },
+        "seo": {
+            "title": "Kapcsolat | YourEmailBox Biztonsági Protokoll",
+            "description": "Vegye fel a kapcsolatot a YourEmailBox csapatával támogatás, partnerség vagy biztonsági jelentés céljából.",
+            "keywords": "kapcsolat, támogatás, segítség, partnerség, biztonsági jelentés",
+            "og_title": "Kapcsolat - YourEmailBox",
+            "og_description": "Kérdése van? Biztonsági csapatunk segít Önnek.",
+            "twitter_title": "Kapcsolat - YourEmailBox",
+            "twitter_description": "Vegye fel a kapcsolatot biztonsági csapatunkkal."
+        }
+    },
+    "tools": {
+        "password_generator": {
+            "title": "Ingyenes jelszó generátor",
+            "subtitle": "Hozzon létre katonai szintű, kriptográfiailag biztonságos jelszavakat azonnal. Adat nem hagyja el az eszközét.",
+            "label": "Jelszó generátor",
+            "generated_password": "GENERÁLT JELSZÓ",
+            "strength": "ERŐSSÉG",
+            "copy": "MÁSOLÁS",
+            "copied": "MÁSOLVA!",
+            "customization": "TESTRESZABÁS",
+            "length": "Jelszó hossza",
+            "uppercase": "Nagybetűk (A-Z)",
+            "lowercase": "Kisbetűk (a-z)",
+            "numbers": "Számok (0-9)",
+            "symbols": "Szimbólumok (!@#$)",
+            "why_title": "Miért használjunk erős jelszó generátort?",
+            "why_feature1_title": "Kriptográfiailag biztonságos",
+            "why_feature1_desc": "A window.crypto.getRandomValues() függvényt használja a valódi véletlenszerűségért.",
+            "why_feature2_title": "100% kliensoldali",
+            "why_feature2_desc": "Minden generálás a böngészőjében történik. Semmit nem küldünk a szervereinkre.",
+            "why_feature3_title": "Teljesen testreszabható",
+            "why_feature3_desc": "Szabályozza a hosszt és a karaktertípusokat bármilyen jelszókövetelményhez.",
+            "how_title": "Hogyan használjuk ezt a jelszó generátort",
+            "how_step1": "Állítsa be a hosszt a csúszka segítségével (8-64 karakter)",
+            "how_step2": "Válassza ki a karaktertípusokat – nagybetű, kisbetű, számok és szimbólumok",
+            "how_step3": "Kattintson a \"Másolás\" gombra a jelszó mentéséhez",
+            "how_step4": "Használja a \"Frissítés\" gombot új jelszó generálásához azonos beállításokkal",
+            "what_makes_title": "Mitől lesz erős egy jelszó?",
+            "what_makes_p1": "A gyenge jelszavak a legfőbb biztonsági rések. Egy biztonságos jelszó jellemzői:",
+            "what_makes_li1": "Hossz: Legalább 12-16 karakter (a hosszabb hatványozottan jobb)",
+            "what_makes_li2": "Komplexitás: Vegyes betűk, számok és szimbólumok használata",
+            "what_makes_li3": "Véletlenszerűség: Ne tartalmazzon szótári szavakat vagy mintákat",
+            "what_makes_li4": "Egyediség: Minden fiókhoz használjon más jelszót",
+            "how_it_works_title": "Hogyan működik a generátorunk",
+            "how_it_works_p1": "A generátorunk a Web Crypto API-t használja, amely kriptográfiailag erős értékeket biztos. Ezt használják:",
+            "how_it_works_li1": "Banki alkalmazások a biztonságos tranzakciókhoz",
+            "how_it_works_li2": "Jelszókezelők, mint az 1Password és a LastPass",
+            "how_it_works_li3": "Kormányzati és katonai biztonsági rendszerek",
+            "pro_tip_title": "Pro Tipp: Használjon jelszókezelőt",
+            "pro_tip_p": "Bár generátorunk biztonságos jelszavakat készít, ezeket megjegyezni nehéz. Használjon Bitwardent vagy LastPasst.",
+            "faq_title": "Gyakran ismételt kérdések",
+            "faq_q1": "Ez a jelszó generátor valóban biztonságos?",
+            "faq_a1": "Igen! A Web Crypto API-t használjuk. Minden generálás helyben, a böngészőben történik.",
+            "faq_q2": "Mi az ideális jelszóhossz?",
+            "faq_a2": "Legalább 16 karaktert javasolunk a maximális biztonság érdekében.",
+            "faq_q3": "Használjak szimbólumokat a jelszavamban?",
+            "faq_a3": "Abszolút! A szimbólumok drámaian növelik a komplexitást a támadások ellen.",
+            "faq_q4": "Milyen gyakran kell változtatnom a jelszavaimat?",
+            "faq_a4": "Változtassa meg azonnal, ha szivárgást gyanít. Egyébként használjon egyedi jelszavakat mindenhol.",
+            "faq_q5": "Megbízhatok ebben az eszközben érzékeny fiókok esetén?",
+            "faq_a5": "Igen, mivel kliensoldali és nem tárolunk adatot, biztonságos banki vagy e-mail fiókokhoz is.",
+            "seo": {
+                "title": "Ingyenes jelszó generátor - Erős és biztonságos jelszavak | YourEmailBox",
+                "description": "Generáljon biztonságos jelszavakat azonnal. Testreszabható hossz, karakterek. 100% kliensoldali eszköz.",
+                "keywords": "jelszó generátor, biztonságos jelszó, véletlen jelszó, erős jelszó, ingyenes eszköz",
+                "og_title": "Ingyenes jelszó generátor - Erős és biztonságos jelszavak",
+                "og_description": "Generáljon katonai szintű jelszavakat ingyenes eszközünkkel. Teljesen biztonságos.",
+                "twitter_title": "Ingyenes jelszó generátor - YourEmailBox",
+                "twitter_description": "Hozzon létre kriptográfiailag biztonságos jelszavakat azonnal"
+            }
+        },
+        "email_validator": {
+            "title": "E-mail validáló",
+            "subtitle": "Professzionális ellenőrzés címlistáihoz. Kézbesíthetőség, szerver állapot és eldobható jelleg ellenőrzése.",
+            "label": "E-mail validáló",
+            "placeholder": "Adja meg az e-mail címet az ellenőrzéshez...",
+            "button": "E-MAIL ELLENŐRZÉSE",
+            "verifying": "ELLENŐRZÉS...",
+            "scanning_status": "SMTP HANDSHAKE ÉS MX LOOKUP VÉGREHAJTÁSA...",
+            "deliverable": "Kézbesíthető",
+            "undeliverable": "Kockázatos / Nem kézbesíthető",
+            "new_test": "ÚJ TESZT",
+            "syntax_check": "Szintaxis / Formátum",
+            "mx_check": "MX rekordok",
+            "smtp_check": "SMTP szerver",
+            "disposable_check": "Nem eldobható",
+            "what_is_title": "Mi az az e-mail validálás?",
+            "feature1_title": "Többszintű ellenőrzés",
+            "feature1_desc": "Szintaktikai ellenőrzést, MX rekord keresést és SMTP handshake-et végzünk.",
+            "feature2_title": "Valós idejű validálás",
+            "feature2_desc": "Azonnali eredmények a szerverekhez való kapcsolódással, valódi e-mail küldése nélkül.",
+            "feature3_title": "Eldobható cím felismerése",
+            "feature3_desc": "Azonosítsa az ideiglenes címeket, amelyek károsíthatják a feladó hírnevét.",
+            "how_to_title": "Hogyan használjuk ezt a validálót",
+            "how_step1": "Adja meg az ellenőrizni kívánt e-mail címet a mezőben",
+            "how_step2": "Kattintson az \"E-mail ellenőrzése\" gombra a folyamat indításához",
+            "how_step3": "Tekintse át az eredményeket – mutatjuk a szintaxist, MX, SMTP és eldobható állapotot",
+            "how_step4": "Cselekedjen – távolítsa el az érvénytelen címeket a listájáról",
+            "why_validate_title": "Miért validáljuk az e-mail címeket?",
+            "why_validate_p1": "Az e-mail validálás kulcsfontosságú a feladói hírnév megőrzéséhez:",
+            "why_li1": "Bounce ráta csökkentése: Az érvénytelen címek rontják a feladói pontszámot",
+            "why_li2": "Kézbesíthetőség javítása: A tiszta listák jobb inboxtulajdonságokat jelentenek",
+            "why_li3": "Pénzmegtakarítás: Ne fizessen olyan címekre való küldésért, amik nem léteznek",
+            "why_li4": "Domain védelem: A magas bounce ráta feketelistára teheti a domaint",
+            "understanding_checks_title": "Az ellenőrzések megértése",
+            "check1_title": "Szintaktikai / Formátum ellenőrzés",
+            "check1_desc": "Ellenőrzi a RFC 5322 szabványt (pl. van-e @ szimbólum, érvényes-e a struktúra)",
+            "check2_title": "MX rekord keresés",
+            "check2_desc": "Visszaigazolja, hogy a domain rendelkezik-e levelező szerverekkel",
+            "check3_title": "SMTP szerver ellenőrzés",
+            "check3_desc": "Kapcsolódik a szerverhez, hogy visszaigazolja a postaláda létezését küldés nélkül",
+            "check4_title": "Eldobható e-mail felismerés",
+            "check4_desc": "Azonosítja az ideiglenes e-mail szolgáltatókat",
+            "pro_tip_title": "Tipp e-mail marketingeseknek",
+            "pro_tip_p": "Validálja a címeket a regisztrációkor. Meglévő listák esetén 3-6 havonta végezzen auditot.",
+            "faq_title": "Gyakran ismételt kérdések",
+            "faq_q1": "Mennyire pontos az e-mail validálás?",
+            "faq_a1": "Validálónk valós SMTP és MX ellenőrzést végez, 95% feletti pontossággal.",
+            "faq_q2": "Tudni fogja a címzett, hogy validáltam a címét?",
+            "faq_a2": "Nem. SMTP handshake-et végzünk e-mail küldése nélkül. A folyamat láthatatlan.",
+            "faq_q3": "Mi a különbség a szintaxis és az SMTP ellenőrzés között?",
+            "faq_a3": "A szintaxis a formátumot nézi. Az SMTP a szerverrel való kapcsolatot a létezés igazolásához.",
+            "faq_q4": "Validálhatok tömeges e-mail listákat?",
+            "faq_a4": "Ez az eszköz egyedi ellenőrzésre készült. Tömeges validáláshoz használja API-nkat.",
+            "faq_q5": "Miért bukik meg egy érvényesnek tűnő cím az ellenőrzésen?",
+            "faq_a5": "Okok: nincs MX rekord, a postaláda nem létezik, a szerver leállt vagy eldobható cím.",
+            "faq_q6": "Mit tegyek az érvénytelen címekkel?",
+            "faq_a6": "Azonnal távolítsa el őket a listájáról a feladói hírnév megőrzése érdekében.",
+            "seo": {
+                "title": "E-mail validáló - Ellenőrizze az e-mail címet online | YourEmailBox",
+                "description": "Ellenőrizze, hogy egy e-mail cím érvényes és létezik-e. Professzionális SMTP és MX validáló eszköz.",
+                "keywords": "e-mail validáló, e-mail ellenőrzés, e-mail cím ellenőrző, smtp check, mx lookup",
+                "og_title": "E-mail validáló - Ellenőrizze az e-mail címet online",
+                "og_description": "Professzionális ellenőrzés címlistáihoz. Kézbesíthetőség és eldobható jelleg ellenőrzése.",
+                "twitter_title": "E-mail validáló - YourEmailBox",
+                "twitter_description": "Ellenőrizze, hogy az e-mail cím érvényes, létezik és biztonságos-e."
+            }
+        },
+        "spam_checker": {
+            "title": "Spam ellenőrző",
+            "subtitle": "Azonosítsa a spam triggereket a kiküldés előtt. Kulcsszavak és kockázatos minták elemzése.",
+            "label": "Spam ellenőrző",
+            "content_label": "E-MAIL TARTALOM",
+            "placeholder": "Másolja ide az e-mail tárgyát vagy tartalmát a spam elemzéshez...",
+            "characters": "KARAKTER",
+            "words": "SZÓ",
+            "button": "SPAM SCORE ELEMZÉSE",
+            "analyzing": "ELEMZÉS...",
+            "score_label": "SPAM SCORE",
+            "verdict_high": "MAGAS KOCKÁZAT",
+            "verdict_moderate": "KÖZEPES KOCKÁZAT",
+            "verdict_low": "ALACSONY KOCKÁZAT",
+            "msg_high": "Valószínűleg spamnek lesz jelölve",
+            "msg_moderate": "Aktiválhatja a spam szűrőket",
+            "msg_low": "Jó kézbesíthetőség várható",
+            "detailed_analysis": "RÉSZLETES ELEMZÉS",
+            "keywords_detected": "Észlelt spam kulcsszavak",
+            "none_found": "NEM TALÁLHATÓ ✓",
+            "uppercase_usage": "Nagybetű használat",
+            "uppercase_note_high": "A túlzott nagybetű használat szűrőt aktiválhat",
+            "uppercase_note_ok": "Elfogadható tartományban",
+            "excl_marks": "Felkiáltójelek",
+            "excl_note_high": "A túl sok felkiáltójel spamgyanús",
+            "excl_note_ok": "Elfogadható mennyiség",
+            "overall_risk": "Összesített kézbesítési kockázat",
+            "risk_high": "MAGAS",
+            "risk_moderate": "KÖZEPES",
+            "risk_low": "ALACSONY",
+            "new_analysis": "ÚJ ELEMZÉS",
+            "why_title": "A spam szűrők működése",
+            "feature1_title": "Kulcsszó elemzés",
+            "feature1_desc": "Keressük a gyakori spam szavakat, amiket a szűrők figyelnek, beleértve a promóciós nyelvezetet.",
+            "feature2_title": "Formázási ellenőrzés",
+            "feature2_desc": "A túlzott nagybetűket, írásjeleket és formázási hibákat spam indikátorként elemezzük.",
+            "feature3_title": "Azonnali visszajelzés",
+            "feature3_desc": "Azonnali eredmények javaslatokkal a kézbesíthetőség javítása érdekében.",
+            "how_to_title": "Hogyan használjuk ezt az eszközt",
+            "how_step1": "Másolja ki az e-mail tartalmát – tárgy, szöveg, vagy mindkettő",
+            "how_step2": "Illessze be a fenti szöveges területre",
+            "how_step3": "Kattintson a \"Spam score elemzése\" gombra",
+            "how_step4": "Tekintse át az eredményeket és távolítsa el a jelölt triggereket",
+            "how_step5": "Tesztelje újra, amíg alacsony spam pontszámot nem kap",
+            "common_triggers_title": "Gyakori elkerülendő spam triggerek",
+            "trigger1_title": "Promóciós nyelvezet",
+            "trigger2_title": "Pénzügyi kifejezések",
+            "trigger3_title": "Sürgető taktikák",
+            "trigger4_title": "Túlzott formázás",
+            "best_practices_title": "E-mail kézbesíthetőségi ajánlások",
+            "practice_li1": "Használjon felismerhető feladónevet – a címzett tudja, ki Ön",
+            "practice_li2": "Világos tárgymező – kerülje a kattintásvadász címeket",
+            "practice_li3": "Szöveg és kép egyensúlya – a túl sok kép szűrőt aktiválhat",
+            "practice_li4": "Leiratkozó link – kötelező és bizalmat épít",
+            "practice_li5": "Domain hitelesítés – SPF, DKIM és DMARC beállítása",
+            "pro_tip_title": "Pro Tipp marketingeseknek",
+            "pro_tip_p": "Még ha a tartalom át is megy a szűrőn, az aktivitás számít. Az alacsony megnyitási arány rontja a hírnevet.",
+            "faq_title": "Gyakran ismételt kérdések",
+            "faq_q1": "Mennyire pontos ez a spam ellenőrző?",
+            "faq_a1": "Eszközünk a gyakori triggereket elemzi. A szűrés szolgáltatónként eltérő lehet.",
+            "faq_q2": "Mi számít jó spam pontszámnak?",
+            "faq_a2": "Törekedjen 30 alatti pontszámra. 60 felett valószínűleg spamnek minősül az üzenet.",
+            "faq_q3": "Ellenőrizhetek HTML e-maileket?",
+            "faq_a3": "Ez az eszköz a szöveges tartalmat elemzi. HTML esetén a szöveges verziót másolja be.",
+            "faq_q4": "Miért jelölnek meg néha legális e-maileket?",
+            "faq_a4": "A szűrők óvatosak. A promóciós nyelvezet miatt a legális levelek is fennakadhatnak.",
+            "faq_q5": "Hogyan javíthatom a feladói hírnevemet?",
+            "faq_a5": "Tartsa tisztán a listát, küldjön rendszeresen és hitelesítse a domaint.",
+            "faq_q6": "Elküldi ez az eszköz a tartalmamat bárhová?",
+            "faq_a6": "Nem. Minden elemzés helyben történik a böngészőben. Nem tároljuk a tartalmat.",
+            "seo": {
+                "title": "Spam ellenőrző - E-mail elemzése spam triggerekre | YourEmailBox",
+                "description": "Azonosítsa a potenciális spam triggereket. Elemezze a kulcsszavakat és formázást a kézbesíthetőségért.",
+                "keywords": "spam ellenőrző, e-mail elemzés, spam szűrő teszt, kézbesíthetőség, spam szavak",
+                "og_title": "Spam ellenőrző - E-mail elemzése spam triggerekre",
+                "og_description": "Azonosítsa a spam triggereket a kiküldés előtt. Kulcsszavak elemzése.",
+                "twitter_title": "Spam ellenőrző - YourEmailBox",
+                "twitter_description": "Azonosítsa a potenciális spam triggereket az e-mail tartalmában."
+            }
+        },
+        "breach_checker": {
+            "title": "Adatszivárgás ellenőrző",
+            "subtitle": "Eladó az identitása? Keressen a világ legátfogóbb szivárgási adatbázisaiban az e-mail címe után.",
+            "label": "Adatszivárgás ellenőrző",
+            "placeholder": "Adja meg az e-mail címet a kereséshez...",
+            "button": "KERESÉS MOST",
+            "scanning": "KERESÉS...",
+            "scanning_title": "Globális adatbázisok átvizsgálása",
+            "scanning_desc": "E-mail cím összevetése több mint 500 biztonsági incidens adatbázisával...",
+            "exposure_detected": "Érintettség észlelve!",
+            "exposure_warn": "Figyelem: Ez az e-mail cím szerepel ismert adatszivárgásokban. A privát adatai hozzáférhetőek lehetnek.",
+            "breach_details": "SZIVÁRGÁS RÉSZLETEI",
+            "reset_scan": "KERESÉS ALAPHELYZETBE",
+            "clean_status": "Tiszta állapot",
+            "clean_msg": "Jó hírek! Ez az e-mail cím nem szerepel a megfigyelt adatbázisainkban.",
+            "new_scan": "ÚJ KERESÉS INDÍTÁSA",
+            "why_title": "Miért ellenőrizzük az adatszivárgásokat?",
+            "feature1_title": "500+ szivárgási adatbázis",
+            "feature1_desc": "Világszerte több ezer hitelesített biztonsági incidens adatait figyeljük.",
+            "feature2_title": "Adatvédelem-központú keresés",
+            "feature2_desc": "Az e-mail címet hasheljük küldés előtt. Soha nem tároljuk a kereséseit.",
+            "feature3_title": "Valós idejű figyelés",
+            "feature3_desc": "Adatbázisunkat folyamatosan frissítjük az újonnan felfedezett szivárgásokkal.",
+            "what_is_title": "Mi az az adatszivárgás?",
+            "what_is_p": "Adatszivárgásról akkor beszélünk, ha illetéktelenek férnek hozzá egy adatbázishoz. Ez tartalmazhat e-mail címeket, jelszavakat és pénzügyi adatokat.",
+            "how_to_title": "Hogyan használjuk ezt az eszközt",
+            "how_step1": "Adja meg az e-mail címét a fenti mezőben",
+            "how_step2": "Kattintson a \"Keresés most\" gombra a folyamat indításához",
+            "how_step3": "Tekintse át az eredményeket – mutatjuk, ha szerepel ismert szivárgásban",
+            "how_step4": "Cselekedjen – változtasson jelszót azonnal érintettség esetén",
+            "what_to_do_title": "Mit tegyünk érintettség esetén?",
+            "what_to_do_p": "Ne essen pánikba – változtasson jelszót, aktiválja a 2FA-t és figyelje a fiókja aktivitását.",
+            "action1_title": "Jelszavak megváltoztatása",
+            "action1_desc": "Frissítse a jelszót minden fiókban, ahol ezt az e-mailt használja",
+            "action2_title": "2FA aktiválása",
+            "action2_desc": "Adjon kétfaktoros hitelesítést a fontos fiókokhoz",
+            "action3_title": "Aktivitás figyelése",
+            "action3_desc": "Figyelje a gyanús bejelentkezési kísérleteket vagy tranzakciókat",
+            "action4_title": "Egyedi jelszavak",
+            "action4_desc": "Soha ne használja ugyanazt a jelszót több oldalon",
+            "pro_tip_title": "Fontos biztonsági tipp",
+            "pro_tip_p": "Ha ugyanazt a jelszót használja több helyen, egy szivárgás után a hackerek mindenhol megpróbálnak belépni (credential stuffing).",
+            "faq_title": "Gyakran ismételt kérdések",
+            "faq_q1": "Hogyan működik a szivárgás ellenőrző?",
+            "faq_a1": "Biztonságosan hasheljük az e-mail címet és összevetjük az indexelt rekordjainkkal.",
+            "faq_q2": "Biztonságban van az e-mail címem az ellenőrzéskor?",
+            "faq_a2": "Igen. Az e-mail cím hashelve van, nem tároljuk a címet vagy a keresési előzményeket.",
+            "faq_q3": "Mit tegyek, ha az e-mail címemet megtalálták egy szivárgásban?",
+            "faq_a3": "Azonnal változtasson jelszót és használjon jelszókezelőt.",
+            "faq_q4": "Milyen gyakran frissül a szivárgási adatbázis?",
+            "faq_a4": "Folyamatosan figyeljük és frissítjük a rendszert, amint új incidens válik ismertté.",
+            "faq_q5": "Ellenőrizhetek több e-mail címet?",
+            "faq_a5": "Igen! Egyszerűen indítson új keresést minden címre. Nincs korlátozás.",
+            "faq_q6": "Mi van, ha 'tiszta' az eredmény, de mégis aggódom?",
+            "faq_a6": "A tiszta eredmény jó, de mindig használjon erős jelszavakat és 2FA-t.",
+            "seo": {
+                "title": "Adatszivárgás ellenőrző - Nézze meg, kiszivárgott-e az e-mail címe | YourEmailBox",
+                "description": "Keressen 500+ adatbázisban azonnal. Ingyenes adatszivárgás ellenőrző eszköz átfogó biztonsági elemzéssel.",
+                "keywords": "adatszivárgás ellenőrző, e-mail szivárgás, jelszó kiszivárgás, biztonsági scan, e-mail biztonság",
+                "og_title": "Adatszivárgás ellenőrző - Védje identitását",
+                "og_description": "Nézze meg, kiszivárgott-e az e-mail címe. Keressen 500+ adatbázisban azonnal.",
+                "twitter_title": "Adatszivárgás ellenőrző - YourEmailBox",
+                "twitter_description": "Keressen globális szivárgási adatbázisokban identitása védelméért"
+            }
+        },
+        "tools_index": {
+            "title": "Ingyenes e-mail biztonsági eszközök",
+            "subtitle": "Professzionális adatvédelmi eszközök digitális identitása védelmére. Regisztráció és díjak nélkül—azonnali segítség.",
+            "why_title": "Miért válassza biztonsági eszközeinket?",
+            "benefit1_title": "100% Adatvédelem-központú",
+            "benefit1_desc": "Minden eszköz kliensoldalon fut. Soha nem tároljuk vagy érjük el az adatait.",
+            "benefit2_title": "Azonnali eredmények",
+            "benefit2_desc": "Azonnali visszajelzés várakozás nélkül. Eszközeink sebességre és pontosságra optimalizáltak.",
+            "benefit3_title": "Vállalati szintű biztonság",
+            "benefit3_desc": "Ugyanazokkal a kriptográfiai szabványokkal készült, mint amiket a bankok használnak.",
+            "complementary_title": "Kiegészítő adatvédelmi alkalmazások",
+            "aliases_label": "Ingyenes e-mail aliasok",
+            "aliases_desc": "Hozzon létre állandó aliasokat a professzionális adatvédelemért.",
+            "gmail_trick_label": "Gmail Plus trükk",
+            "gmail_trick_desc": "Sajátítsa el a plus-addressing technikát a végtelen követő aliasokért.",
+            "launch_tool": "ESZKÖZ INDÍTÁSA",
+            "premium_cta_title": "Fejlettebb funkciókra van szüksége?",
+            "premium_cta_desc": "Váltson prémiumra korlátlan aliasokért, fejlett szivárgásfigyelésért és kiemelt támogatásért.",
+            "premium_cta_button": "PRÉMIUM FELFEDEZÉSE",
+            "seo": {
+                "title": "Ingyenes e-mail biztonsági eszközök - Jelszó generátor & több | YourEmailBox",
+                "description": "Ingyenes online biztonsági eszközök. Jelszó generálás, szivárgás ellenőrzés, validálás és spam elemzés.",
+                "keywords": "e-mail eszközök, jelszó generátor, adatszivárgás ellenőrző, e-mail validáló, spam ellenőrző, biztonsági eszközök",
+                "og_title": "Ingyenes e-mail eszközök | Adatvédelmi segédprogramok",
+                "og_description": "Professzionális eszközök: Jelszó generátor, Szivárgás ellenőrző, Validáló és Spam ellenőrző.",
+                "twitter_title": "Ingyenes e-mail biztonsági eszközök - YourEmailBox",
+                "twitter_description": "Professzionális adatvédelmi és biztonsági eszközök az e-mail védelemhez"
+            }
+        }
+    }
+}

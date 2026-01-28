@@ -1,0 +1,762 @@
+{
+    "title": "Email Temporaire Gratuit - Jetable, Rapide et Illimité | YourEmailBox",
+    "meta_description": "Obtenez instantanément une adresse email temporaire gratuite. Protégez votre vie privée avec notre service de mail jetable. Parfait pour éviter le spam, vérifier des comptes et naviguer de manière anonyme. Sans logs, 100% privé. Le meilleur outil de messagerie temporaire gratuit.",
+    "home": {
+        "seo": {
+            "title": "Email Temporaire Gratuit - Jetable, Rapide et Illimité | YourEmailBox",
+            "description": "Obtenez une adresse email temporaire gratuite instantanément. Protégez votre vie privée avec notre service de courrier jetable. Parfait pour éviter le spam, vérifier des comptes et naviguer anonymement.",
+            "keywords": "email temporaire gratuit, mail jetable, temp mail, email jetable, faux mail, email anonyme, boîte mail temporaire, mail 10 minutes",
+            "og_title": "Email Temporaire Gratuit - Mail Jetable Illimité | YourEmailBox",
+            "og_description": "Obtenez une adresse email temporaire en quelques secondes. Protégez votre identité, évitez le spam et gardez votre boîte de réception propre.",
+            "twitter_title": "Email Temporaire Gratuit - YourEmailBox",
+            "twitter_description": "Protégez votre identité avec un service de courrier jetable à haute vitesse."
+        }
+    },
+    "hero": {
+        "title": "Email Temporaire Gratuit",
+        "subtitle": "Le mail temporaire protège votre vie privée et garde votre boîte de réception sans spam"
+    },
+    "hero_subtitle": "Protégez votre boîte de réception principale. Obtenez un email temporaire gratuit à haute vitesse pour toute inscription et restez anonyme.",
+    "buttons": {
+        "copy": "Copier",
+        "random": "Aléatoire",
+        "change": "Modifier",
+        "delete": "Supprimer",
+        "refresh": "Actualiser"
+    },
+    "tooltips": {
+        "copy": "Copier l'email dans le presse-papiers",
+        "random": "Générer un nouvel email aléatoire",
+        "change": "Définir une adresse email personnalisée",
+        "delete": "Supprimer l'email actuel et la boîte aux lettres"
+    },
+    "inbox": {
+        "title": "Boîte de réception",
+        "messages": "Messages",
+        "waiting": "En attente d'e-mails entrants...",
+        "checking": "Vérification de la boîte...",
+        "interval_text": "Mise à jour toutes les 20 secondes pour économiser vos données.",
+        "refresh_status_updated": "Mis à jour",
+        "return_to_inbox": "RETOUR À LA BOÎTE",
+        "from_label": "DE :",
+        "video_instruction": "Instruction vidéo",
+        "soon": "BIENTÔT"
+    },
+    "seo_content": {
+        "h1": "Qu'est-ce qu'un email temporaire jetable ?",
+        "intro_p": "Protéger votre boîte de réception personnelle contre le <b>spam non sollicité</b> et les <b>logiciels malveillants</b> est simple avec un <a href=\"https://fr.wikipedia.org/wiki/Adresse_de_courrier_électronique_jetable\" target=\"_blank\" style=\"color: #FFFFFF; font-weight: bold; text-decoration: underline;\">Email temporaire jetable</a>. Notre <b>service gratuit</b> offre un <b>anonymat total</b> pour les utilisateurs visitant des <b>blogs</b>, des <b>forums</b> ou des <b>points Wi-Fi publics</b>. Que vous l'appeliez <b>faux mail</b>, <b>mail 10 minutes</b>, <b>tempmail</b> ou <b>mail poubelle</b>, ce <b>courrier jetable</b> empêche les <b>envois publicitaires</b> de vous atteindre. Utilisez-le simplement pour <b>télécharger des fichiers</b> ou rejoindre des <b>réseaux sociaux</b> sans risque ; toute adresse inactive est automatiquement supprimée pour garantir votre <b>confidentialité numérique</b>.",
+        "h2_long_form": "Adresses email jetables",
+        "long_content_sections": [
+            {
+                "title": "L'évolution de l'identité numérique et du mail jetable",
+                "text": "Chaque jour, nos vies numériques s'étendent. Nous nous inscrivons à des applications, nous rejoignons des groupes de discussion et nous téléchargeons des documents utiles. Presque toutes ces actions nécessitent une adresse email. Cela a fait de nos boîtes de réception principales une cible constante pour les annonceurs et les courtiers de données. Mais et si vous pouviez bénéficier de l'inscription sans le fardeau du spam à long terme ? C'est là qu'un email temporaire gratuit devient votre outil numérique le plus précieux. Il vous permet de créer une identité éphémère qui sert son but puis disparaît, ne laissant aucune trace pour les traqueurs. C'est une solution proactive pour l'internaute moderne soucieux de sa vie privée."
+            },
+            {
+                "title": "Pourquoi les gens utilisent plusieurs noms pour ce service",
+                "text": "Les termes utilisés pour l'email temporaire reflètent souvent la perception qu'en a l'utilisateur. Une 'Adresse Email Jetable' souligne son caractère éphémère, comme tout utilitaire à usage unique. 'Email jetable' est un terme courant pour les tâches simples. 'Burner email' est préféré par ceux qui se concentrent sur un haut niveau de confidentialité et de sécurité, impliquant un outil utilisé pour une 'mission' puis détruit. 'Faux mail' est utilisé quand on veut passer une barrière sans révéler qui l'on est. 'Email anonyme' se concentre sur la déconnexion complète entre l'adresse et la personne. Quel que soit le nom, la fonction de base reste la même : fournir un espace sécurisé, temporaire et privé pour vos interactions numériques."
+            },
+            {
+                "title": "Protéger votre boîte de réception principale contre la surcharge de spam",
+                "text": "La plupart des sites web exigent aujourd'hui une inscription pour accéder à toutes les fonctionnalités. Malheureusement, beaucoup de ces sites finissent par partager vos données. C'est ainsi qu'une seule inscription peut entraîner des années d'emails indésirables. En utilisant un email temporaire gratuit, vous pouvez finaliser votre inscription, recevoir votre lien ou code, et passer à autre chose. Votre boîte de réception principale reste propre, organisée et dédiée uniquement aux messages que vous souhaitez réellement recevoir. Cette simple habitude peut réduire votre spam total entrant jusqu'à 90%, vous permettant de vous concentrer sur ce qui compte vraiment."
+            },
+            {
+                "title": "Rester anonyme et sécurisé dans un Internet fermé",
+                "text": "Chaque fois que vous fournissez votre email personnel, vous risquez que vos données soient liées entre elles. Les adresses email temporaires vous permettent de naviguer et d'interagir sans laisser d'empreinte numérique. C'est particulièrement utile pour les contacts uniques sur les places de marché, pour rejoindre des forums de niche ou pour accéder à du contenu derrière des murs payants. Cela crée une 'zone tampon' sécurisée qui protège votre identité. À une époque où les empreintes numériques sont permanentes, avoir un compte 'fantôme' pour la navigation occasionnelle est une stratégie de sécurité intelligente."
+            },
+            {
+                "title": "Cas d'utilisation spécialisés : Développeurs et tests QA",
+                "text": "Dans le monde du développement logiciel, les tests sont essentiels. Les ingénieurs et les spécialistes QA ont besoin d'un moyen rapide pour vérifier les flux d'emails. Les services d'email temporaires gratuits fournissent une offre illimitée de comptes de test uniques instantanément. Vous pouvez tester vos processus d'inscription, vos systèmes de récupération de mot de passe et vos messages transactionnels sans aucun surcoût manuel. Notre livraison à haute vitesse garantit que vos cycles de test ne sont pas retardés, faisant de YourEmailBox un outil favori pour les professionnels de la technique dans le monde entier."
+            },
+            {
+                "title": "Contourner les tunnels de vente et les pièges marketing",
+                "text": "Les plateformes d'e-commerce et de SaaS utilisent des 'Lead Magnets'—comme des eBooks ou des outils gratuits—pour capturer votre email et vous intégrer dans une séquence marketing agressive. Un email jetable vous permet d'accéder à ces ressources précieuses sans engagement. Vous obtenez la valeur que vous recherchiez, et les emails marketing suivants vont vers une boîte aux lettres qui a déjà été purgée. C'est la seule façon équitable d'interagir avec un web qui tente de plus en plus de capturer vos moindres faits et gestes."
+            },
+            {
+                "title": "Critères pour choisir un fournisseur fiable",
+                "text": "Lors de la recherche d'un fournisseur de mail temporaire, la vitesse et la confidentialité sont les facteurs les plus importants. Vous avez besoin d'un site qui se charge instantanément et fournit une boîte de réception immédiatement. Vous avez également besoin d'un service qui traite les messages en temps réel, car de nombreux liens de vérification expirent rapidement. La confidentialité est le fondement : YourEmailBox n'enregistre pas votre IP, utilise un cryptage HTTPS sécurisé et stocke tous les messages en RAM pour une destruction instantanée et totale une fois la session terminée. La fiabilité et la simplicité sont ce qui fait de nous un leader dans le domaine."
+            },
+            {
+                "title": "Comment utiliser le mail temporaire sans effort",
+                "text": "Utiliser YourEmailBox est aussi simple que de visiter le site. Une adresse est générée pour vous au moment où la page se charge. Vous pouvez copier cette adresse, la coller dans le champ requis sur n'importe quel site web, et surveiller les messages entrants directement sur notre page d'accueil. Il n'y a pas de mot de passe à retenir, pas de nom d'utilisateur à créer et pas de configuration. Une fois terminé, vous pouvez cliquer sur supprimer ou simplement fermer le navigateur. Il est conçu pour être le moyen le plus rapide d'obtenir une adresse email privée."
+            },
+            {
+                "title": "Exemples pratiques de survie numérique",
+                "text": "Pensez à la dernière fois que vous avez rejoint un réseau Wi-Fi public dans un aéroport ou utilisé un service d'hébergement de fichiers. On vous a probablement demandé un email. Utilisez un burner ! Si vous contactez un inconnu sur un service d'annonces, utilisez un mail temporaire. Si vous voulez voir une liste de prix ou une démo sans être appelé par une équipe commerciale, utilisez une adresse jetable. Ce sont tous des scénarios réels où un email temporaire gratuit vous garde en sécurité et votre boîte de réception silencieuse."
+            },
+            {
+                "title": "L'avantage stratégique de la compartimentation",
+                "text": "Les courtiers de données prospèrent en liant vos activités sur différents sites en utilisant votre adresse email comme identifiant commun. En utilisant un nouvel email temporaire gratuit pour chaque nouveau site, vous brisez ce lien. Vous 'cloisonnez' efficacement votre présence numérique. Cela empêche les traqueurs de comprendre votre historique de navigation complet ou votre profil d'intérêt. C'est plus que simplement éviter le courrier indésirable ; c'est une approche tactique pour maintenir votre souveraineté numérique."
+            },
+            {
+                "title": "Impact environnemental : Stockage et énergie",
+                "text": "Des milliards d'emails indésirables sont stockés indéfiniment dans des centres de données cloud, consommant des quantités massives d'énergie pour le refroidissement et l'alimentation. En utilisant un email temporaire gratuit pour les déchets, vous empêchez ces données d'être stockées de manière permanente. Notre stockage exclusivement en RAM signifie que les messages sont purgés électriquement, ne nécessitant aucune énergie à long terme pour le stockage. C'est un moyen modeste mais significatif de réduire l'empreinte environnementale de votre vie numérique."
+            },
+            {
+                "title": "Conclusion : Votre vie privée, votre choix",
+                "text": "L'Internet devrait être un lieu où vous pouvez explorer sans crainte. Un email temporaire gratuit est un outil qui restaure cette liberté. Que vous évitiez le spam, protégiez votre identité ou testiez une application, YourEmailBox est là pour fournir la solution la plus rapide et la plus sécurisée. Ne laissez pas votre adresse principale devenir un identifiant public. Utilisez un email burner à la place, et vivez le web exactement comme il a été conçu : rapide, gratuit et privé."
+            }
+        ],
+        "h2_faq": "Foire aux questions",
+        "faq_list": [
+            {
+                "q": "Qu'est-ce qu'un mail temporaire / jetable / anonyme ?",
+                "a": "C'est une boîte de réception éphémère qui vous permet de recevoir des e-mails sans révéler votre identité réelle. Elle est conçue pour être utilisée une seule fois ou pour une courte période, puis jetée."
+            },
+            {
+                "q": "Pourquoi avez-vous besoin d'une adresse email temporaire ?",
+                "a": "Pour protéger votre véritable boîte de réception du spam, éviter d'être suivi par les annonceurs et garder vos données personnelles en sécurité lors de l'inscription à des services que vous n'utilisez pas régulièrement."
+            },
+            {
+                "q": "Lisez-vous les messages ?",
+                "a": "Non. Notre système est automatisé et nous avons une politique de confidentialité stricte. Nous ne surveillons ni ne stockons vos messages au-delà de la session temporaire."
+            },
+            {
+                "q": "Combien de temps dure le mail temporaire ?",
+                "a": "Sur YourEmailBox, votre adresse dure tant que vous gardez votre session de navigateur active. Cela vous donne amplement le temps de recevoir et d'utiliser vos codes de vérification."
+            },
+            {
+                "q": "Quelle est la différence entre le mail jetable et l'email habituel ?",
+                "a": "Le mail jetable est temporaire, anonyme et ne nécessite aucune inscription. L'email habituel est permanent, souvent lié à votre identité et peut être une cible pour le spam à long terme."
+            },
+            {
+                "q": "Comment envoyer un email ?",
+                "a": "Actuellement, notre service se concentre sur la réception d'e-mails à des fins de vérification et de sécurité. Cela garantit que nos domaines conservent une haute réputation et une livraison rapide."
+            },
+            {
+                "q": "Comment supprimer un email temporaire ?",
+                "a": "Vous pouvez cliquer sur le bouton 'Supprimer' sur notre page d'accueil pour effacer instantanément votre adresse actuelle et tous les messages qui y sont associés."
+            },
+            {
+                "q": "Avez-vous une extension de navigateur ?",
+                "a": "Nous développons actuellement des extensions pour les principaux navigateurs afin de faciliter encore plus la génération d'e-mails temporaires en déplacement. Restez à l'écoute !"
+            },
+            {
+                "q": "J'ai trouvé une erreur/un bug. Comment puis-je le signaler ?",
+                "a": "Nous apprécions vos commentaires. Veuillez contacter notre équipe d'assistance via le formulaire de contact ou nos réseaux sociaux officiels pour signaler tout problème."
+            },
+            {
+                "q": "Puis-je vérifier les e-mails reçus ?",
+                "a": "Oui ! Tous les messages entrants apparaissent en temps réel dans la boîte de réception sur notre page d'accueil. Vous pouvez cliquer sur n'importe quel message pour voir son contenu complet."
+            },
+            {
+                "q": "Le mail temporaire est-il sûr ?",
+                "a": "Absolument. C'est un outil de sécurité conçu pour vous protéger. En n'utilisant pas votre véritable e-mail, vous éliminez le risque que ces données soient divulguées lors d'une faille."
+            }
+        ]
+    },
+    "navigation": {
+        "home": "Accueil",
+        "blog": "Blog",
+        "security": "Sécurité",
+        "protocol": "Protocole",
+        "about": "À propos de nous",
+        "contacts": "Contacts",
+        "tools": "Outils Gratuits",
+        "privacy": "Politique de confidentialité"
+    },
+    "blog": {
+        "title": "Blog d'Insights sur la Sécurité",
+        "subtitle": "Conseils d'experts sur la confidentialité numérique et mises à jour de sécurité.",
+        "view_all": "VOIR TOUS LES ARTICLES",
+        "search_placeholder": "Rechercher des articles...",
+        "read_time": "min de lecture",
+        "related_title": "Articles connexes",
+        "toc_title": "TABLE DES MATIÈRES",
+        "newsletter": {
+            "title": "Restez informé",
+            "subtitle": "Recevez les derniers protocoles de confidentialité directement dans votre boîte de réception.",
+            "placeholder": "votre@email.com",
+            "button": "S'abonner"
+        },
+        "seo": {
+            "title": "Blog d'Insights sur la Sécurité | Protocole YourEmailBox",
+            "description": "Gardez une longueur d'avance sur les cybermenaces. Lisez les dernières mises à jour, les protocoles de sécurité et les conseils de confidentialité sur les services de messagerie temporaire jetable.",
+            "keywords": "blog sécurité, conseils confidentialité, cybersécurité, sécurité email, actualités temp mail",
+            "og_title": "Blog d'Insights sur la Sécurité | YourEmailBox",
+            "og_description": "Gardez une longueur d'avance sur les cybermenaces. Lisez les dernières mises à jour, protocoles de sécurité et conseils de confidentialité.",
+            "twitter_title": "Blog d'Insights sur la Sécurité - YourEmailBox",
+            "twitter_description": "Lisez les dernières mises à jour et conseils de confidentialité."
+        }
+    },
+    "apps_extensions": {
+        "title": "Applications et extensions",
+        "subtitle": "Profitez d'un accès rapide et pratique pour générer des emails temporaires de n'importe où avec nos applications et extensions"
+    },
+    "common": {
+        "from": "De",
+        "date": "Date",
+        "deleted": "Supprimé",
+        "settings": "PARAMÈTRES LOCAUX",
+        "menu": "Menu",
+        "modal": {
+            "subtitle": "Créez votre adresse temporaire unique",
+            "custom_alias": "Alias personnalisé",
+            "placeholder": "ex. user-777",
+            "preview_label": "APERÇU DE L'ADRESSE :",
+            "button_update": "Mettre à jour l'adresse"
+        },
+        "premium": {
+            "elite_plan": "PLAN ÉLITE",
+            "view_plans": "Voir les plans"
+        }
+    },
+    "footer": {
+        "brand_tagline": "Email temporaire premium pour une vie numérique plus propre et plus sûre.",
+        "featured_on": "RECONNU PAR",
+        "startup_found": "Nommé pour le Global Privacy Award 2026",
+        "categories": {
+            "features": {
+                "title": "CAPACITÉS",
+                "links": [
+                    {
+                        "label": "Accès API",
+                        "href": "/api-docs"
+                    },
+                    {
+                        "label": "Domaines personnalisés",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Mail 10 Minutes",
+                        "href": "/"
+                    },
+                    {
+                        "label": "Premium",
+                        "href": "/premium"
+                    }
+                ]
+            },
+            "links": {
+                "title": "RESSOURCES",
+                "links": [
+                    {
+                        "label": "Blog",
+                        "href": "/blog"
+                    },
+                    {
+                        "label": "Code Source",
+                        "href": "#",
+                        "icon": "github"
+                    },
+                    {
+                        "label": "Protocole de Sécurité",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Guide Développeur",
+                        "href": "#"
+                    }
+                ]
+            },
+            "free_tools": {
+                "title": "OUTILS GRATUITS",
+                "links": [
+                    {
+                        "label": "Générateur de mot de passe",
+                        "href": "/tools/password-generator"
+                    },
+                    {
+                        "label": "Vérificateur de fuite de données",
+                        "href": "/tools/data-breach-checker"
+                    },
+                    {
+                        "label": "Validateur d'email",
+                        "href": "/tools/email-validator"
+                    },
+                    {
+                        "label": "Vérificateur de spam",
+                        "href": "/tools/spam-checker"
+                    },
+                    {
+                        "label": "Alias d'email gratuits",
+                        "href": "#",
+                        "external": true
+                    },
+                    {
+                        "label": "Extension Gmail Aliases",
+                        "href": "#",
+                        "external": true
+                    }
+                ]
+            },
+            "company": {
+                "title": "ENTREPRISE",
+                "links": [
+                    {
+                        "label": "À propos de nous",
+                        "href": "/about-us"
+                    },
+                    {
+                        "label": "Contacts",
+                        "href": "/contacts"
+                    },
+                    {
+                        "label": "Politique de confidentialité",
+                        "href": "/privacy-policy"
+                    },
+                    {
+                        "label": "Conditions d'utilisation",
+                        "href": "/terms-of-service"
+                    }
+                ]
+            }
+        }
+    },
+    "cookie_consent": {
+        "title": "Protocole de confidentialité",
+        "message": "Nous utilisons des cookies pour optimiser le protocole de sécurité et fournir des informations. En continuant, vous acceptez nos normes de confidentialité.",
+        "accept": "Accepter",
+        "details": "Détails"
+    },
+    "privacy_policy": {
+        "title": "Politique de confidentialité",
+        "last_updated": "Dernière mise à jour : 6 mai 2020",
+        "seo_intro": "youremailbox.com s'engage à protéger votre vie privée. Nous n'utiliserons les informations que nous collectons que légalement et conformément au Règlement Général sur la Protection des Données (RGPD) (Règlement (UE) 2016/679).",
+        "sections": [
+            {
+                "title": "Vos détails",
+                "content": "Les informations sur votre personne et les utilisateurs avec lesquels vous communiquez, l'adresse IP, l'adresse e-mail sont protégées et totalement confidentielles. youremailbox.com ne stocke pas votre adresse IP. Cela signifie que vous êtes protégé de manière fiable contre toutes les actions non autorisées qui pourraient mettre en danger vos informations et compromettre votre vie privée. Tous les e-mails et données stockés temporairement sur notre service sont définitivement supprimés après 16 heures. Vous pouvez supprimer votre adresse e-mail temporaire à tout moment en utilisant le bouton approprié 'supprimer' sur la page d'accueil."
+            },
+            {
+                "title": "Quelles informations collectons-nous ?",
+                "content": "Aucune donnée personnelle n'est collectée. Comme la plupart des serveurs de sites Web standard, nous utilisons des fichiers journaux. Cela inclut les adresses de protocole Internet (IP), le type de navigateur, le fournisseur de services Internet (FAI), les pages de référence/sortie, le type de plate-forme, l'horodatage de la date/heure et le nombre de clics pour analyser les tendances, administrer le site, suivre les mouvements de l'utilisateur de manière agrégée et recueillir des informations démographiques générales pour une utilisation globale. Les adresses IP, etc., ne sont pas liées à des informations personnellement identifiables."
+            },
+            {
+                "title": "Utilisons-nous des cookies ?",
+                "content": "Oui (Les cookies sont de petits fichiers qu'un site ou son fournisseur de services transfère sur le disque dur de votre ordinateur via votre navigateur Web (si vous l'autorisez) qui permet aux systèmes du site Web ou du fournisseur de services de reconnaître votre navigateur et de capturer et mémoriser certaines informations. Nous utilisons des cookies pour suivre les publicités et mémoriser certaines informations. Les fournisseurs tiers, y compris Google, utilisent des cookies pour diffuser des annonces basées sur les visites antérieures d'un utilisateur sur votre site Web ou d'autres sites Web. L'utilisation par Google des cookies publicitaires lui permet, ainsi qu'à ses partenaires, de diffuser des annonces à vos utilisateurs en fonction de leur visite sur vos sites et/ou d'autres sites sur Internet. Les utilisateurs peuvent désactiver la publicité personnalisée en visitant les paramètres des annonces. (Alternativement, vous pouvez inviter les utilisateurs à désactiver l'utilisation des cookies d'un fournisseur tiers pour la publicité personnalisée en visitant <a href=\"https://youradchoices.com\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">youradchoices.com</a>.)"
+            },
+            {
+                "title": "Google AdSense et réseaux publicitaires",
+                "content": "Si vous n'avez pas désactivé la diffusion d'annonces tierces, les cookies d'autres fournisseurs tiers ou réseaux publicitaires peuvent également être utilisés pour diffuser des annonces sur votre site. Informez les visiteurs de votre site des fournisseurs tiers et des réseaux publicitaires diffusant des annonces sur votre site. Fournissez des liens vers les sites Web des fournisseurs et des réseaux publicitaires appropriés. Informez vos utilisateurs qu'ils peuvent visiter ces sites Web pour désactiver l'utilisation des cookies pour la publicité personnalisée. Alternativement, vous pouvez diriger les utilisateurs vers la désactivation des cookies de certains fournisseurs tiers pour la publicité personnalisée en visitant <a href=\"https://youradchoices.com\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">youradchoices.com</a>. Parce que les sites d'éditeurs et les lois varient selon les pays, nous ne sommes pas en mesure de suggérer une formulation spécifique de politique de confidentialité. Cependant, vous pouvez consulter des ressources telles que la Network Advertising Initiative pour obtenir des conseils sur la rédaction d'une politique de confidentialité. Pour plus de détails concernant les avis de consentement aux cookies, veuillez vous référer à <a href=\"https://www.cookiechoices.org\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">cookiechoices.org</a>."
+            },
+            {
+                "title": "Divulguons-nous des informations à des parties extérieures ?",
+                "content": "Nous ne vendons, n'échangeons ni ne transférons de toute autre manière vos informations personnellement identifiables à des parties extérieures. Cela n'inclut pas les tiers de confiance qui nous aident à exploiter notre site Web, à mener nos activités ou à vous servir, tant que ces parties acceptent de garder ces informations confidentielles. Nous pouvons également divulguer vos informations lorsque nous pensons que la divulgation est appropriée pour se conformer à la loi, appliquer les politiques de notre site ou protéger nos droits, notre propriété ou notre sécurité ou ceux d'autrui. Cependant, des informations de visiteur non personnellement identifiables peuvent être fournies à d'autres parties pour le marketing, la publicité ou d'autres utilisations."
+            },
+            {
+                "title": "Liens tiers",
+                "content": "Occasionnellement, à notre discrétion, nous pouvons inclure ou proposer des produits ou services tiers sur notre site Web. Ces sites tiers ont des politiques de confidentialité distinctes et indépendantes. Nous n'avons donc aucune responsabilité ni obligation pour le contenu et les activités de ces sites liés. Néanmoins, nous cherchons à protéger l'intégrité de notre site et accueillons tous les commentaires sur ces sites. <br/><br/> <a href=\"https://policies.google.com/privacy\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">Politique de confidentialité de Google Analytics</a>"
+            },
+            {
+                "title": "Sociétés publicitaires tierces",
+                "content": "Nous autorisons des sociétés tierces à diffuser des annonces et/ou à collecter certaines informations anonymes lorsque vous visitez notre site Web. Ces sociétés peuvent utiliser des informations non personnellement identifiables (par exemple, des informations sur le flux de clics, le type de navigateur, l'heure et la date, le sujet des publicités cliquées ou survolées) lors de vos visites sur ce site et sur d'autres sites Web afin de fournir des publicités sur des produits et services susceptibles de vous intéresser davantage. Ces sociétés utilisent généralement un cookie ou une balise Web tierce pour collecter ces informations. Pour en savoir plus sur cette pratique de publicité comportementale ou pour désactiver ce type de publicité, vous pouvez visiter <a href=\"https://www.networkadvertising.org\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">www.networkadvertising.org</a>. <br/><br/> <a href=\"https://policies.google.com/privacy\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">Règles de confidentialité et conditions de Google AdSense</a>"
+            },
+            {
+                "title": "Politique de confidentialité en ligne uniquement",
+                "content": "Cette politique de confidentialité en ligne s'applique uniquement aux informations collectées via notre site Web et non aux informations collectées hors ligne."
+            },
+            {
+                "title": "Votre consentement",
+                "content": "En utilisant notre site, vous consentez à la politique de confidentialité de notre site Web."
+            },
+            {
+                "title": "Modifications de notre politique de confidentialité",
+                "content": "Si nous décidons de modifier notre politique de confidentialité, nous publierons ces modifications sur cette page."
+            }
+        ],
+        "seo": {
+            "title": "Politique de confidentialité | Protocole YourEmailBox",
+            "description": "Notre engagement à protéger vos données et votre vie privée. En savoir plus sur notre stockage RAM-only et la conformité RGPD.",
+            "keywords": "politique de confidentialité, rgpd, protection des données, confidentialité email",
+            "og_title": "Politique de confidentialité - YourEmailBox",
+            "og_description": "Découvrez comment nous protégeons votre identité numérique et vos données.",
+            "twitter_title": "Politique de confidentialité - YourEmailBox",
+            "twitter_description": "Notre engagement envers votre confidentialité numérique."
+        }
+    },
+    "terms_of_service": {
+        "title": "Conditions d'utilisation",
+        "last_updated": "Dernière mise à jour : 24 janvier 2026",
+        "seo_intro": "Bienvenue dans les conditions officielles d'utilisation de la plateforme d'<a href=\"/fr\" style=\"color: #fff; font-weight: bold; text-decoration: underline;\">email temporaire gratuit</a> YourEmailBox. En accédant à nos nœuds, vous acceptez les protocoles de sécurité suivants.",
+        "sections": [
+            {
+                "title": "Politique d'utilisation acceptable",
+                "content": "YourEmailBox est fourni pour une protection légitime de la vie privée. Notre service de <b>mail jetable</b> ne doit pas être utilisé pour des activités illégales, y compris mais sans s'y limiter : la fraude, la distribution de logiciels malveillants, le harcèlement ou le spamming systématique de services tiers. Nous nous réservons le droit de bloquer l'accès ou d'invalider des domaines si un abus est détecté afin de protéger l'intégrité de notre protocole."
+            },
+            {
+                "title": "Garantie de service et disponibilité",
+                "content": "Notre service de <b>temp mail</b> est fourni 'en l'état' et 'selon disponibilité'. Bien que nous nous efforcions d'obtenir une disponibilité de 100% et une livraison à haute vitesse, nous ne garantissons pas que le service sera sans erreur ou ininterrompu. Nous ne garantissons pas la disponibilité de noms de domaines temporaires spécifiques ou le stockage à long terme des messages entrants."
+            },
+            {
+                "title": "Limitation de responsabilité",
+                "content": "YourEmailBox et ses opérateurs ne seront pas responsables des dommages résultant de l'utilisation ou de l'impossibilité d'utiliser notre <b>email temporaire gratuit</b>. Cela inclut la perte de données, les failles de sécurité sur des sites tiers où nos adresses ont été utilisées, ou toute conséquence indirecte de l'utilisation d'une identité numérique transitoire."
+            },
+            {
+                "title": "Protocole d'indemnisation",
+                "content": "Vous acceptez d'indemniser et de dégager de toute responsabilité YourEmailBox, ses agents et ses partenaires contre toute réclamation, demande ou frais juridiques découlant de votre violation de ces conditions ou de votre utilisation abusive de notre infrastructure d'<b>email anonyme</b>."
+            },
+            {
+                "title": "Modifications du service",
+                "content": "En tant que plateforme de confidentialité dynamique, nous mettons continuellement à jour nos domaines et nos systèmes dorsaux. Nous nous réservons le droit de modifier, suspendre ou mettre fin à tout aspect du service à tout moment sans préavis. L'utilisation continue de YourEmailBox constitue une acceptation de toute modification de ces conditions."
+            }
+        ],
+        "seo": {
+            "title": "Conditions d'utilisation | Protocole YourEmailBox",
+            "description": "Règles et directives pour l'utilisation du service de messagerie temporaire YourEmailBox.",
+            "keywords": "conditions d'utilisation, accord utilisateur, politique d'utilisation acceptable",
+            "og_title": "Conditions d'utilisation - YourEmailBox",
+            "og_description": "Directives d'utilisation de notre infrastructure de confidentialité spécialisée.",
+            "twitter_title": "Conditions d'utilisation - YourEmailBox",
+            "twitter_description": "Accord utilisateur et politique d'utilisation acceptable."
+        }
+    },
+    "about_us": {
+        "title": "À propos de YourEmailBox",
+        "seo_intro": "Impulser la norme mondiale pour la <b>confidentialité numérique</b> et la <b>communication anonyme</b>. Découvrez notre mission et l'équipe derrière le protocole d'email temporaire le plus sécurisé.",
+        "sections": [
+            {
+                "title": "Notre Mission",
+                "text": "YourEmailBox a été fondé avec un seul objectif : redonner le contrôle de l'identité numérique à l'utilisateur. À une époque où les adresses e-mail sont devenues un identifiant de suivi permanent, nous offrons un moyen de se déconnecter et de naviguer librement. Notre infrastructure repose sur les piliers de la vitesse, de la transparence et de l'anonymat total."
+            },
+            {
+                "title": "Excellence technique",
+                "text": "Nous exploitons une flotte de serveurs RAM-only à faible latence qui garantit que vos messages temporaires ne touchent jamais un disque dur. Cette approche de 'confidentialité dès la conception' signifie que les données que nous n'avons pas ne peuvent pas faire l'objet d'une fuite, être volées ou demandées. Nous utilisons un cryptage avancé et un routage de courrier exclusif pour livrer vos codes de vérification en quelques secondes."
+            },
+            {
+                "title": "Engagement mondial",
+                "text": "Servant des millions d'utilisateurs dans le monde, nous nous engageons à garder l'Internet ouvert et sûr. Des développeurs testant des produits aux passionnés de confidentialité évitant les traqueurs, nous fournissons les outils nécessaires pour maintenir une hygiène numérique de haut niveau dans un monde complexe."
+            }
+        ],
+        "seo": {
+            "title": "À propos de nous | Protocole YourEmailBox",
+            "description": "Découvrez la mission et les normes techniques de YourEmailBox, le premier fournisseur de services de messagerie temporaire à haute vitesse.",
+            "keywords": "à propos de nous, mission, normes techniques, histoire de l'entreprise",
+            "og_title": "À propos de nous - YourEmailBox",
+            "og_description": "La mission et l'équipe derrière la norme mondiale de confidentialité.",
+            "twitter_title": "À propos de nous - YourEmailBox",
+            "twitter_description": "Impulser la norme mondiale pour la confidentialité numérique."
+        }
+    },
+    "contact_us": {
+        "title": "Contactez-nous",
+        "seo_intro": "Vous avez des questions ou des demandes techniques ? Notre équipe de sécurité est prête à vous aider. Contactez-nous pour obtenir de l'aide, des partenariats ou des rapports de sécurité.",
+        "form": {
+            "name": "Nom complet",
+            "email": "Email professionnel",
+            "subject": "Sujet de la demande",
+            "message": "Détails du message",
+            "submit": "Envoyer le message"
+        },
+        "info": {
+            "title": "Détails du contact",
+            "support_label": "SUPPORT GÉNÉRAL",
+            "abuse_label": "RAPPORTS D'ABUS",
+            "social_label": "NŒUDS SOCIAUX",
+            "email": "support@youremailbox.com",
+            "abuse": "abuse@youremailbox.com",
+            "location": "Protocole Global / Distant"
+        },
+        "seo": {
+            "title": "Contactez-nous | Protocole YourEmailBox",
+            "description": "Contactez l'équipe YourEmailBox pour obtenir de l'aide, des partenariats ou des rapports de sécurité.",
+            "keywords": "contact, support, aide, partenariat, rapport de sécurité",
+            "og_title": "Contactez-nous - YourEmailBox",
+            "og_description": "Vous avez des questions ? Notre équipe de sécurité est prête à vous aider.",
+            "twitter_title": "Contactez-nous - YourEmailBox",
+            "twitter_description": "Entrez en contact avec notre équipe de sécurité."
+        }
+    },
+    "tools": {
+        "password_generator": {
+            "title": "Générateur de mot de passe gratuit",
+            "subtitle": "Créez instantanément des mots de passe de qualité militaire et cryptographiquement sécurisés. Aucune donnée ne quitte votre appareil.",
+            "label": "Générateur de mot de passe",
+            "generated_password": "MOT DE PASSE GÉNÉRÉ",
+            "strength": "FORCE",
+            "copy": "COPIER",
+            "copied": "COPIÉ !",
+            "customization": "PERSONNALISATION",
+            "length": "Longueur du mot de passe",
+            "uppercase": "Majuscules (A-Z)",
+            "lowercase": "Minuscules (a-z)",
+            "numbers": "Chiffres (0-9)",
+            "symbols": "Symboles (!@#$)",
+            "why_title": "Pourquoi utiliser un générateur de mot de passe fort ?",
+            "why_feature1_title": "Cryptographiquement sécurisé",
+            "why_feature1_desc": "Utilise window.crypto.getRandomValues() pour un caractère aléatoire réel impossible à prédire ou à reproduire.",
+            "why_feature2_title": "100% côté client",
+            "why_feature2_desc": "Toute la génération se passe dans votre navigateur. Aucune donnée n'est jamais envoyée à nos serveurs ou stockée.",
+            "why_feature3_title": "Entièrement personnalisable",
+            "why_feature3_desc": "Contrôlez la longueur, les types de caractères et la complexité pour correspondre à n'importe quelle exigence de mot de passe.",
+            "how_title": "Comment utiliser ce générateur de mot de passe",
+            "how_step1": "Ajustez le curseur de longueur pour définir la longueur souhaitée (8-64 caractères)",
+            "how_step2": "Sélectionnez les types de caractères - activez majuscules, minuscules, chiffres et symboles",
+            "how_step3": "Cliquez sur 'Copier' pour enregistrer le mot de passe dans votre presse-papiers",
+            "how_step4": "Utilisez 'Actualiser' pour générer un nouveau mot de passe avec les mêmes paramètres",
+            "what_makes_title": "Qu'est-ce qui rend un mot de passe fort ?",
+            "what_makes_p1": "Dans le paysage numérique d'aujourd'hui, les mots de passe faibles sont la vulnérabilité de sécurité n°1. Les pirates utilisent des algorithmes sophistiqués. Un mot de passe sécurisé doit avoir :",
+            "what_makes_li1": "Longueur : Au moins 12-16 caractères (plus c'est long, mieux c'est)",
+            "what_makes_li2": "Complexité : Mélange de majuscules, minuscules, chiffres et symboles",
+            "what_makes_li3": "Caractère aléatoire : Pas de mots du dictionnaire, d'infos personnelles ou de motifs",
+            "what_makes_li4": "Unicité : Un mot de passe différent pour chaque compte",
+            "how_it_works_title": "Comment fonctionne notre générateur",
+            "how_it_works_p1": "Notre générateur de mot de passe utilise l'API Web Crypto, qui fournit des valeurs aléatoires cryptographiquement fortes. C'est la même technologie utilisée par :",
+            "how_it_works_li1": "Les applications bancaires pour les transactions sécurisées",
+            "how_it_works_li2": "Les gestionnaires de mots de passe comme 1Password et LastPass",
+            "how_it_works_li3": "Les systèmes de sécurité gouvernementaux et militaires",
+            "pro_tip_title": "Conseil de pro : Utilisez un gestionnaire de mots de passe",
+            "pro_tip_p": "Bien que notre générateur crée des mots de passe sécurisés, s'en souvenir est impossible. Nous recommandons Bitwarden, 1Password ou LastPass.",
+            "faq_title": "Foire aux questions",
+            "faq_q1": "Ce générateur de mot de passe est-il vraiment sécurisé ?",
+            "faq_a1": "Oui ! Nous utilisons le générateur de nombres aléatoires cryptographiquement sécurisé de l'API Web Crypto. Tout se passe localement dans votre navigateur.",
+            "faq_q2": "Quelle est la longueur idéale d'un mot de passe ?",
+            "faq_a2": "Nous recommandons au moins 16 caractères pour une sécurité maximale. Chaque caractère supplémentaire augmente exponentiellement le temps nécessaire au piratage.",
+            "faq_q3": "Dois-je utiliser des symboles dans mes mots de passe ?",
+            "faq_a3": "Absolument ! L'inclusion de symboles augmente considérablement la complexité et rend les attaques par force brute presque impossibles.",
+            "faq_q4": "À quelle fréquence dois-je changer mes mots de passe ?",
+            "faq_a4": "Changez les mots de passe immédiatement si vous soupçonnez une faille. Sinon, concentrez-vous sur des mots de passe uniques et forts pour chaque compte.",
+            "faq_q5": "Puis-je faire confiance à cet outil pour des comptes sensibles ?",
+            "faq_a5": "Oui. Comme toute la génération est côté client et que nous ne stockons ni ne transmettons aucune donnée, cet outil est sûr pour tous vos comptes.",
+            "seo": {
+                "title": "Générateur de mot de passe gratuit - Créez des mots de passe forts | YourEmailBox",
+                "description": "Générez instantanément des mots de passe cryptographiquement sécurisés. Personnalisez la longueur, utilisez majuscules, minuscules, chiffres et symboles. 100% côté client.",
+                "keywords": "générateur de mot de passe, mot de passe sécurisé, mot de passe aléatoire, mot de passe fort, créateur de mot de passe, outil mot de passe gratuit",
+                "og_title": "Générateur de mot de passe gratuit - Créez des mots de passe forts et sécurisés",
+                "og_description": "Générez des mots de passe de qualité militaire avec notre outil gratuit. Entièrement personnalisable et 100% sécurisé.",
+                "twitter_title": "Générateur de mot de passe gratuit - YourEmailBox",
+                "twitter_description": "Créez instantanément des mots de passe cryptographiquement sécurisés"
+            }
+        },
+        "email_validator": {
+            "title": "Validateur d'email",
+            "subtitle": "Vérification professionnelle pour vos listes de diffusion. Vérifiez la délivrabilité, le statut du serveur et le risque de mail jetable.",
+            "label": "Validateur d'email",
+            "placeholder": "Entrez l'adresse email à valider...",
+            "button": "VÉRIFIER L'EMAIL",
+            "verifying": "VÉRIFICATION EN COURS...",
+            "scanning_status": "EXÉCUTION DU HANDSHAKE SMTP ET RECHERCHE MX...",
+            "deliverable": "Livrable",
+            "undeliverable": "Risqué / Non livrable",
+            "new_test": "NOUVEAU TEST",
+            "syntax_check": "Syntaxe / Format",
+            "mx_check": "Enregistrements MX",
+            "smtp_check": "Serveur SMTP",
+            "disposable_check": "Pas jetable",
+            "what_is_title": "Qu'est-ce que la validation d'email ?",
+            "feature1_title": "Vérification multicouche",
+            "feature1_desc": "Nous effectuons des vérifications de syntaxe, des recherches d'enregistrements MX et des handshakes SMTP pour garantir la délivrabilité.",
+            "feature2_title": "Validation en temps réel",
+            "feature2_desc": "Obtenez des résultats instantanés en vous connectant directement aux serveurs de messagerie sans envoyer d'e-mails réels.",
+            "feature3_title": "Détection d'emails jetables",
+            "feature3_desc": "Identifiez les adresses e-mail temporaires qui pourraient nuire à votre réputation d'expéditeur.",
+            "how_to_title": "Comment utiliser ce validateur",
+            "how_step1": "Entrez l'adresse e-mail que vous souhaitez valider dans le champ de saisie",
+            "how_step2": "Cliquez sur 'Vérifier l'email' pour lancer le processus de validation",
+            "how_step3": "Examinez les résultats - nous montrerons la syntaxe, le MX, le SMTP et le statut jetable",
+            "how_step4": "Agissez - supprimez les e-mails invalides de votre liste de diffusion",
+            "why_validate_title": "Pourquoi valider les adresses e-mail ?",
+            "why_validate_p1": "La validation d'e-mail est cruciale pour maintenir une saine réputation d'expéditeur. Voici pourquoi cela compte :",
+            "why_li1": "Réduire les taux de rebond : Les e-mails invalides rebondissent, ce qui nuit à votre score d'expéditeur",
+            "why_li2": "Améliorer la délivrabilité : Des listes propres signifient de meilleurs taux de placement en boîte de réception",
+            "why_li3": "Économiser de l'argent : Ne payez pas pour envoyer des e-mails à des adresses qui n'existent pas",
+            "why_li4": "Protéger votre domaine : Des taux de rebond élevés peuvent vous faire inscrire sur liste noire",
+            "understanding_checks_title": "Comprendre les vérifications de validation",
+            "check1_title": "Vérification de syntaxe / format",
+            "check1_desc": "Vérifie que l'e-mail respecte les normes RFC 5322 (ex. présence du symbole @, structure de domaine valide)",
+            "check2_title": "Recherche d'enregistrements MX",
+            "check2_desc": "Confirme que le domaine possède des serveurs d'échange de courrier configurés pour recevoir des e-mails",
+            "check3_title": "Vérification du serveur SMTP",
+            "check3_desc": "Se connecte au serveur de messagerie pour vérifier l'existence de la boîte aux lettres sans envoyer d'e-mail",
+            "check4_title": "Détection d'email jetable",
+            "check4_desc": "Identifie les services d'e-mail temporaires qui pourraient indiquer des inscriptions de faible qualité",
+            "pro_tip_title": "Bonne pratique pour les spécialistes de l'email marketing",
+            "pro_tip_p": "Validez les e-mails au moment de l'inscription. Pour les listes existantes, effectuez des audits de validation réguliers tous les 3 à 6 mois.",
+            "faq_title": "Foire aux questions",
+            "faq_q1": "Quelle est la précision de la validation d'e-mail ?",
+            "faq_a1": "Notre validateur effectue des vérifications SMTP et MX réelles, offrant une précision de plus de 95%. Cependant, certains serveurs peuvent bloquer les tentatives.",
+            "faq_q2": "Le destinataire saura-t-il que j'ai validé son e-mail ?",
+            "faq_a2": "No. Nous effectuons des handshakes SMTP sans envoyer d'e-mails réels. Le processus est complètement invisible pour le destinataire.",
+            "faq_q3": "Quelle est la différence entre les vérifications de syntaxe et SMTP ?",
+            "faq_a3": "La syntaxe vérifie le format. Le SMTP se connecte au serveur pour confirmer que la boîte existe et peut recevoir du courrier.",
+            "faq_q4": "Puis-je valider des listes d'e-mails en vrac ?",
+            "faq_a4": "Cet outil est conçu pour une validation unique. Pour le vrac, envisagez d'utiliser notre API ou des services dédiés.",
+            "faq_q5": "Pourquoi un e-mail semblant valide échouerait-il à la validation ?",
+            "faq_a5": "Raisons courantes : le domaine n'a pas de MX, la boîte n'existe pas, le serveur est hors ligne ou c'est un service jetable.",
+            "faq_q6": "Que dois-je faire avec les e-mails invalides ?",
+            "faq_a6": "Supprimez-les immédiatement de votre liste. Continuer à envoyer à ces adresses nuira à votre réputation et pourrait vous faire blacklister.",
+            "seo": {
+                "title": "Validateur d'Email - Vérifiez l'adresse e-mail en ligne | YourEmailBox",
+                "description": "Vérifiez si une adresse e-mail est valide, existante et sûre. Outil professionnel de validation SMTP et MX pour des listes de diffusion propres.",
+                "keywords": "validateur d'email, vérifier email, vérifier adresse e-mail, vérification smtp, recherche enregistrement mx, vérificateur d'email",
+                "og_title": "Validateur d'Email - Vérifiez l'adresse e-mail en ligne",
+                "og_description": "Vérification professionnelle pour vos listes de diffusion. Vérifiez la délivrabilité, le statut du serveur et le risque jetable.",
+                "twitter_title": "Validateur d'Email - YourEmailBox",
+                "twitter_description": "Vérifiez si une adresse e-mail est valide, existante et sûre à envoyer."
+            }
+        },
+        "spam_checker": {
+            "title": "Vérificateur de spam",
+            "subtitle": "Identifiez les déclencheurs de spam avant qu'ils n'atteignent la boîte de réception. Analysez le contenu pour les mots-clés et les motifs risqués.",
+            "label": "Vérificateur de spam",
+            "content_label": "CONTENU DE L'EMAIL",
+            "placeholder": "Collez l'objet de votre e-mail ou le corps du texte ici pour analyser les déclencheurs de spam...",
+            "characters": "CARACTÈRES",
+            "words": "MOTS",
+            "button": "ANALYSER LE SCORE DE SPAM",
+            "analyzing": "ANALYSE EN COURS...",
+            "score_label": "SCORE DE SPAM",
+            "verdict_high": "RISQUE ÉLEVÉ",
+            "verdict_moderate": "RISQUE MODÉRÉ",
+            "verdict_low": "RISQUE FAIBLE",
+            "msg_high": "Probablement identifié comme spam",
+            "msg_moderate": "Peut déclencher des filtres anti-spam",
+            "msg_low": "Bonne délivrabilité attendue",
+            "detailed_analysis": "ANALYSE DÉTAILLÉE",
+            "keywords_detected": "Mots-clés de spam détectés",
+            "none_found": "AUCUN TROUVÉ ✓",
+            "uppercase_usage": "Usage des majuscules",
+            "uppercase_note_high": "Des majuscules excessives peuvent déclencher des filtres",
+            "uppercase_note_ok": "Dans une plage acceptable",
+            "excl_marks": "Points d'exclamation",
+            "excl_note_high": "Trop de points d'exclamation peuvent paraître spammy",
+            "excl_note_ok": "Nombre acceptable",
+            "overall_risk": "Risque global de délivrabilité",
+            "risk_high": "ÉLEVÉ",
+            "risk_moderate": "MODÉRÉ",
+            "risk_low": "FAIBLE",
+            "new_analysis": "NOUVELLE ANALYSE",
+            "why_title": "Comprendre les filtres anti-spam",
+            "feature1_title": "Analyse de mots-clés",
+            "feature1_desc": "Nous recherchons les mots déclencheurs de spam courants que les filtres signalent, y compris le langage promotionnel.",
+            "feature2_title": "Vérifications de formatage",
+            "feature2_desc": "La capitalisation excessive, la ponctuation et les problèmes de formatage sont analysés comme indicateurs de spam.",
+            "feature3_title": "Rétroaction instantanée",
+            "feature3_desc": "Obtenez des résultats immédiats avec des recommandations exploitables pour améliorer votre délivrabilité.",
+            "how_to_title": "Comment utiliser cet outil",
+            "how_step1": "Copiez le contenu de votre e-mail - objet, corps, ou les deux",
+            "how_step2": "Collez-le dans la zone de texte ci-dessus",
+            "how_step3": "Cliquez sur 'Analyser le score de spam' pour lancer la vérification",
+            "how_step4": "Examinez les résultats et supprimez les déclencheurs de spam signalés",
+            "how_step5": "Testez à nouveau jusqu'à obtenir un score de spam faible",
+            "common_triggers_title": "Déclencheurs de spam courants à éviter",
+            "trigger1_title": "Langage promotionnel",
+            "trigger2_title": "Termes financiers",
+            "trigger3_title": "Tactiques d'urgence",
+            "trigger4_title": "Formatage excessif",
+            "best_practices_title": "Bonnes pratiques pour la délivrabilité des e-mails",
+            "practice_li1": "Utilisez un nom d'expéditeur reconnaissable - Les destinataires doivent savoir qui vous êtes",
+            "practice_li2": "Écrivez des objets clairs - Évitez les titres racoleurs et trompeurs",
+            "practice_li3": "Équilibrez texte et images - Trop d'images peuvent déclencher des filtres",
+            "practice_li4": "Incluez un lien de désabonnement - Requis par la loi et améliore la confiance",
+            "practice_li5": "Authentifiez votre domaine - Configurez les enregistrements SPF, DKIM et DMARC",
+            "pro_tip_title": "Conseil de pro pour les spécialistes marketing",
+            "pro_tip_p": "Même si votre contenu passe les filtres, l'engagement compte. Des taux d'ouverture bas signalent aux fournisseurs que votre contenu n'a pas de valeur.",
+            "faq_title": "Foire aux questions",
+            "faq_q1": "Quelle est la précision de ce vérificateur de spam ?",
+            "faq_a1": "Notre outil analyse les déclencheurs courants. Bien qu'il fournisse une bonne indication, le filtrage réel varie selon le fournisseur.",
+            "faq_q2": "Qu'est-ce qu'un bon score de spam ?",
+            "faq_a2": "Visez un score inférieur à 30. Les scores entre 30-60 indiquent un risque modéré, au-delà de 60, il sera probablement filtré.",
+            "faq_q3": "Puis-je vérifier des e-mails HTML ?",
+            "faq_a3": "Cet outil analyse le contenu textuel. Pour le HTML, collez la version texte ou utilisez des outils spécialisés pour l'analyse HTML.",
+            "faq_q4": "Pourquoi les e-mails légitimes sont-ils parfois signalés ?",
+            "faq_a4": "Les filtres sont prudents. Même des e-mails légitimes peuvent être signalés s'ils utilisent un langage trop promotionnel.",
+            "faq_q5": "Comment puis-je améliorer ma réputation d'expéditeur ?",
+            "faq_a5": "Maintenez des listes propres, envoyez de manière cohérente, évitez les plaintes pour spam et authentifiez votre domaine.",
+            "faq_q6": "Cet outil envoie-t-il mon contenu quelque part ?",
+            "faq_a6": "Non. Toute l'analyse se passe localement dans votre navigateur. Nous ne stockons ni ne transmettons jamais votre contenu.",
+            "seo": {
+                "title": "Vérificateur de spam - Analysez l'e-mail pour les déclencheurs | YourEmailBox",
+                "description": "Identifiez les déclencheurs potentiels de spam dans votre contenu d'e-mail. Analysez les mots-clés et le formatage pour améliorer la délivrabilité.",
+                "keywords": "vérificateur de spam, analyse spam email, test filtre spam, outil délivrabilité, mots-clés spam",
+                "og_title": "Vérificateur de spam - Analysez l'e-mail pour les déclencheurs de spam",
+                "og_description": "Identifiez les déclencheurs de spam avant qu'ils n'atteignent la boîte de réception. Analysez le contenu.",
+                "twitter_title": "Vérificateur de spam - YourEmailBox",
+                "twitter_description": "Identifiez les déclencheurs potentiels de spam dans votre contenu d'e-mail."
+            }
+        },
+        "breach_checker": {
+            "title": "Vérificateur de fuite de données",
+            "subtitle": "Votre identité est-elle à vendre ? Scannez les bases de données de violations les plus complètes pour voir si votre e-mail a été exposé.",
+            "label": "Vérificateur de fuite de données",
+            "placeholder": "Entrez votre adresse e-mail pour scanner...",
+            "button": "SCANNER MAINTENANT",
+            "scanning": "SCAN EN COURS...",
+            "scanning_title": "Scan des bases de données mondiales",
+            "scanning_desc": "Vérification croisée de votre e-mail avec plus de 500 bases de données de violations de sécurité...",
+            "exposure_detected": "Exposition détectée !",
+            "exposure_warn": "Attention : cette adresse e-mail est apparue dans des violations de données connues. Vos informations privées peuvent être accessibles.",
+            "breach_details": "VOIR LES DÉTAILS DE LA VIOLATION",
+            "reset_scan": "RÉINITIALISER LE SCAN",
+            "clean_status": "Statut Propre",
+            "clean_msg": "Bonne nouvelle ! Aucun enregistrement de cette adresse e-mail n'a été trouvé dans nos bases de données surveillées.",
+            "new_scan": "LANCER UN NOUVEAU SCAN",
+            "why_title": "Pourquoi vérifier les violations de données ?",
+            "feature1_title": "500+ bases de données de violations",
+            "feature1_desc": "Nous surveillons et indexons les données de milliers de violations de sécurité vérifiées à l'échelle mondiale.",
+            "feature2_title": "Scan priorisant la confidentialité",
+            "feature2_desc": "Votre e-mail est haché avant la transmission. Nous ne stockons jamais vos recherches.",
+            "feature3_title": "Surveillance en temps réel",
+            "feature3_desc": "Notre base de données est continuellement mise à jour avec les violations nouvellement découvertes.",
+            "what_is_title": "Qu'est-ce qu'une violation de données ?",
+            "what_is_p": "Une violation de données se produit lorsque des cybercriminels accèdent sans autorisation à une base de données. Cela peut inclure des emails, des mots de passe et des infos financières.",
+            "how_to_title": "Comment utiliser cet outil",
+            "how_step1": "Entrez votre adresse e-mail dans la zone de recherche ci-dessus",
+            "how_step2": "Cliquez sur 'Scanner maintenant' pour lancer la recherche",
+            "how_step3": "Examinez les résultats - nous montrerons si votre e-mail apparaît dans des violations connues",
+            "how_step4": "Agissez - changez vos mots de passe immédiatement si une violation est détectée",
+            "what_to_do_title": "Que faire si votre e-mail a été exposé",
+            "what_to_do_p": "Ne paniquez pas - agissez rapidement en changeant vos mots de passe, en activant la 2FA et en surveillant votre activité.",
+            "action1_title": "Changer les mots de passe",
+            "action1_desc": "Mettez immédiatement à jour les mots de passe de tous les comptes utilisant cet e-mail",
+            "action2_title": "Activer la 2FA",
+            "action2_desc": "Ajoutez l'authentification à deux facteurs à vos comptes critiques",
+            "action3_title": "Surveiller l'activité",
+            "action3_desc": "Surveillez les tentatives de connexion ou les transactions suspectes",
+            "action4_title": "Utiliser des mots de passe uniques",
+            "action4_desc": "Ne réutilisez jamais les mêmes mots de passe sur plusieurs sites",
+            "pro_tip_title": "Conseil de sécurité important",
+            "pro_tip_p": "Si vous utilisez le même mot de passe sur plusieurs sites et que l'un d'eux est piraté, les hackers l'essaieront ailleurs (credential stuffing).",
+            "faq_title": "Foire aux questions",
+            "faq_q1": "Comment fonctionne le vérificateur de violations ?",
+            "faq_a1": "Nous hachons sécuritairement votre e-mail et le vérifions par rapport à nos enregistrements indexés.",
+            "faq_q2": "Mon e-mail est-il sûr quand j'utilise cet outil ?",
+            "faq_a2": "Oui. Votre e-mail est haché et nous ne stockons jamais votre adresse ni votre historique de recherche.",
+            "faq_q3": "Que dois-je faire si mon e-mail a été trouvé dans une violation ?",
+            "faq_a3": "Changez vos mots de passe immédiatement, activez la 2FA et utilisez un gestionnaire de mots de passe.",
+            "faq_q4": "À quelle fréquence votre base de données est-elle mise à jour ?",
+            "faq_a4": "Nous surveillons et mettons à jour notre base de données dès que de nouvelles violations sont découvertes.",
+            "faq_q5": "Puis-je vérifier plusieurs adresses e-mail ?",
+            "faq_a5": "Oui ! Lancez simplement un nouveau scan pour chaque adresse. Il n'y a pas de limite.",
+            "faq_q6": "Et si j'obtiens un résultat 'sûr' mais que je suis toujours inquiet ?",
+            "faq_a6": "Un résultat 'sûr' est bon, mais utilisez toujours des mots de passe forts et la 2FA par précaution.",
+            "seo": {
+                "title": "Vérificateur de fuite de données - Vérifiez si votre e-mail a été divulgué | YourEmailBox",
+                "description": "Scannez instantanément plus de 500 bases de données pour voir si votre e-mail a été exposé. Outil gratuit avec analyse de sécurité complète.",
+                "keywords": "vérificateur de violation, fuite e-mail, fuite mot de passe, scan sécurité, base de données violations, sécurité e-mail",
+                "og_title": "Vérificateur de fuite de données - Protégez votre identité",
+                "og_description": "Vérifiez si votre e-mail a été exposé dans des violations de données. Scannez plus de 500 bases de données.",
+                "twitter_title": "Vérificateur de fuite de données - YourEmailBox",
+                "twitter_description": "Scannez les bases de données mondiales pour protéger votre identité"
+            }
+        },
+        "tools_index": {
+            "title": "Outils de sécurité e-mail gratuits",
+            "subtitle": "Utilitaires professionnels de confidentialité et de sécurité pour protéger votre identité numérique. Pas d'inscription, pas de frais—juste des outils puissants.",
+            "why_title": "Pourquoi choisir nos outils de sécurité ?",
+            "benefit1_title": "100% axé sur la confidentialité",
+            "benefit1_desc": "Tous les outils s'exécutent côté client dans votre navigateur. Nous ne stockons, ne transmettons ni n'accédons à vos données.",
+            "benefit2_title": "Résultats instantanés",
+            "benefit2_desc": "Obtenez un retour immédiat sans attente. Nos outils sont optimisés pour la vitesse et la précision.",
+            "benefit3_title": "Sécurité de niveau entreprise",
+            "benefit3_desc": "Construit avec les mêmes normes cryptographiques utilisées par les banques et les professionnels de la sécurité.",
+            "complementary_title": "Applications de confidentialité complémentaires",
+            "aliases_label": "Alias d'e-mail gratuits",
+            "aliases_desc": "Créez des alias d'e-mail permanents pour une confidentialité professionnelle.",
+            "gmail_trick_label": "Astuce Gmail Plus",
+            "gmail_trick_desc": "Maîtrisez la technique d'adressage 'plus' pour des alias de suivi infinis.",
+            "launch_tool": "LANCER L'OUTIL",
+            "premium_cta_title": "Besoin de fonctionnalités plus avancées ?",
+            "premium_cta_desc": "Passez à la version premium pour des alias illimités, une surveillance avancée des violations et un support prioritaire.",
+            "premium_cta_button": "EXPLORER LE PREMIUM",
+            "seo": {
+                "title": "Outils de sécurité e-mail gratuits - Générateur de mot de passe & plus | YourEmailBox",
+                "description": "Outils de sécurité e-mail en ligne gratuits. Générez des mots de passe, vérifiez les violations, validez les e-mails et analysez le spam.",
+                "keywords": "outils e-mail, générateur mot de passe, vérificateur violation, validateur e-mail, vérificateur spam, outils sécurité",
+                "og_title": "Outils e-mail gratuits | Utilitaires de confidentialité et de sécurité",
+                "og_description": "Outils professionnels : Générateur de mot de passe, Vérificateur de fuite, Validateur d'email et Vérificateur de spam.",
+                "twitter_title": "Outils de sécurité e-mail gratuits - YourEmailBox",
+                "twitter_description": "Outils professionnels de confidentialité et de sécurité pour la protection des e-mails"
+            }
+        }
+    }
+}

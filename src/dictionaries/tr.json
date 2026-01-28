@@ -1,22 +1,22 @@
 {
     "title": "Ücretsiz Geçici E-posta - Hızlı ve Sınırsız Tek Kullanımlık Mail | YourEmailBox",
-    "meta_description": "Anında ücretsiz geçici e-posta adresi alın. Tek kullanımlık mail servisimizle gizliliğinizi koruyun. Spam engelleme, hesap doğrulama ve anonim gezinti için mükemmel. Kayıt tutulmaz, %100 gizli.",
+    "meta_description": "Anında ücretsiz geçici e-posta adresi alın. Tek kullanımlık mail servisimizle gizliliğinizi koruyun. Spamdan kaçınmak, hesap doğrulamak ve anonim gezinmek için mükemmel. Kayıt tutulmaz, %100 gizli. En iyi ücretsiz geçici e-posta aracı.",
     "home": {
         "seo": {
             "title": "Ücretsiz Geçici E-posta - Hızlı ve Sınırsız Tek Kullanımlık Mail | YourEmailBox",
-            "description": "Anında ücretsiz geçici e-posta adresi alın. Tek kullanımlık mail servisimizle gizliliğinizi koruyun. Spamdan kaçınmak, hesapları doğrulamak ve anonim gezinti için ideal.",
-            "keywords": "ücretsiz geçici e-posta, tek kullanımlık mail, temp mail, burner email, sahte mail, anonim e-posta, geçici posta kutusu, 10 dakikalık mail",
+            "description": "Anında ücretsiz geçici e-posta adresi alın. Tek kullanımlık mail servisimizle gizliliğinizi koruyun. Spamdan kaçınmak, hesap doğrulamak ve anonim gezinmek için mükemmel.",
+            "keywords": "ücretsiz geçici e-posta, tek kullanımlık e-posta, temp mail, geçici mail, sahte e-posta, anonim e-posta, geçici posta kutusu, 10 dakikalık mail",
             "og_title": "Ücretsiz Geçici E-posta - Sınırsız Tek Kullanımlık Mail | YourEmailBox",
-            "og_description": "Saniyeler içinde geçici e-posta adresi alın. Kimliğinizi koruyun, spamdan kurtulun ve gelen kutunuzu temiz tutun.",
+            "og_description": "Saniyeler içinde geçici bir e-posta adresi alın. Kimliğinizi koruyun, spamdan kaçının ve gelen kutunuzu temiz tutun.",
             "twitter_title": "Ücretsiz Geçici E-posta - YourEmailBox",
             "twitter_description": "Yüksek hızlı tek kullanımlık mail ile kimliğinizi koruyun."
         }
     },
     "hero": {
         "title": "Ücretsiz Geçici E-posta",
-        "subtitle": "Temp mail gizliliğinizi korur ve gelen kutunuzu spamsız tutar"
+        "subtitle": "Temp mail gizliliğinizi korur ve gelen kutunuzu spamdan uzak tutar"
     },
-    "hero_subtitle": "Ana gelen kutunuzu koruyun. Her türlü kayıt işlemi için yüksek hızlı geçici e-posta alın ve anonim kalın.",
+    "hero_subtitle": "Birincil gelen kutunuzu koruyun. Herhangi bir kayıt için yüksek hızlı ücretsiz geçici e-posta alın ve anonim kalın.",
     "buttons": {
         "copy": "Kopyala",
         "random": "Rastgele",
@@ -26,8 +26,8 @@
     },
     "tooltips": {
         "copy": "E-postayı panoya kopyala",
-        "random": "Yeni rastgele e-posta oluştur",
-        "change": "Özel e-posta adresi belirle",
+        "random": "Yeni bir rastgele e-post oluştur",
+        "change": "Özel bir e-posta adresi ayarla",
         "delete": "Mevcut e-postayı ve posta kutusunu sil"
     },
     "inbox": {
@@ -35,100 +35,100 @@
         "messages": "Mesajlar",
         "waiting": "Gelen e-postalar bekleniyor...",
         "checking": "Gelen kutusu kontrol ediliyor...",
-        "interval_text": "Veri tasarrufu sağlamak için her 20 saniyede bir güncellenir.",
+        "interval_text": "Verilerinizi korumak için her 20 saniyede bir güncellenir.",
         "refresh_status_updated": "Güncellendi",
         "return_to_inbox": "GELEN KUTUSUNA DÖN",
-        "from_label": "GÖNDEREN:",
+        "from_label": "KİMDEN:",
         "video_instruction": "Video talimatı",
         "soon": "YAKINDA"
     },
     "seo_content": {
         "h1": "Tek kullanımlık geçici e-posta nedir?",
-        "intro_p": "Kişisel gelen kutunuzu <b>istenmeyen spam</b> mesajlardan ve <b>kötü amaçlı yazılımlardan</b> korumak <a href=\"https://en.wikipedia.org/wiki/Disposable_email_address\" target=\"_blank\" style=\"color: #FFFFFF; font-weight: bold; text-decoration: underline;\">Tek kullanımlık geçici e-posta</a> ile artık çok kolay. <b>Ücretsiz hizmetimiz</b>; <b>blog</b>, <b>forum</b> veya <b>halka açık Wi-Fi noktalarını</b> ziyaret eden kullanıcılar için <b>tam anonimlik</b> sağlar. İster <b>sahte mail</b>, <b>10 dakikalık mail</b>, <b>tempmail</b> veya <b>çöp mail</b> deyin; bu <b>atılabilir e-posta</b> sistemi <b>reklam maillerinin</b> size ulaşmasını engeller. <b>Dosya indirmek</b> veya <b>sosyal ağlara</b> güvenle katılmak için kullanın; aktif olmayan adresler <b>dijital gizliliğinizi</b> korumak için otomatik olarak silinir.",
+        "intro_p": "Kişisel gelen kutunuzu <b>istenmeyen spam</b> ve <b>kötü amaçlı yazılımlardan</b> korumak <a href=\"https://tr.wikipedia.org/wiki/E-posta\" target=\"_blank\" style=\"color: #FFFFFF; font-weight: bold; text-decoration: underline;\">Tek kullanımlık geçici e-posta</a> ile artık çok kolay. <b>Ücretsiz servisimiz</b>, <b>blogları</b>, <b>forumları</b> veya <b>halka açık Wi-Fi noktalarını</b> ziyaret eden kullanıcılar için <b>tam anonimlik</b> sağlar. İster <b>sahte mail</b>, <b>10 dakikalık mail</b>, <b>tempmail</b> veya <b>çöp mail</b> deyin, bu <b>atılabilir e-posta</b> reklam maillerinin size ulaşmasını engeller. <b>Dosya indirmek</b> veya <b>sosyal ağlara</b> risk almadan katılmak için kullanın; aktif olmayan adresler <b>dijital gizliliğinizi</b> korumak için otomatik olarak temizlenir.",
         "h2_long_form": "Tek kullanımlık e-posta adresleri",
         "long_content_sections": [
             {
-                "title": "Dijital Kimliğin Evrimi ve Geçici Mail",
-                "text": "Her geçen gün dijital dünyamız genişliyor. Uygulamalara kaydoluyor, tartışma gruplarına katılıyor ve belgeler indiriyoruz. Bu işlemlerin neredeyse tamamı bir e-posta adresi gerektiriyor. Bu durum, ana gelen kutularımızı reklamcılar ve veri simsarları için açık bir hedef haline getirdi. Peki, uzun vadeli spam yükü olmadan kayıt olmanın bir yolu olsaydı? İşte burada ücretsiz geçici e-posta, en değerli dijital aracınız haline gelir. Amacına hizmet eden ve sonra yok olan kısa ömürlü bir kimlik oluşturmanıza olanak tanır; izleyiciler için hiçbir iz bırakmaz. Bu, modern ve gizlilik bilincine sahip internet kullanıcısı için proaktif bir çözümdür."
+                "title": "Dijital Kimliğin Evrimi ve Tek Kullanımlık Mail",
+                "text": "Her geçen gün dijital hayatımız daha da genişliyor. Uygulamalara kaydoluyor, tartışma gruplarına katılıyor ve faydalı dökümanlar indiriyoruz. Bu işlemlerin neredeyse tamamı bir e-posta adresi gerektiriyor. Bu durum, ana gelen kutularımızı reklamcılar ve veri tacirleri için sürekli bir hedef haline getirdi. Peki, uzun vadeli spam yükü olmadan kaydolmanın avantajlarından yararlanabilseydiniz? İşte bu noktada ücretsiz geçici e-posta, en değerli dijital aracınız haline gelir. Amacına hizmet eden ve ardından yok olan, izleyiciler için hiçbir iz bırakmayan kısa ömürlü bir kimlik oluşturmanıza olanak tanır. Bu, modern ve gizlilik bilincine sahip internet kullanıcıları için proaktif bir çözümdür."
             },
             {
-                "title": "Neden Bu Hizmet İçin Farklı İsimler Kullanılıyor?",
-                "text": "Geçici e-posta için kullanılan terimler genellikle kullanıcının hizmete bakış açısını yansıtır. 'Tek Kullanımlık E-posta Adresi' (DEA) onun atılabilir doğasını vurgular. 'Kullan-at mail' basit görevler için kullanılan yaygın bir terimdir. 'Brülör (Burner) email' yüksek düzeyde gizlilik ve güvenlik odaklı olanlar tarafından tercih edilir; bir 'görev' için kullanılıp sonra imha edilen bir aracı temsil eder. 'Sahte e-posta' ise kimliğini açıklamadan engelleri aşmak isteyenler tarafından kullanılır. Adı ne olursa olsun temel işlev aynıdır: dijital etkileşimleriniz için güvenli, geçici ve özel bir alan sağlamak."
+                "title": "İnsanlar Neden Bu Hizmet İçin Birden Fazla İsim Kullanıyor?",
+                "text": "Geçici e-posta için kullanılan terimler genellikle kullanıcının hizmeti nasıl gördüğünü yansıtır. 'Tek Kullanımlık E-posta Adresi' (DEA), tıpkı tek seferlik bir araç gibi atılabilir doğasını vurgular. 'Atılabilir e-posta', basit görevler için yaygın bir terimdir. 'Burner mail', görevini tamamlayıp kendini yok eden bir araç imajıyla yüksek düzeyde gizlilik ve güvenlik odaklı kişiler tarafından tercih edilir. 'Sahte mail', kimliğini açıklamadan bir engeli aşmak isteyenler tarafından kullanılır. 'Anonim e-posta' ise adres ile kişi arasındaki tam kopukluğa odaklanır. İsim ne olursa olsun, temel işlev aynıdır: dijital etkileşimleriniz için güvenli, geçici ve özel bir alan sağlamak."
             },
             {
-                "title": "Ana Gelen Kutunuzu Spam Yükünden Koruyun",
-                "text": "Bugün çoğu web sitesi tam erişim için kayıt gerektiriyor. Maalesef bu sitelerin çoğu zamanla verilerinizi paylaşıyor. Tek bir kayıt, yıllarca sürecek istenmeyen e-postalara dönüşebilir. Ücretsiz geçici e-posta kullanarak kaydınızı tamamlayabilir, onay linkinizi alabilir ve yolunuza devam edebilirsiniz. Ana gelen kutunuz temiz, düzenli ve sadece istediğiniz mesajlara özel kalır. Bu basit alışkanlık, toplam spam miktarınızı %90'a kadar azaltabilir ve gerçekten önemli olan şeylere odaklanmanızı sağlar."
+                "title": "Ana Gelen Kutunuzu Spam Yükünden Korumak",
+                "text": "Bugün çoğu web sitesi, tüm özelliklere erişmek için kayıt gerektiriyor. Maalesef bu sitelerin çoğu sonunda verilerinizi paylaşıyor. Tek bir kayıt, yıllarca sürecek istenmeyen e-postalara yol açabiliyor. Ücretsiz geçici e-posta kullanarak kaydınızı tamamlayabilir, doğrulama kodunuzu alabilir ve yolunuza devam edebilirsiniz. Birincil gelen kutunuz temiz, düzenli ve sadece gerçekten istediğiniz mesajlara ayrılmış olarak kalır. Bu basit alışkanlık, toplam gelen spam miktarını %90'a kadar azaltabilir ve gerçekten önemli olan şeylere odaklanmanıza olanak tanır."
             },
             {
-                "title": "Kısıtlı İnternette Anonim ve Güvenli Kalmak",
-                "text": "Kişisel e-postanızı verdiğiniz her an, verilerinizin eşleştirilmesi riskini alırsınız. Geçici e-posta adresleri, dijital parmak izi bırakmadan gezinmenize ve etkileşim kurmanıza olanak tanır. Özellikle pazar yerlerindeki tek seferlik iletişimler, niş forumlar veya ödeme duvarı arkasındaki içeriklere erişim için çok yararlıdır. Kimliğinizi koruyan güvenli bir 'tampon bölge' oluşturur. Dijital ayak izlerinin kalıcı olduğu bir çağda, rastgele gezinmeler için bir 'hayalet' hesaba sahip olmak akıllıca bir güvenlik stratejisidir."
+                "title": "Kapalı İnternette Anonim ve Güvende Kalmak",
+                "text": "Kişisel e-postanızı verdiğiniz her an, verilerinizin birbiriyle ilişkilendirilmesi riskini alırsınız. Geçici e-posta adresleri, dijital bir ayak izi bırakmadan gezinmenize ve etkileşim kurmanıza olanak tanır. Bu, özellikle pazar yerlerindeki tek seferlik iletişimler, niş forumlara katılmak veya ödeme duvarı arkasındaki içeriklere erişmek için yararlıdır. Kimliğinizi koruyan güvenli bir 'tampon bölge' oluşturur. Dijital ayak izlerinin kalıcı olduğu bir çağda, rastgele gezinme için bir 'hayalet' hesaba sahip olmak akıllıca bir güvenlik stratejisidir."
             },
             {
-                "title": "Özel Kullanım Durumları: Yazılımcılar ve QA Testleri",
-                "text": "Yazılım dünyasında test her şeydir. Mühendisler ve QA uzmanları, e-posta akışlarını doğrulamak için hızlı bir yola ihtiyaç duyar. Ücretsiz geçici e-posta hizmetleri, anında sınırsız sayıda benzersiz test hesabı sağlar. Kayıt süreçlerinizi, şifre kurtarma sistemlerinizi ve işlem mesajlarınızı manuel bir yük olmadan test edebilirsiniz. Yüksek hızlı teslimatımız, test döngülerinizin gecikmemesini sağlar; bu da YourEmailBox'ı küresel teknik profesyonellerin favori aracı yapar."
+                "title": "Özel Kullanım Durumları: Geliştiriciler ve QA Testleri",
+                "text": "Yazılım geliştirme dünyasında test her şeydir. Mühendisler ve QA uzmanları, e-posta akışlarını doğrulamak için hızlı bir yola ihtiyaç duyarlar. Ücretsiz geçici e-posta hizmetleri, anında sınırsız sayıda benzersiz test hesabı sağlar. Kayıt süreçlerinizi, şifre kurtarma sistemlerinizi ve işlem mesajlarınızı manuel bir zahmet olmadan test edebilirsiniz. Yüksek hızlı teslimatımız, test döngülerinizin gecikmemesini sağlar; bu da YourEmailBox'ı dünya çapındaki teknik profesyoneller için favori bir araç haline getirir."
             },
             {
-                "title": "Pazarlama Tuzaklarını ve Satış Hunilerini Atlatmak",
-                "text": "E-ticaret ve SaaS platformları, e-postanızı ele geçirmek ve sizi agresif bir pazarlama döngüsüne sokmak için 'Lead Magnet' (e-kitaplar veya ücretsiz araçlar) kullanır. Tek kullanımlık bir mail, bu değerli kaynaklara taahhüt vermeden erişmenizi sağlar. İstediğiniz değeri alırsınız ve sonraki pazarlama e-postaları zaten silinmiş bir posta kutusuna gider. Bu, her hareketinizi yakalamaya çalışan bir internet dünyasıyla etkileşim kurmanın en adil yoludur."
+                "title": "Satış Hunilerini ve Pazarlama Tuzaklarını Atlatmak",
+                "text": "E-ticaret ve SaaS platformları, e-postanızı ele geçirmek ve sizi agresif bir pazarlama dizisine dahil etmek için e-kitaplar veya ücretsiz araçlar gibi 'Mıknatıslar' kullanır. Atılabilir bir e-posta, bu değerli kaynaklara bağlılık duymadan erişmenizi sağlar. Aradığınız değeri elde edersiniz ve sonrasındaki pazarlama e-postaları zaten temizlenmiş bir posta kutusuna gider. Bu, her hareketinizi yakalamaya çalışan bir web dünyasıyla etkileşim kurmanın en adil yoludur."
             },
             {
                 "title": "Güvenilir Bir Sağlayıcı Seçme Kriterleri",
-                "text": "Geçici mail sağlayıcısı ararken hız ve gizlilik en önemli faktörlerdir. Anında yüklenen ve saniyeler içinde gelen kutusu sunan bir siteye ihtiyacınız vardır. Ayrıca birçok doğrulama linkinin süresi hızlıca dolduğundan, hizmetin mesajları gerçek zamanlı işlemesi gerekir. Gizlilik temeldir: YourEmailBox IP adresinizi kaydetmez, güvenli HTTPS şifrleme kullanır ve oturum bittiğinde anında imha edilmesi için tüm mesajları RAM'de saklar. Güvenilirlik ve basitlik, bizi alanımızda lider yapan unsurlardır."
+                "text": "Geçici mail sağlayıcısı ararken hız ve gizlilik en önemli faktörlerdir. Anında yüklenen ve hemen bir gelen kutusu sağlayan bir siteye ihtiyacınız vardır. Ayrıca, birçok doğrulama bağlantısının süresi hızlı dolduğundan, mesajları gerçek zamanlı işleyen bir hizmet gereklidir. Gizlilik temeldir: YourEmailBox IP adresinizi kaydetmez, güvenli HTTPS şifrelemesi kullanır ve tüm mesajları oturum bittiğinde anında yok etmek üzere RAM'de saklar. Güvenilirlik ve basitlik bizi bu alanda lider yapan unsurlardır."
             },
             {
-                "title": "Geçici Maili Zahmetsizce Kullanma Yolu",
-                "text": "YourEmailBox'ı kullanmak siteyi ziyaret etmek kadar basittir. Sayfa yüklendiği an sizin için bir adres oluşturulur. Bu adresi kopyalayabilir, herhangi bir web sitesindeki gerekli alana yapıştırabilir ve gelen mesajları doğrudan ana sayfamızda izleyebilirsiniz. Hatırlanacak bir şifre, oluşturulacak bir kullanıcı adı veya kurulum süreci yoktur. İşiniz bittiğinde 'sil'e basabilir veya sadece tarayıcıyı kapatabilirsiniz. Bu, özel bir e-posta adresi almanın en hızlı yolu olarak tasarlanmıştır."
+                "title": "Geçici Maili Zahmetsizce Kullanma Yolları",
+                "text": "YourEmailBox'ı kullanmak siteyi ziyaret etmek kadar basittir. Sayfa yüklendiği an sizin için bir adres oluşturulur. Bu adresi kopyalayabilir, herhangi bir web sitesindeki gerekli alana yapıştırabilir ve gelen mesajları ana sayfamızda canlı olarak izleyebilirsiniz. Hatırlanacak bir şifre, oluşturulacak bir kullanıcı adı veya kurulum yoktur. İşiniz bittiğinde sil düğmesine tıklayabilir veya sadece tarayıcıyı kapatabilirsiniz. Özel bir e-posta adresi almanın en hızlı yolu olarak tasarlanmıştır."
             },
             {
                 "title": "Dijital Hayatta Kalma İçin Pratik Örnekler",
-                "text": "Havalimanındaki halka açık bir Wi-Fi ağına katıldığınızı veya bir dosya paylaşım hizmetini kullandığınızı düşünün. Muhtemelen bir e-posta istendi. Geçici mail kullanın! Bir ilan sitesinde bir yabancıya ulaşıyorsanız temp mail kullanın. Bir satış ekibi tarafından aranmadan bir fiyat listesini veya demoyu görmek istiyorsanız tek kullanımlık adres kullanın. Bunlar, ücretsiz geçici mailin sizi güvende, gelen kutunuzu ise sessiz tuttuğu gerçek dünya senaryolarıdır."
+                "text": "Havaalanındaki halka açık bir Wi-Fi ağına en son ne zaman katıldığınızı veya bir dosya barındırma hizmetini kullandığınızı düşünün. Muhtemelen bir e-posta sorulmuştur. Bir burner kullanın! İlan servisindeki bir yabancıya ulaşıyorsanız, geçici e-posta kullanın. Bir satış ekibi tarafından aranmadan bir fiyat listesi veya demo görmek istiyorsanız, atılabilir bir adres kullanın. Bunların hepsi, ücretsiz geçici e-postanın sizi güvende, gelen kutunuzu ise sessiz tuttuğu gerçek dünya senaryolarıdır."
             },
             {
                 "title": "Bölümlere Ayırmanın Stratejik Avantajı",
-                "text": "Veri simsarları, e-posta adresinizi ortak bir tanımlayıcı olarak kullanarak farklı sitelerdeki faaliyetlerinizi birleştirmekten beslenir. Her yeni site için taze bir ücretsiz geçici e-posta kullanarak bu bağı koparırsınız. Dijital varlığınızı etkili bir şekilde 'izole' edersiniz. Bu durum, izleyicilerin tam tarama geçmişinizi veya ilgi alanı profilinizi anlamasını imkansız hale getirir. Bu sadece çöplerden kaçınmak değil; dijital egemenliğinizi sürdürmek için taktiksel bir yaklaşımdır."
+                "text": "Veri tacirleri, e-posta adresinizi ortak bir tanımlayıcı olarak kullanarak farklı sitelerdeki etkinliklerinizi ilişkilendirerek gelişirler. Her yeni site için taze bir ücretsiz geçici e-posta kullanarak bu bağı kırarsınız. Dijital varlığınızı etkili bir şekilde 'ayrıştırırsınız'. Bu durum, izleyicilerin tam tarama geçmişinizi veya ilgi profilinizi anlamasını imkansız hale getirir. Bu sadece çöplerden kaçınmaktan daha fazlasıdır; dijital egemenliğinizi korumak için taktiksel bir yaklaşımdır."
             },
             {
                 "title": "Çevresel Etki: Depolama ve Enerji",
-                "text": "Milyarlarca istenmeyen e-posta, veri merkezlerinde süresiz olarak saklanıyor ve soğutma ile güç için devasa miktarda enerji tüketiyor. Gereksiz işler için geçici mail kullanarak, bu verilerin kalıcı olarak depolanmasını engellersiniz. RAM tabanlı depolama sistemimiz, mesajların elektriksel olarak temizlenmesi demektir; bu da uzun vadeli enerji gerektirmez. Bu, dijital yaşamınızın çevresel ayak izini azaltmanın küçük ama anlamlı bir yoludur."
+                "text": "Milyarlarca istenmeyen e-posta, bulut veri merkezlerinde süresiz olarak saklanıyor ve soğutma ile güç için büyük miktarda enerji tüketiyor. Gereksiz yazışmalar için ücretsiz geçici e-posta kullanarak, bu verilerin kalıcı olarak depolanmasını engellersiniz. Sadece RAM tabanlı depolamamız, mesajların elektriksel olarak temizlendiği anlamına gelir ve depolama için uzun vadeli enerji gerektirmez. Bu, dijital hayatınızın çevresel ayak izini azaltmanın küçük ama anlamlı bir yoludur."
             },
             {
                 "title": "Sonuç: Sizin Gizliliğiniz, Sizin Seçiminiz",
-                "text": "İnternet, korkmadan keşfedebileceğiniz bir yer olmalıdır. Ücretsiz geçici e-posta, bu özgürlüğü geri veren bir araçtır. İster spamdan kaçınmak, ister kimliğinizi korumak veya bir uygulamayı test etmek olsun, YourEmailBox en hızlı ve en güvenli çözümü sunar. Ana adresinizin genel bir tanımlayıcı olmasına izin vermeyin. Bunun yerine tek kullanımlık mail kullanın ve interneti tam olması gerektiği gibi deneyimleyin: hızlı, ücretsiz ve özel."
+                "text": "İnternet, korkmadan keşfedebileceğiniz bir yer olmalıdır. Ücretsiz geçici e-posta, bu özgürlüğü geri kazandıran bir araçtır. İster spamdan kaçıyor, ister kimliğinizi koruyor veya bir uygulamayı test ediyor olun, YourEmailBox en hızlı ve en güvenli çözümü sunmak için buradadır. Birincil adresinizin herkese açık bir tanımlayıcı olmasına izin vermeyin. Bunun yerine bir burner e-posta kullanın ve web'i tam olarak tasarlandığı gibi deneyimleyin: hızlı, ücretsiz ve özel."
             }
         ],
         "h2_faq": "Sıkça sorulan sorular",
         "faq_list": [
             {
                 "q": "Geçici / tek kullanımlık / anonim mail nedir?",
-                "a": "Gerçek kimliğinizi açıklamadan e-posta almanızı sağlayan kısa ömürlü bir gelen kutusudur. Bir kez veya kısa bir süre için kullanılıp sonra atılmak üzere tasarlanmıştır."
+                "a": "Gerçek kimliğinizi açıklamadan e-posta almanızı sağlayan kısa ömürlü bir gelen kutusudur. Bir kez veya kısa bir süre için kullanılıp atılmak üzere tasarlanmıştır."
             },
             {
                 "q": "Neden geçici bir e-posta adresine ihtiyacınız var?",
-                "a": "Gerçek gelen kutunuzu spamdan korumak, reklamcılar tarafından izlenmekten kaçınmak ve düzenli kullanmadığınız hizmetlere kaydolurken kişisel verilerinizi güvende tutmak için."
+                "a": "Gerçek gelen kutunuzu spamdan korumak, reklamcılar tarafından izlenmekten kaçınmak ve düzenli kullanmadığınız servislere kaydolurken kişisel verilerinizi güvende tutmak için."
             },
             {
                 "q": "Mesajları okuyor musunuz?",
                 "a": "Hayır. Sistemimiz otomatiktir ve katı bir gizlilik politikamız vardır. Mesajlarınızı geçici oturumun ötesinde izlemiyoruz veya saklamıyoruz."
             },
             {
-                "q": "Geçici mail ne kadar sürer?",
-                "a": "YourEmailBox'ta adresiniz, tarayıcı oturumunuzu açık tuttuğunuz sürece aktif kalır. Bu, doğrulama kodlarını almanız için size bolca zaman tanır."
+                "q": "Temp mail ne kadar sürer?",
+                "a": "YourEmailBox'ta adresiniz, tarayıcı oturumunuzu aktif tuttuğunuz sürece kalır. Bu size doğrulama kodlarınızı almanız ve kullanmanız için bolca zaman tanır."
             },
             {
                 "q": "Tek kullanımlık mailin normal e-postadan farkı nedir?",
                 "a": "Tek kullanımlık mail geçicidir, anonimdir ve kayıt gerektirmez. Normal e-posta kalıcıdır, genellikle kimliğinize bağlıdır ve uzun vadeli spam hedefi olabilir."
             },
             {
-                "q": "E-posta nasıl gönderilir?",
-                "a": "Şu anda hizmetimiz, doğrulama ve güvenlik amaçlı e-posta almaya odaklanmıştır. Bu, alan adlarımızın yüksek itibarını ve hızlı teslimatını garanti eder."
+                "q": "Nasıl e-posta gönderilir?",
+                "a": "Şu anda servisimiz, doğrulama ve güvenlik amaçlı e-posta almaya odaklanmıştır. Bu, alan adlarımızın itibarını ve hızlı teslimat gücünü korumamızı sağlar."
             },
             {
                 "q": "Geçici bir e-posta nasıl silinir?",
-                "a": "Mevcut adresinizi ve tüm mesajları anında silmek için ana sayfamızdaki 'Sil' düğmesine tıklayabilirsiniz."
+                "a": "Mevcut adresinizi ve onunla ilişkili tüm mesajları anında silmek için ana sayfamızdaki 'Sil' düğmesine tıklayabilirsiniz."
             },
             {
                 "q": "Tarayıcı uzantınız var mı?",
-                "a": "Hareket halindeyken geçici e-postalar oluşturmayı kolaylaştırmak için ana tarayıcılar için uzantılar geliştiriyoruz. Takipte kalın!"
+                "a": "Hareket halindeyken geçici e-postalar oluşturmayı daha da kolaylaştırmak için ana tarayıcılar için uzantılar geliştiriyoruz. Takipte kalın!"
             },
             {
                 "q": "Hata/bug buldum. Nasıl bildirebilirim?",
@@ -136,11 +136,11 @@
             },
             {
                 "q": "Gelen e-postaları kontrol edebilir miyim?",
-                "a": "Evet! Tüm gelen mesajlar ana sayfamızdaki gelen kutusunda gerçek zamanlı olarak görünür. İçeriği görüntülemek için herhangi bir mesaja tıklayabilirsiniz."
+                "a": "Evet! Gelen tüm mesajlar ana sayfamızdaki gelen kutusunda gerçek zamanlı olarak görünür. Tam içeriğini görüntülemek için herhangi bir mesaja tıklayabilirsiniz."
             },
             {
                 "q": "Temp mail güvenli mi?",
-                "a": "Kesinlikle. Sizi korumak için tasarlanmış bir güvenlik aracıdır. Gerçek e-postanızı kullanmayarak, bu verilerin bir sızıntıda ele geçirilme riskini ortadan kaldırırsınız."
+                "a": "Kesinlikle. Sizi korumak için tasarlanmış bir güvenlik aracıdır. Gerçek e-postanızı kullanmayarak, verilerinizin bir sızıntıda ifşa olma riskini ortadan kaldırırsınız."
             }
         ]
     },
@@ -159,18 +159,18 @@
         "subtitle": "Dijital gizlilik ve güvenlik güncellemeleri üzerine uzman ipuçları.",
         "view_all": "TÜM YAZILARI GÖR",
         "search_placeholder": "Makale ara...",
-        "read_time": "dk okuma",
+        "read_time": "dakika okuma",
         "related_title": "İlgili makaleler",
         "toc_title": "İÇİNDEKİLER",
         "newsletter": {
-            "title": "Haberdar kalın",
+            "title": "Haberdar olun",
             "subtitle": "En son gizlilik protokollerini doğrudan gelen kutunuza alın.",
             "placeholder": "eposta@adresiniz.com",
             "button": "Abone Ol"
         },
         "seo": {
             "title": "Güvenlik Analizleri Blogu | YourEmailBox Güvenlik Protokolü",
-            "description": "Siber tehditlerin önünde kalın. Geçici e-posta hizmetleri hakkında en son güncellemeleri, güvenlik protokollerini ve gizlilik ipuçlarını okuyun.",
+            "description": "Siber tehditlerin önünde kalın. Tek kullanımlık geçici e-posta hizmetleri hakkındaki en son güncellemeleri, güvenlik protokollerini ve gizlilik ipuçlarını okuyun.",
             "keywords": "güvenlik blogu, gizlilik ipuçları, siber güvenlik, e-posta güvenliği, temp mail haberleri",
             "og_title": "Güvenlik Analizleri Blogu | YourEmailBox",
             "og_description": "Siber tehditlerin önünde kalın. En son güncellemeleri, güvenlik protokollerini ve gizlilik ipuçlarını okuyun.",
@@ -183,15 +183,15 @@
         "subtitle": "Uygulamalarımız ve uzantılarımızla her yerden geçici e-posta oluşturmak için hızlı ve kolay erişimin keyfini çıkarın"
     },
     "common": {
-        "from": "Gönderen",
+        "from": "Kimden",
         "date": "Tarih",
         "deleted": "Silindi",
-        "settings": "DİL AYARLARI",
+        "settings": "YEREL AYARLAR",
         "menu": "Menü",
         "modal": {
             "subtitle": "Benzersiz geçici adresinizi oluşturun",
             "custom_alias": "Özel Takma Ad",
-            "placeholder": "ör. kullanıcı-777",
+            "placeholder": "örn. kullanıcı-777",
             "preview_label": "ADRES ÖNİZLEME:",
             "button_update": "Adresi Şimdi Güncelle"
         },
@@ -201,9 +201,9 @@
         }
     },
     "footer": {
-        "brand_tagline": "Daha temiz, daha güvenli bir dijital yaşam için premium geçici e-posta.",
-        "featured_on": "RECOGNIZED BY",
-        "startup_found": "Global Privacy Award 2026 adayı",
+        "brand_tagline": "Daha temiz ve güvenli bir dijital yaşam için premium geçici e-posta.",
+        "featured_on": "TARAFINDAN TANINDI",
+        "startup_found": "Küresel Gizlilik Ödülü 2026 adayı",
         "categories": {
             "features": {
                 "title": "YETENEKLER",
@@ -243,7 +243,7 @@
                         "href": "#"
                     },
                     {
-                        "label": "Geliştirici Rehberi",
+                        "label": "Geliştirici Kılavuzu",
                         "href": "#"
                     }
                 ]
@@ -268,12 +268,12 @@
                         "href": "/tools/spam-checker"
                     },
                     {
-                        "label": "Ücretsiz E-posta Aliasları",
+                        "label": "Ücretsiz E-posta Takma Adları",
                         "href": "#",
                         "external": true
                     },
                     {
-                        "label": "Gmail Alias Uzantısı",
+                        "label": "Gmail Takma Ad Uzantısı",
                         "href": "#",
                         "external": true
                     }
@@ -283,7 +283,7 @@
                 "title": "ŞİRKET",
                 "links": [
                     {
-                        "label": "About Us",
+                        "label": "Hakkımızda",
                         "href": "/about-us"
                     },
                     {
@@ -295,7 +295,7 @@
                         "href": "/privacy-policy"
                     },
                     {
-                        "label": "Kullanım Koşulları",
+                        "label": "Hizmet Şartları",
                         "href": "/terms-of-service"
                     }
                 ]
@@ -304,147 +304,147 @@
     },
     "cookie_consent": {
         "title": "Gizlilik Protokolü",
-        "message": "Güvenlik protokolünü optimize etmek ve analiz sunmak için çerezleri kullanıyoruz. Devam ederek gizlilik standartlarımızı kabul etmiş olursunuz.",
+        "message": "Güvenlik protokolünü optimize etmek ve analizler sunmak için çerezleri kullanıyoruz. Devam ederek gizlilik standartlarımızı kabul etmiş olursunuz.",
         "accept": "Kabul Et",
         "details": "Detaylar"
     },
     "privacy_policy": {
         "title": "Gizlilik Politikası",
         "last_updated": "Son güncelleme: 6 Mayıs 2020",
-        "seo_intro": "youremailbox.com gizliliğinizi korumayı taahhüt eder. Topladığımız bilgileri yalnızca Genel Veri Koruma Yönetmeliği (GDPR) (Tüzük (AB) 2016/679) uyarınca yasal olarak kullanırız.",
+        "seo_intro": "youremailbox.com gizliliğinizi korumayı taahhüt eder. Topladığımız bilgileri yalnızca Genel Veri Koruma Yönetmeliği (GDPR) uyarınca yasal olarak kullanırız.",
         "sections": [
             {
-                "title": "Bilgileriniz",
-                "content": "Şahsınız ve iletişim kurduğunuz kullanıcılar hakkındaki bilgiler, IP adresi, e-posta adresi korunur ve tamamen gizlidir. youremailbox.com IP adresinizi saklamaz. Bu, bilgileriniz için tehlike oluşturabilecek ve gizliliğinizi bozabilecek tüm yetkisiz eylemlere karşı güvenilir bir şekilde korunduğunuz anlamına gelir. Hizmetimizde geçici olarak saklanan tüm e-postalar ve veriler 16 saat sonra kalıcı olarak silinir. Geçici e-posta adresinizi ana sayfadaki 'sil' düğmesini kullanarak istediğiniz zaman silebilirsiniz."
+                "title": "Detaylarınız",
+                "content": "Kişiliğiniz, IP adresiniz ve e-posta adresiniz hakkındaki bilgiler korunur ve tamamen gizlidir. youremailbox.com IP adresinizi saklamaz. Tüm geçici veriler 16 saat sonra kalıcı olarak silinir. Geçici adresinizi istediğiniz zaman ana sayfadaki 'sil' düğmesini kullanarak silebilirsiniz."
             },
             {
                 "title": "Hangi bilgileri topluyoruz?",
-                "content": "Kişisel veri toplanmaz. Çoğu standart web sitesi sunucusu gibi biz de günlük dosyaları (log files) kullanırız. Bu, trendleri analiz etmek, siteyi yönetmek, kullanıcı hareketlerini toplu olarak izlemek ve geniş demografik bilgiler toplamak için IP adreslerini, tarayıcı türünü, internet servis sağlayıcısını (ISP), yönlendirme/çıkış sayfalarını, platform türünü, tarih/saat damgasını ve tıklama sayısını içerir. IP adresleri vb. kişisel olarak tanımlanabilir bilgilerle bağlantılı değildir."
+                "content": "Kişisel veri toplanmaz. Standart sunucu günlük dosyalarını kullanırız. Bu; trendleri analiz etmek, siteyi yönetmek ve demografik bilgileri toplamak için IP adreslerini, tarayıcı türünü ve tıklama sayılarını içerir. Bunlar kişisel kimlik bilgileriyle bağlantılı değildir."
             },
             {
                 "title": "Çerez kullanıyor muyuz?",
-                "content": "Evet (Çerezler, bir sitenin veya hizmet sağlayıcısının web tarayıcınız aracılığıyla bilgisayarınızın sabit sürücüsüne aktardığı küçük dosyalardır. Reklamları takip etmek ve belirli bilgileri hatırlamak için çerezleri kullanırız. Google dahil üçüncü taraf satıcılar, bir kullanıcının web sitenize veya diğer web sitelerine yaptığı önceki ziyaretlere dayalı olarak reklam sunmak için çerezleri kullanır. Kullanıcılar Reklam Ayarlarını ziyaret ederek kişiselleştirilmiş reklamcılıktan vazgeçebilirler. (Alternatif olarak, kullanıcıları bir üçüncü taraf satıcının kişiselleştirilmiş reklamcılık için çerez kullanımından vazgeçirmek üzere <a href=\"https://youradchoices.com\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">youradchoices.com</a> adresine yönlendirebilirsiniz.)"
+                "content": "Evet. Çerezler reklamları takip etmemize ve bazı bilgileri hatırlamamıza yardımcı olur. Google dahil üçüncü taraf satıcılar, bir kullanıcının önceki ziyaretlerine dayanarak reklam sunmak için çerezleri kullanır. Reklam ayarlarından kişiselleştirilmiş reklamcılıktan çıkabilirsiniz."
             },
             {
                 "title": "Google AdSense ve Reklam Ağları",
-                "content": "Üçüncü taraf reklam sunumundan vazgeçmediyseniz, diğer üçüncü taraf satıcıların veya reklam ağlarının çerezleri de sitenizde reklam sunmak için kullanılabilir. Sitenizin ziyaretçilerini sitenizde reklam sunan üçüncü taraf satıcılar ve reklam ağları hakkında bilgilendirin. Uygun satıcı ve reklam ağı web sitelerine bağlantılar sağlayın. Kullanıcılarınıza kişiselleştirilmiş reklamcılık için çerez kullanımından vazgeçmek üzere bu web sitelerini ziyaret edebileceklerini bildirin. Yayıncı siteleri ve yasalar ülkeler arasında farklılık gösterdiğinden, belirli bir gizlilik politikası dili öneremiyoruz. Ancak, bir gizlilik politikası taslağı hazırlama konusunda rehberlik için Network Advertising Initiative gibi kaynakları incelemek isteyebilirsiniz. Çerez onayı bildirimleriyle ilgili ek ayrıntılar için lütfen <a href=\"https://www.cookiechoices.org\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">cookiechoices.org</a> adresine bakın."
+                "content": "Üçüncü taraf reklam ağları da sitemizde reklam sunmak için çerez kullanabilir. Kullanıcılar, kişiselleştirilmiş reklamcılık için çerez kullanımını devre dışı bırakmak üzere ilgili satıcı web sitelerini ziyaret edebilirler. Daha fazla detay için cookiechoices.org adresine bakabilirsiniz."
             },
             {
                 "title": "Bilgileri dış taraflara ifşa ediyor muyuz?",
-                "content": "Kişisel olarak tanımlanabilir bilgilerinizi dış taraflara satmayız, ticaretini yapmayız veya başka bir şekilde aktarmayız. Bu, web sitemizi işletmemize, işimizi yürütmemize veya size hizmet vermemize yardımcı olan ve bu bilgileri gizli tutmayı kabul eden güvenilir üçüncü tarafları içermez. Ayrıca, ifşanın yasaya uymak, site politikalarımızı uygulamak veya bizim veya başkalarının haklarını, mülkiyetini veya güvenliğini korumak için uygun olduğuna inandığımızda bilgilerinizi serbest bırakabiliriz. Ancak, kişisel olarak tanımlanamayan ziyaretçi bilgileri pazarlama, reklam veya diğer kullanımlar için diğer taraflara sağlanabilir."
+                "content": "Kişisel olarak tanımlanabilir bilgilerinizi dış taraflara satmayız veya ticaretini yapmayız. Bu, sitemizi işletmemize yardımcı olan güvenilir ortakları kapsamaz. Yasaya uymak veya haklarımızı korumak için bilgileri ifşa edebiliriz."
             },
             {
                 "title": "Üçüncü taraf bağlantıları",
-                "content": "Bazen, kendi takdirimize bağlı olarak, web sitemizde üçüncü taraf ürünleri veya hizmetleri sunabiliriz. Bu üçüncü taraf sitelerin ayrı ve bağımsız gizlilik politikaları vardır. Bu nedenle, bu bağlantılı sitelerin içeriği ve faaliyetleri için hiçbir sorumluluğumuz veya yükümlülüğümüz yoktur. Yine de sitemizin bütünlüğünü korumaya çalışıyoruz ve bu siteler hakkındaki her türlü geri bildirimi memnuniyetle karşılıyoruz. <br/><br/> <a href=\"https://policies.google.com/privacy\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">Google Analytics Gizlilik Politikası</a>"
+                "content": "Bazen sitemizde üçüncü taraf ürünleri sunabiliriz. Bu sitelerin bağımsız gizlilik politikaları vardır. Bu nedenle, bağlantılı sitelerin içeriği ve faaliyetleri için sorumluluk kabul etmiyoruz. <br/><br/> <a href=\"https://policies.google.com/privacy\" target=\"_blank\">Google Analytics Gizlilik Politikası</a>"
             },
             {
                 "title": "Üçüncü Taraf Reklam Şirketleri",
-                "content": "Web sitemizi ziyaret ettiğinizde üçüncü taraf şirketlerin reklam sunmasına ve/veya belirli anonim bilgileri toplamasına izin veriyoruz. Bu şirketler, ilginizi çekebilecek mal ve hizmetler hakkında reklamlar sunmak için bu ve diğer web sitelerine yaptığınız ziyaretler sırasında kişisel olarak tanımlanamayan bilgileri (örneğin, tıklama akışı bilgileri, tarayıcı türü, saat ve tarih) kullanabilir. Bu şirketler genellikle bu bilgileri toplamak için bir çerez veya üçüncü taraf web işareti kullanır. Bu davranışsal reklamcılık uygulaması hakkında daha fazla bilgi edinmek veya bu tür reklamcılıktan vazgeçmek için <a href=\"https://www.networkadvertising.org\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">www.networkadvertising.org</a> adresini ziyaret edebilirsiniz. <br/><br/> <a href=\"https://policies.google.com/privacy\" target=\"_blank\" style=\"color: var(--accent-primary); text-decoration: underline;\">Google AdSense Gizlilik ve Şartlar</a>"
+                "content": "Ziyaretiniz sırasında reklam sunmak için üçüncü taraf şirketlere izin veririz. Bu şirketler, ilginizi çekebilecek ürünler hakkında reklam sağlamak için anonim bilgileri kullanabilir. Daha fazlası için <a href=\"https://www.networkadvertising.org\" target=\"_blank\">networkadvertising.org</a> adresini ziyaret edebilirsiniz. <br/><br/> <a href=\"https://policies.google.com/privacy\" target=\"_blank\">Google AdSense Politikası</a>"
             },
             {
                 "title": "Sadece Çevrimiçi Gizlilik Politikası",
-                "content": "Bu çevrimiçi gizlilik politikası sadece web sitemiz aracılığıyla toplanan bilgiler için geçerlidir ve çevrimdışı toplanan bilgiler için geçerli değildir."
+                "content": "Bu politika yalnızca web sitemiz aracılığıyla toplanan bilgiler için geçerlidir ve çevrimdışı toplanan bilgiler için geçerli değildir."
             },
             {
                 "title": "Onayınız",
-                "content": "Sitemizi kullanarak, web sitemizin gizlilik politikasına onay vermiş olursunuz."
+                "content": "Sitemizi kullanarak gizlilik politikamızı kabul etmiş olursunuz."
             },
             {
                 "title": "Gizlilik Politikamızdaki Değişiklikler",
-                "content": "Gizlilik politikamızı değiştirmeye karar verirsek, bu değişiklikleri bu sayfada yayınlayacağız."
+                "content": "Politikamızı değiştirmeye karar verirsek, bu değişiklikleri bu sayfada yayınlayacağız."
             }
         ],
         "seo": {
             "title": "Gizlilik Politikası | YourEmailBox Güvenlik Protokolü",
-            "description": "Verilerinizi ve gizliliğinizi koruma taahhüdümüz. RAM tabanlı depolama ve GDPR uyumluluğumuz hakkında bilgi edinin.",
+            "description": "Verilerinizi koruma taahhüdümüz. Sadece RAM üzerinde depolama ve GDPR uyumluluğumuz hakkında bilgi edinin.",
             "keywords": "gizlilik politikası, gdpr, veri koruma, e-posta gizliliği",
             "og_title": "Gizlilik Politikası - YourEmailBox",
             "og_description": "Dijital kimliğinizi ve verilerinizi nasıl koruduğumuzu öğrenin.",
             "twitter_title": "Gizlilik Politikası - YourEmailBox",
-            "twitter_description": "Dijital gizliliğinize olan bağlılığımız."
+            "twitter_description": "Dijital gizliliğinize olan taahhüdümüz."
         }
     },
     "terms_of_service": {
-        "title": "Kullanım Koşulları",
+        "title": "Hizmet Şartları",
         "last_updated": "Son güncelleme: 24 Ocak 2026",
-        "seo_intro": "YourEmailBox <a href=\"/tr\" style=\"color: #fff; font-weight: bold; text-decoration: underline;\">ücretsiz geçici e-posta</a> platformunu kullanmak için resmi şartlara hoş geldiniz. Düğümlerimize erişerek aşağıdaki güvenlik protokollerini kabul etmiş olursunuz.",
+        "seo_intro": "YourEmailBox <a href=\"/tr\" style=\"color: #fff; font-weight: bold; text-decoration: underline;\">ücretsiz geçici e-posta</a> platformunu kullanmak için resmi şartlara hoş geldiniz.",
         "sections": [
             {
                 "title": "Kabul Edilebilir Kullanım Politikası",
-                "content": "YourEmailBox meşru gizlilik koruması için sağlanmıştır. <b>Tek kullanımlık mail</b> hizmetimiz; dolandırıcılık, kötü amaçlı yazılım dağıtımı, taciz veya üçüncü taraf hizmetlerinin sistematik spamlanması dahil ancak bunlarla sınırlı olmamak üzere yasa dışı faaliyetler için kullanılmamalıdır. Protokolümüzün bütünlüğünü korumak için kötüye kullanım tespit edilirse erişimi engelleme veya alan adlarını geçersiz kılma hakkımızı saklı tutarız."
+                "content": "YourEmailBox meşru gizlilik koruması için sağlanmıştır. <b>Tek kullanımlık mail</b> hizmetimiz; dolandırıcılık, kötü amaçlı yazılım dağıtımı veya sistemli spam gönderimi gibi yasa dışı faaliyetler için kullanılmamalıdır. Kötüye kullanım durumunda erişimi engelleme hakkımız saklıdır."
             },
             {
                 "title": "Hizmet Garantisi ve Kullanılabilirlik",
-                "content": "<b>Temp mail</b> hizmetimiz 'olduğu gibi' ve 'mevcut olduğu sürece' esasına göre sunulur. %100 çalışma süresi ve yüksek hızlı teslimat için çabalasak da, hizmetin hatasız veya kesintisiz olacağını garanti etmiyoruz. Belirli geçici alan adlarının kullanılabilirliğini veya gelen mesajların uzun süreli saklanmasını garanti etmiyoruz."
+                "content": "Hizmetimiz 'olduğu gibi' sunulmaktadır. %100 çalışma süresi için çabalasak da, hizmetin kesintisiz veya hatasız olacağını garanti etmiyoruz. Belirli alan adlarının mevcudiyetini veya mesajların uzun süreli saklanmasını garanti etmiyoruz."
             },
             {
-                "title": "Sorumluluğun Sınırlandırılması",
-                "content": "YourEmailBox ve operatörleri, <b>ücretsiz geçici e-postamızın</b> kullanılmasından veya kullanılamamasından kaynaklanan hiçbir zarardan sorumlu tutulamaz. Buna veri kaybı, adreslerimizin kullanıldığı üçüncü taraf sitelerdeki güvenlik ihlalleri veya geçici bir dijital kimlik kullanmanın dolaylı sonuçları dahildir."
+                "title": "Sorumluluk Sınırlandırması",
+                "content": "YourEmailBox, <b>ücretsiz geçici e-posta</b> kullanımından kaynaklanan veri kaybı veya üçüncü taraf sitelerdeki güvenlik ihlalleri dahil olmak üzere hiçbir zarardan sorumlu tutulamaz."
             },
             {
                 "title": "Tazminat Protokolü",
-                "content": "Bu şartları ihlal etmenizden veya <b>anonim e-posta</b> altyapımızı kötüye kullanmanızdan kaynaklanan her türlü iddia, talep veya yasal ücretten YourEmailBox'ı ve ortaklarını muaf tutmayı kabul edersiniz."
+                "content": "Hizmet şartlarımızı ihlal etmenizden veya <b>anonim e-posta</b> altyapımızı kötüye kullanmanızdan doğan her türlü yasal talebe karşı YourEmailBox'ı tazmin etmeyi kabul edersiniz."
             },
             {
                 "title": "Hizmette Değişiklikler",
-                "content": "Dinamik bir gizlilik platformu olarak, alan adlarımızı ve arka uç sistemlerimizi sürekli güncelliyoruz. Hizmetin herhangi bir yönünü önceden bildirmeksizin herhangi bir zamanda değiştirme, askıya alma veya sonlandırma hakkımızı saklı tutarız. YourEmailBox'ı kullanmaya devam etmeniz, bu şartlardaki değişiklikleri kabul ettiğiniz anlamına gelir."
+                "content": "Sistemlerimizi sürekli güncelliyoruz. Hizmetin herhangi bir yönünü önceden haber vermeksizin değiştirme veya durdurma hakkımızı saklı tutarız. Kullanıma devam etmeniz şartları kabul ettiğiniz anlamına gelir."
             }
         ],
         "seo": {
-            "title": "Kullanım Koşulları | YourEmailBox Güvenlik Protokolü",
-            "description": "YourEmailBox geçici e-posta hizmetini kullanma kuralları ve yönergeleri.",
-            "keywords": "kullanım koşulları, kullanıcı sözleşmesi, kabul edilebilir kullanım politikası",
-            "og_title": "Kullanım Koşulları - YourEmailBox",
-            "og_description": "Özel gizlilik altyapımızı kullanma yönergeleri.",
-            "twitter_title": "Kullanım Koşulları - YourEmailBox",
+            "title": "Hizmet Şartları | YourEmailBox Güvenlik Protokolü",
+            "description": "YourEmailBox geçici e-posta hizmetini kullanma kuralları ve kılavuzları.",
+            "keywords": "hizmet şartları, kullanıcı sözleşmesi, kabul edilebilir kullanım politikası",
+            "og_title": "Hizmet Şartları - YourEmailBox",
+            "og_description": "Özel gizlilik altyapımızı kullanma kılavuzları.",
+            "twitter_title": "Hizmet Şartları - YourEmailBox",
             "twitter_description": "Kullanıcı sözleşmesi ve kabul edilebilir kullanım politikası."
         }
     },
     "about_us": {
         "title": "YourEmailBox Hakkında",
-        "seo_intro": "<b>Dijital gizlilik</b> ve <b>anonim iletişim</b> için küresel standartları belirliyoruz. Misyonumuz ve en güvenli geçici e-posta protokolünün arkasındaki ekip hakkında bilgi edinin.",
+        "seo_intro": "<b>Dijital gizlilik</b> ve <b>anonim iletişim</b> için küresel standardı yönlendiriyoruz. Görevimiz ve en güvenli geçici e-posta protokolünün arkasındaki ekip hakkında bilgi edinin.",
         "sections": [
             {
-                "title": "Misyonumuz",
-                "text": "YourEmailBox tek bir amaçla kuruldu: dijital kimliğin kontrolünü kullanıcıya geri vermek. E-posta adreslerinin kalıcı bir izleme tanımlayıcısı haline geldiği bir çağda, bağlantıyı kesmek ve özgürce gezinmek için bir yol sunuyoruz. Altyapımız hız, şeffaflık ve tam anonimlik temelleri üzerine inşa edilmiştir."
+                "title": "Görevimiz",
+                "text": "YourEmailBox tek bir hedefle kuruldu: Dijital kimliğin kontrolünü kullanıcıya geri vermek. E-postaların kalıcı bir takip tanımlayıcısı haline geldiği bir çağda, özgürce gezinmenin yolunu sunuyoruz. Altyapımız hız, şeffaflık ve tam anonimlik üzerine kuruludur."
             },
             {
                 "title": "Teknik Mükemmeliyet",
-                "text": "Geçici mesajlarınızın asla bir sabit diske dokunmamasını sağlayan düşük gecikmeli, sadece RAM üzerinde çalışan bir sunucu filosu işletiyoruz. Bu 'tasarım gereği gizlilik' yaklaşımı, elimizde olmayan verilerin ihlal edilemeyeceği, çalınamayacağı veya talep edilemeyeceği anlamına gelir. Doğrulama kodlarınızı saniyeler içinde iletmek için gelişmiş şifreleme ve tescilli posta yönlendirme kullanıyoruz."
+                "text": "Geçici mesajlarınızın asla bir sabit diske dokunmamasını sağlayan düşük gecikmeli, sadece RAM üzerinde çalışan bir sunucu filosu işletiyoruz. Bu yaklaşım, sahip olmadığımız verilerin çalınamayacağı veya talep edilemeyeceği anlamına gelir."
             },
             {
-                "title": "Küresel Bağlılık",
-                "text": "Dünya çapında milyonlarca kullanıcıya hizmet vererek, interneti açık ve güvenli tutmaya kararlıyız. Ürün testi yapan yazılımcılardan izleyicilerden kaçınan gizlilik meraklılarına kadar, karmaşık bir dünyada yüksek düzeyde dijital hijyen sağlamak için gereken araçları sunuyoruz."
+                "title": "Küresel Taahhüt",
+                "text": "Dünya çapında milyonlarca kullanıcıya hizmet vererek interneti açık ve güvenli tutmaya kararlıyız. Geliştiricilerden gizlilik meraklılarına kadar herkesin dijital hijyenini koruması için gerekli araçları sağlıyoruz."
             }
         ],
         "seo": {
             "title": "Hakkımızda | YourEmailBox Güvenlik Protokolü",
-            "description": "Yüksek hızlı geçici e-posta hizmetlerinin lider sağlayıcısı YourEmailBox'ın misyonu ve teknik standartları hakkında bilgi edinin.",
-            "keywords": "hakkımızda, misyon, teknik standartlar, şirket geçmişi",
+            "description": "Yüksek hızlı geçici e-posta hizmetlerinin lider sağlayıcısı YourEmailBox'ın görevini ve teknik standartlarını öğrenin.",
+            "keywords": "hakkımızda, görevimiz, teknik standartlar, şirket geçmişi",
             "og_title": "Hakkımızda - YourEmailBox",
-            "og_description": "Küresel gizlilik standardının arkasındaki misyon ve ekip.",
+            "og_description": "Küresel gizlilik standardının arkasındaki görev ve ekip.",
             "twitter_title": "Hakkımızda - YourEmailBox",
-            "twitter_description": "Dijital gizlilik için küresel standardı belirliyoruz."
+            "twitter_description": "Dijital gizlilik için küresel standardı yönlendiriyoruz."
         }
     },
     "contact_us": {
         "title": "Bize Ulaşın",
         "seo_intro": "Sorularınız veya teknik talepleriniz mi var? Güvenlik ekibimiz size yardımcı olmaya hazır. Destek, ortaklıklar veya güvenlik raporları için bize ulaşın.",
         "form": {
-            "name": "Ad Soyad",
+            "name": "Tam Ad",
             "email": "İş E-postası",
-            "subject": "Konu",
+            "subject": "Talep Konusu",
             "message": "Mesaj Detayları",
-            "submit": "Mesajı Gönder"
+            "submit": "Mesaj Gönder"
         },
         "info": {
             "title": "İletişim Detayları",
             "support_label": "GENEL DESTEK",
-            "abuse_label": "KÖTÜYE KULLANIM BİLDİRİMİ",
+            "abuse_label": "KÖTÜYE KULLANIM",
             "social_label": "SOSYAL AĞLAR",
             "email": "support@youremailbox.com",
             "abuse": "abuse@youremailbox.com",
-            "location": "Global / Remote Protokol"
+            "location": "Küresel / Uzaktan Protokol"
         },
         "seo": {
             "title": "Bize Ulaşın | YourEmailBox Güvenlik Protokolü",
@@ -469,57 +469,57 @@
             "length": "Şifre Uzunluğu",
             "uppercase": "Büyük Harf (A-Z)",
             "lowercase": "Küçük Harf (a-z)",
-            "numbers": "Rakamlar (0-9)",
+            "numbers": "Sayılar (0-9)",
             "symbols": "Semboller (!@#$)",
-            "why_title": "Neden Güçlü Bir Şifre Oluşturucu Kullanmalısınız?",
+            "why_title": "Neden Güçlü Bir Şifre Oluşturucu Kullanmalı?",
             "why_feature1_title": "Kriptografik Olarak Güvenli",
-            "why_feature1_desc": "Tahmin edilmesi veya kopyalanması imkansız olan gerçek rastgelelik için window.crypto.getRandomValues() kullanır.",
-            "why_feature2_title": "%100 İstemci Taraflı",
-            "why_feature2_desc": "Tüm oluşturma işlemi tarayıcınızda gerçekleşir. Sunucularımıza hiçbir veri gönderilmez veya saklanmaz.",
+            "why_feature1_desc": "Tahmin edilmesi imkansız olan gerçek rastgelelik için window.crypto.getRandomValues() kullanır.",
+            "why_feature2_title": "%100 İstemci Tarafı",
+            "why_feature2_desc": "Tüm işlemler tarayıcınızda gerçekleşir. Verileriniz asla sunucularımıza gönderilmez.",
             "why_feature3_title": "Tamamen Özelleştirilebilir",
-            "why_feature3_desc": "Her türlü şifre gereksinimine uyacak şekilde uzunluğu, karakter türlerini ve karmaşıklığı kontrol edin.",
+            "why_feature3_desc": "Her türlü şifre gereksinimini karşılamak için uzunluğu ve karakter türlerini kontrol edin.",
             "how_title": "Bu Şifre Oluşturucu Nasıl Kullanılır?",
-            "how_step1": "İstediğiniz şifre uzunluğunu ayarlamak için kaydırıcıyı kullanın (8-64 karakter)",
-            "how_step2": "Karakter türlerini seçin - büyük harf, küçük harf, rakam ve sembolleri açıp kapatın",
+            "how_step1": "İstediğiniz şifre uzunluğunu ayarlamak için sürgüyü kaydırın (8-64 karakter)",
+            "how_step2": "Karakter türlerini seçin - büyük, küçük harf, sayı ve sembolleri açın",
             "how_step3": "Şifreyi panonuza kaydetmek için \"Kopyala\"ya tıklayın",
             "how_step4": "Aynı ayarlarla yeni bir şifre oluşturmak için \"Yenile\"yi kullanın",
             "what_makes_title": "Bir Şifreyi Güçlü Yapan Nedir?",
-            "what_makes_p1": "Günümüz dijital dünyasında zayıf şifreler 1 numaralı güvenlik açığıdır. Hackerlar, basit şifreleri milisaniyeler içinde kırabilen gelişmiş algoritmalar kullanır. Gerçekten güvenli bir şifre şunlara sahip olmalıdır:",
-            "what_makes_li1": "Uzunluk: En az 12-16 karakter (daha uzun her zaman daha iyidir)",
-            "what_makes_li2": "Karmaşıklık: Büyük harf, küçük harf, rakam ve sembollerin karışımı",
-            "what_makes_li3": "Rastgelelik: Sözlük kelimeleri, kişisel bilgiler veya desenler içermemeli",
-            "what_makes_li4": "Benzersizlik: Her hesap için farklı şifre",
+            "what_makes_p1": "Zayıf şifreler en büyük güvenlik açığıdır. Güvenli bir şifre şunlara sahip olmalıdır:",
+            "what_makes_li1": "Uzunluk: En az 12-16 karakter (ne kadar uzunsa o kadar iyidir)",
+            "what_makes_li2": "Karmaşıklık: Büyük, küçük harf, sayı ve sembollerin karışımı",
+            "what_makes_li3": "Rastgelelik: Sözlük kelimesi, kişisel bilgi veya kalıp içermemeli",
+            "what_makes_li4": "Benzersizlik: Her hesap için farklı bir şifre kullanılmalı",
             "how_it_works_title": "Oluşturucumuz Nasıl Çalışır?",
-            "how_it_works_p1": "Şifre oluşturucumuz, kriptografik olarak güçlü rastgele değerler sağlayan Web Crypto API'sini kullanır. Bu teknoloji şunlar tarafından kullanılır:",
+            "how_it_works_p1": "Web Crypto API kullanıyoruz. Bu, bankalar ve askeri sistemler tarafından kullanılan teknolojidir.",
             "how_it_works_li1": "Güvenli işlemler için bankacılık uygulamaları",
             "how_it_works_li2": "1Password ve LastPass gibi şifre yöneticileri",
             "how_it_works_li3": "Hükümet ve askeri güvenlik sistemleri",
             "pro_tip_title": "Uzman İpucu: Şifre Yöneticisi Kullanın",
-            "pro_tip_p": "Oluşturucumuz güvenli şifreler üretse de, düzinelerce karmaşık şifreyi hatırlamak imkansızdır. Bitwarden, 1Password veya LastPass gibi bir şifre yöneticisi kullanmanızı öneririz.",
+            "pro_tip_p": "Jeneratörümüz güvenli şifreler oluştursa da bunları ezberlemek imkansızdır. Bitwarden veya LastPass gibi araçları öneririz.",
             "faq_title": "Sıkça Sorulan Sorular",
             "faq_q1": "Bu şifre oluşturucu gerçekten güvenli mi?",
-            "faq_a1": "Evet! Web Crypto API'sinin güvenli rastgele sayı oluşturucusunu kullanıyoruz. Tüm işlemler tarayıcınızda yerel olarak gerçekleşir.",
+            "faq_a1": "Evet! Tüm işlemler yerel olarak tarayıcınızda yapılır; hiçbir şey sunucularımıza iletilmez.",
             "faq_q2": "İdeal şifre uzunluğu nedir?",
-            "faq_a2": "Maksimum güvenlik için en az 16 karakter öneriyoruz. Her ek karakter, şifrenizin kırılması için gereken süreyi katlanarak artırır.",
+            "faq_a2": "Maksimum güvenlik için en az 16 karakter öneriyoruz.",
             "faq_q3": "Şifrelerimde sembol kullanmalı mıyım?",
-            "faq_a3": "Kesinlikle! Sembol eklemek karmaşıklığı çarpıcı biçimde artırır ve kaba kuvvet saldırılarını neredeyse imkansız hale getirir.",
+            "faq_a3": "Kesinlikle! Semboller karmaşıklığı artırır ve kaba kuvvet saldırılarını imkansız hale getirir.",
             "faq_q4": "Şifrelerimi ne sıklıkla değiştirmeliyim?",
-            "faq_a4": "Bir ihlalden şüpheleniyorsanız hemen değiştirin. Aksi takdirde, sık değişiklik yerine her hesap için benzersiz ve güçlü şifreler kullanmaya odaklanın.",
+            "faq_a4": "Bir sızıntıdan şüpheleniyorsanız hemen değiştirin. Aksi takdirde, her hesap için güçlü ve benzersiz şifreler kullanmaya odaklanın.",
             "faq_q5": "Hassas hesaplarım için bu araca güvenebilir miyim?",
-            "faq_a5": "Evet. Tüm işlemler istemci taraflı olduğundan ve hiçbir veri iletilmediğinden, bankacılık ve e-posta gibi kritik hesaplar için güvenlidir.",
+            "faq_a5": "Evet. Veri saklanmadığı veya iletilmediği için bankacılık ve diğer kritik hesaplar için güvenlidir.",
             "seo": {
                 "title": "Ücretsiz Şifre Oluşturucu - Güçlü ve Güvenli Şifreler Oluşturun | YourEmailBox",
-                "description": "Anında kriptografik olarak güvenli şifreler oluşturun. Uzunluğu özelleştirin, büyük-küçük harf, rakam ve sembol kullanın. %100 istemci taraflı.",
+                "description": "Anında kriptografik olarak güvenli şifreler oluşturun. Uzunluğu özelleştirin. %100 istemci taraflı, veri saklanmaz.",
                 "keywords": "şifre oluşturucu, güvenli şifre, rastgele şifre, güçlü şifre, şifre yaratıcı, ücretsiz şifre aracı",
-                "og_title": "Ücretsiz Şifre Oluşturucu - Güçlü ve Güvenli Şifreler Oluşturun",
-                "og_description": "Ücretsiz aracımızla askeri düzeyde şifreler oluşturun. Tamamen özelleştirilebilir ve %100 güvenli.",
+                "og_title": "Ücretsiz Şifre Oluşturucu - Güçlü ve Güvenli Şifreler",
+                "og_description": "Ücretsiz aracımızla askeri düzeyde şifreler oluşturun. Tamamen özelleştirilebilir ve güvenli.",
                 "twitter_title": "Ücretsiz Şifre Oluşturucu - YourEmailBox",
                 "twitter_description": "Anında kriptografik olarak güvenli şifreler oluşturun"
             }
         },
         "email_validator": {
             "title": "E-posta Doğrulayıcı",
-            "subtitle": "E-posta listeleriniz için profesyonel doğrulama. Teslim edilebilirliği, sunucu durumunu ve riskleri kontrol edin.",
+            "subtitle": "Mailing listeleriniz için profesyonel doğrulama. Teslim edilebilirliği ve sunucu durumunu kontrol edin.",
             "label": "E-posta Doğrulayıcı",
             "placeholder": "Doğrulanacak e-posta adresini girin...",
             "button": "E-POSTAYI DOĞRULA",
@@ -531,63 +531,65 @@
             "syntax_check": "Sözdizimi / Format",
             "mx_check": "MX Kayıtları",
             "smtp_check": "SMTP Sunucusu",
-            "disposable_check": "Tek Kullanımlık Değil",
+            "disposable_check": "Geçici Değil",
             "what_is_title": "E-posta Doğrulama Nedir?",
             "feature1_title": "Çok Katmanlı Doğrulama",
-            "feature1_desc": "Teslim edilebilirliği sağlamak için sözdizimi kontrolleri, MX kaydı sorguları ve SMTP el sıkışmaları yapıyoruz.",
+            "feature1_desc": "Teslim edilebilirliği sağlamak için sözdizimi, MX kaydı ve SMTP kontrolleri yapıyoruz.",
             "feature2_title": "Gerçek Zamanlı Doğrulama",
-            "feature2_desc": "Gerçek e-postalar göndermeden doğrudan posta sunucularına bağlanarak anında sonuç alın.",
+            "feature2_desc": "Gerçek e-posta göndermeden doğrudan mail sunucularına bağlanarak anlık sonuçlar alın.",
             "feature3_title": "Geçici Mail Tespiti",
             "feature3_desc": "Gönderen itibarınıza zarar verebilecek geçici e-posta adreslerini tanımlayın.",
             "how_to_title": "Bu Doğrulayıcı Nasıl Kullanılır?",
-            "how_step1": "Doğrulamak istediğiniz e-posta adresini giriş alanına yazın",
-            "how_step2": "Doğrulama işlemini başlatmak için \"E-postayı Doğrula\"ya tıklayın",
-            "how_step3": "Sonuçları inceleyin - sözdizimi, MX, SMTP ve geçici mail durumunu göstereceğiz",
-            "how_step4": "Harekete geçin - geçersiz e-postaları listenizden temizleyin",
-            "why_validate_title": "E-posta Adreslerini Neden Doğrulamalısınız?",
-            "why_validate_p1": "E-posta doğrulaması, sağlıklı bir gönderen itibarını korumak ve mesajlarınızın gerçek insanlara ulaşmasını sağlamak için çok önemlidir:",
-            "why_li1": "Hemen Çıkma Oranlarını (Bounce Rate) Düşürün: Geçersiz e-postalar puanınıza zarar verir",
-            "why_li2": "Teslim Edilebilirliği Artırın: Temiz listeler, gelen kutusuna düşme oranını artırır",
-            "why_li3": "Tasarruf Edin: Var olmayan adreslere e-posta göndermek için para ödemeyin",
+            "how_step1": "Doğrulamak istediğiniz e-posta adresini giriş alanına girin",
+            "how_step2": "İşlemi başlatmak için \"E-postayı Doğrula\"ya tıklayın",
+            "how_step3": "Sonuçları inceleyin - sözdizimi, MX, SMTP ve geçici durumunu göstereceğiz",
+            "how_step4": "Harekete geçin - geçersiz e-postaları listenizden çıkarın",
+            "why_validate_title": "E-posta Adreslerini Neden Doğrulamalı?",
+            "why_validate_p1": "E-posta doğrulaması, sağlıklı bir gönderen itibarı sürdürmek için çok önemlidir:",
+            "why_li1": "Hemen Çıkma Oranlarını Azaltın: Geçersiz e-postalar gönderen puanınıza zarar verir",
+            "why_li2": "Teslim Edilebilirliği Artırın: Temiz listeler daha iyi gelen kutusu oranları demektir",
+            "why_li3": "Tasarruf Edin: Mevcut olmayan adreslere e-posta göndermek için para ödemeyin",
             "why_li4": "Alan Adınızı Koruyun: Yüksek bounce oranları sizi kara listeye sokabilir",
             "understanding_checks_title": "Doğrulama Kontrollerini Anlamak",
             "check1_title": "Sözdizimi / Format Kontrolü",
-            "check1_desc": "E-postanın standartlara uyup uymadığını doğrular (ör. @ sembolü, geçerli alan yapısı)",
-            "check2_title": "MX Kayıtları Sorgulama",
+            "check1_desc": "E-postanın standartlara uyup uymadığını doğrular (örn. @ sembolü, geçerli yapı)",
+            "check2_title": "MX Kayıtları Sorgusu",
             "check2_desc": "Alan adının e-posta almak için yapılandırılmış sunucuları olduğunu onaylar",
             "check3_title": "SMTP Sunucu Doğrulaması",
-            "check3_desc": "E-posta göndermeden posta kutusunun var olup olmadığını doğrulamak için sunucuya bağlanır",
-            "check4_title": "Tek Kullanımlık Mail Tespiti",
-            "check4_desc": "Düşük kaliteli kayıtları işaret edebilecek geçici e-posta hizmetlerini tanımlar",
-            "pro_tip_title": "E-posta Pazarlamacıları İçin En İyi Uygulama",
-            "pro_tip_p": "E-postaları kayıt anında gerçek zamanlı doğrulayın. Mevcut listeler için her 3-6 ayda bir düzenli denetimler yapın.",
+            "check3_desc": "E-posta göndermeden posta kutusunun var olduğunu onaylamak için sunucuya bağlanır",
+            "check4_title": "Geçici E-posta Tespiti",
+            "check4_desc": "Düşük kaliteli kayıtları gösteren geçici e-posta servislerini tanımlar",
+            "pro_tip_title": "E-posta Pazarlamacıları İçin En İyi Pratik",
+            "pro_tip_p": "Kayıt anında gerçek zamanlı doğrulama kullanın. Mevcut listeler için her 3-6 ayda bir denetim yapın.",
             "faq_title": "Sıkça Sorulan Sorular",
             "faq_q1": "E-posta doğrulaması ne kadar doğrudur?",
-            "faq_a1": "Doğrulayıcımız gerçek SMTP ve MX sorguları yaparak %95+ doğruluk sağlar. Ancak bazı sunucular doğrulama denemelerini engelleyebilir.",
+            "faq_a1": "Doğrulayıcımız gerçek SMTP ve MX kontrolleri yaparak %95+ doğruluk sağlar.",
             "faq_q2": "Alıcı e-postasını doğruladığımı anlayacak mı?",
-            "faq_a2": "Hayır. Gerçek e-posta göndermeden el sıkışma yapıyoruz. Süreç alıcı için tamamen görünmezdir.",
+            "faq_a2": "Hayır. Gerçek e-posta göndermeden SMTP el sıkışması yapıyoruz. İşlem tamamen gizlidir.",
             "faq_q3": "Sözdizimi ve SMTP kontrolleri arasındaki fark nedir?",
-            "faq_a3": "Sözdizimi formatı kontrol eder. SMTP ise posta kutusunun gerçekten var olup olmadığını onaylamak için sunucuya bağlanır.",
+            "faq_a3": "Sözdizimi formatı kontrol eder. SMTP, sunucuya bağlanarak kutunun aktif olduğunu doğrular.",
             "faq_q4": "Toplu e-posta listelerini doğrulayabilir miyim?",
-            "faq_a4": "Bu araç tekli doğrulama içindir. Toplu işlemler için API'mizi veya özel hizmetlerimizi kullanmayı düşünebilirsiniz.",
-            "faq_q5": "Geçersiz e-postalarla ne yapmalıyım?",
-            "faq_a6": "Onları hemen listenizden çıkarın. Geçersiz adreslere gönderime devam etmek itibarınıza zarar verir.",
+            "faq_a4": "Bu araç tekli doğrulama içindir. Toplu işlemler için API'mizi kullanmayı düşünebilirsiniz.",
+            "faq_q5": "Geçerli görünen bir e-posta neden doğrulamadan geçemez?",
+            "faq_a5": "Sebepler: MX kaydı yok, posta kutusu dolu, sunucu kapalı veya geçici bir servistir.",
+            "faq_q6": "Geçersiz e-postalarla ne yapmalıyım?",
+            "faq_a6": "Gönderen itibarınızı korumak için onları listenizden hemen çıkarın.",
             "seo": {
-                "title": "E-posta Doğrulayıcı - Çevrimiçi Adres Doğrulama | YourEmailBox",
-                "description": "Bir e-posta adresinin geçerli, var olan ve güvenli olup olmadığını doğrulayın. Temiz listeler için profesyonel SMTP ve MX aracı.",
-                "keywords": "e-posta doğrulayıcı, e-posta kontrol, adres doğrulama, smtp kontrol, mx kaydı sorgulama",
-                "og_title": "E-posta Doğrulayıcı - Çevrimiçi Adres Doğrulama",
-                "og_description": "E-posta listeleriniz için profesyonel doğrulama. Teslim edilebilirliği ve sunucu durumunu kontrol edin.",
+                "title": "E-posta Doğrulayıcı - Çevrimiçi E-posta Adresini Doğrula | YourEmailBox",
+                "description": "Bir e-posta adresinin geçerli ve güvenli olup olmadığını kontrol edin. Temiz listeler için profesyonel SMTP ve MX doğrulama aracı.",
+                "keywords": "e-posta doğrulayıcı, e-posta kontrolü, e-posta adresi doğrulama, smtp kontrolü, mx sorgulama",
+                "og_title": "E-posta Doğrulayıcı - Çevrimiçi E-posta Adresini Doğrula",
+                "og_description": "Mailing listeleriniz için profesyonel doğrulama. Teslim edilebilirliği ve sunucu durumunu kontrol edin.",
                 "twitter_title": "E-posta Doğrulayıcı - YourEmailBox",
-                "twitter_description": "Bir e-posta adresinin geçerli ve var olan olup olmadığını doğrulayın."
+                "twitter_description": "E-posta adresinin geçerli, mevcut ve güvenli olup olmadığını doğrulayın."
             }
         },
         "spam_checker": {
             "title": "Spam Kontrolü",
-            "subtitle": "Spam tetikleyicilerini gelen kutusuna düşmeden tespit edin. İçeriği anahtar kelimeler ve format açısından analiz edin.",
+            "subtitle": "Spam tetikleyicilerini gelen kutusuna düşmeden önce belirleyin. İçeriği riskli kalıplar için analiz edin.",
             "label": "Spam Kontrolü",
             "content_label": "E-POSTA İÇERİĞİ",
-            "placeholder": "Spam tetikleyicilerini analiz etmek için e-posta konusunu veya içeriğini buraya yapıştırın...",
+            "placeholder": "Spam tetikleyicilerini analiz etmek için konu satırınızı veya içerik metninizi buraya yapıştırın...",
             "characters": "KARAKTER",
             "words": "KELİME",
             "button": "SPAM PUANINI ANALİZ ET",
@@ -596,121 +598,131 @@
             "verdict_high": "YÜKSEK RİSK",
             "verdict_moderate": "ORTA RİSK",
             "verdict_low": "DÜŞÜK RİSK",
-            "msg_high": "Büyük olasılıkla spam olarak işaretlenecek",
+            "msg_high": "Spam olarak işaretlenmesi muhtemel",
             "msg_moderate": "Spam filtrelerini tetikleyebilir",
-            "msg_low": "İyi bir teslim edilebilirlik bekleniyor",
+            "msg_low": "İyi teslim edilebilirlik bekleniyor",
             "detailed_analysis": "DETAYLI ANALİZ",
             "keywords_detected": "Tespit Edilen Spam Kelimeler",
-            "none_found": "HİÇ BULUNAMADI ✓",
+            "none_found": "HİÇBİRİ BULUNAMADI ✓",
             "uppercase_usage": "Büyük Harf Kullanımı",
             "uppercase_note_high": "Aşırı büyük harf filtreleri tetikleyebilir",
             "uppercase_note_ok": "Kabul edilebilir aralıkta",
             "excl_marks": "Ünlem İşaretleri",
-            "excl_note_high": "Çok fazla olması spam şüphesi uyandırabilir",
-            "excl_note_ok": "Kabul edilebilir miktar",
+            "excl_note_high": "Çok fazla ünlem spam gibi görünebilir",
+            "excl_note_ok": "Kabul edilebilir sayı",
             "overall_risk": "Genel Teslim Edilebilirlik Riski",
             "risk_high": "YÜKSEK",
             "risk_moderate": "ORTA",
             "risk_low": "DÜŞÜK",
             "new_analysis": "YENİ ANALİZ",
-            "why_title": "Spam Filtrelerini Anlamağ",
+            "why_title": "Spam Filtrelerini Anlamak",
             "feature1_title": "Anahtar Kelime Analizi",
-            "feature1_desc": "E-posta filtrelerinin işaretlediği yaygın spam kelimeleri tarıyoruz.",
+            "feature1_desc": "Filtrelerin işaretlediği yaygın spam kelimelerini ve promosyonel dili tarıyoruz.",
             "feature2_title": "Format Kontrolleri",
-            "feature2_desc": "Aşırı büyük harf kullanımı ve noktalama işaretleri analiz edilir.",
-            "feature3_title": "Anında Geri Bildirim",
-            "feature3_desc": "Teslim edilebilirliği artırmak için uygulanabilir öneriler alın.",
+            "feature2_desc": "Aşırı büyük harf kullanımı ve noktalama sorunları spam göstergesi olarak analiz edilir.",
+            "feature3_title": "Anlık Geri Bildirim",
+            "feature3_desc": "Teslim edilebilirliğinizi artırmak için eyleme dönüştürülebilir önerilerle anında sonuç alın.",
             "how_to_title": "Bu Araç Nasıl Kullanılır?",
-            "how_step1": "E-posta içeriğinizi kopyalayın - konu, gövde veya her ikisi",
+            "how_step1": "E-posta içeriğinizi -konu satırı, gövde veya her ikisi- kopyalayın",
             "how_step2": "Yukarıdaki metin alanına yapıştırın",
-            "how_step3": "Kontrolü başlatmak için \"Spam Puanını Analiz Et\"e tıklayın",
+            "how_step3": "Kontrolü çalıştırmak için \"Spam Puanını Analiz Et\"e tıklayın",
             "how_step4": "Sonuçları inceleyin ve işaretlenen tetikleyicileri kaldırın",
-            "how_step5": "Düşük puan alana kadar yeniden test edin",
+            "how_step5": "Düşük spam puanı elde edene kadar yeniden test edin",
             "common_triggers_title": "Kaçınılması Gereken Spam Tetikleyicileri",
-            "trigger1_title": "Promosyon Dili",
+            "trigger1_title": "Promosyonel Dil",
             "trigger2_title": "Finansal Terimler",
             "trigger3_title": "Aciliyet Taktikleri",
-            "trigger4_title": "Aşırı Biçimlendirme",
-            "best_practices_title": "En İyi Teslim Edilebilirlik Uygulamaları",
-            "practice_li1": "Tanınabilir bir gönderen adı kullanın",
-            "practice_li2": "Net konu satırları yazın - Tık tuzağından kaçının",
-            "practice_li3": "Metin ve görselleri dengeleyin",
-            "practice_li4": "Abonelikten çıkma bağlantısı ekleyin",
-            "practice_li5": "Alan adınızı doğrulayın (SPF, DKIM, DMARC)",
+            "trigger4_title": "Aşırı Formatlama",
+            "best_practices_title": "E-posta Teslim Edilebilirliği İçin En İyi Pratikler",
+            "practice_li1": "Tanınabilir bir gönderen adı kullanın - Alıcılar kim olduğunuzu bilmeli",
+            "practice_li2": "Net konu satırları yazın - Yanıltıcı başlıklardan kaçının",
+            "practice_li3": "Metin ve görselleri dengeleyin - Çok fazla görsel filtreleri tetikleyebilir",
+            "practice_li4": "Abonelikten çıkma bağlantısı ekleyin - Güven oluşturur",
+            "practice_li5": "Alan adınızı doğrulayın - SPF, DKIM ve DMARC kayıtlarını kurun",
             "pro_tip_title": "Pazarlamacılar İçin Uzman İpucu",
-            "pro_tip_p": "İçeriğiniz filtreleri geçse bile etkileşim önemlidir. Düşük açılma oranları sağlayıcılara içeriğin değerli olmadığını sinyaller.",
+            "pro_tip_p": "İçeriğiniz filtreleri geçse bile etkileşim önemlidir. Düşük açılma oranları sağlayıcılara içeriğin değerli olmadığını gösterir.",
             "faq_title": "Sıkça Sorulan Sorular",
-            "faq_q1": "Bu spam kontrolü ne kadar doğru?",
-            "faq_a1": "Aracımız yaygın tetikleyicileri analiz eder. Ancak gerçek filtreleme, sağlayıcı itibarınıza göre değişebilir.",
+            "faq_q1": "Bu spam kontrolü ne kadar doğrudur?",
+            "faq_a1": "Aracımız yaygın tetikleyicileri analiz eder. Gerçek filtreleme sağlayıcıya göre değişebilir.",
             "faq_q2": "İyi bir spam puanı nedir?",
-            "faq_a2": "30'un altında bir puan hedefleyin. 60'ın üzeri muhtemelen spam olarak filtrelenir.",
+            "faq_a2": "30'un altında bir puan hedefleyin. 30-60 arası orta risk, 60 üzeri ise yüksek spam riskidir.",
+            "faq_q3": "HTML e-postaları kontrol edebilir miyim?",
+            "faq_a3": "Bu araç metin içeriğini analiz eder. HTML için metin versiyonunu yapıştırın.",
+            "faq_q4": "Meşru e-postalar neden bazen işaretlenir?",
+            "faq_a4": "Spam filtreleri temkinlidir. Promosyonel dil kullanımı meşru mailleri de takılmaya itebilir.",
+            "faq_q5": "Gönderen itibarımı nasıl geliştirebilirim?",
+            "faq_a5": "Temiz listeler tutun, tutarlı gönderim yapın ve alan adınızı doğrulayın.",
             "faq_q6": "Bu araç içeriğimi bir yere gönderiyor mu?",
-            "faq_a6": "Hayır. Tüm analiz tarayıcınızda yerel olarak gerçekleşir. İçeriğinizi asla saklamıyoruz.",
+            "faq_a6": "Hayır. Tüm analiz tarayıcınızda yapılır. İçeriğinizi asla saklamıyoruz.",
             "seo": {
-                "title": "Spam Kontrolü - E-postayı Spam Tetikleyicileri İçin Analiz Et | YourEmailBox",
-                "description": "E-posta içeriğinizdeki potansiyel spam tetikleyicilerini belirleyin. Teslim edilebilirliği artırmak için analiz yapın.",
-                "keywords": "spam kontrolü, e-posta spam analizi, spam filtre testi, teslim edilebilirlik aracı",
-                "og_title": "Spam Kontrolü - E-postayı Spam Tetikleyicileri İçin Analiz Et",
-                "og_description": "Spam tetikleyicilerini gelen kutusuna düşmeden belirleyin.",
+                "title": "Spam Kontrolü - Spam Tetikleyicilerini Analiz Et | YourEmailBox",
+                "description": "E-posta içeriğinizdeki potansiyel spam tetikleyicilerini belirleyin. Teslim edilebilirliği artırmak için anahtar kelimeleri analiz edin.",
+                "keywords": "spam kontrolü, e-posta spam analizi, spam filtresi testi, spam kelimeler",
+                "og_title": "Spam Kontrolü - E-posta İçeriğini Analiz Et",
+                "og_description": "Spam tetikleyicilerini gelen kutusuna düşmeden önce belirleyin. Anahtar kelimeleri analiz edin.",
                 "twitter_title": "Spam Kontrolü - YourEmailBox",
                 "twitter_description": "E-posta içeriğinizdeki potansiyel spam tetikleyicilerini belirleyin."
             }
         },
         "breach_checker": {
             "title": "Veri İhlali Kontrolü",
-            "subtitle": "Kimliğiniz satışta mı? E-postanızın ifşa olup olmadığını görmek için dünyanın en kapsamlı veri ihlali veritabanlarını tarayın.",
+            "subtitle": "Kimliğiniz satılık mı? E-postanızın ifşa olup olmadığını görmek için dünyanın en kapsamlı ihlal veritabanlarını tarayın.",
             "label": "Veri İhlali Kontrolü",
             "placeholder": "Taramak için e-posta adresinizi girin...",
             "button": "ŞİMDİ TARA",
             "scanning": "TARANIYOR...",
             "scanning_title": "Küresel Veritabanları Taranıyor",
-            "scanning_desc": "E-postanız 500'den fazla güvenlik ihlali veritabanıyla çapraz sorgulanıyor...",
+            "scanning_desc": "E-postanız 500'den fazla güvenlik ihlali veritabanıyla karşılaştırılıyor...",
             "exposure_detected": "İhlal Tespit Edildi!",
             "exposure_warn": "Uyarı: Bu e-posta adresi bilinen veri ihlallerinde göründü. Özel bilgileriniz erişilebilir olabilir.",
             "breach_details": "İHLAL DETAYLARINI GÖR",
             "reset_scan": "TARAMAYI SIFIRLA",
             "clean_status": "Temiz Durum",
-            "clean_msg": "Güzel haber! Bu e-posta adresine ait herhangi bir kayıt izlediğimiz veritabanlarında bulunamadı.",
-            "new_scan": "YENİ TARAMA BAŞLAT",
-            "why_title": "Neden Veri İhlallerini Kontrol Etmelisiniz?",
+            "clean_msg": "Güzel haber! İzlenen ihlal veritabanlarımızda bu e-posta adresine ait bir kayıt bulunamadı.",
+            "new_scan": "YENİ TARAMA YAP",
+            "why_title": "Neden Veri İhlallerini Kontrol Etmeli?",
             "feature1_title": "500+ İhlal Veritabanı",
-            "feature1_desc": "Dünya çapındaki binlerce doğrulanmış güvenlik ihlalinden gelen verileri izliyoruz.",
+            "feature1_desc": "Küresel olarak binlerce doğrulanmış güvenlik ihlalinden gelen verileri izliyor ve indeksliyoruz.",
             "feature2_title": "Gizlilik Odaklı Tarama",
-            "feature2_desc": "E-postanız iletilmeden önce özetlenir (hash). Aramalarınızı asla saklamayız.",
+            "feature2_desc": "E-postanız iletimden önce hashlenir. Aramalarınızı asla saklamayız.",
             "feature3_title": "Gerçek Zamanlı İzleme",
-            "feature3_desc": "Veritabanımız, yeni keşfedilen ihlallerle sürekli olarak güncellenir.",
+            "feature3_desc": "Veritabanımız yeni keşfedilen ihlallerle sürekli olarak güncellenir.",
             "what_is_title": "Veri İhlali Nedir?",
-            "what_is_p": "Veri ihlali, siber suçluların bir veritabanına yetkisiz erişim sağlamasıyla gerçekleşir. Şifreler ve kişisel bilgiler sızabilir.",
+            "what_is_p": "Veri ihlali, siber suçluların bir veritabanına yetkisiz erişim sağlamasıyla gerçekleşir. Şifreler ve kişisel bilgiler çalınabilir.",
             "how_to_title": "Bu Araç Nasıl Kullanılır?",
-            "how_step1": "E-posta adresinizi yukarıdaki arama kutusuna girin",
+            "how_step1": "Yukarıdaki arama kutusuna e-posta adresinizi girin",
             "how_step2": "Aramayı başlatmak için \"Şimdi Tara\"ya tıklayın",
-            "how_step3": "Sonuçları inceleyin - e-postanızın ihlallerde görünüp görünmediğini göstereceğiz",
+            "how_step3": "Sonuçları inceleyin - e-postanızın ihlallerde olup olmadığını göstereceğiz",
             "how_step4": "Harekete geçin - bir ihlal tespit edilirse şifrelerinizi hemen değiştirin",
-            "what_to_do_title": "E-postanız Sızdırıldıysa Ne Yapmalısınız?",
-            "what_to_do_p": "Panik yapmayın; şifreleri değiştirerek, 2FA'yı etkinleştirerek ve hesap faliyetlerinizi izleyerek hızlı hareket edin.",
+            "what_to_do_title": "E-postanız İhlal Edildiyse Ne Yapmalısınız?",
+            "what_to_do_p": "Panik yapmayın - şifreleri değiştirerek, 2FA'yı etkinleştirerek ve hesap etkinliğinizi izleyerek hızlı hareket edin.",
             "action1_title": "Şifreleri Değiştirin",
-            "action1_desc": "Bu e-postayı kullanan tüm hesapların şifrelerini hemen güncelleyin",
+            "action1_desc": "O e-postayı kullanan tüm hesapların şifrelerini hemen güncelleyin",
             "action2_title": "2FA'yı Etkinleştirin",
-            "action2_desc": "Kritik hesaplara iki faktörlü doğrulama ekleyin",
-            "action3_title": "Faliyetleri İzleyin",
+            "action2_desc": "Kritik hesaplarınıza iki faktörlü kimlik doğrulama ekleyin",
+            "action3_title": "Etkinliği İzleyin",
             "action3_desc": "Şüpheli giriş denemelerini veya işlemleri takip edin",
             "action4_title": "Benzersiz Şifreler Kullanın",
-            "action4_desc": "Şifreleri birden fazla sitede asla tekrar kullanmayın",
+            "action4_desc": "Şifreleri asla birden fazla sitede tekrar kullanmayın",
             "pro_tip_title": "Önemli Güvenlik İpucu",
             "pro_tip_p": "Aynı şifreyi birden fazla sitede kullanıyorsanız ve biri ihlal edilirse, hackerlar bu şifreyi her yerde deneyecektir.",
             "faq_title": "Sıkça Sorulan Sorular",
             "faq_q1": "İhlal kontrolü nasıl çalışır?",
-            "faq_a1": "E-postanızı güvenli bir şekilde özetliyoruz ve indekslenmiş ihlal kayıtlarımızla karşılaştırıyoruz.",
+            "faq_a1": "E-postanızı güvenli bir şekilde hashliyoruz ve indekslenmiş kayıtlarımızla kontrol ediyoruz.",
             "faq_q2": "Bu aracı kullanırken e-postam güvende mi?",
-            "faq_a2": "Evet. E-postanız özetlenir ve adresinizi veya arama geçmişinizi asla saklamayız.",
-            "faq_q3": "E-postam bir ihlalde bulunduysa ne yapmalıyım?",
-            "faq_a3": "Şifrelerinizi hemen değiştirin ve bir şifre yöneticisi kullanın.",
+            "faq_a2": "Evet. E-postanız hashlenir; adresinizi veya arama geçmişinizi asla saklamayız.",
+            "faq_q3": "E-postam bir ihlalde bulunursa ne yapmalıyım?",
+            "faq_a3": "Şifreleri hemen değiştirin, 2FA'yı açın ve bir şifre yöneticisi kullanın.",
+            "faq_q4": "Veritabanınız ne sıklıkla güncelleniyor?",
+            "faq_a4": "Yeni ihlaller keşfedilir keşfedilmez veritabanımızı sürekli güncelliyoruz.",
             "faq_q5": "Birden fazla e-posta adresini kontrol edebilir miyim?",
-            "faq_a5": "Evet! Her adres için yeni bir tarama yapabilirsiniz. Sınır yoktur.",
+            "faq_a5": "Evet! Her adres için yeni bir tarama yapmanız yeterlidir. Sınır yoktur.",
+            "faq_q6": "'Güvenli' sonucu alırsam ama hala endişeliysem ne yapmalıyım?",
+            "faq_a6": "'Güvenli' sonuç iyidir ancak her zaman güçlü şifreler ve 2FA kullanmaya devam edin.",
             "seo": {
-                "title": "Veri İhlali Kontrolü - E-postanızın Sızdırılıp Sızdırılmadığını Kontrol Edin | YourEmailBox",
-                "description": "E-postanızın veri sızıntılarında ifşa olup olmadığını görmek için 500'den fazla veritabanını tarayın. Ücretsiz ihlal kontrol aracı.",
-                "keywords": "veri ihlali kontrolü, e-posta ihlali, şifre sızıntısı, güvenlik taraması, sızıntı veritabanı",
+                "title": "Veri İhlali Kontrolü - E-postanız Sızdırıldı mı Kontrol Edin | YourEmailBox",
+                "description": "E-postanızın veri sızıntılarında ifşa olup olmadığını anında görün. Kapsamlı analizle ücretsiz araç.",
+                "keywords": "veri ihlali kontrolü, e-posta sızıntısı, şifre sızıntısı, güvenlik taraması, ihlal veritabanı",
                 "og_title": "Veri İhlali Kontrolü - Kimliğinizi Koruyun",
                 "og_description": "E-postanızın veri ihlallerinde ifşa olup olmadığını kontrol edin. 500+ veritabanını tarayın.",
                 "twitter_title": "Veri İhlali Kontrolü - YourEmailBox",
@@ -719,29 +731,29 @@
         },
         "tools_index": {
             "title": "Ücretsiz E-posta Güvenlik Araçları",
-            "subtitle": "Dijital kimliğinizi korumak için profesyonel gizlilik ve güvenlik yardımcıları. Kayıt yok, ücret yok—sadece anında, güçlü araçlar.",
+            "subtitle": "Dijital kimliğinizi korumak için profesyonel gizlilik araçları. Kayıt yok, ücret yok—sadece anında güçlü araçlar.",
             "why_title": "Neden Güvenlik Araçlarımızı Seçmelisiniz?",
             "benefit1_title": "%100 Önce Gizlilik",
-            "benefit1_desc": "Tüm araçlar tarayıcınızda istemci taraflı çalışır. Verilerinizi asla saklamayız.",
-            "benefit2_title": "Anında Sonuçlar",
+            "benefit1_desc": "Tüm araçlar tarayıcınızda çalışır. Verilerinizi asla saklamayız, iletmeyiz veya erişmeyiz.",
+            "benefit2_title": "Anlık Sonuçlar",
             "benefit2_desc": "Beklemeden anında geri bildirim alın. Araçlarımız hız ve doğruluk için optimize edilmiştir.",
             "benefit3_title": "Kurumsal Düzeyde Güvenlik",
-            "benefit3_desc": "Bankalar ve güvenlik profesyonelleri tarafından kullanılan aynı kriptografik standartlarla oluşturulmuştur.",
+            "benefit3_desc": "Bankalar ve güvenlik profesyonelleri tarafından kullanılan kriptografik standartlarla oluşturulmuştur.",
             "complementary_title": "Tamamlayıcı Gizlilik Uygulamaları",
-            "aliases_label": "Ücretsiz E-posta Aliasları",
+            "aliases_label": "Ücretsiz E-posta Takma Adları",
             "aliases_desc": "Profesyonel gizlilik için kalıcı e-posta takma adları oluşturun.",
-            "gmail_trick_label": "Gmail Artı Taktiği",
-            "gmail_trick_desc": "Sonsuz takip aliasları için artı-adresleme tekniğinde ustalaşın.",
+            "gmail_trick_label": "Gmail Plus Hilesi",
+            "gmail_trick_desc": "Sonsuz takip takma adı için artı adresleme tekniğinde ustalaşın.",
             "launch_tool": "ARACI BAŞLAT",
             "premium_cta_title": "Daha Gelişmiş Özelliklere mi İhtiyacınız Var?",
-            "premium_cta_desc": "Sınırsız e-posta aliası, gelişmiş ihlal izleme ve öncelikli destek için premiuma yükseltin.",
+            "premium_cta_desc": "Sınırsız takma ad, gelişmiş ihlal izleme ve öncelikli destek için premium'a yükseltin.",
             "premium_cta_button": "PREMIUM'U KEŞFET",
             "seo": {
-                "title": "Ücretsiz E-posta Güvenlik Araçları - Şifre Oluşturucu, İhlal Kontrolü ve Daha Fazlası | YourEmailBox",
-                "description": "Ücretsiz çevrimiçi e-posta güvenlik araçları. Şifre oluşturun, ihlalleri kontrol edin, e-postaları doğrulayın ve spam analizi yapın.",
-                "keywords": "e-posta araçları, şifre oluşturucu, ihlal kontrolü, e-posta doğrulayıcı, spam kontrolü, güvenlik araçları",
-                "og_title": "Ücretsiz E-posta Araçları | Gizlilik ve Güvenlik Yardımcıları",
-                "og_description": "Profesyonel e-posta güvenlik araçları: Şifre Oluşturucu, Veri İhlali Kontrolü, E-posta Doğrulayıcı ve Spam Kontrolü.",
+                "title": "Ücretsiz E-posta Güvenlik Araçları - Şifre Oluşturucu & Daha Fazlası | YourEmailBox",
+                "description": "Ücretsiz çevrimiçi e-posta güvenlik araçları. Şifre oluşturun, sızıntıları kontrol edin ve spam analizi yapın.",
+                "keywords": "eposta araçları, şifre oluşturucu, ihlal kontrolü, eposta doğrulayıcı, spam kontrolü, güvenlik araçları",
+                "og_title": "Ücretsiz E-posta Araçları | Gizlilik ve Güvenlik Yardımları",
+                "og_description": "Profesyonel e-posta güvenlik araçları: Şifre Oluşturucu, Veri İhlali Kontrolü ve daha fazlası.",
                 "twitter_title": "Ücretsiz E-posta Güvenlik Araçları - YourEmailBox",
                 "twitter_description": "E-posta koruması için profesyonel gizlilik ve güvenlik araçları"
             }

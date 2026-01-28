@@ -7,6 +7,7 @@ import { Globe, ChevronDown } from 'lucide-react';
 
 const languages = [
     { code: 'ar', name: 'العربية', flag: '🇸🇦' },
+    { code: 'az', name: 'Azərbaycan', flag: '🇦🇿' },
     { code: 'zh', name: '中文', flag: '🇨🇳' },
     { code: 'en', name: 'English', flag: '🇬🇧' },
     { code: 'fr', name: 'Français', flag: '🇫🇷' },
