@@ -87,6 +87,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
                 'fa': `${baseUrl}/fa`,
                 'hi': `${baseUrl}/hi`,
                 'hu': `${baseUrl}/hu`,
+                'az': `${baseUrl}/az`,
                 'x-default': `${baseUrl}/en`,
             },
         },

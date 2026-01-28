@@ -8,47 +8,18 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 export default function ContactClient({ dictionary, lang }: { dictionary: any, lang: string }) {
     const content = dictionary.contact_us;
 
-    const contactSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'ContactPage',
-        'name': content.title,
-        'description': content.seo_intro,
-        'url': `https://youremailbox.com/${lang}/contacts`,
-        'mainEntity': {
-            '@type': 'Organization',
-            'name': 'YourEmailBox',
-            'email': content.info.email,
-            'contactPoint': [
-                {
-                    '@type': 'ContactPoint',
-                    'email': content.info.email,
-                    'contactType': 'customer support'
-                },
-                {
-                    '@type': 'ContactPoint',
-                    'email': content.info.abuse,
-                    'contactType': 'abuse reporting'
-                }
-            ]
-        }
-    };
-
     return (
         <AppLayout dictionary={dictionary} lang={lang}>
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }}
-            />
             <div className="main-wrapper" style={{ padding: '40px 20px 80px 20px' }}>
                 <Breadcrumbs
                     items={[
                         { label: dictionary.navigation?.home || 'Home', href: `/${lang}` },
-                        { label: dictionary.navigation?.contacts || 'Contacts' }
+                        { label: content.title }
                     ]}
                 />
 
                 <header style={{ textAlign: 'center', marginBottom: '80px', marginTop: '40px' }}>
-                    <h1 className="hero-title" style={{ fontSize: '3.5rem', marginBottom: '24px' }}>{content.title}</h1>
+                    <h1 className="hero-title" style={{ fontSize: '3.5rem', marginBottom: '24px', letterSpacing: '-1.5px', fontWeight: 900 }}>{content.title}</h1>
                     <p style={{ color: 'var(--text-muted)', fontSize: '1.2rem', maxWidth: '700px', margin: '0 auto', lineHeight: 1.6 }}>{content.seo_intro}</p>
                 </header>
 

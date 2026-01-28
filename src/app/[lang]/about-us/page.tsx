@@ -6,9 +6,47 @@ type Params = Promise<{ lang: string }>;
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
     const { lang } = await params;
+    const dict = await getDictionary(lang);
+    const baseUrl = 'https://youremailbox.com';
+    const currentUrl = `${baseUrl}/${lang}/about-us`;
+
     return {
-        title: `About Us | YourEmailBox Security Protocol`,
-        description: `Learn about the mission and technical standards of YourEmailBox, the leading provider of high-speed temporary email services.`,
+        title: `${dict.about_us?.title} | YourEmailBox Security Protocol`,
+        description: dict.about_us?.seo_intro || `Learn about the mission and technical standards of YourEmailBox, the leading provider of high-speed temporary email services.`,
+        alternates: {
+            canonical: currentUrl,
+            languages: {
+                'en': `${baseUrl}/en/about-us`,
+                'tr': `${baseUrl}/tr/about-us`,
+                'ru': `${baseUrl}/ru/about-us`,
+                'ar': `${baseUrl}/ar/about-us`,
+                'fr': `${baseUrl}/fr/about-us`,
+                'de': `${baseUrl}/de/about-us`,
+                'es': `${baseUrl}/es/about-us`,
+                'zh': `${baseUrl}/zh/about-us`,
+                'it': `${baseUrl}/it/about-us`,
+                'uk': `${baseUrl}/uk/about-us`,
+                'fa': `${baseUrl}/fa/about-us`,
+                'hi': `${baseUrl}/hi/about-us`,
+                'hu': `${baseUrl}/hu/about-us`,
+                'az': `${baseUrl}/az/about-us`,
+                'x-default': `${baseUrl}/en/about-us`,
+            },
+        },
+        openGraph: {
+            title: `${dict.about_us?.title} | YourEmailBox`,
+            description: dict.about_us?.seo_intro,
+            url: currentUrl,
+            siteName: 'YourEmailBox',
+            type: 'website',
+            images: [{ url: '/open-graph.png', width: 1200, height: 630 }],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: dict.about_us?.title,
+            description: dict.about_us?.seo_intro,
+            images: ['/open-graph.png'],
+        },
     };
 }
 
