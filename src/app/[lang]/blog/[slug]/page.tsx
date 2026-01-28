@@ -99,8 +99,14 @@ export default async function BlogPostPage({ params }: { params: Params }) {
                 'url': 'https://youremailbox.com/logo.png'
             }
         },
-        'datePublished': post.date ? new Date(post.date).toISOString() : undefined,
-        'dateModified': post.date ? new Date(post.date).toISOString() : undefined,
+        'datePublished': (() => {
+            const d = post.date ? new Date(post.date) : null;
+            return (d && !isNaN(d.getTime())) ? d.toISOString() : undefined;
+        })(),
+        'dateModified': (() => {
+            const d = post.date ? new Date(post.date) : null;
+            return (d && !isNaN(d.getTime())) ? d.toISOString() : undefined;
+        })(),
         'mainEntityOfPage': { '@type': 'WebPage', '@id': postUrl }
     };
 
