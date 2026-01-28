@@ -6,13 +6,15 @@ type Params = Promise<{ lang: string }>;
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
     const { lang } = await params;
+    const dict = await getDictionary(lang);
     const baseUrl = 'https://youremailbox.com';
     const currentUrl = `${baseUrl}/${lang}/tools/spam-checker`;
+    const seo = dict.tools?.spam_checker?.seo || {};
 
     return {
-        title: 'Free Spam Checker - Analyze Email Spam Score | YourEmailBox',
-        description: 'Free spam checker tool to analyze email content. Detect spam triggers, check formatting, and improve deliverability. Get detailed spam score analysis instantly.',
-        keywords: 'spam checker, spam score, email spam test, spam filter, deliverability checker, spam analysis',
+        title: seo.title || 'Free Spam Checker - YourEmailBox',
+        description: seo.description || 'Analyze email for spam.',
+        keywords: seo.keywords || 'spam checker',
         alternates: {
             canonical: currentUrl,
             languages: {
@@ -20,12 +22,22 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
                 'tr': `${baseUrl}/tr/tools/spam-checker`,
                 'ru': `${baseUrl}/ru/tools/spam-checker`,
                 'ar': `${baseUrl}/ar/tools/spam-checker`,
+                'fr': `${baseUrl}/fr/tools/spam-checker`,
+                'de': `${baseUrl}/de/tools/spam-checker`,
+                'es': `${baseUrl}/es/tools/spam-checker`,
+                'zh': `${baseUrl}/zh/tools/spam-checker`,
+                'it': `${baseUrl}/it/tools/spam-checker`,
+                'uk': `${baseUrl}/uk/tools/spam-checker`,
+                'fa': `${baseUrl}/fa/tools/spam-checker`,
+                'hi': `${baseUrl}/hi/tools/spam-checker`,
+                'hu': `${baseUrl}/hu/tools/spam-checker`,
+                'az': `${baseUrl}/az/tools/spam-checker`,
                 'x-default': `${baseUrl}/en/tools/spam-checker`,
             },
         },
         openGraph: {
-            title: 'Free Spam Checker - Improve Email Deliverability',
-            description: 'Analyze email content for spam triggers. Get detailed spam score and improve inbox placement.',
+            title: seo.og_title || seo.title,
+            description: seo.og_description || seo.description,
             url: currentUrl,
             siteName: 'YourEmailBox',
             images: [{ url: '/open-graph.png', width: 1200, height: 630 }],
@@ -34,20 +46,13 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
         },
         twitter: {
             card: 'summary_large_image',
-            title: 'Spam Checker - YourEmailBox',
-            description: 'Analyze email content and get spam score instantly',
+            title: seo.twitter_title || seo.title,
+            description: seo.twitter_description || seo.description,
             images: ['/open-graph.png'],
         },
         robots: {
             index: true,
             follow: true,
-            googleBot: {
-                index: true,
-                follow: true,
-                'max-video-preview': -1,
-                'max-image-preview': 'large',
-                'max-snippet': -1,
-            },
         },
     };
 }

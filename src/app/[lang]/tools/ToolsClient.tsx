@@ -62,15 +62,15 @@ export default function ToolsClient({ dictionary, lang }: { dictionary: any, lan
 
     const apps = [
         {
-            title: dictionary.footer?.categories?.features?.links?.[1]?.label || 'Free Email Aliases',
-            description: 'Create permanent email aliases for professional privacy.',
+            title: t.aliases_label || 'Free Email Aliases',
+            description: t.aliases_desc || 'Create permanent email aliases for professional privacy.',
             href: '#',
             icon: <Globe size={24} />,
             external: true
         },
         {
-            title: 'Gmail Plus Trick',
-            description: 'Master the plus-addressing technique for infinite tracking aliases.',
+            title: t.gmail_trick_label || 'Gmail Plus Trick',
+            description: t.gmail_trick_desc || 'Master the plus-addressing technique for infinite tracking aliases.',
             href: '#',
             icon: <Zap size={24} />,
             external: true

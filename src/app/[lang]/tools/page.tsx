@@ -8,13 +8,15 @@ export const dynamic = 'force-static';
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
     const { lang } = await params;
+    const dict = await getDictionary(lang);
     const baseUrl = 'https://youremailbox.com';
     const currentUrl = `${baseUrl}/${lang}/tools`;
+    const seo = dict.tools_index?.seo || {};
 
     return {
-        title: 'Free Email Security Tools - Password Generator, Breach Checker & More | YourEmailBox',
-        description: 'Free online email security tools. Generate secure passwords, check data breaches, validate emails, and analyze spam. Professional privacy utilities with no sign-up required.',
-        keywords: 'email tools, password generator, breach checker, email validator, spam checker, security tools, privacy tools',
+        title: seo.title || 'Free Email Security Tools - YourEmailBox',
+        description: seo.description || 'Professional privacy and security tools.',
+        keywords: seo.keywords || 'email tools, security',
         alternates: {
             canonical: currentUrl,
             languages: {
@@ -36,8 +38,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
             },
         },
         openGraph: {
-            title: 'Free Email Tools | Privacy & Security Utilities',
-            description: 'Professional email security tools: Password Generator, Data Breach Checker, Email Validator, and Spam Checker. All free, no sign-up required.',
+            title: seo.og_title || seo.title,
+            description: seo.og_description || seo.description,
             url: currentUrl,
             siteName: 'YourEmailBox',
             images: [{ url: '/open-graph.png', width: 1200, height: 630 }],
@@ -46,20 +48,13 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
         },
         twitter: {
             card: 'summary_large_image',
-            title: 'Free Email Security Tools - YourEmailBox',
-            description: 'Professional privacy and security tools for email protection',
+            title: seo.twitter_title || seo.title,
+            description: seo.twitter_description || seo.description,
             images: ['/open-graph.png'],
         },
         robots: {
             index: true,
             follow: true,
-            googleBot: {
-                index: true,
-                follow: true,
-                'max-video-preview': -1,
-                'max-image-preview': 'large',
-                'max-snippet': -1,
-            },
         },
     };
 }

@@ -18,25 +18,26 @@ export const dynamic = 'force-static';
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
     const { lang } = await params;
     const dict = await getDictionary(lang);
+    const seo = dict.home?.seo || {};
 
     const baseUrl = 'https://youremailbox.com';
     const currentUrl = `${baseUrl}/${lang}`;
 
     return {
-        title: dict.title || "Free Temporary Email - Unlimited Disposable Mail | YourEmailBox",
-        description: dict.meta_description || "Get a free temporary email address in seconds. Protect your identity, avoid spam, and keep your inbox clean with our high-speed disposable mail service.",
+        title: seo.title || dict.title || "Free Temporary Email - YourEmailBox",
+        description: seo.description || dict.meta_description || "Get a free temporary email address.",
         applicationName: 'YourEmailBox',
         authors: [{ name: 'YourEmailBox Security Team' }],
         generator: 'Next.js',
-        keywords: ['free temporary email', 'disposable email', 'temp mail', 'burner email', 'fake email', 'anonymous email', 'temporary mailbox', '10 minute mail'],
+        keywords: seo.keywords ? seo.keywords.split(', ') : ['free temporary email', 'disposable email', 'temp mail'],
         referrer: 'origin-when-cross-origin',
         creator: 'YourEmailBox Team',
         publisher: 'YourEmailBox',
 
         // Open Graph
         openGraph: {
-            title: dict.title,
-            description: dict.meta_description,
+            title: seo.og_title || seo.title || dict.title,
+            description: seo.og_description || seo.description || dict.meta_description,
             url: currentUrl,
             siteName: 'YourEmailBox',
             images: [
@@ -54,8 +55,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
         // Twitter
         twitter: {
             card: 'summary_large_image',
-            title: dict.title,
-            description: dict.meta_description,
+            title: seo.twitter_title || seo.title || dict.title,
+            description: seo.twitter_description || seo.description || dict.meta_description,
             creator: '@youremailbox',
             site: '@youremailbox',
             images: ['/open-graph.png'],

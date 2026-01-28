@@ -9,10 +9,12 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     const dict = await getDictionary(lang);
     const baseUrl = 'https://youremailbox.com';
     const currentUrl = `${baseUrl}/${lang}/about-us`;
+    const seo = dict.about_us?.seo || {};
 
     return {
-        title: `${dict.about_us?.title} | YourEmailBox Security Protocol`,
-        description: dict.about_us?.seo_intro || `Learn about the mission and technical standards of YourEmailBox, the leading provider of high-speed temporary email services.`,
+        title: seo.title || `${dict.about_us?.title} | YourEmailBox`,
+        description: seo.description || dict.about_us?.seo_intro || `Learn about the mission and technical standards of YourEmailBox.`,
+        keywords: seo.keywords || 'about us, mission',
         alternates: {
             canonical: currentUrl,
             languages: {
@@ -34,8 +36,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
             },
         },
         openGraph: {
-            title: `${dict.about_us?.title} | YourEmailBox`,
-            description: dict.about_us?.seo_intro,
+            title: seo.og_title || seo.title || `${dict.about_us?.title} | YourEmailBox`,
+            description: seo.og_description || seo.description || dict.about_us?.seo_intro,
             url: currentUrl,
             siteName: 'YourEmailBox',
             type: 'website',
@@ -43,8 +45,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
         },
         twitter: {
             card: 'summary_large_image',
-            title: dict.about_us?.title,
-            description: dict.about_us?.seo_intro,
+            title: seo.twitter_title || seo.title || dict.about_us?.title,
+            description: seo.twitter_description || seo.description || dict.about_us?.seo_intro,
             images: ['/open-graph.png'],
         },
     };

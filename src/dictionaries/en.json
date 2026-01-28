@@ -1,6 +1,17 @@
 {
   "title": "Free Temporary Email - Fast & Unlimited Disposable Mail | YourEmailBox",
   "meta_description": "Get a free temporary email address instantly. Protect your privacy with our disposable mail service. Perfect for avoiding spam, verifying accounts, and anonymous browsing. No logs, 100% private. Best free temporary email tool.",
+  "home": {
+    "seo": {
+      "title": "Free Temporary Email - Fast & Unlimited Disposable Mail | YourEmailBox",
+      "description": "Get a free temporary email address instantly. Protect your privacy with our disposable mail service. Perfect for avoiding spam, verifying accounts, and anonymous browsing.",
+      "keywords": "free temporary email, disposable email, temp mail, burner email, fake email, anonymous email, temporary mailbox, 10 minute mail",
+      "og_title": "Free Temporary Email - Unlimited Disposable Mail | YourEmailBox",
+      "og_description": "Get a free temporary email address in seconds. Protect your identity, avoid spam, and keep your inbox clean.",
+      "twitter_title": "Free Temporary Email - YourEmailBox",
+      "twitter_description": "Protect your identity with high-speed disposable mail."
+    }
+  },
   "hero": {
     "title": "Free Temporary Email",
     "subtitle": "Temp mail protects your privacy and keeps your inbox spam-free"
@@ -156,6 +167,15 @@
       "subtitle": "Get the latest privacy protocols delivered directly to your inbox.",
       "placeholder": "your@email.com",
       "button": "Subscribe"
+    },
+    "seo": {
+      "title": "Security Insights Blog | YourEmailBox Security Protocol",
+      "description": "Stay ahead of cyber threats. Read the latest updates, security protocols, and privacy tips about disposable temporary email services.",
+      "keywords": "security blog, privacy tips, cyber security, email security, temp mail news",
+      "og_title": "Security Insights Blog | YourEmailBox",
+      "og_description": "Stay ahead of cyber threats. Read the latest updates, security protocols, and privacy tips.",
+      "twitter_title": "Security Insights Blog - YourEmailBox",
+      "twitter_description": "Read the latest updates and privacy tips."
     }
   },
   "apps_extensions": {
@@ -333,7 +353,16 @@
         "title": "Changes to our Privacy Policy",
         "content": "If we decide to change our privacy policy, we will post those changes on this page."
       }
-    ]
+    ],
+    "seo": {
+      "title": "Privacy Policy | YourEmailBox Security Protocol",
+      "description": "Our commitment to protecting your data and privacy. Learn about our RAM-only storage and GDPR compliance.",
+      "keywords": "privacy policy, gdpr, data protection, email privacy",
+      "og_title": "Privacy Policy - YourEmailBox",
+      "og_description": "Learn how we protect your digital identity and data.",
+      "twitter_title": "Privacy Policy - YourEmailBox",
+      "twitter_description": "Our commitment to your digital privacy."
+    }
   },
   "terms_of_service": {
     "title": "Terms of Service",
@@ -360,7 +389,16 @@
         "title": "Modifications to the Service",
         "content": "As a dynamic privacy platform, we continuously update our domains and backend systems. We reserve the right to modify, suspend, or terminate any aspect of the service at any time without prior notice. Continued use of YourEmailBox constitutes acceptance of any changes to these terms."
       }
-    ]
+    ],
+    "seo": {
+      "title": "Terms of Service | YourEmailBox Security Protocol",
+      "description": "Rules and guidelines for using the YourEmailBox temporary email service.",
+      "keywords": "terms of service, user agreement, acceptable use policy",
+      "og_title": "Terms of Service - YourEmailBox",
+      "og_description": "Guidelines for using our specialized privacy infrastructure.",
+      "twitter_title": "Terms of Service - YourEmailBox",
+      "twitter_description": "User agreement and acceptable use policy."
+    }
   },
   "about_us": {
     "title": "About YourEmailBox",
@@ -378,7 +416,16 @@
         "title": "Global Commitment",
         "text": "Serving millions of users worldwide, we are committed to keeping the internet open and safe. From developers testing products to privacy enthusiasts avoiding trackers, we provide the tools needed to maintain high-level digital hygiene in a complex world."
       }
-    ]
+    ],
+    "seo": {
+      "title": "About Us | YourEmailBox Security Protocol",
+      "description": "Learn about the mission and technical standards of YourEmailBox, the leading provider of high-speed temporary email services.",
+      "keywords": "about us, mission, technical standards, company history",
+      "og_title": "About Us - YourEmailBox",
+      "og_description": "The mission and team behind the global privacy standard.",
+      "twitter_title": "About Us - YourEmailBox",
+      "twitter_description": "Driving the global standard for digital privacy."
+    }
   },
   "contact_us": {
     "title": "Contact Us",
@@ -391,9 +438,22 @@
       "submit": "Send Message"
     },
     "info": {
+      "title": "Contact Details",
+      "support_label": "GENERAL SUPPORT",
+      "abuse_label": "ABUSE REPORTS",
+      "social_label": "SOCIAL NODES",
       "email": "support@youremailbox.com",
       "abuse": "abuse@youremailbox.com",
       "location": "Global / Remote Protocol"
+    },
+    "seo": {
+      "title": "Contact Us | YourEmailBox Security Protocol",
+      "description": "Get in touch with the YourEmailBox team for support, partnerships, or security reports.",
+      "keywords": "contact, support, help, partnership, security report",
+      "og_title": "Contact Us - YourEmailBox",
+      "og_description": "Have questions? Our security team is ready to assist you.",
+      "twitter_title": "Contact Us - YourEmailBox",
+      "twitter_description": "Get in touch with our security team."
     }
   },
   "tools": {
@@ -446,7 +506,16 @@
       "faq_q4": "How often should I change my passwords?",
       "faq_a4": "Change passwords immediately if you suspect a breach. Otherwise, focus on using unique, strong passwords for each account rather than frequent changes.",
       "faq_q5": "Can I trust this tool with sensitive accounts?",
-      "faq_a5": "Yes. Since all generation is client-side and we don't store or transmit any data, this tool is safe for generating passwords for banking, email, and other critical accounts."
+      "faq_a5": "Yes. Since all generation is client-side and we don't store or transmit any data, this tool is safe for generating passwords for banking, email, and other critical accounts.",
+      "seo": {
+        "title": "Free Password Generator - Create Strong & Secure Passwords | YourEmailBox",
+        "description": "Generate cryptographically secure passwords instantly. Customize length, use uppercase, lowercase, numbers & symbols. 100% client-side, no data stored.",
+        "keywords": "password generator, secure password, random password, strong password, password creator, free password tool",
+        "og_title": "Free Password Generator - Create Strong & Secure Passwords",
+        "og_description": "Generate military-grade passwords with our free tool. Fully customizable and 100% secure.",
+        "twitter_title": "Free Password Generator - YourEmailBox",
+        "twitter_description": "Create cryptographically secure passwords instantly"
+      }
     },
     "email_validator": {
       "title": "Email Validator",
@@ -504,7 +573,16 @@
       "faq_q5": "Why would a valid-looking email fail validation?",
       "faq_a5": "Common reasons include: the domain doesn't have MX records configured, the mailbox doesn't exist, the server is temporarily down, or it's a disposable email service.",
       "faq_q6": "What should I do with invalid emails?",
-      "faq_a6": "Remove them from your mailing list immediately. Continuing to send to invalid addresses will harm your sender reputation and could get you blacklisted."
+      "faq_a6": "Remove them from your mailing list immediately. Continuing to send to invalid addresses will harm your sender reputation and could get you blacklisted.",
+      "seo": {
+        "title": "Email Validator - Verify Email Address Online | YourEmailBox",
+        "description": "Verify if an email address is valid, existing and safe to send to. Professional SMTP and MX record validation tool for clean mailing lists.",
+        "keywords": "email validator, check email, verify email address, smtp check, mx record lookup, email verifier",
+        "og_title": "Email Validator - Verify Email Address Online",
+        "og_description": "Professional verification for your mailing lists. Check deliverability, server status, and disposable risk.",
+        "twitter_title": "Email Validator - YourEmailBox",
+        "twitter_description": "Verify if an email address is valid, existing and safe to send to."
+      }
     },
     "spam_checker": {
       "title": "Spam Checker",
@@ -575,7 +653,16 @@
       "faq_q5": "How can I improve my sender reputation?",
       "faq_a5": "Maintain clean lists, send consistently, avoid spam complaints, and authenticate your domain.",
       "faq_q6": "Does this tool send my content anywhere?",
-      "faq_a6": "No. All analysis happens locally in your browser. We never store or transmit your email content."
+      "faq_a6": "No. All analysis happens locally in your browser. We never store or transmit your email content.",
+      "seo": {
+        "title": "Spam Checker - Analyze Email for Spam Triggers | YourEmailBox",
+        "description": "Identify potential spam triggers in your email content. Analyze keywords, formatting, and risky patterns to improve deliverability.",
+        "keywords": "spam checker, email spam analysis, spam filter test, deliverability tool, spam keywords",
+        "og_title": "Spam Checker - Analyze Email for Spam Triggers",
+        "og_description": "Identify spam triggers before they hit the inbox. Analyze content for keywords and formatting.",
+        "twitter_title": "Spam Checker - YourEmailBox",
+        "twitter_description": "Identify potential spam triggers in your email content."
+      }
     },
     "breach_checker": {
       "title": "Data Breach Checker",
@@ -631,7 +718,16 @@
       "faq_q5": "Can I check multiple email addresses?",
       "faq_a5": "Yes! Simply run a new scan for each address. There's no limit.",
       "faq_q6": "What if I get a 'safe' result but still feel concerned?",
-      "faq_a6": "A 'safe' result is good, but always use strong passwords and 2FA anyway."
+      "faq_a6": "A 'safe' result is good, but always use strong passwords and 2FA anyway.",
+      "seo": {
+        "title": "Data Breach Checker - Check if Your Email Was Leaked | YourEmailBox",
+        "description": "Scan 500+ breach databases instantly to see if your email was exposed in data leaks. Free breach checker tool with comprehensive security analysis.",
+        "keywords": "data breach checker, email breach, password leak, security scan, breach database, email security",
+        "og_title": "Data Breach Checker - Protect Your Identity",
+        "og_description": "Check if your email was exposed in data breaches. Scan 500+ databases instantly.",
+        "twitter_title": "Data Breach Checker - YourEmailBox",
+        "twitter_description": "Scan global breach databases to protect your identity"
+      }
     },
     "tools_index": {
       "title": "Free Email Security Tools",
@@ -644,10 +740,23 @@
       "benefit3_title": "Enterprise-Grade Security",
       "benefit3_desc": "Built with the same cryptographic standards used by banks and security professionals.",
       "complementary_title": "Complementary Privacy Apps",
+      "aliases_label": "Free Email Aliases",
+      "aliases_desc": "Create permanent email aliases for professional privacy.",
+      "gmail_trick_label": "Gmail Plus Trick",
+      "gmail_trick_desc": "Master the plus-addressing technique for infinite tracking aliases.",
       "launch_tool": "LAUNCH TOOL",
       "premium_cta_title": "Need More Advanced Features?",
       "premium_cta_desc": "Upgrade to premium for unlimited email aliases, advanced breach monitoring, and priority support.",
-      "premium_cta_button": "EXPLORE PREMIUM"
+      "premium_cta_button": "EXPLORE PREMIUM",
+      "seo": {
+        "title": "Free Email Security Tools - Password Generator, Breach Checker & More | YourEmailBox",
+        "description": "Free online email security tools. Generate secure passwords, check data breaches, validate emails, and analyze spam. Professional privacy utilities.",
+        "keywords": "email tools, password generator, breach checker, email validator, spam checker, security tools, privacy tools",
+        "og_title": "Free Email Tools | Privacy & Security Utilities",
+        "og_description": "Professional email security tools: Password Generator, Data Breach Checker, Email Validator, and Spam Checker.",
+        "twitter_title": "Free Email Security Tools - YourEmailBox",
+        "twitter_description": "Professional privacy and security tools for email protection"
+      }
     }
   }
 }

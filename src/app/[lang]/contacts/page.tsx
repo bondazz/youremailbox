@@ -9,10 +9,12 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     const dict = await getDictionary(lang);
     const baseUrl = 'https://youremailbox.com';
     const currentUrl = `${baseUrl}/${lang}/contacts`;
+    const seo = dict.contact_us?.seo || {};
 
     return {
-        title: `${dict.contact_us?.title} | YourEmailBox Security Protocol`,
-        description: dict.contact_us?.seo_intro || `Get in touch with the YourEmailBox technical team for support, security reports, or business inquiries.`,
+        title: seo.title || `${dict.contact_us?.title} | YourEmailBox`,
+        description: seo.description || dict.contact_us?.seo_intro || `Get in touch with the YourEmailBox team.`,
+        keywords: seo.keywords || 'contact, support',
         alternates: {
             canonical: currentUrl,
             languages: {
@@ -34,8 +36,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
             },
         },
         openGraph: {
-            title: `${dict.contact_us?.title} | YourEmailBox`,
-            description: dict.contact_us?.seo_intro,
+            title: seo.og_title || seo.title || `${dict.contact_us?.title} | YourEmailBox`,
+            description: seo.og_description || seo.description || dict.contact_us?.seo_intro,
             url: currentUrl,
             siteName: 'YourEmailBox',
             type: 'website',
@@ -43,8 +45,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
         },
         twitter: {
             card: 'summary_large_image',
-            title: dict.contact_us?.title,
-            description: dict.contact_us?.seo_intro,
+            title: seo.twitter_title || seo.title || dict.contact_us?.title,
+            description: seo.twitter_description || seo.description || dict.contact_us?.seo_intro,
             images: ['/open-graph.png'],
         },
     };

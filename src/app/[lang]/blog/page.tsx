@@ -12,30 +12,31 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     const dict = await getDictionary(lang);
     const baseUrl = 'https://youremailbox.com';
     const currentUrl = `${baseUrl}/${lang}/blog`;
+    const seo = dict.blog?.seo || {};
 
     return {
-        title: `Security Insights Blog | ${dict.title}`,
-        description: 'Stay ahead of cyber threats. Read the latest updates, security protocols, and privacy tips about disposable temporary email services.',
+        title: seo.title || `Security Insights Blog | ${dict.title}`,
+        description: seo.description || 'Stay ahead of cyber threats.',
+        keywords: seo.keywords || 'security blog, privacy tips',
         alternates: {
             canonical: currentUrl,
         },
         openGraph: {
-            title: `Security Insights Blog | ${dict.title}`,
-            description: 'Stay ahead of cyber threats. Read the latest updates, security protocols, and privacy tips.',
+            title: seo.og_title || seo.title,
+            description: seo.og_description || seo.description,
             url: currentUrl,
             type: 'website',
             images: [{ url: '/blog-og.png', width: 1200, height: 630 }]
         },
+        twitter: {
+            card: 'summary_large_image',
+            title: seo.twitter_title || seo.title,
+            description: seo.twitter_description || seo.description,
+            images: ['/blog-og.png'],
+        },
         robots: {
             index: true,
             follow: true,
-            googleBot: {
-                index: true,
-                follow: true,
-                'max-video-preview': -1,
-                'max-image-preview': 'large',
-                'max-snippet': -1,
-            },
         },
     };
 }

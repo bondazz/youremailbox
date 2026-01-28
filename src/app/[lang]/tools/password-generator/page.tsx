@@ -6,13 +6,15 @@ type Params = Promise<{ lang: string }>;
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
     const { lang } = await params;
+    const dict = await getDictionary(lang);
     const baseUrl = 'https://youremailbox.com';
     const currentUrl = `${baseUrl}/${lang}/tools/password-generator`;
+    const seo = dict.tools?.password_generator?.seo || {};
 
     return {
-        title: 'Free Password Generator - Create Strong & Secure Passwords | YourEmailBox',
-        description: 'Generate cryptographically secure passwords instantly. Customize length, use uppercase, lowercase, numbers & symbols. 100% client-side, no data stored. Free password generator tool.',
-        keywords: 'password generator, secure password, random password, strong password, password creator, free password tool',
+        title: seo.title || 'Free Password Generator - YourEmailBox',
+        description: seo.description || 'Generate secure passwords.',
+        keywords: seo.keywords || 'password generator',
         alternates: {
             canonical: currentUrl,
             languages: {
@@ -20,12 +22,22 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
                 'tr': `${baseUrl}/tr/tools/password-generator`,
                 'ru': `${baseUrl}/ru/tools/password-generator`,
                 'ar': `${baseUrl}/ar/tools/password-generator`,
+                'fr': `${baseUrl}/fr/tools/password-generator`,
+                'de': `${baseUrl}/de/tools/password-generator`,
+                'es': `${baseUrl}/es/tools/password-generator`,
+                'zh': `${baseUrl}/zh/tools/password-generator`,
+                'it': `${baseUrl}/it/tools/password-generator`,
+                'uk': `${baseUrl}/uk/tools/password-generator`,
+                'fa': `${baseUrl}/fa/tools/password-generator`,
+                'hi': `${baseUrl}/hi/tools/password-generator`,
+                'hu': `${baseUrl}/hu/tools/password-generator`,
+                'az': `${baseUrl}/az/tools/password-generator`,
                 'x-default': `${baseUrl}/en/tools/password-generator`,
             },
         },
         openGraph: {
-            title: 'Free Password Generator - Create Strong & Secure Passwords',
-            description: 'Generate military-grade passwords with our free tool. Fully customizable and 100% secure.',
+            title: seo.og_title || seo.title,
+            description: seo.og_description || seo.description,
             url: currentUrl,
             siteName: 'YourEmailBox',
             images: [{ url: '/open-graph.png', width: 1200, height: 630 }],
@@ -34,20 +46,13 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
         },
         twitter: {
             card: 'summary_large_image',
-            title: 'Free Password Generator - YourEmailBox',
-            description: 'Create cryptographically secure passwords instantly',
+            title: seo.twitter_title || seo.title,
+            description: seo.twitter_description || seo.description,
             images: ['/open-graph.png'],
         },
         robots: {
             index: true,
             follow: true,
-            googleBot: {
-                index: true,
-                follow: true,
-                'max-video-preview': -1,
-                'max-image-preview': 'large',
-                'max-snippet': -1,
-            },
         },
     };
 }

@@ -12,10 +12,12 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     const dict = await getDictionary(lang);
     const baseUrl = 'https://youremailbox.com';
     const currentUrl = `${baseUrl}/${lang}/privacy-policy`;
+    const seo = dict.privacy_policy?.seo || {};
 
     return {
-        title: `${dict.privacy_policy?.title} - YourEmailBox Security Protocol`,
-        description: dict.meta_description,
+        title: seo.title || `${dict.privacy_policy?.title} - YourEmailBox`,
+        description: seo.description || dict.meta_description,
+        keywords: seo.keywords || 'privacy policy, data protection',
         alternates: {
             canonical: currentUrl,
             languages: {
@@ -37,8 +39,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
             },
         },
         openGraph: {
-            title: `${dict.privacy_policy?.title} | YourEmailBox`,
-            description: dict.meta_description,
+            title: seo.og_title || seo.title || `${dict.privacy_policy?.title} | YourEmailBox`,
+            description: seo.og_description || seo.description || dict.meta_description,
             url: currentUrl,
             siteName: 'YourEmailBox',
             type: 'website',
@@ -46,8 +48,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
         },
         twitter: {
             card: 'summary_large_image',
-            title: dict.privacy_policy?.title,
-            description: dict.meta_description,
+            title: seo.twitter_title || seo.title || dict.privacy_policy?.title,
+            description: seo.twitter_description || seo.description || dict.meta_description,
             images: ['/open-graph.png'],
         },
     };

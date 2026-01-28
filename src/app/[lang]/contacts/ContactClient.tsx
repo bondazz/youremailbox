@@ -60,7 +60,7 @@ export default function ContactClient({ dictionary, lang }: { dictionary: any, l
                                     <Mail size={24} />
                                 </div>
                                 <div>
-                                    <div style={{ fontSize: '0.75rem', fontWeight: 800, color: 'rgba(255,255,255,0.3)' }}>GENERAL SUPPORT</div>
+                                    <div style={{ fontSize: '0.75rem', fontWeight: 800, color: 'rgba(255,255,255,0.3)' }}>{(content.info.support_label || 'GENERAL SUPPORT').toUpperCase()}</div>
                                     <div style={{ fontSize: '1.1rem', fontWeight: 700, color: '#fff' }}>{content.info.email}</div>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@ export default function ContactClient({ dictionary, lang }: { dictionary: any, l
                                     <Shield size={24} />
                                 </div>
                                 <div>
-                                    <div style={{ fontSize: '0.75rem', fontWeight: 800, color: 'rgba(255,255,255,0.3)' }}>ABUSE REPORTS</div>
+                                    <div style={{ fontSize: '0.75rem', fontWeight: 800, color: 'rgba(255,255,255,0.3)' }}>{(content.info.abuse_label || 'ABUSE REPORTS').toUpperCase()}</div>
                                     <div style={{ fontSize: '1.1rem', fontWeight: 700, color: '#fff' }}>{content.info.abuse}</div>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@ export default function ContactClient({ dictionary, lang }: { dictionary: any, l
                                     <MessageSquare size={24} />
                                 </div>
                                 <div>
-                                    <div style={{ fontSize: '0.75rem', fontWeight: 800, color: 'rgba(255,255,255,0.3)' }}>SOCIAL NODES</div>
+                                    <div style={{ fontSize: '0.75rem', fontWeight: 800, color: 'rgba(255,255,255,0.3)' }}>{(content.info.social_label || 'SOCIAL NODES').toUpperCase()}</div>
                                     <div style={{ fontSize: '1.1rem', fontWeight: 700, color: '#fff' }}>@YourEmailBox</div>
                                 </div>
                             </div>

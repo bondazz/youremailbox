@@ -12,10 +12,12 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     const dict = await getDictionary(lang);
     const baseUrl = 'https://youremailbox.com';
     const currentUrl = `${baseUrl}/${lang}/terms-of-service`;
+    const seo = dict.terms_of_service?.seo || {};
 
     return {
-        title: `${dict.terms_of_service?.title} - YourEmailBox Protocol Guidelines`,
-        description: dict.meta_description,
+        title: seo.title || `${dict.terms_of_service?.title} - YourEmailBox`,
+        description: seo.description || dict.meta_description,
+        keywords: seo.keywords || 'terms of service, user agreement',
         alternates: {
             canonical: currentUrl,
             languages: {
@@ -37,8 +39,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
             },
         },
         openGraph: {
-            title: `${dict.terms_of_service?.title} | YourEmailBox`,
-            description: dict.meta_description,
+            title: seo.og_title || seo.title || `${dict.terms_of_service?.title} | YourEmailBox`,
+            description: seo.og_description || seo.description || dict.meta_description,
             url: currentUrl,
             siteName: 'YourEmailBox',
             type: 'website',
@@ -46,8 +48,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
         },
         twitter: {
             card: 'summary_large_image',
-            title: dict.terms_of_service?.title,
-            description: dict.meta_description,
+            title: seo.twitter_title || seo.title || dict.terms_of_service?.title,
+            description: seo.twitter_description || seo.description || dict.meta_description,
             images: ['/open-graph.png'],
         },
     };
