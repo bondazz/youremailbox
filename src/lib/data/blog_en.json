@@ -1,7 +1,7 @@
 [
     {
         "slug": "how-temp-mail-is-useful-for-whatsapp",
-        "image": "/images/blog/whatsapp-temp-mail.png",
+        "image": "https://raw.githubusercontent.com/bondazz/youremailbox/refs/heads/main/public/images/blog/whatsapp-temp-mail.png",
         "category": "Privacy & Security",
         "title": "How Temp Mail is Useful for WhatsApp: The Ultimate Privacy Guide",
         "description": "Discover how using temporary email can enhance your WhatsApp privacy, help you manage multiple accounts, and protect you from data leaks.",
