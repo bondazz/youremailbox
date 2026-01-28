@@ -56,6 +56,16 @@ const nextConfig: NextConfig = {
       }
     ];
   },
+
+  // Rewrites for sitemaps
+  async rewrites() {
+    return [
+      {
+        source: '/sitemap_:lang.xml',
+        destination: '/api/sitemaps/:lang',
+      },
+    ];
+  },
 };
 
 export default nextConfig;
