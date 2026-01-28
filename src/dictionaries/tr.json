@@ -2,6 +2,17 @@
     "title": "YourEmailBox - Premium Geçici E-posta Servisi",
     "meta_description": "Gerçek posta kutunuzu temiz tutmak için tek kullanımlık geçici e-posta hizmeti. Anında rastgele veya özel bir e-posta adresi alın. Ücretsiz, güvenli ve özel.",
     "hero_subtitle": "Geçici e-posta adresiniz. Mesajları gerçek zamanlı olarak almaya hazır.",
+    "home": {
+        "seo": {
+            "title": "Ücretsiz Geçici E-posta - Hızlı ve Sınırsız Tek Kullanımlık Mail | YourEmailBox",
+            "description": "Anında ücretsiz geçici e-posta adresi alın. Tek kullanımlık mail hizmetimizle gizliliğinizi koruyun.",
+            "keywords": "geçici e-posta, tek kullanımlık mail, temp mail, fake mail, anonim e-posta",
+            "og_title": "Ücretsiz Geçici E-posta - YourEmailBox",
+            "og_description": "Gerçek posta kutunuzu temiz tutmak için tek kullanımlık geçici e-posta hizmeti.",
+            "twitter_title": "Ücretsiz Geçici E-posta - YourEmailBox",
+            "twitter_description": "Gerçek posta kutunuzu temiz tutmak için tek kullanımlık geçici e-posta hizmeti."
+        }
+    },
     "buttons": {
         "copy": "Kopyala",
         "random": "Rastgele",
@@ -45,7 +56,45 @@
     "blog": {
         "title": "Güvenlik Analizleri",
         "subtitle": "Modern dijital hayatta kalma konusunda uzman görüşleri.",
-        "view_all": "TÜM YAZILARI GÖR"
+        "view_all": "TÜM YAZILARI GÖR",
+        "seo": {
+            "title": "Güvenlik Blogu | YourEmailBox",
+            "description": "Dijital gizlilik ve güvenlik güncellemeleri hakkında uzman görüşleri.",
+            "keywords": "güvenlik blogu, dijital gizlilik, siber güvenlik",
+            "og_title": "Güvenlik Blogu - YourEmailBox",
+            "og_description": "Dijital gizlilik ve güvenlik güncellemeleri.",
+            "twitter_title": "Güvenlik Blogu - YourEmailBox",
+            "twitter_description": "Dijital gizlilik ve güvenlik güncellemeleri."
+        }
+    },
+    "tools_index": {
+        "title": "Ücretsiz E-posta Güvenlik Araçları",
+        "subtitle": "Dijital kimliğinizi korumak için profesyonel gizlilik ve güvenlik yardımcı programları. Kayıt yok, ücret yok — sadece anında, güçlü araçlar.",
+        "why_title": "Neden Güvenlik Araçlarımızı Seçmelisiniz?",
+        "benefit1_title": "%100 Gizlilik Odaklı",
+        "benefit1_desc": "Tüm araçlar tarayıcınızda çalışır. Verilerinizi asla saklamıyoruz veya iletmiyoruz.",
+        "benefit2_title": "Anında Sonuçlar",
+        "benefit2_desc": "Beklemeden anında geri bildirim alın. Araçlarımız hız ve doğruluk için optimize edilmiştir.",
+        "benefit3_title": "Kurumsal Düzeyde Güvenlik",
+        "benefit3_desc": "Bankalar ve güvenlik profesyonelleri tarafından kullanılan aynı kriptografik standartlarla oluşturulmuştur.",
+        "complementary_title": "Tamamlayıcı Gizlilik Uygulamaları",
+        "aliases_label": "Ücretsiz E-posta Takma Adları",
+        "aliases_desc": "Profesyonel gizlilik için kalıcı e-posta takma adları oluşturun.",
+        "gmail_trick_label": "Gmail Plus Taktiği",
+        "gmail_trick_desc": "Sonsuz izleme takma adları için artı adresleme tekniğinde ustalaşın.",
+        "launch_tool": "ARACI BAŞLAT",
+        "premium_cta_title": "Daha Gelişmiş Özelliklere mi İhtiyacınız Var?",
+        "premium_cta_desc": "Sınırsız takma adlar, gelişmiş sızıntı izleme ve öncelikli destek için premium'a geçin.",
+        "premium_cta_button": "PREMIUM'U KEŞFET",
+        "seo": {
+            "title": "Ücretsiz E-posta Güvenlik Araçları | YourEmailBox",
+            "description": "Şifre oluşturucu, sızıntı kontrolü, doğrulayıcı ve spam analizi tek bir yerde.",
+            "keywords": "eposta araçları, şifre oluşturucu, sızıntı kontrolü, eposta doğrulayıcı, spam kontrolü",
+            "og_title": "Ücretsiz E-posta Araçları - YourEmailBox",
+            "og_description": "E-posta koruması için profesyonel gizlilik ve güvenlik araçları.",
+            "twitter_title": "Ücretsiz E-posta Araçları - YourEmailBox",
+            "twitter_description": "E-posta koruması için profesyonel gizlilik ve güvenlik araçları."
+        }
     },
     "faq": {
         "title": "Sıkça Sorulan Sorular"
@@ -100,7 +149,16 @@
             "faq_q4": "Şifrelerimi ne sıklıkla değiştirmeliyim?",
             "faq_a4": "Sızıntı şüphesi varsa anında değiştirin, aksi takdirde güçlü ve benzersiz şifrelere odaklanın.",
             "faq_q5": "Hassas hesaplarım için bu araca güvenebilir miyim?",
-            "faq_a5": "Evet, istemci tarafında çalıştığı için güvenlidir."
+            "faq_a5": "Evet, istemci tarafında çalıştığı için güvenlidir.",
+            "seo": {
+                "title": "Ücretsiz Şifre Oluşturucu - Güçlü ve Güvenli Şifreler Oluşturun | YourEmailBox",
+                "description": "Anında askeri düzeyde güvenli şifreler oluşturun. Uzunluğu ayarlayın, simgeler kullanın. %100 güvenli.",
+                "keywords": "şifre oluşturucu, güvenli şifre, rastgele şifre",
+                "og_title": "Ücretsiz Şifre Oluşturucu - YourEmailBox",
+                "og_description": "Anında güvenli şifreler oluşturun.",
+                "twitter_title": "Ücretsiz Şifre Oluşturucu - YourEmailBox",
+                "twitter_description": "Anında güvenli şifreler oluşturun."
+            }
         },
         "email_validator": {
             "title": "E-posta Doğrulayıcı",
@@ -158,7 +216,16 @@
             "faq_q5": "Neden geçerli görünen bir email başarısız olur?",
             "faq_a5": "MX kaydı olmaması veya sunucunun geçici olarak kapalı olması gibi nedenlerle.",
             "faq_q6": "Geçersiz e-postalarla ne yapmalıyım?",
-            "faq_a6": "Listenizden hemen çıkarın ve gönderimi durdurun."
+            "faq_a6": "Listenizden hemen çıkarın ve gönderimi durdurun.",
+            "seo": {
+                "title": "E-posta Doğrulayıcı - Online E-posta Kontrolü | YourEmailBox",
+                "description": "E-posta adresinin geçerli ve güvenli olduğunu doğrulayın. SMTP ve MX kontrol aracı.",
+                "keywords": "eposta doğrulayıcı, eposta kontrol, mx sorgulama",
+                "og_title": "E-posta Doğrulayıcı - YourEmailBox",
+                "og_description": "E-posta adresinin geçerli olduğunu doğrulayın.",
+                "twitter_title": "E-posta Doğrulayıcı - YourEmailBox",
+                "twitter_description": "E-posta adresinin geçerli olduğunu doğrulayın."
+            }
         },
         "spam_checker": {
             "title": "Spam Yoxlayıcı",
@@ -229,7 +296,16 @@
             "faq_q5": "İtibarımı nasıl artırırım?",
             "faq_a5": "Temiz listeler, düzenli gönderim ve kimlik doğrulamaları ile.",
             "faq_q6": "Bu araç içeriğimi bir yere gönderiyor mu?",
-            "faq_a6": "Hayır, tüm işlemler yerel olarak brauzerinizde olur."
+            "faq_a6": "Hayır, tüm işlemler yerel olarak brauzerinizde olur.",
+            "seo": {
+                "title": "Spam Kontrolü - E-posta İçeriğini Analiz Et | YourEmailBox",
+                "description": "E-postanızdaki spam tetikleyicilerini bulun. İçeriği ve formatı analiz edin.",
+                "keywords": "spam kontrolü, eposta analizi, spam filtresi",
+                "og_title": "Spam Kontrolü - YourEmailBox",
+                "og_description": "E-postanızdaki spam tetikleyicilerini bulun.",
+                "twitter_title": "Spam Kontrolü - YourEmailBox",
+                "twitter_description": "E-postanızdaki spam tetikleyicilerini bulun."
+            }
         },
         "breach_checker": {
             "title": "Veri Sızıntısı Yoxlayıcı",
@@ -285,7 +361,16 @@
             "faq_q5": "Birden fazla e-posta bakabilir miyim?",
             "faq_a5": "Evet, istediğiniz kadar arama yapabilirsiniz.",
             "faq_q6": "Sonuç 'temiz' ama endişeliyim, ne yapayım?",
-            "faq_a6": "Temiz sonuç iyidir ama önlem olarak 2FA ve güçlü şifre kullanımına devam edin."
+            "faq_a6": "Temiz sonuç iyidir ama önlem olarak 2FA ve güçlü şifre kullanımına devam edin.",
+            "seo": {
+                "title": "Veri Sızıntısı Kontrolü - E-postanız İfşa Oldu mu? | YourEmailBox",
+                "description": "E-postanızın veri sızıntılarında yer alıp almadığını kontrol edin. 500+ veritabanı taraması.",
+                "keywords": "veri sızıntısı, eposta sızıntısı, güvenlik taraması",
+                "og_title": "Veri Sızıntısı Kontrolü - YourEmailBox",
+                "og_description": "E-postanızın veri sızıntılarında yer alıp almadığını kontrol edin.",
+                "twitter_title": "Veri Sızıntısı Kontrolü - YourEmailBox",
+                "twitter_description": "E-postanızın veri sızıntılarında yer alıp almadığını kontrol edin."
+            }
         }
     }
 }
