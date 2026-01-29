@@ -35,13 +35,13 @@ export function BlogPostContent({ lang, post, allPosts, dictionary }: BlogPostCo
                     .replace(/[çÇ]/g, 'c')
                     .replace(/\s+/g, '-')
                     .replace(/[^\w-]/g, '')
-                    .replace(/-+/g, '-');
+                    .replace(/-+/g, '-')
+                    .replace(/^-+|-+$/g, '');
             };
 
             const headingElements = contentRef.current.querySelectorAll('h2');
             const detectedHeadings = Array.from(headingElements).map((el, index) => {
                 const generatedId = slugify(el.innerText) || `section-${index}`;
-                // Use existing ID if present, otherwise set generated one
                 const id = el.id || generatedId;
                 el.id = id;
                 return { id, title: el.innerText };
@@ -62,6 +62,18 @@ export function BlogPostContent({ lang, post, allPosts, dictionary }: BlogPostCo
         }
     }, [post.content]);
 
+    // Re-apply IDs after every render because dangerouslySetInnerHTML wipes them out
+    useEffect(() => {
+        if (contentRef.current && headings.length > 0) {
+            const headingElements = contentRef.current.querySelectorAll('h2');
+            headingElements.forEach((el, index) => {
+                if (headings[index] && el.id !== headings[index].id) {
+                    el.id = headings[index].id;
+                }
+            });
+        }
+    });
+
     // Random Related Posts Selection
     useEffect(() => {
         const filtered = allPosts.filter(p => p.slug !== post.slug);
@@ -73,9 +85,7 @@ export function BlogPostContent({ lang, post, allPosts, dictionary }: BlogPostCo
         e.preventDefault();
         const element = document.getElementById(id);
         if (element) {
-            const yOffset = -100;
-            const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
-            window.scrollTo({ top: y, behavior: 'smooth' });
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
             window.history.pushState(null, '', `#${id}`);
         }
     };
