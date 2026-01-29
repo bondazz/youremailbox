@@ -1,1 +1,47 @@
-[]
+[
+    {
+        "slug": "amazon-online-temp-mail-ar",
+        "image": "https://raw.githubusercontent.com/bondazz/youremailbox/refs/heads/main/public/images/blog/amazon-temp-mail.png",
+        "category": "التسوق والخصوصية",
+        "title": "بريد مؤقت لمتجر أمازون: تسوق بذكاء وحافظ على خصوصيتك",
+        "description": "اكتشف كيف يمكن لبريد إلكتروني مؤقت أن يغير تجربة التسوق الخاصة بك في أمازون. احمِ بياناتك وتجنب الرسائل المزعجة.",
+        "seoTitle": "بريد مؤقت لأمازون | دليل الخصوصية 2026",
+        "seoDescription": "عزز خصوصيتك في أمازون باستخدام البريد المؤقت. تعلم كيفية تجنب الرسائل المزعجة وحماية هويتك.",
+        "canonicalUrl": "",
+        "robots": "index, follow",
+        "author": "أحمد بن علي",
+        "authorImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=100",
+        "date": "29 يناير 2026",
+        "content": "<h1>بريد مؤقت لمتجر أمازون: تسوق بذكاء وحافظ على خصوصيتك</h1><p>غير التسوق عبر الإنترنت حياتنا تماماً. وتعتبر أمازون الرائدة في هذه الثورة. ولكن الراحة تتطلب بيانات. <b>البريد المؤقت</b> هو أداة أساسية للمستهلك المعاصر.</p><h2>أهم 10 مزايا</h2><ol><li>إخفاء الهوية الكامل</li><li>القضاء على رسائل التسويق المزعجة</li><li>إدارة حسابات متعددة</li><li>الحماية من تسريب البيانات</li><li>إعداد سريع</li><li>اختبار الأدوات بأمان</li><li>تجنب التتبع الإعلاني</li><li>تنظيم فواتير الشراء</li><li>تجاوز التسجيل الإجباري</li><li>راحة البال</li></ol><h2>الخلاصة</h2><p>احمِ بياناتك مع YourEmailBox!</p>"
+    },
+    {
+        "slug": "discord-temp-mail-ar",
+        "image": "https://raw.githubusercontent.com/bondazz/youremailbox/refs/heads/main/public/images/blog/discord-temp-mail.png",
+        "category": "التواصل والخصوصية",
+        "title": "بريد مؤقت لديسكورد: لماذا وكيف يجب استخدامه",
+        "description": "حافظ على هويتك مجهولة في ديسكورد واحفظ بريدك الأساسي من الرسائل المزعجة.",
+        "seoTitle": "بريد مؤقت لديسكورد | حماية من المزعجين 2026",
+        "seoDescription": "عزز خصوصيتك في ديسكورد باستخدام عناوين البريد المخصصة.",
+        "canonicalUrl": "",
+        "robots": "index, follow",
+        "author": "أحمد بن علي",
+        "authorImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=100",
+        "date": "29 يناير 2026",
+        "content": "<h1>بريد مؤقت لديسكورد: لماذا وكيف يجب استخدامه</h1><p>أصبح ديسكورد مركز التواصل، لكن الخصوصية هي الأهم. استخدم <b>البريد المؤقت</b> للانضمام للمجتمعات بأمان.</p>"
+    },
+    {
+        "slug": "steam-temp-mail-ar",
+        "image": "https://raw.githubusercontent.com/bondazz/youremailbox/refs/heads/main/public/images/blog/steam-temp-mail.png",
+        "category": "الألعاب والأمن",
+        "title": "بريد مؤقت لستيم: احمِ مكتبة ألعابك",
+        "description": "أمن حساب ستيم الخاص بك وحافظ على نظافة بريدك الأساسي.",
+        "seoTitle": "بريد مؤقت لستيم | أمن الألعاب 2026",
+        "seoDescription": "اكتشف فوائد البريد المؤقت للاعبي ستيم.",
+        "canonicalUrl": "",
+        "robots": "index, follow",
+        "author": "أحمد بن علي",
+        "authorImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=100",
+        "date": "29 يناير 2026",
+        "content": "<h1>بريد مؤقت لستيم: احمِ مكتبة ألعابك</h1><p>الأمن أمر بالغ الأهمية لكل لاعب. <b>YourEmailBox</b> يساعدك في الحفاظ على أمان ألعابك.</p>"
+    }
+]
