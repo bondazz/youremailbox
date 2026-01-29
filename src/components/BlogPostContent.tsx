@@ -19,12 +19,30 @@ export function BlogPostContent({ lang, post, allPosts, dictionary }: BlogPostCo
     const [relatedPosts, setRelatedPosts] = useState<any[]>([]);
     const contentRef = useRef<HTMLDivElement>(null);
 
-    // Dynamic Header Detection
+    // Dynamic Header Detection & ID Generation
     useEffect(() => {
         if (contentRef.current) {
+            const slugify = (text: string) => {
+                return text
+                    .toLowerCase()
+                    .trim()
+                    .replace(/[əƏ]/g, 'e')
+                    .replace(/[öÖ]/g, 'o')
+                    .replace(/[ğĞ]/g, 'g')
+                    .replace(/[üÜ]/g, 'u')
+                    .replace(/[şŞ]/g, 's')
+                    .replace(/[ıİiI]/g, 'i')
+                    .replace(/[çÇ]/g, 'c')
+                    .replace(/\s+/g, '-')
+                    .replace(/[^\w-]/g, '')
+                    .replace(/-+/g, '-');
+            };
+
             const headingElements = contentRef.current.querySelectorAll('h2');
             const detectedHeadings = Array.from(headingElements).map((el, index) => {
-                const id = el.id || `section-${index}`;
+                const generatedId = slugify(el.innerText) || `section-${index}`;
+                // Use existing ID if present, otherwise set generated one
+                const id = el.id || generatedId;
                 el.id = id;
                 return { id, title: el.innerText };
             });
@@ -63,7 +81,7 @@ export function BlogPostContent({ lang, post, allPosts, dictionary }: BlogPostCo
     };
 
     return (
-        <div style={{ maxWidth: '960px', margin: '0 auto', padding: '40px 24px 60px 24px' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '40px 24px 60px 24px' }}>
 
             <Breadcrumbs
                 items={[
@@ -74,8 +92,8 @@ export function BlogPostContent({ lang, post, allPosts, dictionary }: BlogPostCo
             />
 
             {/* HEADER */}
-            <header style={{ marginBottom: '32px' }}>
-                <h1 style={{ fontSize: '2.8rem', fontWeight: 900, color: '#fff', lineHeight: 1.15, marginBottom: '24px', letterSpacing: '-1.2px' }}>{post.title}</h1>
+            <header style={{ marginBottom: '40px', maxWidth: '960px' }}>
+                <h1 style={{ fontSize: '3rem', fontWeight: 900, color: '#fff', lineHeight: 1.1, marginBottom: '24px', letterSpacing: '-1.5px' }}>{post.title}</h1>
 
                 <div style={{ display: 'flex', alignItems: 'center', gap: '14px', padding: '16px 0', borderTop: '1px solid rgba(255,255,255,0.05)', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
                     <div style={{ width: '44px', height: '44px', borderRadius: '50%', overflow: 'hidden', border: '1px solid var(--accent-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--accent-primary)', color: '#fff', fontWeight: 900, fontSize: '0.9rem' }}>
@@ -97,43 +115,48 @@ export function BlogPostContent({ lang, post, allPosts, dictionary }: BlogPostCo
             </header>
 
             {/* FEATURED IMAGE */}
-            <div style={{ borderRadius: '20px', overflow: 'hidden', marginBottom: '32px', border: '1px solid rgba(255,255,255,0.05)', boxShadow: '0 20px 40px rgba(0,0,0,0.3)', aspectRatio: '16/9' }}>
+            <div style={{ borderRadius: '24px', overflow: 'hidden', marginBottom: '48px', border: '1px solid rgba(255,255,255,0.05)', boxShadow: '0 25px 50px -12px rgba(0,0,0,0.5)', aspectRatio: '21/9', maxWidth: '100%' }}>
                 <img src={post.image} alt={post.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
 
-            {/* ARTICLE AREA */}
-            <div style={{ position: 'relative' }}>
-
-                {/* TABLE OF CONTENTS - COMPACT STACKED */}
-                <aside className="inline-toc">
-                    <div style={{ fontSize: '0.75rem', fontWeight: 900, color: 'rgba(255,255,255,0.4)', letterSpacing: '1px', marginBottom: '16px' }}>{dictionary.blog?.toc_title || 'TABLE OF CONTENTS'}</div>
-                    <nav className="toc-nav">
-                        {headings.map((item) => (
-                            <a
-                                key={item.id}
-                                href={`#${item.id}`}
-                                onClick={(e) => handleTocClick(e, item.id)}
-                                className={`toc-link ${activeSection === item.id ? 'active' : ''}`}
-                            >
-                                {activeSection === item.id && <div className="active-dot" />}
-                                {item.title}
-                            </a>
-                        ))}
-                    </nav>
-                </aside>
-
+            {/* CONTENT LAYOUT */}
+            <div className="blog-layout">
+                {/* ARTICLE CONTENT */}
                 <article
                     className="article-body"
                     ref={contentRef}
                     dangerouslySetInnerHTML={{ __html: post.content }}
                 />
+
+                {/* STICKY TABLE OF CONTENTS */}
+                <aside className="blog-sidebar">
+                    <div className="toc-container">
+                        <div className="toc-header">
+                            <List size={14} className="toc-icon" />
+                            <span>{dictionary.blog?.toc_title || 'TABLE OF CONTENTS'}</span>
+                        </div>
+                        <nav className="toc-nav">
+                            {headings.map((item) => (
+                                <a
+                                    key={item.id}
+                                    href={`#${item.id}`}
+                                    onClick={(e) => handleTocClick(e, item.id)}
+                                    className={`toc-link ${activeSection === item.id ? 'active' : ''}`}
+                                >
+                                    <span className="toc-link-text">{item.title}</span>
+                                    {activeSection === item.id && <div className="active-indicator" />}
+                                </a>
+                            ))}
+                        </nav>
+                    </div>
+                </aside>
             </div>
 
             {/* RELATED ARTICLES SECTION */}
             {relatedPosts.length > 0 && (
-                <section style={{ marginTop: '80px', paddingTop: '40px', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
-                    <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#fff', marginBottom: '32px' }}>{dictionary.blog?.related_title || 'Related articles'}</h3>
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '24px' }}>
+                <section style={{ marginTop: '80px', paddingTop: '60px', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
+                    <h3 style={{ fontSize: '1.8rem', fontWeight: 800, color: '#fff', marginBottom: '40px', letterSpacing: '-0.5px' }}>{dictionary.blog?.related_title || 'Related articles'}</h3>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px' }}>
                         {relatedPosts.map((p, i) => (
                             <BlogCard key={i} {...p} lang={lang} dictionary={dictionary} />
                         ))}
@@ -142,109 +165,136 @@ export function BlogPostContent({ lang, post, allPosts, dictionary }: BlogPostCo
             )}
 
             <style jsx>{`
-                .breadcrumb-clean {
+                .blog-layout {
                     display: flex;
-                    align-items: center;
-                    gap: 12px;
-                    margin-bottom: 32px;
-                }
-                .bc-link, .bc-link:link, .bc-link:visited {
-                    text-decoration: none !important;
-                    color: #fff !important;
-                    font-size: 0.85rem;
-                    font-weight: 700;
-                    transition: opacity 0.2s;
-                }
-                .bc-link:hover { opacity: 0.7; color: #fff !important; }
-                .bc-sep { color: rgba(255,255,255,0.2); font-size: 0.8rem; }
-                .bc-current { color: #fff !important; font-size: 0.85rem; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 300px; }
-
-                .inline-toc {
-                    float: right;
-                    width: 260px;
-                    margin: 0 0 32px 32px;
-                    padding: 24px;
-                    border-radius: 20px;
-                    background: rgba(255, 255, 255, 0.015);
-                    border: 1px solid rgba(255, 255, 255, 0.05);
-                    position: sticky;
-                    top: 100px;
-                }
-                .toc-nav { display: flex; flex-direction: column; gap: 6px; }
-                .toc-link {
+                    gap: 60px;
+                    align-items: start;
                     position: relative;
-                    display: block;
-                    color: rgba(255,255,255,0.4);
-                    text-decoration: none;
-                    font-size: 0.85rem;
-                    line-height: 1.4;
-                    padding: 4px 0;
-                    font-weight: 600;
-                    transition: all 0.2s;
-                }
-                .toc-link:hover { color: #fff; }
-                .toc-link.active { color: #fff; }
-                .active-dot {
-                    position: absolute;
-                    left: -12px;
-                    top: 50%;
-                    transform: translateY(-50%);
-                    width: 4px;
-                    height: 4px;
-                    background: var(--accent-primary);
-                    border-radius: 50%;
-                    box-shadow: 0 0 8px var(--accent-primary);
                 }
 
                 .article-body {
-                    color: rgba(255,255,255,0.8);
-                    font-size: 1.1rem;
-                    line-height: 1.7;
+                    flex: 1;
+                    min-width: 0;
+                    color: rgba(255,255,255,0.85);
+                    font-size: 1.15rem;
+                    line-height: 1.8;
                 }
+
                 .article-body :global(h2) {
                     color: #fff;
-                    font-size: 1.8rem;
+                    font-size: 2rem;
                     font-weight: 800;
-                    margin: 40px 0 20px 0;
-                    letter-spacing: -0.6px;
-                    scroll-margin-top: 100px;
-                    clear: both;
-                }
-                .article-body :global(p) { margin-bottom: 24px; }
-                .callout {
-                    padding: 20px 24px;
-                    border-radius: 16px;
-                    background: rgba(255, 255, 255, 0.03);
-                    border: 1px solid rgba(255, 255, 255, 0.06);
-                    margin: 32px 0;
+                    margin: 48px 0 24px 0;
+                    letter-spacing: -0.8px;
+                    scroll-margin-top: 120px;
                 }
 
-                .mini-card {
+                .article-body :global(p) {
+                    margin-bottom: 28px;
+                }
+
+                .article-body :global(b), .article-body :global(strong) {
+                    color: #fff;
+                    font-weight: 700;
+                }
+
+                .article-body :global(ul), .article-body :global(ol) {
+                    margin-bottom: 32px;
+                    padding-left: 20px;
+                }
+
+                .article-body :global(li) {
+                    margin-bottom: 12px;
+                }
+
+                .blog-sidebar {
+                    width: 300px;
+                    position: sticky;
+                    top: 100px;
+                    z-index: 10;
+                }
+
+                .toc-container {
+                    background: rgba(255, 255, 255, 0.02);
+                    border: 1px solid rgba(255, 255, 255, 0.06);
+                    border-radius: 20px;
+                    padding: 24px;
+                    backdrop-filter: blur(10px);
+                }
+
+                .toc-header {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    font-size: 0.75rem;
+                    font-weight: 900;
+                    color: rgba(255,255,255,0.4);
+                    text-transform: uppercase;
+                    letter-spacing: 1.5px;
+                    margin-bottom: 20px;
+                }
+
+                .toc-icon {
+                    color: var(--accent-primary);
+                }
+
+                .toc-nav {
                     display: flex;
                     flex-direction: column;
-                    gap: 16px;
-                    transition: transform 0.3s ease;
+                    gap: 4px;
                 }
-                .mini-card:hover { transform: translateY(-5px); }
-                .mini-card-img {
-                    border-radius: 16px;
-                    overflow: hidden;
-                    aspect-ratio: 16/10;
-                    border: 1px solid rgba(255,255,255,0.05);
+
+                .toc-link {
+                    position: relative;
+                    padding: 8px 12px;
+                    border-radius: 8px;
+                    text-decoration: none;
+                    color: rgba(255,255,255,0.4);
+                    font-size: 0.9rem;
+                    font-weight: 600;
+                    transition: all 0.2s ease;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
                 }
-                .mini-card-img img { width: 100%; height: 100%; object-fit: cover; }
-                .mini-card-content { display: flex; flex-direction: column; gap: 8px; }
-                .mini-card-cat { color: var(--text-muted); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
-                .mini-card-title { color: #fff; font-size: 1.1rem; font-weight: 800; line-height: 1.3; margin: 0; }
-                .mini-card-desc { color: var(--text-muted); font-size: 0.85rem; line-height: 1.5; margin: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-                .mini-card-meta { display: flex; alignItems: center; gap: 8px; margin-top: 4px; }
-                .mini-avatar { width: 20px; height: 20px; border-radius: 50%; background: var(--accent-primary); color: #fff; font-size: 0.6rem; display: flex; align-items: center; justifyContent: center; font-weight: 900; }
-                .mini-card-meta span { color: rgba(255,255,255,0.4); font-size: 0.75rem; font-weight: 600; }
+
+                .toc-link:hover {
+                    background: rgba(255,255,255,0.03);
+                    color: rgba(255,255,255,0.8);
+                }
+
+                .toc-link.active {
+                    background: rgba(255,255,255,0.05);
+                    color: #fff;
+                }
+
+                .active-indicator {
+                    width: 6px;
+                    height: 6px;
+                    background: var(--accent-primary);
+                    border-radius: 50%;
+                    box-shadow: 0 0 10px var(--accent-primary);
+                }
+
+                @media (max-width: 1100px) {
+                    .blog-layout {
+                        flex-direction: column-reverse;
+                        gap: 40px;
+                    }
+
+                    .blog-sidebar {
+                        width: 100%;
+                        position: static;
+                    }
+
+                    .toc-container {
+                        position: static;
+                    }
+                }
 
                 @media (max-width: 768px) {
-                    .inline-toc { float: none; width: 100%; margin: 0 0 32px 0; }
-                    .bc-current { max-width: 120px; }
-                    h1 { font-size: 2.2rem !important; }
+                    h1 { font-size: 2.5rem !important; }
+                    .article-body { font-size: 1.05rem; }
                 }
             `}</style>
         </div>
