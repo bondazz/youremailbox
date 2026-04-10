@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback, useRef } from 'react';
+import { getDomainConfig } from '@/lib/domain';
 
 export interface Email {
     id: string;
@@ -20,15 +21,17 @@ export function useEmail() {
     const isTabVisible = useRef(true);
 
     const generateAlias = useCallback(() => {
+        const { emailDomain } = getDomainConfig();
         const random = Math.random().toString(36).substring(2, 10);
-        const newAlias = `${random}@tempmaila.org`;
+        const newAlias = `${random}@${emailDomain}`;
         localStorage.setItem('temp_mail_alias', newAlias);
         setAlias(newAlias);
         return newAlias;
     }, []);
 
     const setCustomAlias = useCallback((customPrefix: string) => {
-        const newAlias = `${customPrefix.toLowerCase()}@tempmaila.org`;
+        const { emailDomain } = getDomainConfig();
+        const newAlias = `${customPrefix.toLowerCase()}@${emailDomain}`;
         localStorage.setItem('temp_mail_alias', newAlias);
         setAlias(newAlias);
         setEmails([]);

@@ -5,6 +5,7 @@ import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion'
 import LanguageSelector from './LanguageSelector';
 import Link from 'next/link';
 import { Home, Mail, Shield, LayoutGrid, Globe, HelpCircle, FileText, X, BookOpen, Zap, ArrowUpRight, Github, ArrowRight } from 'lucide-react';
+import { getDomainConfig } from '@/lib/domain';
 
 interface LayoutProps {
     children: React.ReactNode;
@@ -30,6 +31,9 @@ export default function AppLayout({ children, dictionary, lang }: LayoutProps) {
     }, [isMobileMenuOpen]);
 
     const headerShadow = useTransform(scrollY, [0, 80], ['0 0 0 rgba(0,0,0,0)', '0 15px 40px -10px rgba(0,0,0,0.4)']);
+
+    const { siteName, domain } = getDomainConfig();
+    const translateText = (text: string) => text?.replace(/YourEmailBox/g, siteName).replace(/youremailbox\.com/g, domain);
 
     return (
         <div className="app-container" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', position: 'relative' }}>
@@ -65,7 +69,7 @@ export default function AppLayout({ children, dictionary, lang }: LayoutProps) {
                 }}
             >
                 <Link href={`/${lang}`} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center', minWidth: '180px' }}>
-                    <div className="logo-font" style={{ fontSize: '1.4rem' }}>YourEmailBox</div>
+                    <div className="logo-font" style={{ fontSize: '1.4rem' }}>{siteName}</div>
                 </Link>
 
                 {/* DESKTOP NAVIGATION */}
@@ -144,9 +148,9 @@ export default function AppLayout({ children, dictionary, lang }: LayoutProps) {
                 <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(12, 1fr)', gap: '40px' }} className="footer-grid-complex">
                     <div style={{ gridColumn: 'span 3', display: 'flex', flexDirection: 'column', gap: '24px' }}>
                         <div>
-                            <div className="logo-font" style={{ fontSize: '1.8rem', color: '#fff' }}>YourEmailBox</div>
-                            <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', marginTop: '8px' }}>{dictionary.footer?.brand_tagline}</p>
-                            <p style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.85rem', marginTop: '4px' }}>© 2026 youremailbox.com</p>
+                            <div className="logo-font" style={{ fontSize: '1.8rem', color: '#fff' }}>{siteName}</div>
+                            <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', marginTop: '8px' }}>{translateText(dictionary.footer?.brand_tagline)}</p>
+                            <p style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.85rem', marginTop: '4px' }}>© 2026 {domain}</p>
                         </div>
                         <div style={{
                             background: 'rgba(255,255,255,0.05)',

@@ -4,6 +4,8 @@ import { Metadata } from 'next';
 import { BlogPostContent } from '@/components/BlogPostContent';
 import fs from 'fs';
 import path from 'path';
+import { headers } from 'next/headers';
+import { getDomainConfig, translateBranding } from '@/lib/domain';
 
 type Params = Promise<{ lang: string; slug: string }>;
 
@@ -35,34 +37,38 @@ function getAllPosts(lang: string) {
 }
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+    const host = (await headers()).get('host');
+    const { siteName, baseUrl, domain: domainName } = getDomainConfig(host);
     const { lang, slug } = await params;
     const post = getPost(slug, lang);
 
     if (!post) return { title: 'Post Not Found' };
 
-    const baseUrl = 'https://youremailbox.com';
     const postUrl = `${baseUrl}/${lang}/blog/${slug}`;
+    const t = (text: string) => translateBranding(text, siteName, domainName);
 
     return {
-        title: post.seoTitle || post.title,
-        description: post.seoDescription || post.description,
+        title: t(post.seoTitle || post.title),
+        description: t(post.seoDescription || post.description),
         openGraph: {
-            title: post.seoTitle || post.title,
-            description: post.seoDescription || post.description,
+            title: t(post.seoTitle || post.title),
+            description: t(post.seoDescription || post.description),
             url: postUrl,
             type: 'article',
             publishedTime: post.date,
-            authors: [post.author],
+            authors: [post.author?.replace(/YourEmailBox/g, siteName)],
             images: [{ url: post.image, width: 1200, height: 630, alt: post.title }],
         },
         alternates: {
-            canonical: post.canonicalUrl || postUrl,
+            canonical: post.canonicalUrl ? t(post.canonicalUrl) : postUrl,
         },
         robots: post.robots || 'index, follow',
     };
 }
 
 export default async function BlogPostPage({ params }: { params: Params }) {
+    const host = (await headers()).get('host');
+    const { siteName, baseUrl, domain: domainName } = getDomainConfig(host);
     const { lang, slug } = await params;
     const dictionary = await getDictionary(lang);
     const post = getPost(slug, lang);
@@ -70,8 +76,8 @@ export default async function BlogPostPage({ params }: { params: Params }) {
 
     if (!post) return <div>Post not found</div>;
 
-    const baseUrl = 'https://youremailbox.com';
     const postUrl = `${baseUrl}/${lang}/blog/${slug}`;
+    const t = (text: string) => translateBranding(text, siteName, domainName);
 
     const breadcrumbSchema = {
         '@context': 'https://schema.org',
@@ -90,13 +96,13 @@ export default async function BlogPostPage({ params }: { params: Params }) {
         'name': post.title,
         'description': post.description || post.seoDescription,
         'image': post.image,
-        'author': { '@type': 'Person', 'name': post.author || 'YourEmailBox Team' },
+        'author': { '@type': 'Person', 'name': post.author?.replace(/YourEmailBox/g, siteName) || `${siteName} Team` },
         'publisher': {
             '@type': 'Organization',
-            'name': 'YourEmailBox',
+            'name': siteName,
             'logo': {
                 '@type': 'ImageObject',
-                'url': 'https://youremailbox.com/logo.png'
+                'url': `${baseUrl}/logo.png`
             }
         },
         'datePublished': (() => {

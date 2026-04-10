@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
-
-const baseUrl = 'https://youremailbox.com';
+import { headers } from 'next/headers';
+import { getDomainConfig } from '@/lib/domain';
 
 function getBlogPosts(lang: string): string[] {
     const postsFilePath = path.join(process.cwd(), `src/lib/data/blog_${lang}.json`);
@@ -27,6 +27,8 @@ export async function GET(
     request: Request,
     { params }: { params: Promise<{ lang: string }> }
 ) {
+    const host = (await headers()).get('host');
+    const { baseUrl } = getDomainConfig(host);
     const { lang } = await params;
     const now = new Date().toISOString();
 

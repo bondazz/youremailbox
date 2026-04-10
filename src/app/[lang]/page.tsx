@@ -3,6 +3,8 @@ import MainApp from '@/components/MainApp';
 import { Metadata, Viewport } from 'next';
 import fs from 'fs';
 import path from 'path';
+import { headers } from 'next/headers';
+import { getDomainConfig } from '@/lib/domain';
 
 type Params = Promise<{ lang: string }>;
 
@@ -13,39 +15,42 @@ export const viewport: Viewport = {
     maximumScale: 1,
 };
 
-export const dynamic = 'force-static';
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+    const host = (await headers()).get('host');
+    const { siteName, baseUrl, domain } = getDomainConfig(host);
     const { lang } = await params;
     const dict = await getDictionary(lang);
     const seo = dict.home?.seo || {};
 
-    const baseUrl = 'https://youremailbox.com';
     const currentUrl = `${baseUrl}/${lang}`;
 
+    const translate = (text: string) => text?.replace(/YourEmailBox/g, siteName).replace(/youremailbox\.com/g, domain);
+
     return {
-        title: seo.title || dict.title || "Free Temporary Email - YourEmailBox",
-        description: seo.description || dict.meta_description || "Get a free temporary email address.",
-        applicationName: 'YourEmailBox',
-        authors: [{ name: 'YourEmailBox Security Team' }],
+        title: translate(seo.title || dict.title || `Free Temporary Email - ${siteName}`),
+        description: translate(seo.description || dict.meta_description || "Get a free temporary email address."),
+        applicationName: siteName,
+        authors: [{ name: `${siteName} Security Team` }],
         generator: 'Next.js',
         keywords: seo.keywords ? seo.keywords.split(', ') : ['free temporary email', 'disposable email', 'temp mail'],
         referrer: 'origin-when-cross-origin',
-        creator: 'YourEmailBox Team',
-        publisher: 'YourEmailBox',
+        creator: `${siteName} Team`,
+        publisher: siteName,
 
         // Open Graph
         openGraph: {
-            title: seo.og_title || seo.title || dict.title,
-            description: seo.og_description || seo.description || dict.meta_description,
+            title: translate(seo.og_title || seo.title || dict.title),
+            description: translate(seo.og_description || seo.description || dict.meta_description),
             url: currentUrl,
-            siteName: 'YourEmailBox',
+            siteName: siteName,
             images: [
                 {
                     url: '/open-graph.png',
                     width: 1200,
                     height: 630,
-                    alt: 'YourEmailBox - Free Temporary Email Service',
+                    alt: `${siteName} - Free Temporary Email Service`,
                 },
             ],
             locale: lang,
@@ -55,10 +60,10 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
         // Twitter
         twitter: {
             card: 'summary_large_image',
-            title: seo.twitter_title || seo.title || dict.title,
-            description: seo.twitter_description || seo.description || dict.meta_description,
-            creator: '@youremailbox',
-            site: '@youremailbox',
+            title: translate(seo.twitter_title || seo.title || dict.title),
+            description: translate(seo.twitter_description || seo.description || dict.meta_description),
+            creator: `@${siteName.toLowerCase()}`,
+            site: `@${siteName.toLowerCase()}`,
             images: ['/open-graph.png'],
         },
 
@@ -68,7 +73,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
             'mobile-web-app-capable': 'yes',
             'apple-mobile-web-app-capable': 'yes',
             'apple-mobile-web-app-status-bar-style': 'black-translucent',
-            'apple-mobile-web-app-title': 'YourEmailBox',
+            'apple-mobile-web-app-title': siteName,
         },
 
         // Alternates
@@ -126,6 +131,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 }
 
 export default async function Page({ params }: { params: Params }) {
+    const host = (await headers()).get('host');
+    const { siteName, baseUrl, domain } = getDomainConfig(host);
     const { lang } = await params;
     const dictionary = await getDictionary(lang);
 
@@ -143,10 +150,10 @@ export default async function Page({ params }: { params: Params }) {
 
     const faqSchema = dictionary.seo_content?.faq_list?.map((faq: any) => ({
         '@type': 'Question',
-        'name': faq.q,
+        'name': faq.q.replace(/YourEmailBox/g, siteName),
         'acceptedAnswer': {
             '@type': 'Answer',
-            'text': faq.a
+            'text': faq.a.replace(/YourEmailBox/g, siteName)
         }
     })) || [];
 
@@ -154,12 +161,12 @@ export default async function Page({ params }: { params: Params }) {
         {
             '@context': 'https://schema.org',
             '@type': 'Organization',
-            'name': 'YourEmailBox',
-            'url': 'https://youremailbox.com',
-            'logo': 'https://youremailbox.com/logo.png',
+            'name': siteName,
+            'url': baseUrl,
+            'logo': `${baseUrl}/logo.png`,
             'sameAs': [
-                'https://twitter.com/youremailbox',
-                'https://github.com/youremailbox'
+                `https://twitter.com/${siteName.toLowerCase()}`,
+                `https://github.com/${siteName.toLowerCase()}`
             ],
             'contactPoint': {
                 '@type': 'ContactPoint',
@@ -172,21 +179,21 @@ export default async function Page({ params }: { params: Params }) {
         {
             '@context': 'https://schema.org',
             '@type': 'WebSite',
-            'name': 'YourEmailBox',
-            'url': 'https://youremailbox.com',
+            'name': siteName,
+            'url': baseUrl,
             'potentialAction': {
                 '@type': 'SearchAction',
-                'target': 'https://youremailbox.com/search?q={search_term_string}',
+                'target': `${baseUrl}/search?q={search_term_string}`,
                 'query-input': 'required name=search_term_string'
             }
         },
         {
             '@context': 'https://schema.org',
             '@type': 'SoftwareApplication',
-            'name': 'YourEmailBox',
+            'name': siteName,
             'applicationCategory': 'CommunicationApplication',
             'operatingSystem': 'Any',
-            'description': dictionary.meta_description,
+            'description': dictionary.meta_description?.replace(/YourEmailBox/g, siteName).replace(/youremailbox\.com/g, domain),
             'offers': {
                 '@type': 'Offer',
                 'price': '0',
@@ -206,9 +213,9 @@ export default async function Page({ params }: { params: Params }) {
         {
             '@context': 'https://schema.org',
             '@type': 'VideoObject',
-            'name': 'How to use YourEmailBox',
-            'description': 'Learn how to protect your privacy with instant temporary email addresses.',
-            'thumbnailUrl': 'https://youremailbox.com/og-image-global.png',
+            'name': `How to use ${siteName}`,
+            'description': `Learn how to protect your privacy with instant temporary email addresses.`,
+            'thumbnailUrl': `${baseUrl}/og-image-global.png`,
             'uploadDate': '2024-01-01T08:00:00+08:00',
             'contentUrl': 'https://www.w3schools.com/html/mov_bbb.mp4'
         }

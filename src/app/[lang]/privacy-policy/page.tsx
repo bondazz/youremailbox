@@ -2,22 +2,27 @@ import { getDictionary } from '@/get-dictionary';
 import AppLayout from '@/components/AppLayout';
 import { Metadata } from 'next';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { headers } from 'next/headers';
+import { getDomainConfig, translateBranding } from '@/lib/domain';
 
 type Params = Promise<{ lang: string }>;
 
-export const dynamic = 'force-static';
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+    const host = (await headers()).get('host');
+    const { siteName, baseUrl, domain: domainName } = getDomainConfig(host);
     const { lang } = await params;
     const dict = await getDictionary(lang);
-    const baseUrl = 'https://youremailbox.com';
     const currentUrl = `${baseUrl}/${lang}/privacy-policy`;
     const seo = dict.privacy_policy?.seo || {};
 
+    const t = (text: string) => translateBranding(text, siteName, domainName);
+
     return {
-        title: seo.title || `${dict.privacy_policy?.title} - YourEmailBox`,
-        description: seo.description || dict.meta_description,
-        keywords: seo.keywords || 'privacy policy, data protection',
+        title: t(seo.title || `${dict.privacy_policy?.title} - YourEmailBox`),
+        description: t(seo.description || dict.meta_description),
+        keywords: t(seo.keywords || 'privacy policy, data protection'),
         alternates: {
             canonical: currentUrl,
             languages: {
@@ -39,47 +44,51 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
             },
         },
         openGraph: {
-            title: seo.og_title || seo.title || `${dict.privacy_policy?.title} | YourEmailBox`,
-            description: seo.og_description || seo.description || dict.meta_description,
+            title: t(seo.og_title || seo.title || `${dict.privacy_policy?.title} | YourEmailBox`),
+            description: t(seo.og_description || seo.description || dict.meta_description),
             url: currentUrl,
-            siteName: 'YourEmailBox',
+            siteName: siteName,
             type: 'website',
             images: [{ url: '/open-graph.png', width: 1200, height: 630 }],
         },
         twitter: {
             card: 'summary_large_image',
-            title: seo.twitter_title || seo.title || dict.privacy_policy?.title,
-            description: seo.twitter_description || seo.description || dict.meta_description,
+            title: t(seo.twitter_title || seo.title || dict.privacy_policy?.title),
+            description: t(seo.twitter_description || seo.description || dict.meta_description),
             images: ['/open-graph.png'],
         },
     };
 }
 
 export default async function PrivacyPolicyPage({ params }: { params: Params }) {
+    const host = (await headers()).get('host');
+    const { siteName, baseUrl, domain: domainName } = getDomainConfig(host);
     const { lang } = await params;
     const dictionary = await getDictionary(lang);
     const content = dictionary.privacy_policy;
 
+    const t = (text: string) => translateBranding(text, siteName, domainName);
+
     const jsonLd = {
         '@context': 'https://schema.org',
         '@type': 'WebPage',
-        'name': content.title,
-        'description': dictionary.meta_description,
-        'url': `https://youremailbox.com/${lang}/privacy-policy`,
+        'name': t(content.title),
+        'description': t(dictionary.meta_description),
+        'url': `${baseUrl}/${lang}/privacy-policy`,
         'lastReviewed': '2026-01-24',
         'publisher': {
             '@type': 'Organization',
-            'name': 'YourEmailBox',
+            'name': siteName,
             'logo': {
                 '@type': 'ImageObject',
-                'url': 'https://youremailbox.com/logo.png'
+                'url': `${baseUrl}/logo.png`
             }
         },
         'breadcrumb': {
             '@type': 'BreadcrumbList',
             'itemListElement': [
-                { '@type': 'ListItem', 'position': 1, 'name': dictionary.navigation?.home || 'Home', 'item': `https://youremailbox.com/${lang}` },
-                { '@type': 'ListItem', 'position': 2, 'name': content.title, 'item': `https://youremailbox.com/${lang}/privacy-policy` }
+                { '@type': 'ListItem', 'position': 1, 'name': dictionary.navigation?.home || 'Home', 'item': `${baseUrl}/${lang}` },
+                { '@type': 'ListItem', 'position': 2, 'name': t(content.title), 'item': `${baseUrl}/${lang}/privacy-policy` }
             ]
         }
     };
@@ -99,16 +108,16 @@ export default async function PrivacyPolicyPage({ params }: { params: Params }) 
                 />
 
                 <header style={{ textAlign: 'center', marginBottom: '80px', marginTop: '40px' }}>
-                    <h1 className="hero-title" style={{ fontSize: '3.5rem', marginBottom: '24px' }}>{content.title}</h1>
-                    <p style={{ color: 'var(--text-muted)', fontSize: '1.2rem', maxWidth: '700px', margin: '0 auto', lineHeight: 1.6 }} dangerouslySetInnerHTML={{ __html: content.seo_intro }} />
+                    <h1 className="hero-title" style={{ fontSize: '3.5rem', marginBottom: '24px' }}>{t(content.title)}</h1>
+                    <p style={{ color: 'var(--text-muted)', fontSize: '1.2rem', maxWidth: '700px', margin: '0 auto', lineHeight: 1.6 }} dangerouslySetInnerHTML={{ __html: t(content.seo_intro) }} />
                     <div style={{ marginTop: '24px', color: 'rgba(255,255,255,0.3)', fontSize: '0.9rem', fontWeight: 600 }}>{content.last_updated}</div>
                 </header>
 
                 <div style={{ maxWidth: '850px', margin: '0 auto' }}>
                     {content.sections.map((section: any, idx: number) => (
                         <div key={idx} style={{ marginBottom: '64px', borderLeft: '2px solid var(--accent-primary)', paddingLeft: '32px' }}>
-                            <h2 style={{ color: '#fff', fontSize: '2rem', marginBottom: '20px', fontWeight: 800 }}>{section.title}</h2>
-                            <p style={{ color: 'var(--text-muted)', fontSize: '1.15rem', lineHeight: 1.9 }} dangerouslySetInnerHTML={{ __html: section.content }} />
+                            <h2 style={{ color: '#fff', fontSize: '2rem', marginBottom: '20px', fontWeight: 800 }}>{t(section.title)}</h2>
+                            <p style={{ color: 'var(--text-muted)', fontSize: '1.15rem', lineHeight: 1.9 }} dangerouslySetInnerHTML={{ __html: t(section.content) }} />
                         </div>
                     ))}
                 </div>

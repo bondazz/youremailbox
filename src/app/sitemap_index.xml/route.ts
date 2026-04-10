@@ -1,5 +1,9 @@
+import { headers } from 'next/headers';
+import { getDomainConfig } from '@/lib/domain';
+
 export async function GET() {
-    const baseUrl = 'https://youremailbox.com';
+    const host = (await headers()).get('host');
+    const { baseUrl } = getDomainConfig(host);
     const languages = ['en', 'tr', 'ru', 'ar', 'fr', 'de', 'es', 'zh', 'it', 'uk', 'fa', 'hi', 'hu', 'az'];
     const now = new Date().toISOString();
 

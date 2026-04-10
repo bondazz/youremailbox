@@ -1,15 +1,20 @@
 import { getDictionary } from '@/get-dictionary';
 import { Metadata } from 'next';
 import PasswordGeneratorClient from './PasswordGeneratorClient';
+import { headers } from 'next/headers';
+import { getDomainConfig, translateBranding } from '@/lib/domain';
 
 type Params = Promise<{ lang: string }>;
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+    const host = (await headers()).get('host');
+    const { siteName, baseUrl, domain: domainName } = getDomainConfig(host);
     const { lang } = await params;
     const dict = await getDictionary(lang);
-    const baseUrl = 'https://youremailbox.com';
     const currentUrl = `${baseUrl}/${lang}/tools/password-generator`;
     const seo = dict.tools?.password_generator?.seo || {};
+
+    const t = (text: string) => translateBranding(text, siteName, domainName);
 
     return {
         title: seo.title || 'Free Password Generator - YourEmailBox',
@@ -36,18 +41,18 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
             },
         },
         openGraph: {
-            title: seo.og_title || seo.title,
-            description: seo.og_description || seo.description,
+            title: t(seo.og_title || seo.title),
+            description: t(seo.og_description || seo.description),
             url: currentUrl,
-            siteName: 'YourEmailBox',
+            siteName: siteName,
             images: [{ url: '/open-graph.png', width: 1200, height: 630 }],
             type: 'website',
             locale: lang,
         },
         twitter: {
             card: 'summary_large_image',
-            title: seo.twitter_title || seo.title,
-            description: seo.twitter_description || seo.description,
+            title: t(seo.twitter_title || seo.title),
+            description: t(seo.twitter_description || seo.description),
             images: ['/open-graph.png'],
         },
         robots: {
@@ -58,14 +63,18 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 }
 
 export default async function Page({ params }: { params: Params }) {
+    const host = (await headers()).get('host');
+    const { siteName, baseUrl, domain: domainName } = getDomainConfig(host);
     const { lang } = await params;
     const dictionary = await getDictionary(lang);
+
+    const t = (text: string) => translateBranding(text, siteName, domainName);
 
     // Structured Data for SEO
     const structuredData = {
         '@context': 'https://schema.org',
         '@type': 'SoftwareApplication',
-        name: 'Password Generator',
+        name: t('Password Generator'),
         applicationCategory: 'UtilitiesApplication',
         operatingSystem: 'Any',
         offers: {
@@ -73,14 +82,14 @@ export default async function Page({ params }: { params: Params }) {
             price: '0',
             priceCurrency: 'USD',
         },
-        description: 'Free online password generator tool that creates cryptographically secure passwords',
-        url: `https://youremailbox.com/${lang}/tools/password-generator`,
+        description: t('Free online password generator tool that creates cryptographically secure passwords'),
+        url: `${baseUrl}/${lang}/tools/password-generator`,
         publisher: {
             '@type': 'Organization',
-            name: 'YourEmailBox',
+            name: siteName,
             logo: {
                 '@type': 'ImageObject',
-                url: 'https://youremailbox.com/logo.png'
+                url: `${baseUrl}/logo.png`
             }
         },
         breadcrumb: {
@@ -90,19 +99,19 @@ export default async function Page({ params }: { params: Params }) {
                     '@type': 'ListItem',
                     position: 1,
                     name: 'Home',
-                    item: `https://youremailbox.com/${lang}`,
+                    item: `${baseUrl}/${lang}`,
                 },
                 {
                     '@type': 'ListItem',
                     position: 2,
                     name: 'Tools',
-                    item: `https://youremailbox.com/${lang}/tools`,
+                    item: `${baseUrl}/${lang}/tools`,
                 },
                 {
                     '@type': 'ListItem',
                     position: 3,
                     name: 'Password Generator',
-                    item: `https://youremailbox.com/${lang}/tools/password-generator`,
+                    item: `${baseUrl}/${lang}/tools/password-generator`,
                 },
             ],
         },

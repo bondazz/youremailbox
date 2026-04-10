@@ -1,20 +1,25 @@
 import { getDictionary } from '@/get-dictionary';
 import { Metadata } from 'next';
 import ContactClient from './ContactClient';
+import { headers } from 'next/headers';
+import { getDomainConfig, translateBranding } from '@/lib/domain';
 
 type Params = Promise<{ lang: string }>;
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+    const host = (await headers()).get('host');
+    const { siteName, baseUrl, domain: domainName } = getDomainConfig(host);
     const { lang } = await params;
     const dict = await getDictionary(lang);
-    const baseUrl = 'https://youremailbox.com';
     const currentUrl = `${baseUrl}/${lang}/contacts`;
     const seo = dict.contact_us?.seo || {};
 
+    const t = (text: string) => translateBranding(text, siteName, domainName);
+
     return {
-        title: seo.title || `${dict.contact_us?.title} | YourEmailBox`,
-        description: seo.description || dict.contact_us?.seo_intro || `Get in touch with the YourEmailBox team.`,
-        keywords: seo.keywords || 'contact, support',
+        title: t(seo.title || `${dict.contact_us?.title} | YourEmailBox`),
+        description: t(seo.description || dict.contact_us?.seo_intro || `Get in touch with the YourEmailBox team.`),
+        keywords: t(seo.keywords || 'contact, support'),
         alternates: {
             canonical: currentUrl,
             languages: {
@@ -36,36 +41,40 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
             },
         },
         openGraph: {
-            title: seo.og_title || seo.title || `${dict.contact_us?.title} | YourEmailBox`,
-            description: seo.og_description || seo.description || dict.contact_us?.seo_intro,
+            title: t(seo.og_title || seo.title || `${dict.contact_us?.title} | YourEmailBox`),
+            description: t(seo.og_description || seo.description || dict.contact_us?.seo_intro),
             url: currentUrl,
-            siteName: 'YourEmailBox',
+            siteName: siteName,
             type: 'website',
             images: [{ url: '/open-graph.png', width: 1200, height: 630 }],
         },
         twitter: {
             card: 'summary_large_image',
-            title: seo.twitter_title || seo.title || dict.contact_us?.title,
-            description: seo.twitter_description || seo.description || dict.contact_us?.seo_intro,
+            title: t(seo.twitter_title || seo.title || dict.contact_us?.title),
+            description: t(seo.twitter_description || seo.description || dict.contact_us?.seo_intro),
             images: ['/open-graph.png'],
         },
     };
 }
 
 export default async function ContactPage({ params }: { params: Params }) {
+    const host = (await headers()).get('host');
+    const { siteName, baseUrl, domain: domainName } = getDomainConfig(host);
     const { lang } = await params;
     const dictionary = await getDictionary(lang);
+
+    const t = (text: string) => translateBranding(text, siteName, domainName);
 
     const schema = {
         '@context': 'https://schema.org',
         '@type': 'ContactPage',
-        'name': 'Contact YourEmailBox',
-        'description': 'Get support or report security issues.',
-        'url': `https://youremailbox.com/${lang}/contacts`,
+        'name': t(`Contact YourEmailBox`),
+        'description': t(`Get support or report security issues.`),
+        'url': `${baseUrl}/${lang}/contacts`,
         'mainEntity': {
             '@type': 'Organization',
-            'name': 'YourEmailBox',
-            'email': 'support@youremailbox.com',
+            'name': siteName,
+            'email': `support@${domainName}`,
             'contactPoint': {
                 '@type': 'ContactPoint',
                 'telephone': '+1-555-012-3456',

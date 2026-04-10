@@ -7,6 +7,7 @@ import { ChevronDown, Play, Copy, RefreshCw, Trash2, Edit2, CheckCircle2, QrCode
 import { BlogCard } from './BlogCard';
 import AppLayout from './AppLayout';
 import Link from 'next/link';
+import { getDomainConfig } from '@/lib/domain';
 
 interface Props {
     dictionary: any;
@@ -14,7 +15,71 @@ interface Props {
     posts?: any[];
 }
 
+const BannerPlaceholder = ({ type, imageUrl, link }: { type: 'horizontal' | 'vertical', imageUrl?: string, link?: string }) => {
+    const content = (
+        <div style={{
+            width: type === 'horizontal' ? '100%' : '300px',
+            maxWidth: type === 'horizontal' ? '970px' : '300px',
+            height: type === 'horizontal' ? '90px' : '600px',
+            background: imageUrl ? 'none' : 'rgba(255,255,255,0.03)',
+            border: imageUrl ? 'none' : '1px dashed rgba(255,255,255,0.2)',
+            borderRadius: '12px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            color: 'rgba(255,255,255,0.4)',
+            fontSize: '0.75rem',
+            fontWeight: 700,
+            letterSpacing: '1px',
+            textTransform: 'uppercase',
+            backdropFilter: imageUrl ? 'none' : 'blur(5px)',
+            overflow: 'hidden'
+        }}>
+            {imageUrl ? (
+                <img
+                    src={imageUrl}
+                    alt="Advertisement"
+                    style={{
+                        width: 'auto',
+                        height: '100%',
+                        maxWidth: '100%',
+                        objectFit: 'contain'
+                    }}
+                />
+            ) : (
+                `Banner ${type === 'horizontal' ? '970x90' : '160x600'}`
+            )}
+        </div>
+    );
+
+    return (
+        <div className={`banner-area-${type}`} style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: '6px',
+            margin: type === 'horizontal' ? '0 0 40px 0' : '0'
+        }}>
+            {link ? (
+                <a href={link} target="_blank" rel="noopener noreferrer" style={{ display: 'block', width: '100%', maxWidth: type === 'horizontal' ? '970px' : '300px' }}>
+                    {content}
+                </a>
+            ) : content}
+            <span style={{
+                fontSize: '9px',
+                color: 'rgba(255,255,255,0.4)',
+                textTransform: 'uppercase',
+                letterSpacing: '1.5px',
+                fontWeight: 800
+            }}>
+                Advertising
+            </span>
+        </div>
+    );
+};
+
 export default function MainApp({ dictionary, lang, posts = [] }: Props) {
+    const { siteName, domain } = getDomainConfig();
     const { alias, emails, loading, refreshAction, deleteMailbox, setCustomAlias, fetchEmails } = useEmail();
     const [selectedEmail, setSelectedEmail] = useState<Email | null>(null);
     const [copied, setCopied] = useState(false);
@@ -81,444 +146,499 @@ export default function MainApp({ dictionary, lang, posts = [] }: Props) {
 
     return (
         <AppLayout dictionary={dictionary} lang={lang}>
-            <div className="main-wrapper" style={{ padding: '0 20px' }}>
-
-                {/* HERO */}
-                <header style={{ textAlign: 'center', padding: '40px 0 40px 0' }}>
-                    <h1
-                        className="hero-title"
-                        style={{
-                            fontSize: 'clamp(2.5rem, 8vw, 4.5rem)',
-                            marginBottom: '12px',
-                            opacity: 1, /* Critical for LCP */
-                            transform: 'translateZ(0)'
-                        }}
-                    >
-                        {dictionary.hero?.title || 'Free Temporary Email'}
-                    </h1>
-                    <p style={{ color: 'var(--text-muted)', fontSize: 'clamp(0.95rem, 3vw, 1.15rem)', maxWidth: '600px', margin: '0 auto', fontWeight: 500 }}>
-                        {dictionary.hero?.subtitle || 'Temp mail protects your privacy and keeps your inbox spam-free'}
-                    </p>
-                </header>
-
-                {/* MAIN TOOL */}
-                <section style={{ marginBottom: '80px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                    <div style={{ width: '100%', maxWidth: '540px', minHeight: '84px' }}> {/* CLS Fix: min-height */}
+            <div className="main-wrapper" style={{ padding: '0', maxWidth: '100%', position: 'relative' }}>
+                {/* STICKY SIDE BANNERS OVERLAY (Synchronized) */}
+                <div style={{
+                    position: 'absolute',
+                    top: '150px', /* Start from here */
+                    left: 0,
+                    right: 0,
+                    bottom: 0, /* Spans until footer */
+                    pointerEvents: 'none',
+                    zIndex: 100
+                }}>
+                    <div style={{
+                        position: 'sticky',
+                        top: '150px',
+                        display: 'flex',
+                        justifyContent: 'center',
+                        width: '100%',
+                        height: '600px'
+                    }}>
+                        {/* LEFT BANNER */}
                         <div style={{
-                            background: 'rgba(255,255,255,0.03)',
-                            border: '1px solid rgba(255,255,255,0.1)',
-                            borderRadius: '16px',
-                            padding: '14px 20px',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'space-between',
-                            marginBottom: '20px',
-                            boxShadow: '0 15px 40px rgba(0,0,0,0.3)',
-                            backdropFilter: 'blur(10px)',
-                            height: '72px' /* Strict height for CLS zero */
+                            position: 'absolute',
+                            right: 'calc(50% + 485px + 40px)', /* Center + half-width + gap */
+                            pointerEvents: 'auto'
                         }}>
-                            <code style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.25rem)', color: '#fff', fontWeight: 600, opacity: 0.9, letterSpacing: '0.5px' }}>
-                                {alias || '••••••••@••••.•••'}
-                            </code>
-                            <button
-                                onClick={copyToClipboard}
-                                aria-label={dictionary.buttons?.copy || "Copy email address"}
-                                style={{
-                                    background: 'none',
-                                    border: 'none',
-                                    color: copied ? '#10b981' : 'rgba(255,255,255,0.4)',
-                                    cursor: 'pointer',
-                                    transition: 'all 0.2s',
-                                    display: 'flex',
-                                    alignItems: 'center'
-                                }}
-                            >
-                                {copied ? <Check size={20} /> : <Copy size={20} />}
-                            </button>
+                            <div className="side-banner-wrapper">
+                                <BannerPlaceholder type="vertical" />
+                            </div>
                         </div>
 
+                        {/* RIGHT BANNER */}
                         <div style={{
-                            display: 'flex',
-                            justifyContent: 'center',
-                            gap: 'clamp(10px, 3vw, 24px)',
-                            flexWrap: 'wrap'
+                            position: 'absolute',
+                            left: 'calc(50% + 485px + 40px)', /* Center + half-width + gap */
+                            pointerEvents: 'auto'
                         }}>
-                            <SmallActionButton icon={<Copy size={16} />} label={dictionary.buttons?.copy?.toLowerCase() || "copy"} onClick={copyToClipboard} color={copied ? '#10b981' : undefined} />
-                            <SmallActionButton icon={<RefreshCw size={16} />} label={dictionary.buttons?.random?.toLowerCase() || "random"} onClick={refreshAction} />
-                            <SmallActionButton icon={<PlusCircle size={16} />} label={dictionary.buttons?.change?.toLowerCase() || "change"} onClick={(e: any) => { e?.preventDefault(); setShowChangeModal(true); }} />
-                            <SmallActionButton icon={<Trash2 size={16} />} label={dictionary.buttons?.delete?.toLowerCase() || "delete"} onClick={deleteMailbox} color="#f43f5e" />
+                            <div className="side-banner-wrapper">
+                                <BannerPlaceholder
+                                    type="vertical"
+                                    imageUrl="https://content.livesportmedia.eu/media?name=bet365_300x600_1.gif&type=gif&s=1773926207"
+                                    link={`https://ads.fs.lsapp.tech/delivery/ck.php?oaparams=2__bannerid=249333__zoneid=9653&utm_source=${domain}&utm_medium=${siteName.toLowerCase()}`}
+                                />
+                            </div>
                         </div>
                     </div>
-                </section>
+                </div>
 
-                {/* INBOX SECTION */}
-                <section style={{ marginBottom: '80px' }}>
-                    <AnimatePresence mode="wait">
-                        {!selectedEmail ? (
-                            <div className="glass" style={{ borderRadius: '28px', overflow: 'hidden' }}>
-                                <div style={{ padding: '20px 28px', borderBottom: '1px solid var(--glass-border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'rgba(255,255,255,0.01)' }}>
-                                    <h2 className="section-title" style={{ fontSize: '1.1rem', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                                        <Inbox size={20} color="var(--accent-primary)" /> {dictionary.inbox?.messages || 'Messages'}
-                                    </h2>
-                                    <button
-                                        onClick={handleInboxRefresh}
-                                        disabled={loading}
-                                        aria-label={dictionary.inbox?.refresh || "Refresh inbox"}
-                                        style={{
-                                            minWidth: isRefreshing ? '110px' : '40px',
-                                            height: '40px',
-                                            display: 'flex', alignItems: 'center', justifyContent: 'center',
-                                            borderRadius: '12px',
-                                            background: isRefreshing ? 'rgba(59, 130, 246, 0.15)' : 'rgba(255, 255, 255, 0.05)',
-                                            border: `1px solid ${isRefreshing ? 'rgba(59, 130, 246, 0.3)' : 'var(--glass-border)'}`,
-                                            color: isRefreshing ? 'var(--accent-primary)' : 'rgba(255, 255, 255, 0.6)',
-                                            transition: 'all 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
-                                            cursor: loading ? 'not-allowed' : 'pointer',
-                                            padding: isRefreshing ? '0 16px' : '0',
-                                            gap: '8px',
-                                            fontSize: '0.8rem',
-                                            fontWeight: 800,
-                                            textTransform: 'uppercase',
-                                            letterSpacing: '0.5px'
-                                        }}
-                                    >
-                                        <AnimatePresence mode="wait">
-                                            {isRefreshing ? (
-                                                <motion.div
-                                                    key="success"
-                                                    initial={{ opacity: 0, scale: 0.8 }}
-                                                    animate={{ opacity: 1, scale: 1 }}
-                                                    exit={{ opacity: 0, scale: 0.8 }}
-                                                    style={{ display: 'flex', alignItems: 'center', gap: '8px' }}
-                                                >
-                                                    <CheckCircle2 size={16} />
-                                                    <span>{dictionary.inbox?.refresh_status_updated || 'Updated'}</span>
-                                                </motion.div>
-                                            ) : (
-                                                <motion.div
-                                                    key="refresh"
-                                                    initial={{ opacity: 0, rotate: -180 }}
-                                                    animate={{ opacity: 1, rotate: 0 }}
-                                                    exit={{ opacity: 0, rotate: 180 }}
-                                                >
-                                                    <RefreshCw size={18} className={loading ? 'animate-spin' : ''} />
-                                                </motion.div>
-                                            )}
-                                        </AnimatePresence>
-                                    </button>
-                                </div>
-                                <div style={{
-                                    minHeight: '350px',
-                                    position: 'relative',
-                                    display: 'flex',
-                                    flexDirection: 'column',
-                                    alignItems: emails.length === 0 ? 'center' : 'stretch',
-                                    justifyContent: emails.length === 0 ? 'center' : 'flex-start'
-                                }}>
-                                    {emails.length === 0 ? (
-                                        <div style={{ textAlign: 'center', padding: '40px 0', zIndex: 10 }}>
-                                            <ModernMailboxLoader />
-                                            <motion.p
-                                                initial={{ opacity: 0 }}
-                                                animate={{ opacity: [0.4, 1, 0.4] }}
-                                                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-                                                style={{
-                                                    fontWeight: 800,
-                                                    fontSize: '0.85rem',
-                                                    color: 'rgba(255,255,255,0.7)',
-                                                    letterSpacing: '2px',
-                                                    marginTop: '20px',
-                                                    fontFamily: 'var(--font-outfit)'
-                                                }}
-                                            >
-                                                {dictionary.inbox?.waiting?.toUpperCase() || 'WAITING FOR INCOMING MESSAGES...'}
-                                            </motion.p>
-                                        </div>
-                                    ) : (
-                                        <div style={{ width: '100%' }}>
-                                            {emails.map((email, idx) => (
-                                                <motion.div
-                                                    key={email.id}
-                                                    initial={{ opacity: 0, x: -20 }}
-                                                    animate={{ opacity: 1, x: 0 }}
-                                                    transition={{ delay: idx * 0.1 }}
-                                                    onClick={() => setSelectedEmail(email)}
-                                                    style={{
-                                                        padding: '24px 28px',
-                                                        borderBottom: idx === emails.length - 1 ? 'none' : '1px solid var(--glass-border)',
-                                                        cursor: 'pointer',
-                                                        transition: 'all 0.3s cubic-bezier(0.16, 1, 0.3, 1)',
-                                                        position: 'relative',
-                                                        zIndex: 20
-                                                    }}
-                                                    className="email-item-row"
-                                                >
-                                                    <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px', alignItems: 'center' }}>
-                                                        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                                                            <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--accent-primary)', boxShadow: '0 0 10px var(--accent-primary)' }} />
-                                                            <span style={{ fontWeight: 800, color: '#fff', fontSize: '0.9rem', letterSpacing: '0.3px' }}>
-                                                                {email.from.split('<')[0].trim()}
-                                                            </span>
-                                                            <span style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.75rem', fontWeight: 600 }}>
-                                                                {email.from.match(/<(.+)>/)?.[1] || ''}
-                                                            </span>
-                                                        </div>
-                                                        <span style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.75rem', fontWeight: 800 }}>
-                                                            {new Date(email.date).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
-                                                        </span>
-                                                    </div>
-                                                    <h4 style={{ color: 'var(--accent-primary)', marginBottom: '8px', fontSize: '1.05rem', fontWeight: 900, letterSpacing: '-0.3px' }}>{email.subject}</h4>
-                                                    <p style={{ color: 'rgba(255,255,255,0.5)', fontSize: '0.9rem', lineHeight: 1.6, maxWidth: '800px' }}>{email.text.slice(0, 140)}...</p>
-                                                </motion.div>
-                                            ))}
-                                        </div>
-                                    )}
+                <div style={{ maxWidth: '970px', margin: '0 auto', width: '100%' }}>
 
-                                    {/* BACKGROUND DECO FOR EMPTY STATE */}
-                                    {emails.length === 0 && (
-                                        <div style={{ position: 'absolute', inset: 0, overflow: 'hidden', pointerEvents: 'none' }}>
-                                            <div className="scanning-line" />
-                                            <div className="floating-particles" />
-                                        </div>
-                                    )}
-                                </div>
-                            </div>
-                        ) : (
-                            <motion.div initial={{ opacity: 0, scale: 0.99 }} animate={{ opacity: 1, scale: 1 }} className="glass" style={{ padding: '32px', borderRadius: '32px' }}>
-                                <button
-                                    onClick={() => setSelectedEmail(null)}
-                                    aria-label="Back to inbox"
-                                    style={{ color: 'var(--accent-primary)', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '24px', fontWeight: 800, fontSize: '0.9rem', cursor: 'pointer', background: 'none', border: 'none' }}
-                                >
-                                    <ArrowLeft size={16} /> {dictionary.inbox?.return_to_inbox || 'RETURN TO INBOX'}
-                                </button>
-                                <div style={{ marginBottom: '28px' }}>
-                                    <h2 className="section-title" style={{ fontSize: '1.8rem', marginBottom: '12px', lineHeight: 1.3 }}>{selectedEmail.subject}</h2>
-                                    <div style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>
-                                        {dictionary.inbox?.from_label || 'FROM:'} <strong style={{ color: '#fff' }}>{selectedEmail.from}</strong>
-                                    </div>
-                                </div>
-                                <div className="glass" style={{ padding: '32px', borderRadius: '24px', background: 'rgba(255,255,255,0.01)', overflowWrap: 'break-word', position: 'relative' }}>
-                                    <div className="email-inner-glow" />
-                                    {selectedEmail.html ? (
-                                        <div className="email-content-wrapper">
-                                            <div className="email-content" dangerouslySetInnerHTML={{ __html: selectedEmail.html }} />
-                                        </div>
-                                    ) : (
-                                        <div
-                                            className="email-content-wrapper"
-                                            style={{
-                                                whiteSpace: 'pre-wrap',
-                                                fontFamily: 'Inter, sans-serif',
-                                                fontSize: '1rem',
-                                                lineHeight: 1.7,
-                                                color: 'rgba(255,255,255,0.85)',
-                                                position: 'relative',
-                                                zIndex: 2
-                                            }}
-                                            dangerouslySetInnerHTML={{
-                                                __html: selectedEmail.text.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>')
-                                            }}
-                                        />
-                                    )}
-                                </div>
-                            </motion.div>
-                        )}
-                    </AnimatePresence>
-                </section>
-
-                {/* EXPLANATION SECTION (DYNAMIC SEO) */}
-                <section style={{ marginBottom: '100px' }}>
-                    <h2 className="section-title" style={{ fontSize: '2.4rem', textAlign: 'center', marginBottom: '40px' }}>{dictionary.seo_content?.h1 || 'What is disposable temporary email?'}</h2>
-
-                    <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)', gap: '40px', alignItems: 'center' }} className="explanation-grid">
-                        <div style={{ color: 'var(--text-muted)', fontSize: '0.95rem', lineHeight: 1.7 }}>
-                            <p style={{ marginBottom: '20px' }} dangerouslySetInnerHTML={{ __html: dictionary.seo_content?.intro_p }} />
-                            {dictionary.seo_content?.section1_h2 && (
-                                <h3 style={{ color: '#fff', fontSize: '1.2rem', marginBottom: '12px', fontWeight: 800 }}>{dictionary.seo_content?.section1_h2}</h3>
-                            )}
-                            <p style={{ marginBottom: '16px' }} dangerouslySetInnerHTML={{ __html: dictionary.seo_content?.section1_p1 }} />
-                            <p dangerouslySetInnerHTML={{ __html: dictionary.seo_content?.section1_p2 }} />
-                        </div>
-
-                        <motion.div
-                            whileHover={{ scale: 1.02 }}
+                    {/* HERO */}
+                    <header style={{ textAlign: 'center', padding: '40px 0 40px 0' }}>
+                        <h1
+                            className="hero-title"
                             style={{
-                                position: 'relative',
-                                border: '1px solid var(--glass-border)',
-                                borderRadius: '24px',
-                                overflow: 'hidden',
-                                boxShadow: '0 25px 50px rgba(0,0,0,0.5)',
-                                background: '#000',
-                                aspectRatio: '16/9'
+                                fontSize: 'clamp(2.5rem, 8vw, 4.5rem)',
+                                marginBottom: '12px',
+                                opacity: 1, /* Critical for LCP */
+                                transform: 'translateZ(0)'
                             }}
                         >
-                            <video
-                                src="https://www.w3schools.com/html/mov_bbb.mp4"
-                                autoPlay loop muted playsInline
-                                aria-label="Instructional video on how to use temporary email"
-                                style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.6 }}
-                            />
-                            <div style={{ position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: 'rgba(0,0,0,0.2)' }}>
-                                <div style={{ width: '64px', height: '64px', borderRadius: '50%', background: 'rgba(255,255,255,0.1)', backdropFilter: 'blur(10px)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '12px' }}>
-                                    <Play fill="#fff" size={24} style={{ marginLeft: '4px' }} />
-                                </div>
-                                <span style={{ color: '#fff', fontWeight: 800, fontSize: '0.9rem', letterSpacing: '2px' }}>{dictionary.inbox?.video_instruction || 'Video instruction'}</span>
-                            </div>
-                        </motion.div>
-                    </div>
-                </section>
+                            {dictionary.hero?.title || 'Free Temporary Email'}
+                        </h1>
+                        <p style={{ color: 'var(--text-muted)', fontSize: 'clamp(0.95rem, 3vw, 1.15rem)', maxWidth: '600px', margin: '0 auto', fontWeight: 500 }}>
+                            {dictionary.hero?.subtitle || 'Temp mail protects your privacy and keeps your inbox spam-free'}
+                        </p>
+                    </header>
 
-                {/* APPS & EXTENSIONS SECTION */}
-                <section style={{ marginBottom: '100px', textAlign: 'center' }}>
-                    <h2 className="section-title" style={{ fontSize: '2.4rem', marginBottom: '12px' }}>{dictionary.apps_extensions?.title || 'Apps and extensions'}</h2>
-                    <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto 48px auto', lineHeight: 1.6 }} dangerouslySetInnerHTML={{ __html: dictionary.apps_extensions?.subtitle || 'Enjoy fast and convenient access to generate temporary emails from anywhere with our apps and extensions' }} />
-
-                    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px', maxWidth: '900px', margin: '0 auto' }}>
-                        {[
-                            { name: 'App Store', img: 'https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_Logo_2017.svg' },
-                            { name: 'Google Play', img: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg' },
-                            { name: 'Chrome', img: 'https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg' },
-                            { name: 'Firefox', img: 'https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg' },
-                            { name: 'Opera', img: 'https://upload.wikimedia.org/wikipedia/commons/4/49/Opera_2015_icon.svg' },
-                            { name: 'Edge', img: 'https://upload.wikimedia.org/wikipedia/commons/9/98/Microsoft_Edge_logo_%282019%29.svg' },
-                            { name: 'Telegram', img: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg' }
-                        ].map((app, i) => (
-                            <motion.div
-                                key={i}
-                                whileHover={{ y: -5 }}
-                                style={{
-                                    width: '140px',
-                                    height: '140px',
-                                    background: 'rgba(255,255,255,0.03)',
-                                    border: '1px solid rgba(255,255,255,0.05)',
-                                    borderRadius: '24px',
-                                    display: 'flex',
-                                    flexDirection: 'column',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    gap: '12px',
-                                    position: 'relative',
-                                    cursor: 'default'
-                                }}
-                            >
-                                <div style={{
-                                    width: '48px',
-                                    height: '48px',
-                                    filter: 'grayscale(100%) opacity(0.2)',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center'
-                                }}>
-                                    <img src={app.img} alt={app.name} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-                                </div>
-                                <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'rgba(255,255,255,0.8)' }}>{app.name}</span>
-
-                                <div className="coming-soon-badge" style={{
-                                    position: 'absolute',
-                                    top: '10px',
-                                    right: '10px',
-                                    background: 'rgba(255,255,255,0.05)',
-                                    padding: '4px 8px',
-                                    borderRadius: '8px',
-                                    fontSize: '0.6rem',
-                                    fontWeight: 900,
-                                    color: 'rgba(255,255,255,0.7)',
-                                    letterSpacing: '0.5px',
-                                    border: '1px solid rgba(255,255,255,0.1)'
-                                }}>
-                                    {dictionary.inbox?.soon || 'SOON'}
-                                </div>
-                            </motion.div>
-                        ))}
-                    </div>
-                </section>
-
-                {/* BLOG SECTION */}
-                <section style={{ marginBottom: '100px' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '40px', gap: '20px' }}>
-                        <div>
-                            <h2 className="section-title" style={{ fontSize: '2.4rem', marginBottom: '8px' }}>{dictionary.blog?.title || 'Latest blog posts'}</h2>
-                            <p style={{ color: 'var(--text-muted)', fontSize: '1rem', fontWeight: 500 }}>{dictionary.blog?.subtitle || 'Stay informed, stay secure: insights and our updates'}</p>
-                        </div>
-                        <Link href={`/${lang}/blog`}>
-                            <button className="glass" style={{ padding: '10px 24px', borderRadius: '100px', fontSize: '0.85rem', fontWeight: 700, color: '#fff', border: '1px solid rgba(255,255,255,0.1)', cursor: 'pointer' }}>{dictionary.blog?.view_all || 'Read all posts'}</button>
-                        </Link>
-                    </div>
-
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '40px' }} className="blog-grid-modern">
-                        {posts.slice(0, 2).map((post, idx) => (
-                            <BlogCard
-                                key={idx}
-                                slug={post.slug}
-                                lang={lang}
-                                image={post.image}
-                                category={post.category}
-                                title={post.title}
-                                description={post.description}
-                                author={post.author}
-                                authorImage={post.authorImage}
-                                date={post.date}
-                                dictionary={dictionary}
-                            />
-                        ))}
-                    </div>
-                </section>
-
-                {/* DEEP CONTENT SECTION (SEO MAXIMIZER) */}
-                <section style={{ margin: '80px 0', borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: '100px' }}>
-                    <div style={{ textAlign: 'left', maxWidth: '850px', margin: '0 auto' }}>
-                        <h2 className="section-title" style={{ fontSize: '2.5rem', marginBottom: '32px' }}>{dictionary.seo_content?.h2_long_form || 'Disposable email addresses'}</h2>
-
-                        <div style={{ color: 'var(--text-muted)', fontSize: '1.05rem', lineHeight: 1.8 }}>
-                            <div style={{ maxHeight: isSeoExpanded ? '10000px' : '300px', overflow: 'hidden', transition: 'max-height 1.2s cubic-bezier(0.16, 1, 0.3, 1)', position: 'relative' }}>
-
-                                {dictionary.seo_content?.long_content_sections?.map((section: any, idx: number) => (
-                                    <div key={idx} style={{ marginBottom: '40px' }}>
-                                        <h3 style={{ color: '#fff', fontSize: '1.4rem', fontWeight: 800, marginBottom: '16px' }}>{section.title}</h3>
-                                        <p>{section.text}</p>
-                                    </div>
-                                ))}
-
-                                {!isSeoExpanded && <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: '150px', background: 'linear-gradient(transparent, var(--bg-dark))' }} />}
-                            </div>
-
-                            <div style={{ display: 'flex', justifyContent: 'center', marginTop: '32px' }}>
-                                <motion.button
-                                    aria-label={isSeoExpanded ? "Collapse content" : "Expand content"}
-                                    onClick={() => setIsSeoExpanded(!isSeoExpanded)}
-                                    whileHover={{ scale: 1.1, background: 'rgba(255,255,255,0.1)' }}
-                                    whileTap={{ scale: 0.9 }}
+                    {/* MAIN TOOL */}
+                    <section style={{ marginBottom: '80px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <div style={{ width: '100%', maxWidth: '540px', minHeight: '84px' }}> {/* CLS Fix: min-height */}
+                            <div style={{
+                                background: 'rgba(255,255,255,0.03)',
+                                border: '1px solid rgba(255,255,255,0.1)',
+                                borderRadius: '16px',
+                                padding: '14px 20px',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'space-between',
+                                marginBottom: '20px',
+                                boxShadow: '0 15px 40px rgba(0,0,0,0.3)',
+                                backdropFilter: 'blur(10px)',
+                                height: '72px' /* Strict height for CLS zero */
+                            }}>
+                                <code style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.25rem)', color: '#fff', fontWeight: 600, opacity: 0.9, letterSpacing: '0.5px' }}>
+                                    {alias || '••••••••@••••.•••'}
+                                </code>
+                                <button
+                                    onClick={copyToClipboard}
+                                    aria-label={dictionary.buttons?.copy || "Copy email address"}
                                     style={{
-                                        background: 'rgba(255,255,255,0.05)',
-                                        backdropFilter: 'blur(20px)',
-                                        border: '1px solid rgba(255,255,255,0.1)',
+                                        background: 'none',
+                                        border: 'none',
+                                        color: copied ? '#10b981' : 'rgba(255,255,255,0.4)',
                                         cursor: 'pointer',
-                                        width: '48px',
-                                        height: '48px',
-                                        borderRadius: '50%',
+                                        transition: 'all 0.2s',
                                         display: 'flex',
-                                        alignItems: 'center',
-                                        justifyContent: 'center',
-                                        color: '#fff',
-                                        transition: 'all 0.3s'
+                                        alignItems: 'center'
                                     }}
                                 >
-                                    <ChevronDown size={28} style={{ transform: isSeoExpanded ? 'rotate(180deg)' : 'rotate(0deg)', transition: '0.4s' }} />
-                                </motion.button>
+                                    {copied ? <Check size={20} /> : <Copy size={20} />}
+                                </button>
+                            </div>
+
+                            <div style={{
+                                display: 'flex',
+                                justifyContent: 'center',
+                                gap: 'clamp(10px, 3vw, 24px)',
+                                flexWrap: 'wrap'
+                            }}>
+                                <SmallActionButton icon={<Copy size={16} />} label={dictionary.buttons?.copy?.toLowerCase() || "copy"} onClick={copyToClipboard} color={copied ? '#10b981' : undefined} />
+                                <SmallActionButton icon={<RefreshCw size={16} />} label={dictionary.buttons?.random?.toLowerCase() || "random"} onClick={refreshAction} />
+                                <SmallActionButton icon={<PlusCircle size={16} />} label={dictionary.buttons?.change?.toLowerCase() || "change"} onClick={(e: any) => { e?.preventDefault(); setShowChangeModal(true); }} />
+                                <SmallActionButton icon={<Trash2 size={16} />} label={dictionary.buttons?.delete?.toLowerCase() || "delete"} onClick={deleteMailbox} color="#f43f5e" />
                             </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
 
-                {/* FAQ SECTION */}
-                <section style={{ marginBottom: '120px' }}>
-                    <h2 className="section-title" style={{ fontSize: '2.8rem', textAlign: 'center', marginBottom: '48px' }}>{dictionary.seo_content?.h2_faq || 'Frequently asked questions'}</h2>
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', maxWidth: '850px', margin: '0 auto' }}>
-                        {dictionary.seo_content?.faq_list?.map((faq: any, i: number) => (FaqItem(faq, i, expandedFaq, setExpandedFaq)))}
-                    </div>
-                </section>
+                    {/* BANNER TOP */}
+                    <BannerPlaceholder
+                        type="horizontal"
+                        imageUrl="https://www.isoccerng.com/wp-content/uploads/2025/08/pinnacle-728x90-1.jpg"
+                        link="https://wlpinnacle.adsrv.eacdn.com/C.ashx?btag=a_36043b_20665c_&affid=26927&siteid=36043&adid=20665&c="
+                    />
 
+                    {/* INBOX SECTION */}
+                    <section style={{ marginBottom: '80px', position: 'relative', width: '100%' }}>
+                        <AnimatePresence mode="wait">
+                            {!selectedEmail ? (
+                                <div className="glass" style={{ borderRadius: '28px', overflow: 'hidden', width: '100%' }}>
+                                    <div style={{ padding: '20px 28px', borderBottom: '1px solid var(--glass-border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'rgba(255,255,255,0.01)' }}>
+                                        <h2 className="section-title" style={{ fontSize: '1.1rem', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                            <Inbox size={20} color="var(--accent-primary)" /> {dictionary.inbox?.messages || 'Messages'}
+                                        </h2>
+                                        <button
+                                            onClick={handleInboxRefresh}
+                                            disabled={loading}
+                                            aria-label={dictionary.inbox?.refresh || "Refresh inbox"}
+                                            style={{
+                                                minWidth: isRefreshing ? '110px' : '40px',
+                                                height: '40px',
+                                                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                                                borderRadius: '12px',
+                                                background: isRefreshing ? 'rgba(59, 130, 246, 0.15)' : 'rgba(255, 255, 255, 0.05)',
+                                                border: `1px solid ${isRefreshing ? 'rgba(59, 130, 246, 0.3)' : 'var(--glass-border)'}`,
+                                                color: isRefreshing ? 'var(--accent-primary)' : 'rgba(255, 255, 255, 0.6)',
+                                                transition: 'all 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
+                                                cursor: loading ? 'not-allowed' : 'pointer',
+                                                padding: isRefreshing ? '0 16px' : '0',
+                                                gap: '8px',
+                                                fontSize: '0.8rem',
+                                                fontWeight: 800,
+                                                textTransform: 'uppercase',
+                                                letterSpacing: '0.5px'
+                                            }}
+                                        >
+                                            <AnimatePresence mode="wait">
+                                                {isRefreshing ? (
+                                                    <motion.div
+                                                        key="success"
+                                                        initial={{ opacity: 0, scale: 0.8 }}
+                                                        animate={{ opacity: 1, scale: 1 }}
+                                                        exit={{ opacity: 0, scale: 0.8 }}
+                                                        style={{ display: 'flex', alignItems: 'center', gap: '8px' }}
+                                                    >
+                                                        <CheckCircle2 size={16} />
+                                                        <span>{dictionary.inbox?.refresh_status_updated || 'Updated'}</span>
+                                                    </motion.div>
+                                                ) : (
+                                                    <motion.div
+                                                        key="refresh"
+                                                        initial={{ opacity: 0, rotate: -180 }}
+                                                        animate={{ opacity: 1, rotate: 0 }}
+                                                        exit={{ opacity: 0, rotate: 180 }}
+                                                    >
+                                                        <RefreshCw size={18} className={loading ? 'animate-spin' : ''} />
+                                                    </motion.div>
+                                                )}
+                                            </AnimatePresence>
+                                        </button>
+                                    </div>
+                                    <div style={{
+                                        minHeight: '350px',
+                                        position: 'relative',
+                                        display: 'flex',
+                                        flexDirection: 'column',
+                                        alignItems: emails.length === 0 ? 'center' : 'stretch',
+                                        justifyContent: emails.length === 0 ? 'center' : 'flex-start'
+                                    }}>
+                                        {emails.length === 0 ? (
+                                            <div style={{ textAlign: 'center', padding: '40px 0', zIndex: 10 }}>
+                                                <ModernMailboxLoader />
+                                                <motion.p
+                                                    initial={{ opacity: 0 }}
+                                                    animate={{ opacity: [0.4, 1, 0.4] }}
+                                                    transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+                                                    style={{
+                                                        fontWeight: 800,
+                                                        fontSize: '0.85rem',
+                                                        color: 'rgba(255,255,255,0.7)',
+                                                        letterSpacing: '2px',
+                                                        marginTop: '20px',
+                                                        fontFamily: 'var(--font-outfit)'
+                                                    }}
+                                                >
+                                                    {dictionary.inbox?.waiting?.toUpperCase() || 'WAITING FOR INCOMING MESSAGES...'}
+                                                </motion.p>
+                                            </div>
+                                        ) : (
+                                            <div style={{ width: '100%' }}>
+                                                {emails.map((email, idx) => (
+                                                    <motion.div
+                                                        key={email.id}
+                                                        initial={{ opacity: 0, x: -20 }}
+                                                        animate={{ opacity: 1, x: 0 }}
+                                                        transition={{ delay: idx * 0.1 }}
+                                                        onClick={() => setSelectedEmail(email)}
+                                                        style={{
+                                                            padding: '24px 28px',
+                                                            borderBottom: idx === emails.length - 1 ? 'none' : '1px solid var(--glass-border)',
+                                                            cursor: 'pointer',
+                                                            transition: 'all 0.3s cubic-bezier(0.16, 1, 0.3, 1)',
+                                                            position: 'relative',
+                                                            zIndex: 20
+                                                        }}
+                                                        className="email-item-row"
+                                                    >
+                                                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px', alignItems: 'center' }}>
+                                                            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                                                <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--accent-primary)', boxShadow: '0 0 10px var(--accent-primary)' }} />
+                                                                <span style={{ fontWeight: 800, color: '#fff', fontSize: '0.9rem', letterSpacing: '0.3px' }}>
+                                                                    {email.from.split('<')[0].trim()}
+                                                                </span>
+                                                                <span style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.75rem', fontWeight: 600 }}>
+                                                                    {email.from.match(/<(.+)>/)?.[1] || ''}
+                                                                </span>
+                                                            </div>
+                                                            <span style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.75rem', fontWeight: 800 }}>
+                                                                {new Date(email.date).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                                                            </span>
+                                                        </div>
+                                                        <h4 style={{ color: 'var(--accent-primary)', marginBottom: '8px', fontSize: '1.05rem', fontWeight: 900, letterSpacing: '-0.3px' }}>{email.subject}</h4>
+                                                        <p style={{ color: 'rgba(255,255,255,0.5)', fontSize: '0.9rem', lineHeight: 1.6, maxWidth: '800px' }}>{email.text.slice(0, 140)}...</p>
+                                                    </motion.div>
+                                                ))}
+                                            </div>
+                                        )}
+
+                                        {/* BACKGROUND DECO FOR EMPTY STATE */}
+                                        {emails.length === 0 && (
+                                            <div style={{ position: 'absolute', inset: 0, overflow: 'hidden', pointerEvents: 'none' }}>
+                                                <div className="scanning-line" />
+                                                <div className="floating-particles" />
+                                            </div>
+                                        )}
+                                    </div>
+                                </div>
+                            ) : (
+                                <motion.div initial={{ opacity: 0, scale: 0.99 }} animate={{ opacity: 1, scale: 1 }} className="glass" style={{ padding: '32px', borderRadius: '32px' }}>
+                                    <button
+                                        onClick={() => setSelectedEmail(null)}
+                                        aria-label="Back to inbox"
+                                        style={{ color: 'var(--accent-primary)', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '24px', fontWeight: 800, fontSize: '0.9rem', cursor: 'pointer', background: 'none', border: 'none' }}
+                                    >
+                                        <ArrowLeft size={16} /> {dictionary.inbox?.return_to_inbox || 'RETURN TO INBOX'}
+                                    </button>
+                                    <div style={{ marginBottom: '28px' }}>
+                                        <h2 className="section-title" style={{ fontSize: '1.8rem', marginBottom: '12px', lineHeight: 1.3 }}>{selectedEmail.subject}</h2>
+                                        <div style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>
+                                            {dictionary.inbox?.from_label || 'FROM:'} <strong style={{ color: '#fff' }}>{selectedEmail.from}</strong>
+                                        </div>
+                                    </div>
+                                    <div className="glass" style={{ padding: '32px', borderRadius: '24px', background: 'rgba(255,255,255,0.01)', overflowWrap: 'break-word', position: 'relative' }}>
+                                        <div className="email-inner-glow" />
+                                        {selectedEmail.html ? (
+                                            <div className="email-content-wrapper">
+                                                <div className="email-content" dangerouslySetInnerHTML={{ __html: selectedEmail.html }} />
+                                            </div>
+                                        ) : (
+                                            <div
+                                                className="email-content-wrapper"
+                                                style={{
+                                                    whiteSpace: 'pre-wrap',
+                                                    fontFamily: 'Inter, sans-serif',
+                                                    fontSize: '1rem',
+                                                    lineHeight: 1.7,
+                                                    color: 'rgba(255,255,255,0.85)',
+                                                    position: 'relative',
+                                                    zIndex: 2
+                                                }}
+                                                dangerouslySetInnerHTML={{
+                                                    __html: selectedEmail.text.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>')
+                                                }}
+                                            />
+                                        )}
+                                    </div>
+                                </motion.div>
+                            )}
+                        </AnimatePresence>
+                    </section>
+
+                    {/* EXPLANATION SECTION (DYNAMIC SEO) */}
+                    <section style={{ marginBottom: '100px' }}>
+                        <h2 className="section-title" style={{ fontSize: '2.4rem', textAlign: 'center', marginBottom: '40px' }}>{dictionary.seo_content?.h1 || 'What is disposable temporary email?'}</h2>
+
+                        <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)', gap: '40px', alignItems: 'center' }} className="explanation-grid">
+                            <div style={{ color: 'var(--text-muted)', fontSize: '0.95rem', lineHeight: 1.7 }}>
+                                <p style={{ marginBottom: '20px' }} dangerouslySetInnerHTML={{ __html: dictionary.seo_content?.intro_p }} />
+                                {dictionary.seo_content?.section1_h2 && (
+                                    <h3 style={{ color: '#fff', fontSize: '1.2rem', marginBottom: '12px', fontWeight: 800 }}>{dictionary.seo_content?.section1_h2}</h3>
+                                )}
+                                <p style={{ marginBottom: '16px' }} dangerouslySetInnerHTML={{ __html: dictionary.seo_content?.section1_p1 }} />
+                                <p dangerouslySetInnerHTML={{ __html: dictionary.seo_content?.section1_p2 }} />
+                            </div>
+
+                            <motion.div
+                                whileHover={{ scale: 1.02 }}
+                                style={{
+                                    position: 'relative',
+                                    border: '1px solid var(--glass-border)',
+                                    borderRadius: '24px',
+                                    overflow: 'hidden',
+                                    boxShadow: '0 25px 50px rgba(0,0,0,0.5)',
+                                    background: '#000',
+                                    aspectRatio: '16/9'
+                                }}
+                            >
+                                <video
+                                    src="https://www.w3schools.com/html/mov_bbb.mp4"
+                                    autoPlay loop muted playsInline
+                                    aria-label="Instructional video on how to use temporary email"
+                                    style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.6 }}
+                                />
+                                <div style={{ position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: 'rgba(0,0,0,0.2)' }}>
+                                    <div style={{ width: '64px', height: '64px', borderRadius: '50%', background: 'rgba(255,255,255,0.1)', backdropFilter: 'blur(10px)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '12px' }}>
+                                        <Play fill="#fff" size={24} style={{ marginLeft: '4px' }} />
+                                    </div>
+                                    <span style={{ color: '#fff', fontWeight: 800, fontSize: '0.9rem', letterSpacing: '2px' }}>{dictionary.inbox?.video_instruction || 'Video instruction'}</span>
+                                </div>
+                            </motion.div>
+                        </div>
+                    </section>
+
+                    {/* APPS & EXTENSIONS SECTION */}
+                    <section style={{ marginBottom: '100px', textAlign: 'center' }}>
+                        <h2 className="section-title" style={{ fontSize: '2.4rem', marginBottom: '12px' }}>{dictionary.apps_extensions?.title || 'Apps and extensions'}</h2>
+                        <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto 48px auto', lineHeight: 1.6 }} dangerouslySetInnerHTML={{ __html: dictionary.apps_extensions?.subtitle || 'Enjoy fast and convenient access to generate temporary emails from anywhere with our apps and extensions' }} />
+
+                        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px', maxWidth: '900px', margin: '0 auto' }}>
+                            {[
+                                { name: 'App Store', img: 'https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_Logo_2017.svg' },
+                                { name: 'Google Play', img: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg' },
+                                { name: 'Chrome', img: 'https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg' },
+                                { name: 'Firefox', img: 'https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg' },
+                                { name: 'Opera', img: 'https://upload.wikimedia.org/wikipedia/commons/4/49/Opera_2015_icon.svg' },
+                                { name: 'Edge', img: 'https://upload.wikimedia.org/wikipedia/commons/9/98/Microsoft_Edge_logo_%282019%29.svg' },
+                                { name: 'Telegram', img: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg' }
+                            ].map((app, i) => (
+                                <motion.div
+                                    key={i}
+                                    whileHover={{ y: -5 }}
+                                    style={{
+                                        width: '140px',
+                                        height: '140px',
+                                        background: 'rgba(255,255,255,0.03)',
+                                        border: '1px solid rgba(255,255,255,0.05)',
+                                        borderRadius: '24px',
+                                        display: 'flex',
+                                        flexDirection: 'column',
+                                        alignItems: 'center',
+                                        justifyContent: 'center',
+                                        gap: '12px',
+                                        position: 'relative',
+                                        cursor: 'default'
+                                    }}
+                                >
+                                    <div style={{
+                                        width: '48px',
+                                        height: '48px',
+                                        filter: 'grayscale(100%) opacity(0.2)',
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        justifyContent: 'center'
+                                    }}>
+                                        <img src={app.img} alt={app.name} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                                    </div>
+                                    <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'rgba(255,255,255,0.8)' }}>{app.name}</span>
+
+                                    <div className="coming-soon-badge" style={{
+                                        position: 'absolute',
+                                        top: '10px',
+                                        right: '10px',
+                                        background: 'rgba(255,255,255,0.05)',
+                                        padding: '4px 8px',
+                                        borderRadius: '8px',
+                                        fontSize: '0.6rem',
+                                        fontWeight: 900,
+                                        color: 'rgba(255,255,255,0.7)',
+                                        letterSpacing: '0.5px',
+                                        border: '1px solid rgba(255,255,255,0.1)'
+                                    }}>
+                                        {dictionary.inbox?.soon || 'SOON'}
+                                    </div>
+                                </motion.div>
+                            ))}
+                        </div>
+                    </section>
+
+                    {/* BLOG SECTION */}
+                    <section style={{ marginBottom: '100px' }}>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '40px', gap: '20px' }}>
+                            <div>
+                                <h2 className="section-title" style={{ fontSize: '2.4rem', marginBottom: '8px' }}>{dictionary.blog?.title || 'Latest blog posts'}</h2>
+                                <p style={{ color: 'var(--text-muted)', fontSize: '1rem', fontWeight: 500 }}>{dictionary.blog?.subtitle || 'Stay informed, stay secure: insights and our updates'}</p>
+                            </div>
+                            <Link href={`/${lang}/blog`}>
+                                <button className="glass" style={{ padding: '10px 24px', borderRadius: '100px', fontSize: '0.85rem', fontWeight: 700, color: '#fff', border: '1px solid rgba(255,255,255,0.1)', cursor: 'pointer' }}>{dictionary.blog?.view_all || 'Read all posts'}</button>
+                            </Link>
+                        </div>
+
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '40px' }} className="blog-grid-modern">
+                            {posts.slice(0, 2).map((post, idx) => (
+                                <BlogCard
+                                    key={idx}
+                                    slug={post.slug}
+                                    lang={lang}
+                                    image={post.image}
+                                    category={post.category}
+                                    title={post.title}
+                                    description={post.description}
+                                    author={post.author}
+                                    authorImage={post.authorImage}
+                                    date={post.date}
+                                    dictionary={dictionary}
+                                />
+                            ))}
+                        </div>
+                    </section>
+
+                    {/* DEEP CONTENT SECTION (SEO MAXIMIZER) */}
+                    <section style={{ margin: '80px 0', borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: '100px' }}>
+                        <div style={{ textAlign: 'left', maxWidth: '850px', margin: '0 auto' }}>
+                            <h2 className="section-title" style={{ fontSize: '2.5rem', marginBottom: '32px' }}>{dictionary.seo_content?.h2_long_form || 'Disposable email addresses'}</h2>
+
+                            <div style={{ color: 'var(--text-muted)', fontSize: '1.05rem', lineHeight: 1.8 }}>
+                                <div style={{ maxHeight: isSeoExpanded ? '10000px' : '300px', overflow: 'hidden', transition: 'max-height 1.2s cubic-bezier(0.16, 1, 0.3, 1)', position: 'relative' }}>
+
+                                    {dictionary.seo_content?.long_content_sections?.map((section: any, idx: number) => (
+                                        <div key={idx} style={{ marginBottom: '40px' }}>
+                                            <h3 style={{ color: '#fff', fontSize: '1.4rem', fontWeight: 800, marginBottom: '16px' }}>{section.title}</h3>
+                                            <p>{section.text}</p>
+                                        </div>
+                                    ))}
+
+                                    {!isSeoExpanded && <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: '150px', background: 'linear-gradient(transparent, var(--bg-dark))' }} />}
+                                </div>
+
+                                <div style={{ display: 'flex', justifyContent: 'center', marginTop: '32px' }}>
+                                    <motion.button
+                                        aria-label={isSeoExpanded ? "Collapse content" : "Expand content"}
+                                        onClick={() => setIsSeoExpanded(!isSeoExpanded)}
+                                        whileHover={{ scale: 1.1, background: 'rgba(255,255,255,0.1)' }}
+                                        whileTap={{ scale: 0.9 }}
+                                        style={{
+                                            background: 'rgba(255,255,255,0.05)',
+                                            backdropFilter: 'blur(20px)',
+                                            border: '1px solid rgba(255,255,255,0.1)',
+                                            cursor: 'pointer',
+                                            width: '48px',
+                                            height: '48px',
+                                            borderRadius: '50%',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                            color: '#fff',
+                                            transition: 'all 0.3s'
+                                        }}
+                                    >
+                                        <ChevronDown size={28} style={{ transform: isSeoExpanded ? 'rotate(180deg)' : 'rotate(0deg)', transition: '0.4s' }} />
+                                    </motion.button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    {/* FAQ SECTION */}
+                    <section style={{ marginBottom: '120px' }}>
+                        <h2 className="section-title" style={{ fontSize: '2.8rem', textAlign: 'center', marginBottom: '48px' }}>{dictionary.seo_content?.h2_faq || 'Frequently asked questions'}</h2>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', maxWidth: '850px', margin: '0 auto' }}>
+                            {dictionary.seo_content?.faq_list?.map((faq: any, i: number) => (FaqItem(faq, i, expandedFaq, setExpandedFaq)))}
+                        </div>
+                    </section>
+
+                </div>
             </div>
 
             {/* MODAL */}
@@ -789,7 +909,7 @@ export default function MainApp({ dictionary, lang, posts = [] }: Props) {
                     cursor: pointer;
                     display: flex;
                     align-items: center;
-                    justify-content: center;
+                    justifyContent: center;
                     gap: 12px;
                     box-shadow: 0 20px 40px rgba(59, 130, 246, 0.3);
                     transition: all 0.4s;
@@ -799,6 +919,20 @@ export default function MainApp({ dictionary, lang, posts = [] }: Props) {
                     box-shadow: 0 25px 50px rgba(59, 130, 246, 0.5);
                     filter: brightness(1.1);
                 }
+
+                .side-banner-wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    width: 300px;
+                    height: 600px;
+                }
+
+                @media (max-width: 1350px) {
+                    .side-banner-wrapper {
+                        display: none !important;
+                    }
+                }
+
                 .promo-card-inline {
                     background: rgba(255,255,255,0.03);
                     border: 1px solid rgba(255,255,255,0.05);
@@ -808,7 +942,7 @@ export default function MainApp({ dictionary, lang, posts = [] }: Props) {
                     overflow: hidden;
                     display: flex;
                     flex-direction: column;
-                    justify-content: space-between;
+                    justifyContent: space-between;
                 }
                 .promo-action-btn {
                     padding: 12px 20px;
@@ -821,7 +955,7 @@ export default function MainApp({ dictionary, lang, posts = [] }: Props) {
                     cursor: pointer;
                     display: flex;
                     align-items: center;
-                    justify-content: center;
+                    justifyContent: center;
                     transition: 0.3s;
                     width: 100%;
                 }
@@ -877,7 +1011,7 @@ export default function MainApp({ dictionary, lang, posts = [] }: Props) {
                     margin: 0 auto 24px auto;
                     display: flex;
                     align-items: center;
-                    justify-content: center;
+                    justifyContent: center;
                 }
                 .mail-icon {
                     position: relative;

@@ -1,4 +1,10 @@
-export default function robots() {
+import { headers } from 'next/headers';
+import { getDomainConfig } from '@/lib/domain';
+
+export default async function robots() {
+    const host = (await headers()).get('host');
+    const { baseUrl } = getDomainConfig(host);
+
     return {
         rules: [
             {
@@ -7,6 +13,6 @@ export default function robots() {
                 disallow: ['/api/', '/admin/'],
             },
         ],
-        sitemap: 'https://youremailbox.com/sitemap_index.xml',
+        sitemap: `${baseUrl}/sitemap_index.xml`,
     };
 }
